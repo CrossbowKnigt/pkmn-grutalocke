@@ -210,6 +210,7 @@ MapPosition = 0,11,7
 MapSize = 1,111
 #-------------------------------
 [043]   # Mushroom
+Name = Mushroom
 SnapEdges = true
 #-------------------------------
 [044]   # Ruta 6
@@ -403,3 +404,6 @@ Name = Región Tiall
 Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
+#-------------------------------
+[077]   # Ruta 1 de Poronga
+SnapEdges = true
