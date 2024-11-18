@@ -39,4 +39,4 @@
 # Ruta 8 (69) - Afueras Zona Safari (66)
 69,North,0,66,South,10
 # Ruta 1 de Poronga (77) - Mushroom (43)
-77,0,0,43,71,6
+77,West,0,43,East,10
