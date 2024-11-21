@@ -404,3 +404,10 @@ VictoryBGM = Battle victory leader
 Name = Hermano
 Gender = Male
 BaseMoney = 16
+BattleBGM = Come on!
+#-------------------------------
+[BOWSER]
+Name = Rey Koopa
+Gender = Male
+BaseMoney = 16
+BattleBGM = bowser-battle-theme

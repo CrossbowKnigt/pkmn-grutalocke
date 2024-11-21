@@ -119,13 +119,9 @@ Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
 #-------------------------------
 [LUIGI,Luigi]
-LoseText = Vaya, qué fuerte es tu Pokémon.
-Pokemon = TURTWIG,5
+LoseText = GGs Hermano.
+Pokemon = DRIFLOON,5
 #-------------------------------
-[LUIGI,Luigi,1]
-LoseText = Vaya, qué fuerte es tu Pokémon.
-Pokemon = SCORBUNNY,5
-#-------------------------------
-[LUIGI,Luigi,2]
-LoseText = Vaya, qué fuerte es tu Pokémon.
-Pokemon = FROAKIE,5
+[BOWSER,Bowser]
+Pokemon = BOWSER,100
+
