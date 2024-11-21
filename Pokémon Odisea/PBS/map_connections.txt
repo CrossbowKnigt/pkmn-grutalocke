@@ -34,8 +34,6 @@
 41,North,0,40,South,0
 # Ruta 5 (41) - Ruta 6 Carril Bici (45)
 41,South,6,45,North,0
-# Ruta 1 de Poronga (77) - Mushroom (43)
-77,West,0,43,East,10
 # Ruta 7 (47) - Frente de Batalla (52)
 47,East,8,52,West,0
 # Ruta 8 (69) - Afueras Zona Safari (66)
