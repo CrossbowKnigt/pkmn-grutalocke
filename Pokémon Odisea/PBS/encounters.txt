@@ -310,10 +310,13 @@ Land,21
     10,SANDSHREW_1,11,14
     10,VULPIX_1,11,14
 #-------------------------------
-[077,77] # Ruta 1 Cap-faro
+[077] # Ruta 1 Cap-faro
 Land,20
-    20,SNOM,2,5
-    20,SHUPPET,2,5
-    20,GASTLY,2,5
+    10,GASTLY,3,5
     20,HOOTHOOT,2,5
     20,RATTATA,2,5
+    10,SHUPPET,3,5
+    20,SNOM,2,5
+    5,DRIFLOON,3,5
+    5,FROAKIE,5
+    10,POLIWAG,3,5
