@@ -7337,3 +7337,9 @@ BackSprite = 0,0
 FrontSprite = 1,19
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[BOWSER]
+BackSprite = 0,20
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 3

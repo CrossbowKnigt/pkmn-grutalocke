@@ -311,12 +311,12 @@ Land,21
     10,VULPIX_1,11,14
 #-------------------------------
 [077] # Ruta 1 Cap-faro
-Land,20
-    10,GASTLY,3,5
+Land,12
     20,HOOTHOOT,2,5
     20,RATTATA,2,5
-    10,SHUPPET,3,5
     20,SNOM,2,5
-    5,DRIFLOON,3,5
-    5,FROAKIE,5
-    10,POLIWAG,3,5
+    12,GASTLY,3,5
+    12,POLIWAG,3,5
+    10,SHUPPET,3,5
+    3,DRIFLOON,3,5
+    3,FROAKIE,5

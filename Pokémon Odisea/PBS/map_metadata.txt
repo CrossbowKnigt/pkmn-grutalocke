@@ -211,7 +211,9 @@ MapSize = 1,111
 #-------------------------------
 [043]   # Mushroom
 Name = Mushroom
+ShowArea = true
 SnapEdges = true
+WildBattleBGM = bowser-battle-theme
 #-------------------------------
 [044]   # Ruta 6
 Name = Ruta 6
@@ -406,9 +408,14 @@ MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
 [077]   # Ruta 1 Cap-faro
-Name = Ruta 1 de Poronga
+Name = Ruta 1
+ShowArea = true
 SnapEdges = true
 #-------------------------------
 [078]   # Interior castillo
 Name = Interior castillo
+SnapEdges = true
+#-------------------------------
+[080]   # Cap Kingdom
+ShowArea = true
 SnapEdges = true

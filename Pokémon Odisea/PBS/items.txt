@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
 #-------------------------------
 [REPEL]
 Name = Repelente
@@ -869,6 +869,7 @@ Description = El Pokémon que lo lleva obtiene parte de los Puntos de Exp. conse
 #-------------------------------
 [EXPSHARE2]
 Name = Repartir Exp
+NamePlural = Unnamed
 Pocket = 8
 Price = 0
 Flags = KeyItem
@@ -3306,6 +3307,7 @@ Description = Nutritiva bebida que sube la Velocidad de un Pokémon.
 #-------------------------------
 [HEALTHFEATHER]
 Name = Pluma Vigor
+NamePlural = Unnamed
 Pocket = 2
 Price = 300
 FieldUse = OnPokemon
@@ -3314,6 +3316,7 @@ Description = Objeto que aumenta los PS base de un Pokémon.
 #-------------------------------
 [MUSCLEFEATHER]
 Name = Pluma Músculo
+NamePlural = Unnamed
 Pocket = 2
 Price = 300
 FieldUse = OnPokemon
@@ -3322,6 +3325,7 @@ Description = Objeto que aumenta el Ataque base de un Pokémon.
 #-------------------------------
 [RESISTFEATHER]
 Name = Pluma Aguante
+NamePlural = Unnamed
 Pocket = 2
 Price = 300
 FieldUse = OnPokemon
@@ -3330,6 +3334,7 @@ Description = Objeto que aumenta la Defensa base de un Pokémon.
 #-------------------------------
 [GENIUSFEATHER]
 Name = Pluma Intelecto
+NamePlural = Unnamed
 Pocket = 2
 Price = 300
 FieldUse = OnPokemon
@@ -3338,6 +3343,7 @@ Description = Objeto que aumenta el Ataque Especial base de un Pokémon.
 #-------------------------------
 [CLEVERFEATHER]
 Name = Pluma Mente
+NamePlural = Unnamed
 Pocket = 2
 Price = 300
 FieldUse = OnPokemon
@@ -3346,6 +3352,7 @@ Description = Objeto que aumenta la Defensa Especial base de un Pokémon.
 #-------------------------------
 [SWIFTFEATHER]
 Name = Pluma Ímpetu
+NamePlural = Unnamed
 Pocket = 2
 Price = 300
 FieldUse = OnPokemon
@@ -4737,7 +4744,7 @@ BPPrice = 32
 FieldUse = TR
 Flags = Fling_80
 Move = DARKPULSE
-Description =Libera una horrible aura llena de malos pensamientos y puede amedrentar al objetivo.
+Description = Libera una horrible aura llena de malos pensamientos y puede amedrentar al objetivo.
 #-------------------------------
 [TM80]
 Name = MT80
@@ -6324,8 +6331,11 @@ Description = Misterioso amuleto brillante que aumenta la probabilidad de encont
 [CATCHINGCHARM]
 Name = Amuleto Captura
 NamePlural = Amuletos Captura
+PortionName = ???
+PortionNamePlural = ???
 Pocket = 8
 Price = 0
+BPPrice = 0
 Flags = KeyItem
 Description = Misterioso amuleto que aumenta la posibilidad de hacer capturas críticas.
 #-------------------------------
@@ -6723,7 +6733,6 @@ Name = Metal Compuesto
 NamePlural = Metales Compuestos
 Pocket = 1
 Price = 3000
-SellPrice = 1500
 BPPrice = 8
 FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
@@ -6731,7 +6740,7 @@ Description = Metal resultante de la mezcla de otros metales. Permite evoluciona
 #-------------------------------
 [INDIGODISK]
 Name = Disco Índigo
-NamePlural = 
+NamePlural = Unnamed
 Pocket = 8
 Price = 0
 Flags = KeyItem
@@ -6753,8 +6762,6 @@ Price = 0
 FieldUse = OnPokemon
 Flags = KeyItem
 Description = Extraño meteorito proveniente del espacio. Permite cambiar de forma a Deoxys.
-#-------------------------------#-------------------------------
-# OBJETOS CUSTOM
 #-------------------------------
 [INFREPEL]
 Name = Repelente Infinito
@@ -6808,4 +6815,3 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = Incubadora que permite mantener 6 huevos hasta que eclosionen.
-#-------------------------------
