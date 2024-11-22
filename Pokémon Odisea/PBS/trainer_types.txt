@@ -411,3 +411,63 @@ Name = Rey Koopa
 Gender = Male
 BaseMoney = 16
 BattleBGM = bowser-battle-theme
+#-------------------------------
+[ALUMNA]
+Name = Alumna
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[ALUMNO]
+Name = Alumno
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[CHICA]
+Name = Chica
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[JOVEN]
+Name = Joven
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[DAN]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[FERBY]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[MARC]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[DARKWON]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[RODILLO]
+Name = Alto Mando
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[RAFARQUERO]
+Name = Campeón
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[TOPPER]
+Name = Broodal
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[HARIET]
+Name = Broodal
+Gender = Female
+BaseMoney = 32

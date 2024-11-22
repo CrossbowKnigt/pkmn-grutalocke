@@ -125,3 +125,69 @@ Pokemon = DRIFLOON,5
 [BOWSER,Bowser]
 LoseText = ...
 Pokemon = BOWSER,100
+#-------------------------------
+[JOVEN,Pedrito]
+LoseText = ...
+Pokemon = RATTATA,3
+#-------------------------------
+[CHICA,Flash]
+LoseText = ...
+Pokemon = PURRLOIN,4
+#-------------------------------
+[JOVEN,Proac]
+LoseText = ...
+Pokemon = HOOTHOOT,2
+Pokemon = GREAVARD,4
+#-------------------------------
+[RODILLO,Alto Mando Rodillo]
+LoseText = ...
+Pokemon = DECIDUEYE,60
+Pokemon = GOLURK,60
+Pokemon = DRAGAPULT,61
+Pokemon = ANNIHILAPE,61
+Pokemon = GENGAR,62
+#-------------------------------
+[TOPPER,Broodal Topper]
+LoseText = ...
+Pokemon = MARILL,7
+#-------------------------------
+[HARIET,Hariet]
+LoseText = ...
+Pokemon = NIDORANfE,16
+Pokemon = BUNEARY,18
+#-------------------------------
+[RAFARQUERO,Campeón Rafarquero]
+LoseText = ...
+Pokemon = WHIMSICOTT,62
+Pokemon = NINETALES,62
+Pokemon = URSHIFU,64
+Pokemon = ZERAORA,63
+Pokemon = TYRANITAR,65
+Pokemon = METAGROSS,65
+#-------------------------------
+[DAN,Líder Dan]
+LoseText = ...
+Pokemon = TOGETIC,17
+Pokemon = AZUMARILL,18
+#-------------------------------
+[FERBY,Líder Ferby]
+LoseText = ...
+Pokemon = BULBASAUR,10
+#-------------------------------
+[MARC,Líder Marc]
+LoseText = ...
+Pokemon = ARMAROUGE,49
+Pokemon = MAGCARGO,48
+Pokemon = INFERNAPE,50
+#-------------------------------
+[DARKWON,Líder Darkwon]
+LoseText = ...
+Pokemon = METANG,24
+#-------------------------------
+[BOWSER,Rey Koopa Bowser]
+LoseText = ...
+Pokemon = TURTONATOR,55
+Pokemon = CARRACOSTA,55
+Pokemon = TORTERRA,55
+Pokemon = AVALUGG,56
+Pokemon = TERAPAGOS,57
