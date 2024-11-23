@@ -417,5 +417,10 @@ Name = Interior castillo
 SnapEdges = true
 #-------------------------------
 [080]   # Cap Kingdom
+Name = Cap Kingdom
+ShowArea = true
+SnapEdges = true
+#-------------------------------
+[082]   # Torre sombrero
 ShowArea = true
 SnapEdges = true

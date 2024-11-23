@@ -466,8 +466,10 @@ BaseMoney = 100
 Name = Broodal
 Gender = Male
 BaseMoney = 32
+BattleBGM = Broodals battle
 #-------------------------------
 [HARIET]
 Name = Broodal
 Gender = Female
 BaseMoney = 32
+BattleBGM = Broodals battle
