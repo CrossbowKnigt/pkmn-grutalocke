@@ -147,8 +147,9 @@ Pokemon = DRAGAPULT,61
 Pokemon = ANNIHILAPE,61
 Pokemon = GENGAR,62
 #-------------------------------
-[TOPPER,Broodal Topper]
+[TOPPER,Topper]
 LoseText = ...
+Pokemon = NIDORAN-M,5
 Pokemon = MARILL,7
 #-------------------------------
 [HARIET,Hariet]
