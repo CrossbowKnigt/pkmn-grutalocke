@@ -149,7 +149,7 @@ Pokemon = GENGAR,62
 #-------------------------------
 [TOPPER,Topper]
 LoseText = ...
-Pokemon = NIDORAN-M,5
+Pokemon = NIDORANmA,6
 Pokemon = MARILL,7
 #-------------------------------
 [HARIET,Hariet]
