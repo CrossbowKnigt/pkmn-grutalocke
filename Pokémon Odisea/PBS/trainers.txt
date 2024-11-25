@@ -124,11 +124,15 @@ Pokemon = DRIFLOON,5
 #-------------------------------
 [BOWSER,Bowser]
 LoseText = ...
-Pokemon = BOWSER,100
+Pokemon = TURTONATOR,55
+Pokemon = CARRACOSTA,55
+Pokemon = TORTERRA,55
+Pokemon = AVALUGG,56
+Pokemon = TERAPAGOS,57
 #-------------------------------
 [JOVEN,Pedrito]
 LoseText = ...
-Pokemon = RATTATA,3
+Pokemon = SKIDDO,3
 #-------------------------------
 [CHICA,Flash]
 LoseText = ...
@@ -185,10 +189,6 @@ Pokemon = INFERNAPE,50
 LoseText = ...
 Pokemon = METANG,24
 #-------------------------------
-[BOWSER,Rey Koopa Bowser]
+[X,XXX]
 LoseText = ...
-Pokemon = TURTONATOR,55
-Pokemon = CARRACOSTA,55
-Pokemon = TORTERRA,55
-Pokemon = AVALUGG,56
-Pokemon = TERAPAGOS,57
+Pokemon = BULBASAUR,10

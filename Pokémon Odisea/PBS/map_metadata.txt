@@ -422,5 +422,10 @@ ShowArea = true
 SnapEdges = true
 #-------------------------------
 [082]   # Torre sombrero
+Name = Torre sombrero
+ShowArea = true
+SnapEdges = true
+#-------------------------------
+[085]   #  Ruta 2
 ShowArea = true
 SnapEdges = true

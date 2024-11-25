@@ -334,11 +334,22 @@ Land,12
 #-------------------------------
 [082] # Torre sombrero
 Land,10
+    20,CLEFAIRY,3,5
     20,NIDORANfE,3,5
     20,NIDORANmA,3,5
-    20,CLEFAIRY,3,5
     10,JIGGLYPUFF,3,5
-    10,SKITTY,3,5
     10,MUNNA,3,5
+    10,SKITTY,3,5
     5,DRIFLOON,4,6
     5,LITWICK,4,6
+#-------------------------------
+[085] #  Ruta 2
+Land,10
+    20,GEODUDE,6,8
+    20,MARILL,6,8
+    20,STARLY,6,8
+    10,BLIPBUG,6,8
+    10,SKIDDO,6,8
+    10,SMOLIV,6,8
+    5,TURTWIG,8,9
+    5,VOLTORB,7,9

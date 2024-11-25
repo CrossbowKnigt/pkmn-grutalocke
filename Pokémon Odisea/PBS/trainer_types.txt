@@ -473,3 +473,8 @@ Name = Broodal
 Gender = Female
 BaseMoney = 32
 BattleBGM = Broodals battle
+#-------------------------------
+[X]
+Name = Unnamed
+Gender = Male
+BaseMoney = 30
