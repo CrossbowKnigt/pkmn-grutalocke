@@ -132,16 +132,11 @@ Pokemon = TERAPAGOS,57
 #-------------------------------
 [JOVEN,Pedrito]
 LoseText = ...
-Pokemon = SKIDDO,3
+Pokemon = SKIDDO,4
 #-------------------------------
 [CHICA,Flash]
 LoseText = ...
 Pokemon = PURRLOIN,4
-#-------------------------------
-[JOVEN,Proac]
-LoseText = ...
-Pokemon = HOOTHOOT,2
-Pokemon = GREAVARD,4
 #-------------------------------
 [RODILLO,Alto Mando Rodillo]
 LoseText = ...
@@ -153,8 +148,8 @@ Pokemon = GENGAR,62
 #-------------------------------
 [TOPPER,Topper]
 LoseText = ...
-Pokemon = NIDORANmA,6
-Pokemon = MARILL,7
+Pokemon = NIDORANmA,7
+Pokemon = MARILL,9
 #-------------------------------
 [HARIET,Hariet]
 LoseText = ...
@@ -192,3 +187,34 @@ Pokemon = METANG,24
 [X,XXX]
 LoseText = ...
 Pokemon = BULBASAUR,10
+#-------------------------------
+[JOVEN,Recluta]
+LoseText = ...
+Pokemon = RATTATA,5
+#-------------------------------
+[JOVEN,Recluta,1]
+LoseText = ...
+Pokemon = ZUBAT,6
+#-------------------------------
+[JOVEN,Patatus]
+LoseText = ...
+Pokemon = HOOTHOOT,3
+Pokemon = GREAVARD,5
+#-------------------------------
+[JOVEN,Kyuso]
+LoseText = ...
+Pokemon = GEODUDE,8
+#-------------------------------
+[CHICA,Aryll]
+LoseText = ...
+Pokemon = BLIPBUG,6
+Pokemon = SMOLIV,8
+#-------------------------------
+[JOVEN,Misugi]
+LoseText = ...
+Pokemon = STARLY,8
+#-------------------------------
+[JOVEN,Ironstark]
+LoseText = ...
+Pokemon = RATTATA,7
+Pokemon = MANKEY,9
