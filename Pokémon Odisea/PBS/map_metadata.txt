@@ -427,5 +427,10 @@ ShowArea = true
 SnapEdges = true
 #-------------------------------
 [085]   #  Ruta 2
+Name =  Ruta 2
+ShowArea = true
+SnapEdges = true
+#-------------------------------
+[086]   # Cascade
 ShowArea = true
 SnapEdges = true
