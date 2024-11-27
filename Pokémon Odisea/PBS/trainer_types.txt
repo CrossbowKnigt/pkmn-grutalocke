@@ -403,34 +403,59 @@ VictoryBGM = Battle victory leader
 [LUIGI]
 Name = Hermano
 Gender = Male
-BaseMoney = 16
+BaseMoney = 32
 BattleBGM = Come on!
 #-------------------------------
 [BOWSER]
 Name = Rey Koopa
 Gender = Male
-BaseMoney = 16
+BaseMoney = 32
 BattleBGM = bowser-battle-theme
 #-------------------------------
 [ALUMNA]
 Name = Alumna
 Gender = Female
-BaseMoney = 16
+BaseMoney = 32
 #-------------------------------
 [ALUMNO]
 Name = Alumno
 Gender = Male
-BaseMoney = 16
+BaseMoney = 32
 #-------------------------------
 [CHICA]
 Name = Chica
 Gender = Female
-BaseMoney = 16
+BaseMoney = 32
 #-------------------------------
 [JOVEN]
 Name = Joven
 Gender = Male
-BaseMoney = 16
+BaseMoney = 32
+#-------------------------------
+[MONTANERO]
+Name = Montañero
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[MOCHILERO]
+Name = Mochilero
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[MOCHILERA]
+Name = Mochilera
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[E_GUAY]
+Name = Entrenador Guay
+Gender = Male
+BaseMoney = 64
+#-------------------------------
+[E_GUAYf]
+Name = Entrenador Guay
+Gender = Female
+BaseMoney = 64
 #-------------------------------
 [DAN]
 Name = Líder
@@ -462,19 +487,25 @@ Name = Campeón
 Gender = Male
 BaseMoney = 100
 #-------------------------------
+[RECLUTA]
+Name = Recluta
+Gender = Male
+BaseMoney = 32
+#-------------------------------
 [TOPPER]
 Name = Broodal
 Gender = Male
-BaseMoney = 32
+BaseMoney = 64
 BattleBGM = Broodals battle
 #-------------------------------
 [HARIET]
 Name = Broodal
 Gender = Female
-BaseMoney = 32
+BaseMoney = 64
 BattleBGM = Broodals battle
 #-------------------------------
-[X]
-Name = Unnamed
-Gender = Male
-BaseMoney = 30
+[MADAME]
+Name = Madame
+Gender = Female
+BaseMoney = 64
+BattleBGM = Broodals battle

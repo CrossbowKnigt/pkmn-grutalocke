@@ -151,6 +151,11 @@ LoseText = ...
 Pokemon = NIDORANmA,7
 Pokemon = MARILL,9
 #-------------------------------
+[MADAME,Madame Broodal]
+LoseText = ...
+Pokemon = NIDORANfE,10
+Pokemon = VOLTORB,12
+#-------------------------------
 [HARIET,Hariet]
 LoseText = ...
 Pokemon = NIDORANfE,16
@@ -184,10 +189,6 @@ Pokemon = INFERNAPE,50
 LoseText = ...
 Pokemon = METANG,24
 #-------------------------------
-[X,XXX]
-LoseText = ...
-Pokemon = BULBASAUR,10
-#-------------------------------
 [JOVEN,Recluta]
 LoseText = ...
 Pokemon = RATTATA,5
@@ -218,3 +219,8 @@ Pokemon = STARLY,8
 LoseText = ...
 Pokemon = RATTATA,7
 Pokemon = MANKEY,9
+#-------------------------------
+[MADAME,Broodal]
+LoseText = ...
+Pokemon = NIDORANfE,10
+Pokemon = VOLTORB,12
