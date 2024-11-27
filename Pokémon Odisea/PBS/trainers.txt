@@ -138,14 +138,6 @@ Pokemon = SKIDDO,4
 LoseText = ...
 Pokemon = PURRLOIN,4
 #-------------------------------
-[RODILLO,Alto Mando Rodillo]
-LoseText = ...
-Pokemon = DECIDUEYE,60
-Pokemon = GOLURK,60
-Pokemon = DRAGAPULT,61
-Pokemon = ANNIHILAPE,61
-Pokemon = GENGAR,62
-#-------------------------------
 [TOPPER,Topper]
 LoseText = ...
 Pokemon = NIDORANmA,7
@@ -160,15 +152,6 @@ Pokemon = VOLTORB,12
 LoseText = ...
 Pokemon = NIDORANfE,16
 Pokemon = BUNEARY,18
-#-------------------------------
-[RAFARQUERO,Campeón Rafarquero]
-LoseText = ...
-Pokemon = WHIMSICOTT,62
-Pokemon = NINETALES,62
-Pokemon = URSHIFU,64
-Pokemon = ZERAORA,63
-Pokemon = TYRANITAR,65
-Pokemon = METAGROSS,65
 #-------------------------------
 [DAN,Líder Dan]
 LoseText = ...
@@ -189,31 +172,15 @@ Pokemon = INFERNAPE,50
 LoseText = ...
 Pokemon = METANG,24
 #-------------------------------
-[JOVEN,Recluta]
-LoseText = ...
-Pokemon = RATTATA,5
-#-------------------------------
-[JOVEN,Recluta,1]
-LoseText = ...
-Pokemon = ZUBAT,6
-#-------------------------------
 [JOVEN,Patatus]
 LoseText = ...
 Pokemon = HOOTHOOT,3
 Pokemon = GREAVARD,5
 #-------------------------------
-[JOVEN,Kyuso]
-LoseText = ...
-Pokemon = GEODUDE,8
-#-------------------------------
 [CHICA,Aryll]
 LoseText = ...
 Pokemon = BLIPBUG,6
 Pokemon = SMOLIV,8
-#-------------------------------
-[JOVEN,Misugi]
-LoseText = ...
-Pokemon = STARLY,8
 #-------------------------------
 [JOVEN,Ironstark]
 LoseText = ...
@@ -224,3 +191,37 @@ Pokemon = MANKEY,9
 LoseText = ...
 Pokemon = NIDORANfE,10
 Pokemon = VOLTORB,12
+#-------------------------------
+[MONTANERO,Kyuso]
+LoseText = ...
+Pokemon = GEODUDE,8
+#-------------------------------
+[MOCHILERO,Misugi]
+LoseText = ...
+Pokemon = STARLY,8
+#-------------------------------
+[RECLUTA,Broodal]
+LoseText = ...
+Pokemon = RATTATA,5
+#-------------------------------
+[RECLUTA,Broodal,1]
+LoseText = ...
+Pokemon = ZUBAT,6
+#-------------------------------
+[RAFARQUERO,Rafarquero]
+LoseText = ...
+Pokemon = WHIMSICOTT,62
+    Name = Candyfloss
+Pokemon = NINETALES,62
+Pokemon = URSHIFU,64
+Pokemon = ZERAORA,63
+Pokemon = TYRANITAR,65
+Pokemon = METAGROSS,65
+#-------------------------------
+[RODILLO,Rodillo]
+LoseText = ...
+Pokemon = DECIDUEYE,60
+Pokemon = GOLURK,60
+Pokemon = DRAGAPULT,61
+Pokemon = ANNIHILAPE,61
+Pokemon = GENGAR,62
