@@ -233,3 +233,21 @@ Pokemon = NACLI,11
 [E_GUAY,Trillizo 3]
 LoseText = ...
 Pokemon = ROCKRUFF,12
+#-------------------------------
+[MONTANERO,Gemelo 1]
+LoseText = ...
+Pokemon = GEODUDE,10
+Pokemon = ONIX,11
+#-------------------------------
+[E_GUAY,Trillizo 2]
+LoseText = ...
+Pokemon = ARON,12
+#-------------------------------
+[E_GUAY,Trillizo 1]
+LoseText = ...
+Pokemon = LARVITAR,12
+#-------------------------------
+[KLIM8,Klim8]
+LoseText = ...
+Pokemon = ROGGENROLA,12
+Pokemon = TYRUNT,14

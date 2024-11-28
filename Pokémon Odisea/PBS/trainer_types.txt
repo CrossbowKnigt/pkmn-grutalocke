@@ -457,6 +457,11 @@ Name = Entrenador Guay
 Gender = Female
 BaseMoney = 64
 #-------------------------------
+[KLIM8]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+#-------------------------------
 [DAN]
 Name = Líder
 Gender = Male
