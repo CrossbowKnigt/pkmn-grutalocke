@@ -225,3 +225,11 @@ Pokemon = GOLURK,60
 Pokemon = DRAGAPULT,61
 Pokemon = ANNIHILAPE,61
 Pokemon = GENGAR,62
+#-------------------------------
+[MOCHILERA,Marina]
+LoseText = ...
+Pokemon = NACLI,11
+#-------------------------------
+[E_GUAY,Trillizo 3]
+LoseText = ...
+Pokemon = ROCKRUFF,12
