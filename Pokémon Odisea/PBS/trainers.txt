@@ -251,3 +251,8 @@ Pokemon = LARVITAR,12
 LoseText = ...
 Pokemon = ROGGENROLA,12
 Pokemon = TYRUNT,14
+#-------------------------------
+[MONTANERO,Gemelo 2]
+LoseText = ...
+Pokemon = ROLYCOLY,12
+Pokemon = GLIMMET,13
