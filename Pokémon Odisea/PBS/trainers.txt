@@ -245,14 +245,30 @@ Pokemon = ARON,12
 #-------------------------------
 [E_GUAY,Trillizo 1]
 LoseText = ...
-Pokemon = LARVITAR,12
+Pokemon = ROLYCOLY,12
 #-------------------------------
 [KLIM8,Klim8]
 LoseText = ...
 Pokemon = ROGGENROLA,12
+Pokemon = LARVITAR,13
 Pokemon = TYRUNT,14
 #-------------------------------
 [MONTANERO,Gemelo 2]
 LoseText = ...
 Pokemon = ROLYCOLY,12
 Pokemon = GLIMMET,13
+#-------------------------------
+[MOCHILERO,Garrek]
+LoseText = ...
+Pokemon = TRAPINCH,13
+Pokemon = CACNEA,14
+#-------------------------------
+[RANGER,Selur]
+LoseText = ...
+Pokemon = BALTOY,13
+Pokemon = RIOLU,14
+#-------------------------------
+[RANGER_F,Marina]
+LoseText = ...
+Pokemon = CHARCADET,14
+Pokemon = GIBLE,15

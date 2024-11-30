@@ -447,6 +447,16 @@ Name = Mochilera
 Gender = Female
 BaseMoney = 32
 #-------------------------------
+[RANGER]
+Name = Ranger
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[RANGER_F]
+Name = Ranger
+Gender = Female
+BaseMoney = 32
+#-------------------------------
 [E_GUAY]
 Name = Entrenador Guay
 Gender = Male
