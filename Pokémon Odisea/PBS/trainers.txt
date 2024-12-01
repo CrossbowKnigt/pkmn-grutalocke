@@ -272,3 +272,7 @@ Pokemon = RIOLU,14
 LoseText = ...
 Pokemon = CHARCADET,14
 Pokemon = GIBLE,15
+#-------------------------------
+[MOCHILERO,M de Magnífica]
+LoseText = ...
+Pokemon = NACLI,11

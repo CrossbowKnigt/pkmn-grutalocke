@@ -427,10 +427,21 @@ ShowArea = true
 SnapEdges = true
 #-------------------------------
 [085]   #  Ruta 2
-Name =  Ruta 2
+Name = Ruta 2
 ShowArea = true
 SnapEdges = true
 #-------------------------------
 [086]   # Cascade
+Name = Cascade
+ShowArea = true
+SnapEdges = true
+#-------------------------------
+[092]   # Ruta 3
+Name = Ruta 3
+ShowArea = true
+SnapEdges = true
+#-------------------------------
+[093]   # Sand
+Name = Ciudad Soltitlán
 ShowArea = true
 SnapEdges = true
