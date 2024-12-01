@@ -172,17 +172,18 @@ end
 #===============================================================================
 # Battle::Scene rewrites.
 #===============================================================================
+# Rewrites code related to the functionality of the fight menu.
+#-------------------------------------------------------------------------------
 class Battle::Scene
   #-----------------------------------------------------------------------------
   # Edited for command menu display.
   #-----------------------------------------------------------------------------
   def pbCommandMenu(idxBattler, firstAction)
-    bagCommand = _INTL("Bag")
+    bagCommand = _INTL("Mochila")
     shadowTrainer = (GameData::Type.exists?(:SHADOW) && @battle.trainerBattle?)
-    runCommand = (shadowTrainer) ? _INTL("Call") : (firstAction) ? _INTL("Run") : _INTL("Cancel")
-    hasCheer = defined?(@battle.cheerMode) && @battle.cheerMode
-    if hasCheer
-      runCommand = _INTL("Cheer")
+    runCommand = (shadowTrainer) ? _INTL("Llamar") : (firstAction) ? _INTL("Huir") : _INTL("Cancelar")
+    if @battle.raidBattle?
+      runCommand = _INTL("Animar")
       mode = 5
     elsif @battle.launcherBattle?
       bagCommand = _INTL("Launch")
@@ -191,17 +192,17 @@ class Battle::Scene
       mode = (shadowTrainer) ? 2 : (firstAction) ? 0 : 1
     end
     cmds = [
-      _INTL("What will\n{1} do?", @battle.battlers[idxBattler].name),
-      _INTL("Fight"), bagCommand,
+      _INTL("¿Qué debería\nhacer {1}?", @battle.battlers[idxBattler].name),
+      _INTL("Luchar"), bagCommand,
       _INTL("Pokémon"), runCommand
     ]
     ret = pbCommandMenuEx(idxBattler, cmds, mode)
-    ret = 4 if ret == 3 && (shadowTrainer || hasCheer)
-    ret = -1 if ret == 3 && (!firstAction && !hasCheer)
+    ret = 4 if ret == 3 && shadowTrainer || @battle.raidBattle?
+    ret = -1 if ret == 3 && !firstAction && !@battle.raidBattle?
     return 3 if ret > 3 && ($DEBUG && Input.press?(Input::CTRL))
     return ret
   end
-
+  
   #-----------------------------------------------------------------------------
   # Edited for fight menu functionality.
   #-----------------------------------------------------------------------------
@@ -334,14 +335,14 @@ class Battle
     move = (idxMove.is_a?(Integer)) ? battler.moves[idxMove] : idxMove
     return false unless move
     if move.pp == 0 && move.total_pp > 0 && !sleepTalk
-      pbDisplayPaused(_INTL("There's no PP left for this move!")) if showMessages
+      pbDisplayPaused(_INTL("¡No quedan PP para este movimiento!")) if showMessages
       return false
     end
     if battler.effects[PBEffects::Encore] > 0
       if !move.powerMove? && move.id != battler.effects[PBEffects::EncoreMove]
         if showMessages
           encoreMove = GameData::Move.get(battler.effects[PBEffects::EncoreMove]).name
-          pbDisplayPaused(_INTL("{1} can only use {2} due to its Encore!", battler.name, encoreMove))
+          pbDisplayPaused(_INTL("¡{1} solo puede usar {2} debido a Otra vez!", battler.name, encoreMove))
         end
         return false
       end
@@ -365,6 +366,7 @@ class Battle
   end
   
   def pbCommandPhase
+    $CanToggle = true
     @command_phase = true
     @scene.pbBeginCommandPhase
     @battlers.each_with_index do |b, i|

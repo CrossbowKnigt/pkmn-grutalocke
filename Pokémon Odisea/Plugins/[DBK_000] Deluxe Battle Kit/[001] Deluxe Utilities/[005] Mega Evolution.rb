@@ -8,9 +8,9 @@
 # Adds a toggle for Mega Evolution in the debug menu.
 #-------------------------------------------------------------------------------
 MenuHandlers.add(:debug_menu, :deluxe_plugins_menu, {
-  "name"        => _INTL("Deluxe plugin settings..."),
+  "name"        => _INTL("Configuración Deluxe Battle..."),
   "parent"      => :main,
-  "description" => _INTL("Settings added by the Deluxe Battle Kit and other add-on plugins."),
+  "description" => _INTL("Configuración añadida por el Deluxe Battle Kit y otros plugins."),
   "always_show" => false
 })
 
@@ -21,13 +21,13 @@ MenuHandlers.add(:debug_menu, :deluxe_gimmick_toggles, {
 })
 
 MenuHandlers.add(:debug_menu, :deluxe_mega, {
-  "name"        => _INTL("Toggle Mega Evolution"),
-  "parent"      => :deluxe_gimmick_toggles,
-  "description" => _INTL("Toggles the availability of Mega Evolution functionality."),
+  "name"        => _INTL("Alternar Megaevolución"),
+  "parent"      => :deluxe_plugins_menu,
+  "description" => _INTL("Alterna la disponibilidad de la Megaevolución."),
   "effect"      => proc {
     $game_switches[Settings::NO_MEGA_EVOLUTION] = !$game_switches[Settings::NO_MEGA_EVOLUTION]
-    toggle = ($game_switches[Settings::NO_MEGA_EVOLUTION]) ? "disabled" : "enabled"
-    pbMessage(_INTL("Mega Evolution {1}.", toggle))
+    toggle = ($game_switches[Settings::NO_MEGA_EVOLUTION]) ? "desactivada" : "activada"
+    pbMessage(_INTL("Megaevolución {1}.", toggle))
   }
 })
 
@@ -117,24 +117,24 @@ class Battle
     if battler.wild?
       case battler.pokemon.megaMessage
       when 1
-        pbDisplay(_INTL("{1} radiates with Mega energy!", battler.pbThis))
+        pbDisplay(_INTL("¡{1} irradia energía!", battler.pbThis))
       else
-        pbDisplay(_INTL("{1}'s {2} radiates with Mega energy!", battler.pbThis, battler.itemName))
+        pbDisplay(_INTL("¡{2} de {2} irradia energía!", battler.pbThis, battler.itemName))
       end
     else
       trainerName = pbGetOwnerName(idxBattler)
       case battler.pokemon.megaMessage
       when 1
-        pbDisplay(_INTL("{1}'s fervent wish has reached {2}!", trainerName, battler.pbThis))
+        pbDisplay(_INTL("¡El deseo ferviente de {1} ha alcanzado a {2}!", trainerName, battler.pbThis))
       else
-        pbDisplay(_INTL("{1}'s {2} is reacting to {3}'s {4}!",
+        pbDisplay(_INTL("¡{2} de {1} está reaccionando a {4} de {3}!",
                         battler.pbThis, battler.itemName, trainerName, pbGetMegaRingName(idxBattler)))
       end
     end
     pbAnimateMegaEvolution(battler)
     megaName = battler.pokemon.megaName
     megaName = _INTL("Mega {1}", battler.pokemon.speciesName) if nil_or_empty?(megaName)
-    pbDisplay(_INTL("{1} has Mega Evolved into {2}!", battler.pbThis, megaName))
+    pbDisplay(_INTL("¡{1} ha megaevolucionado en {2}!", battler.pbThis, megaName))
     side  = battler.idxOwnSide
     owner = pbGetOwnerIndexFromBattlerIndex(idxBattler)
     @megaEvolution[side][owner] = -2
@@ -149,7 +149,7 @@ class Battle
   end
   
   def pbAnimateMegaEvolution(battler)
-    if @scene.pbCommonAnimationExists?("MegaEvolution")
+    if @scene.pbCommonAnimationExists?("MegaEvolution") && !Settings::SHOW_MEGA_ANIM
       pbCommonAnimation("MegaEvolution", battler)
       battler.pokemon.makeMega
       battler.form_update(true)
@@ -194,7 +194,7 @@ end
 #-------------------------------------------------------------------------------
 class Battle::Scene::PokemonDataBox < Sprite
   def draw_special_form_icon
-	specialX = (@battler.opposes?(0)) ? 208 : -28
+    specialX = (@battler.opposes?(0)) ? 208 : -28
     if @battler.mega?
       specialY = 8
       base_file = "Graphics/UI/Battle/icon_mega"

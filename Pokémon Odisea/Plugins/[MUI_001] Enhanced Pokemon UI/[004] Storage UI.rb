@@ -15,8 +15,8 @@ class PokemonStorageScene
     buttonshadow = Color.new(80, 80, 80)
     pbDrawTextPositions(
       overlay,
-      [[_INTL("Equipo: {1}", (@storage.party.length rescue 0)), 270, 334, :center, buttonbase, buttonshadow, :outline],
-       [_INTL("Salir"), 446+102, 334, :center, buttonbase, buttonshadow, :outline]]
+      [[_INTL("Party: {1}", (@storage.party.length rescue 0)), 270, 334, :center, buttonbase, buttonshadow, :outline],
+       [_INTL("Exit"), 446, 334, :center, buttonbase, buttonshadow, :outline]]
     )
     pokemon = nil
     if @screen.pbHeldPokemon
@@ -44,20 +44,20 @@ class PokemonStorageScene
       elsif pokemon.female?
         textstrings.push([_INTL("♀"), 148, 14, :left, Color.new(248, 56, 32), Color.new(224, 152, 144)])
       end
-      imagepos.push([_INTL("Graphics/UI/Storage/overlay_lv"), 6246, 240])
-      textstrings.push([pokemon.level.to_s, 90, 238, :left, base, shadow])
+      imagepos.push([_INTL("Graphics/UI/Storage/overlay_lv"), 6, 246])
+      textstrings.push([pokemon.level.to_s, 28, 240, :left, base, shadow])
       if pokemon.ability
         textstrings.push([pokemon.ability.name, 86, 312, :center, base, shadow])
       else
-        textstrings.push([_INTL("Sin habilidad"), 86, 312, :center, nonbase, nonshadow])
+        textstrings.push([_INTL("No ability"), 86, 312, :center, nonbase, nonshadow])
       end
       if pokemon.item
         textstrings.push([pokemon.item.name, 86, 348, :center, base, shadow])
       else
-        textstrings.push([_INTL("Sin objeto"), 86, 348, :center, nonbase, nonshadow])
+        textstrings.push([_INTL("No item"), 86, 348, :center, nonbase, nonshadow])
       end
       if pokemon.shiny?
-        pbDrawImagePositions(plugin_overlay, [["Graphics/Pictures/shiny", 134, 16]])
+        pbDrawImagePositions(plugin_overlay, [["Graphics/UI/shiny", 134, 16]])
       end
       pbDisplayShinyLeaf(pokemon, plugin_overlay, 158, 50)      if Settings::STORAGE_SHINY_LEAF
       pbDisplayIVRatings(pokemon, plugin_overlay, 8, 198, true) if Settings::STORAGE_IV_RATINGS

@@ -129,7 +129,7 @@ module Compiler
           can_skip_rewrites = false
           File.open(path, "rb") do |f|
             f.each_line do |line|
-			  if line == "### Apply changes by holding SHIFT while compiling. ###\r\n"
+              if line == "### Apply changes by holding SHIFT while compiling. ###\r\n"
                 can_skip_rewrites = true
               end
               break
@@ -227,8 +227,8 @@ module Compiler
           end
           if @plugin_change
             edit_and_rewrite_pbs_file_text(path) do |line|
-              next line.gsub!("### Changes will apply automatically. ###", 
-                              "### Apply changes by holding SHIFT while compiling. ###")
+            next line.gsub!("### Changes will apply automatically. ###", 
+                            "### Apply changes by holding SHIFT while compiling. ###")
             end
           end
         end

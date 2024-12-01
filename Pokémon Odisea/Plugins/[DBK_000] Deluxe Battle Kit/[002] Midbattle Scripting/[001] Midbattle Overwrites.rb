@@ -257,7 +257,7 @@ class Battle
       ch[1] = nil
       return
     end
-    pbDisplay(_INTL("But it had no effect!"))
+    pbDisplay(_INTL("¡Pero no tuvo efecto!"))
     pbReturnUnusedItemToBag(item, userBattler.index)
   end
   
@@ -279,10 +279,10 @@ class Battle
         pbReduceLauncherPoints(userBattler, item, true)
         return
       else
-        pbDisplay(_INTL("But it had no effect!"))
+        pbDisplay(_INTL("¡Pero no tuvo efecto!"))
       end
     else
-      pbDisplay(_INTL("But it's not where this item can be used!"))
+      pbDisplay(_INTL("¡Pero no hay dónde usar este objeto!"))
     end
     pbReturnUnusedItemToBag(item, userBattler.index)
   end
@@ -303,7 +303,7 @@ class Battle
       ch[1] = nil
       return
     end
-    pbDisplay(_INTL("But it had no effect!"))
+    pbDisplay(_INTL("¡Pero no tuvo efecto!"))
     pbReturnUnusedItemToBag(item, userBattler.index)
   end
   
@@ -384,6 +384,7 @@ class Battle
     return if @field.effects[effect] <= 0
     @field.effects[effect] -= 1
     return if @field.effects[effect] > 0
+    @scene.pbDeleteTRbg() if effect == PBEffects::TrickRoom
     pbDisplay(msg)
     if effect == PBEffects::MagicRoom
       pbPriority(true).each { |battler| battler.pbItemTerrainStatBoostCheck }
@@ -733,7 +734,6 @@ class Battle::Move
     dx_pbEffectivenessMessage(user, target, numTargets)
     return if target.damageState.substitute || target.fainted?
     @battler_triggers[:user].push("UserDealtDamage", @id, @type, user.species)
-    @battler_triggers[:targ].push("TargetTookDamage", @id, @type, target.species)
     return if self.is_a?(Battle::Move::FixedDamageMove)
     if Effectiveness.super_effective?(target.damageState.typeMod)
       @battler_triggers[:user].push("UserMoveEffective", @id, @type, user.species)

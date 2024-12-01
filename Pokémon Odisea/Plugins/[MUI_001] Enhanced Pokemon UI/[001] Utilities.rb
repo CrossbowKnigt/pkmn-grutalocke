@@ -88,17 +88,16 @@ end
 # Debug tools - Shiny leaf.
 #===============================================================================
 MenuHandlers.add(:pokemon_debug_menu, :set_shiny_leaf, {
-  "name"   => _INTL("Hoja brillante"),
+  "name"   => _INTL("Shiny leaf"),
   "parent" => :cosmetic,
-  "condition" => proc { next Settings::SUMMARY_SHINY_LEAF },
   "effect" => proc { |pkmn, pkmnid, heldpoke, settingUpBattle, screen|
     cmd = 0
     loop do
-      msg = [_INTL("Tiene corona brillante."), _INTL("Número de hojas brillantes: x#{pkmn.shiny_leaf}.")][pkmn.shiny_crown? ? 0 : 1]
+      msg = [_INTL("Has shiny crown."), _INTL("Has shiny leaf x#{pkmn.shiny_leaf}.")][pkmn.shiny_crown? ? 0 : 1]
       cmd = screen.pbShowCommands(msg, [
-           _INTL("Definir contador de hoja"),
-           _INTL("Definir corona"),
-           _INTL("Resetear")], cmd)
+           _INTL("Set leaf count"),
+           _INTL("Set crown"),
+           _INTL("Reset")], cmd)
       break if cmd < 0
       case cmd
       when 0   # Set Leaf
@@ -106,7 +105,7 @@ MenuHandlers.add(:pokemon_debug_menu, :set_shiny_leaf, {
         params.setRange(0, 6)
         params.setDefaultValue(pkmn.shiny_leaf)
         leafcount = pbMessageChooseNumber(
-          _INTL("Indica el contador de hojas de {1} (máx. 6).", pkmn.name), params) { screen.pbUpdate }
+          _INTL("Set {1}'s leaf count (max. 6).", pkmn.name), params) { screen.pbUpdate }
         pkmn.shiny_leaf = leafcount
       when 1   # Set Crown
         pkmn.shiny_leaf = 6

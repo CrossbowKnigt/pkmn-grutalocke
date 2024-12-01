@@ -330,9 +330,11 @@ MidbattleHandlers.add(:midbattle_triggers, "playCry",
       next if !battle.battlers[idx]
       battle.battlers[idx].displayPokemon.play_cry
       PBDebug.log("     'playCry': playing #{battle.battlers[idx].name}'s cry")
+      
     else
       GameData::Species.play_cry(params)
       PBDebug.log("     'playCry': playing cry for species #{GameData::Species.get(params).name}")
+      
     end
   }
 )
@@ -475,7 +477,7 @@ MidbattleHandlers.add(:midbattle_triggers, "useItem",
     elsif ItemHandlers.hasBattleUseOnPokemon(item)
       ItemHandlers.triggerBattleUseOnPokemon(item, battler.pokemon, battler, ch, battle.scene)
     else
-      battle.pbDisplay(_INTL("But it had no effect!"))
+      battle.pbDisplay(_INTL("¡Pero no tuvo efecto!"))
     end
   }
 )
@@ -624,9 +626,9 @@ MidbattleHandlers.add(:midbattle_triggers, "switchOut",
         end
         case switch
         when :Forced
-          battle.pbDisplay(_INTL("{1} went back to {2}!", battler.pbThis, trainerName))
+          battle.pbDisplay(_INTL("¡{1} volvió con {2}!", battler.pbThis, trainerName))
           battle.pbRecallAndReplace(battler.index, newPkmn, true)
-          battle.pbDisplay(_INTL("{1} was dragged out!", battler.pbThis))
+          battle.pbDisplay(_INTL("¡{1} fue arrastrado al campo!", battler.pbThis))
         else
           battle.pbMessageOnRecall(battler)
           battle.pbRecallAndReplace(battler.index, newPkmn)
@@ -770,14 +772,13 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerHP",
     else
       amt, msg = params, nil
     end
-    amt = (battler.totalhp * (amt / 100.0)).round
     lowercase = (msg && msg[0] == "{" && msg[1] == "1") ? false : true
     trainerName = (battler.wild?) ? "" : battle.pbGetOwnerName(battler.index)
     msg = _INTL("#{msg}", battler.pbThis(lowercase), trainerName) if msg
     old_hp = battler.hp
     if amt > 0
       PBDebug.log("     'battlerHP': restoring #{battler.name} (#{battler.index})'s HP by #{amt}%")
-      battler.stopBoostedHPScaling = true
+	    battler.stopBoostedHPScaling = true
       battler.pbRecoverHP(amt)
     elsif amt <= 0
       if amt == 0
@@ -1019,7 +1020,7 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerAbility",
         msg = _INTL("#{msg}", battler.pbThis(lowercase), trainerName)
         battle.pbDisplay(msg.gsub(/\\PN/i, battle.pbPlayer.name))
       else
-        battle.pbDisplay(_INTL("{1} acquired {2}!", battler.pbThis, battler.abilityName))
+        battle.pbDisplay(_INTL("¡{1} obtuvo {2}!", battler.pbThis, battler.abilityName))
       end
       battle.pbHideAbilitySplash(battler)
     end
@@ -1059,15 +1060,14 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerItem",
       battler.item = nil
       if msg && !msg.is_a?(String)
         itemName = GameData::Item.get(olditem).portion_name
-        battle.pbDisplay(_INTL("{1}'s held {2} was removed!", battler.pbThis, itemName))
+        battle.pbDisplay(_INTL("¡{1} perdió {2}!", battler.pbThis, itemName))
       end
     else
       battler.item = item
       PBDebug.log("     'battlerItem': #{battler.name} (#{battler.index}) given the item #{battler.itemName} to hold")
       if msg && !msg.is_a?(String)
         itemName = GameData::Item.get(battler.item).portion_name
-        prefix = (itemName.starts_with_vowel?) ? "an" : "a"
-        battle.pbDisplay(_INTL("{1} obtained {2} {3}!", battler.pbThis, prefix, itemName))
+        battle.pbDisplay(_INTL("¡{1} obtuvo {2}!", battler.pbThis, itemName))
       end
     end
     if msg.is_a?(String)
@@ -1136,7 +1136,7 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerStats",
       if battler.hasAlteredStatStages?
         battler.pbResetStatStages
         PBDebug.log("     'battlerStats': #{battler.name} (#{battler.index})'s stat changes returning to normal")
-        battle.pbDisplay(_INTL("{1}'s stat changes returned to normal!", battler.pbThis))
+        battle.pbDisplay(_INTL("¡Los cambios de estadísticas de {1} han desaparecido!", battler.pbThis))
       end
     when :ResetRaised
       if battler.hasRaisedStatStages?
@@ -1144,14 +1144,14 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerStats",
         battler.statsLoweredThisRound = true
         GameData::Stat.each_battle { |s| battler.stages[s.id] = 0 if battler.stages[s.id] > 0 }
         PBDebug.log("     'battlerStats': #{battler.name} (#{battler.index})'s raised stat stages returning to normal")
-        battle.pbDisplay(_INTL("{1}'s raised stats returned to normal!", battler.pbThis))
+        battle.pbDisplay(_INTL("¡Las subidas de estadísticas de {1} han desaparecido!", battler.pbThis))
       end
     when :ResetLowered
       if battler.hasLoweredStatStages?
         battler.statsRaisedThisRound = true
         GameData::Stat.each_battle { |s| battler.stages[s.id] = 0 if battler.stages[s.id] < 0 }
         PBDebug.log("     'battlerStats': #{battler.name} (#{battler.index})'s raised stat stages returning to normal")
-        battle.pbDisplay(_INTL("{1}'s lowered stats returned to normal!", battler.pbThis))
+        battle.pbDisplay(_INTL("¡Las bajadas de estadísticas de {1} han desaparecido!", battler.pbThis))
       end
     when Array
       showAnim = true
@@ -1464,22 +1464,22 @@ MidbattleHandlers.add(:midbattle_triggers, "changeWeather",
     when :None
       PBDebug.log("     'changeWeather': ending current weather")
       case battle.field.weather
-      when :Sun       then battle.pbDisplay(_INTL("The sunlight faded."))
-      when :Rain      then battle.pbDisplay(_INTL("The rain stopped."))
-      when :Sandstorm then battle.pbDisplay(_INTL("The sandstorm subsided."))
-      when :ShadowSky then battle.pbDisplay(_INTL("The shadow sky faded."))
+      when :Sun       then battle.pbDisplay(_INTL("El sol vuelve a brillar como siempre."))
+      when :Rain      then battle.pbDisplay(_INTL("Ha dejado de llover."))
+      when :Sandstorm then battle.pbDisplay(_INTL("La tormenta de arena ha amainado."))
+      when :ShadowSky then battle.pbDisplay(_INTL("El cielo recuperó su luz."))
       when :Hail    
         if defined?(Settings::HAIL_WEATHER_TYPE)
           case Settings::HAIL_WEATHER_TYPE
-          when 0 then battle.pbDisplay(_INTL("The hail stopped."))
-          when 1 then battle.pbDisplay(_INTL("The snow stopped."))
-          when 2 then battle.pbDisplay(_INTL("The hailstorm ended."))
+          when 0 then battle.pbDisplay(_INTL("Ha dejado de granizar."))
+          when 1 then battle.pbDisplay(_INTL("Ha dejado de nevar."))
+          when 2 then battle.pbDisplay(_INTL("Ha dejado de granizar."))
           end
         else
-          battle.pbDisplay(_INTL("The hail stopped."))
+          battle.pbDisplay(_INTL("Ha dejado de nevar."))
         end
       else
-        battle.pbDisplay(_INTL("The weather cleared."))
+        battle.pbDisplay(_INTL("El tiempo se ha calmado."))
       end
       battle.pbStartWeather(battler, :None, true)
     else
@@ -1514,11 +1514,11 @@ MidbattleHandlers.add(:midbattle_triggers, "changeTerrain",
     when :None
       PBDebug.log("     'changeTerrain': ending current terrain")
       case battle.field.terrain
-      when :Electric  then battle.pbDisplay(_INTL("The electricity disappeared from the battlefield."))
-      when :Grassy    then battle.pbDisplay(_INTL("The grass disappeared from the battlefield."))
-      when :Misty     then battle.pbDisplay(_INTL("The mist disappeared from the battlefield."))
-      when :Psychic   then battle.pbDisplay(_INTL("The weirdness disappeared from the battlefield."))
-      else                 battle.pbDisplay(_INTL("The battlefield returned to normal."))
+      when :Electric  then battle.pbDisplay(_INTL("El campo de corriente eléctrica ha desaparecido."))
+      when :Grassy    then battle.pbDisplay(_INTL("La hierba ha desaparecido."))
+      when :Misty     then battle.pbDisplay(_INTL("La niebla se ha disipado."))
+      when :Psychic   then battle.pbDisplay(_INTL("Ha desaparecido la extraña sensación que se percibía en el terreno de combate."))
+      else                 battle.pbDisplay(_INTL("El terreno de combate ha vuelto a la normalidad."))
       end
       battle.pbStartTerrain(battler, :None)
     else
@@ -1598,7 +1598,7 @@ MidbattleHandlers.add(:midbattle_triggers, "changeBackdrop",
     end
     battle.scene.pbFlashRefresh
   }
-)
+  )
 
 #-------------------------------------------------------------------------------
 # Changes the style applied to all battler's databoxes.
@@ -1613,3 +1613,54 @@ MidbattleHandlers.add(:midbattle_triggers, "changeDataboxes",
     PBDebug.log("     'changeDataboxes': changed databox style (#{old_style}=>#{style})") if style != old_style
   }
 )
+
+
+
+
+
+
+
+def change_background_in_battle(battle, battlback, flash = false, blanco = true)
+    return if battle.decision > 0
+    if battlback.is_a?(Array)
+      backdrop, base = battlback[0], battlback[1]
+    else
+      backdrop = base = battlback
+    end
+    PBDebug.log("     'changeBackdrop': setting new battle background (#{backdrop})")
+    battle.backdrop = backdrop if pbResolveBitmap("Graphics/Battlebacks/#{backdrop}_bg")
+    if base && pbResolveBitmap("Graphics/Battlebacks/#{base}_base0")
+      PBDebug.log("     'changeBackdrop': setting new battle bases (#{base})")
+      oldEnv = battle.environment
+      battle.backdropBase = base
+      if base.include?("city")          then battle.environment = :None
+      elsif base.include?("grass")      then battle.environment = :Grass
+      elsif base.include?("water")      then battle.environment = :MovingWater
+      elsif base.include?("puddle")     then battle.environment = :Puddle
+      elsif base.include?("underwater") then battle.environment = :Underwater
+      elsif base.include?("cave")       then battle.environment = :Cave
+      elsif base.include?("rocky")      then battle.environment = :Rock
+      elsif base.include?("volcano")    then battle.environment = :Volcano
+      elsif base.include?("sand")       then battle.environment = :Sand
+      elsif base.include?("forest")     then battle.environment = :Forest
+      elsif base.include?("snow")       then battle.environment = :Snow
+      elsif base.include?("ice")        then battle.environment = :Ice
+      elsif base.include?("distortion") then battle.environment = :Graveyard
+      elsif base.include?("sky")        then battle.environment = :Sky
+      elsif base.include?("space")      then battle.environment = :Space
+      end
+      if battle.environment != oldEnv
+        envName = GameData::Environment.get(battle.environment).name
+        PBDebug.log("     'changeBackdrop': battle environment set to #{envName} to match new bases")
+      end
+    end
+    if flash
+      if blanco
+        battle.scene.pbFlashRefresh
+      else
+        battle.scene.pbFlashBlackRefresh
+      end
+    else
+      battle.scene.pbCreateBackdropSprites
+    end
+end

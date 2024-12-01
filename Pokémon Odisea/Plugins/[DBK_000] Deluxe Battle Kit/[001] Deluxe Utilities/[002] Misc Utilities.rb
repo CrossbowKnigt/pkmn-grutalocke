@@ -91,11 +91,11 @@ class Battle
     item_data = GameData::Item.get(item)
     itemName = item_data.portion_name
     if pkmn.is_a?(Battle::Battler) && item_data.battle_use < 4
-      pbDisplayBrief(_INTL("{1} used the {2} on {3}.", trainerName, itemName, pkmn.pbThis(true)))
+      pbDisplayBrief(_INTL("{1} usó {2} en {3}.", trainerName, itemName, pkmn.pbThis(true)))
     elsif pkmn.is_a?(Pokemon) && item_data.battle_use < 4
-      pbDisplayBrief(_INTL("{1} used the {2} on {3}.", trainerName, itemName, pkmn.name))
+      pbDisplayBrief(_INTL("{1} usó {2} en {3}.", trainerName, itemName, pkmn.name))
     else
-      pbDisplayBrief(_INTL("{1} used the {2}.", trainerName, itemName))
+      pbDisplayBrief(_INTL("{1} usó {2}.", trainerName, itemName))
     end
   end
 end

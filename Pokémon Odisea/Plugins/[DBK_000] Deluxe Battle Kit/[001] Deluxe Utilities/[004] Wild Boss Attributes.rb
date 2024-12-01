@@ -89,9 +89,6 @@ class Battle::Battler
   # Defines whether the battler is considered a raid boss.
   #-----------------------------------------------------------------------------
   def isRaidBoss?
-    return false if self.idxOwnSide == 0
-    return false if @battle.pbSideBattlerCount(@index) > 1
-    return false if fainted? || @battle.decision > 0
     return @pokemon.immunities.include?(:RAIDBOSS)
   end
   
@@ -213,7 +210,7 @@ class Battle::Battler
   def takesIndirectDamage?(showMsg = false)
     return false if fainted?
     if @pokemon.immunities.include?(:INDIRECT)
-      @battle.pbDisplay(_INTL("{1} is completely immune to indirect damage!", pbThis)) if showMsg
+      @battle.pbDisplay(_INTL("¡{1} es completamente inmune a daño indirecto!", pbThis)) if showMsg
       return false
     end
     return dx_takesIndirectDamage?(showMsg)

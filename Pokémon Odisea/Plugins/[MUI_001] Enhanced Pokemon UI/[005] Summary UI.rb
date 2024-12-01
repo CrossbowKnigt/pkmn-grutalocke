@@ -22,7 +22,7 @@ class PokemonSummary_Scene
     enhanced_drawPageOne
     return if !Settings::SUMMARY_HAPPINESS_METER
     overlay = @sprites["overlay"].bitmap
-    coords = [242, 346]
+    coords = (PluginManager.installed?("BW Summary Screen")) ? [220, 294] : [242, 340]
     pbDisplayHappiness(@pokemon, overlay, coords[0], coords[1])
   end
   
@@ -48,13 +48,11 @@ class PokemonSummary_Scene
   #-----------------------------------------------------------------------------
   alias enhanced_pbPageCustomUse pbPageCustomUse
   def pbPageCustomUse(page_id)
-    if page_id == :page_skills
-      if defined?(Settings::DISPLAY_ENHANCED_STATS) && Settings::DISPLAY_ENHANCED_STATS
-        @statToggle = !@statToggle
-        drawPage(:page_skills)
-        pbPlayDecisionSE
-        return true
-      end
+    if page_id == :page_skills && $game_switches[Settings::ENHANCED_STATS_SWITCH]
+      @statToggle = !@statToggle
+      drawPage(:page_skills)
+      pbPlayDecisionSE
+      return true
     end
     return enhanced_pbPageCustomUse(page_id)
   end
@@ -66,7 +64,7 @@ class PokemonSummary_Scene
   def pbStartScene(*args)
     if Settings::SUMMARY_LEGACY_DATA
       UIHandlers.edit_hash(:summary, :page_memo, "options", 
-        [:item, :nickname, :pokedex, _INTL("Ver Histórico"), :mark]
+        [:item, :nickname, :pokedex, _INTL("View Legacy"), :mark]
       )
     end
     @statToggle = false
@@ -80,7 +78,7 @@ class PokemonSummary_Scene
 
   alias enhanced_pbPageCustomOption pbPageCustomOption
   def pbPageCustomOption(cmd)
-    if cmd == _INTL("Ver Histórico")
+    if cmd == _INTL("View Legacy")
       pbLegacyMenu
       return true
     end
@@ -132,32 +130,32 @@ class PokemonSummary_Scene
           hour = data[:party_time].to_i / 60 / 60
           min  = data[:party_time].to_i / 60 % 60
           addltext = [
-            [_INTL("Tiempo total en el equipo:"), "#{hour} hrs #{min} min"],
-            [_INTL("Objetos consumidos:"),        data[:item_count]],
-            [_INTL("Movimientos aprendidos:"),    data[:move_count]],
-            [_INTL("Huevos generados:"),          data[:egg_count]],
-            [_INTL("Veces intercambiado:"),       data[:trade_count]]
+            [_INTL("Total time in party:"),    "#{hour} hrs #{min} min"],
+            [_INTL("Items consumed:"),         data[:item_count]],
+            [_INTL("Moves learned:"),          data[:move_count]],
+            [_INTL("Eggs produced:"),          data[:egg_count]],
+            [_INTL("Number of times traded:"), data[:trade_count]]
           ]
         when 1  # Battle History
-          name = _INTL("Combates")
+          name = _INTL("Battle History")
           addltext = [
-            [_INTL("Rivales derrotados:"),         data[:defeated_count]],
-            [_INTL("Veces derrotado:"),            data[:fainted_count]],
-            [_INTL("Ataques muy eficaces:"),       data[:supereff_count]],
-            [_INTL("Golpes críticos hechos:"),     data[:critical_count]],
-            [_INTL("Número de retiradas:"),        data[:retreat_count]]
+            [_INTL("Opponents defeated:"),        data[:defeated_count]],
+            [_INTL("Number of times fainted:"),   data[:fainted_count]],
+            [_INTL("Supereffective hits dealt:"), data[:supereff_count]],
+            [_INTL("Critical hits dealt:"),       data[:critical_count]],
+            [_INTL("Total number of retreats:"),  data[:retreat_count]]
           ]
         when 2  # Team History
-          name = _INTL("Equipo")
+          name = _INTL("Team History")
           addltext = [
-            [_INTL("Victorias contra Entrenadores:"),    data[:trainer_count]],
-            [_INTL("Victorias a Líderes de Gimnasio:"),  data[:leader_count]],
-            [_INTL("Victorias contra Legendarios:"),     data[:legend_count]],
-            [_INTL("Veces en el Hall de la Fama:"),      data[:champion_count]],
-            [_INTL("Total de empates o derrotas:"),      data[:loss_count]]
+            [_INTL("Trainer battle victories:"),        data[:trainer_count]],
+            [_INTL("Gym Leader battle victories:"),     data[:leader_count]],
+            [_INTL("Wild legendary battle victories:"), data[:legend_count]],
+            [_INTL("Total Hall of Fame inductions:"),   data[:champion_count]],
+            [_INTL("Total draws or losses:"),           data[:loss_count]]
           ]
         end
-        textpos.push([_INTL("HISTÓRICO DE {1}", @pokemon.name.upcase), 295, ypos + 38, :center, base2, shadow2],
+        textpos.push([_INTL("{1}'S LEGACY", @pokemon.name.upcase), 295, ypos + 38, :center, base2, shadow2],
                      [name, Graphics.width / 2, ypos + 90, :center, base, shadow])
         addltext.each_with_index do |txt, i|
           textY = ypos + 134 + (i * 32)
@@ -222,11 +220,11 @@ class PokemonSummary_Scene
       index += 1
     end
     textpos.push(
-      [_INTL("EV/IV Totales"), 224, 290, :left, base, shadow],
+      [_INTL("EV/IV Total"), 224, 290, :left, base, shadow],
       [sprintf("%d  |  %d", ev_total, iv_total), 434, 290, :center, base2, shadow2],
-      [_INTL("EVs restantes:"), 224, 322, :left, base2, shadow2],
+      [_INTL("EV's Remaining:"), 224, 322, :left, base2, shadow2],
       [sprintf("%d/%d", Pokemon::EV_LIMIT - ev_total, Pokemon::EV_LIMIT), 444, 322, :center, base2, shadow2],
-      [_INTL("Tipo de Poder Oculto:"), 224, 354, :left, base2, shadow2]
+      [_INTL("Hidden Power Type:"), 224, 354, :left, base2, shadow2]
     )
     pbDrawTextPositions(overlay, textpos)
     if @pokemon.hp > 0
