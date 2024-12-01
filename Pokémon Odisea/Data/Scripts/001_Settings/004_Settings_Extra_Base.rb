@@ -15,13 +15,13 @@ module Settings
 
   # Acorta los nombres largos de los movimientos en el menú de combate para que se
   # ajusten a la interfaz de batalla predeterminada.
-  SHORTEN_MOVES = true
+  SHORTEN_MOVES = false
 
   # Activa o desactiva la animación de Mega Evolución utilizada por este plugin.
-  SHOW_MEGA_ANIM = true
+  SHOW_MEGA_ANIM = false
 
   # Activa o desactiva la animación de Reversión Primigenia utilizada por este plugin.
-  SHOW_PRIMAL_ANIM = true
+  SHOW_PRIMAL_ANIM = false
 
   # Activa el nuevo repartir experiencia que se puede activar para cada pokemon del equipo.
   USE_NEW_EXP_SHARE = true
