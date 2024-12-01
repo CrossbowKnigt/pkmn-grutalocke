@@ -211,6 +211,7 @@ MapSize = 1,111
 #-------------------------------
 [043]   # Mushroom
 Name = Mushroom
+Outdoor = true
 ShowArea = true
 SnapEdges = true
 WildBattleBGM = bowser-battle-theme
@@ -409,6 +410,7 @@ BattleBack = city
 #-------------------------------
 [077]   # Ruta 1 Cap-faro
 Name = Ruta 1
+Outdoor = true
 ShowArea = true
 SnapEdges = true
 #-------------------------------
@@ -418,16 +420,19 @@ SnapEdges = true
 #-------------------------------
 [080]   # Cap Kingdom
 Name = Cap Kingdom
+Outdoor = true
 ShowArea = true
 SnapEdges = true
 #-------------------------------
 [082]   # Torre sombrero
 Name = Torre sombrero
+Outdoor = true
 ShowArea = true
 SnapEdges = true
 #-------------------------------
 [085]   #  Ruta 2
 Name = Ruta 2
+Outdoor = true
 ShowArea = true
 SnapEdges = true
 #-------------------------------
