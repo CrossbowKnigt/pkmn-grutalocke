@@ -6853,13 +6853,13 @@ Flags = KeyItem
 Description = This can be used to swim.
 #-------------------------------------------------------------------------------
 [FLYITEM]
-Name = Nimbus
+Name = Odyssey
 NamePlural = Nimbus
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = A flying cloud that can only be ridden by those with a pure heart.
+Description = Nave ancestral con forma de sombrero que te permite viajar a reinos ya visitados.
 #-------------------------------------------------------------------------------
 [HEADBUTTITEM]
 Name = Punching Gloves

@@ -87,13 +87,13 @@ if Item_RockSmash[:active]
   def pbRockSmash
     if !pbCanUseItem(Item_RockSmash)
       item_name = GameData::Item.get(Item_RockSmash[:internal_name]).name
-      pbMessage(_INTL("It's a rugged rock but a {1} may be able to smash it.",item_name))
+      pbMessage(_INTL("Es una roca escarpada, pero un {1} puede ser capaz de romperla.",item_name))
       return false
     end
     item_name = GameData::Item.get(Item_RockSmash[:internal_name]).name
-    if pbConfirmMessage(_INTL("This rock appears to be breakable.\nWould you like to use the {1}?", item_name))
+    if pbConfirmMessage(_INTL("Esta roca parece ser rompible.\n¿Te gustaría usar el {1}?", item_name))
       $stats.rock_smash_count += 1
-      pbMessage(_INTL("{1} used the {2}!", $player.name, item_name))
+      pbMessage(_INTL("{1} ha usó el {2}!", $player.name, item_name))
       return true
     end
     return false
@@ -105,7 +105,7 @@ if Item_RockSmash[:active]
       next 2
     end
     item_name = GameData::Item.get(Item_RockSmash[:internal_name]).name
-    pbMessage(_INTL("There is no sensible reason why you would be trying to use the {1} now!", item_name))
+    pbMessage(_INTL("¡No hay ninguna razón sensata por la que usarías el {1} ahora!", item_name))
     next 0
   end)
 
@@ -116,7 +116,7 @@ if Item_RockSmash[:active]
       next 1
     end
     item_name = GameData::Item.get(Item_RockSmash[:internal_name]).name
-    pbMessage(_INTL("There is no sensible reason why you would be trying to use the {1} now!", item_name))
+    pbMessage(_INTL("¡No hay ninguna razón sensata por la que usarías el {1} ahora!", item_name))
     next 0
   end)
 end
@@ -133,13 +133,13 @@ if Item_Cut[:active]
 
   def pbCut
     if !pbCanUseItem(Item_Cut)
-      pbMessage(_INTL("This tree looks like it can be cut down."))
+      pbMessage(_INTL("Parece que este árbol puede cortarse."))
       return false
     end
     item_name = GameData::Item.get(Item_Cut[:internal_name]).name
-    if pbConfirmMessage(_INTL("This tree looks like it can be cut down!\nWould you like to use the {1}?", item_name))
+    if pbConfirmMessage(_INTL("¡Parece que este árbol puede cortarse! \n¿Quieres usar el {1}?", item_name))
       $stats.cut_count += 1
-      pbMessage(_INTL("{1} used the {2}!", $player.name, item_name))
+      pbMessage(_INTL("{1} usó el {2}!", $player.name, item_name))
       return true
     end
     return false
@@ -151,7 +151,7 @@ if Item_Cut[:active]
       next 2
     end
     item_name = GameData::Item.get(Item_Cut[:internal_name]).name
-    pbMessage(_INTL("There is no sensible reason why you would be trying to use the {1} now!", item_name))
+    pbMessage(_INTL("¡No hay ninguna razón sensata por la que usarías el {1} ahora!", item_name))
     next 0
   end)
 
@@ -162,7 +162,7 @@ if Item_Cut[:active]
       next 1
     end
     item_name = GameData::Item.get(Item_Cut[:internal_name]).name
-    pbMessage(_INTL("There is no sensible reason why you would be trying to use the {1} now!", item_name))
+    pbMessage(_INTL("¡No hay ninguna razón sensata por la que usarías el {1} ahora!", item_name))
     next 0
   end)
 end
@@ -174,13 +174,13 @@ if Item_IceBarriere[:active]
 
   def pbIceSmash
     if !pbCanUseItem(Item_IceBarriere)
-      pbMessage(_INTL("This ice looks like it can be broken down."))
+      pbMessage(_INTL("Parece que puedes romper este hielo."))
       return false
     end
     item_name = GameData::Item.get(Item_IceBarriere[:internal_name]).name
-    if pbConfirmMessage(_INTL("This ice looks like it can be broken down.!\nWould you like to use the {1}?", item_name))
+    if pbConfirmMessage(_INTL("¡Parece que puedes romper este hielo!\n¿Quieres usar el {1}?", item_name))
       $stats.ice_smash_count += 1
-      pbMessage(_INTL("{1} used the {2}!", $player.name, item_name))
+      pbMessage(_INTL("{1} usó el {2}!", $player.name, item_name))
       return true
     end
     return false
@@ -192,7 +192,7 @@ if Item_IceBarriere[:active]
       next 2
     end
     item_name = GameData::Item.get(Item_IceBarriere[:internal_name]).name
-    pbMessage(_INTL("There is no sensible reason why you would be trying to use the {1} now!", item_name))
+    pbMessage(_INTL("¡No hay ninguna razón sensata por la que usarías el {1} ahora!", item_name))
     next 0
   end)
 
@@ -203,7 +203,7 @@ if Item_IceBarriere[:active]
       next 1
     end
     item_name = GameData::Item.get(Item_IceBarriere[:internal_name]).name
-    pbMessage(_INTL("There is no sensible reason why you would be trying to use the {1} now!", item_name))
+    pbMessage(_INTL("¡No hay ninguna razón sensata por la que usarías el {1} ahora!", item_name))
     next 0
   end)
 end
@@ -332,14 +332,14 @@ if Item_Strength[:active]
 
   def pbStrength
     if !pbCanUseItem(Item_Strength)
-      pbMessage(_INTL("It's a big boulder, but an item may be able to push it aside."))
+      pbMessage(_INTL("Es una gran roca... pero igual un objeto podría moverla."))
       return false
     end
-    pbMessage(_INTL("It's a big boulder, but an item may be able to push it aside."))
+    pbMessage(_INTL("Es una gran roca... pero igual un objeto podría moverla."))
     item_name = GameData::Item.get(Item_Strength[:internal_name]).name
     if pbConfirmMessage(_INTL("Would you like to use the {1}?", item_name))
-      pbMessage(_INTL("{1} used the {2}!", $player.name, item_name))
-      pbMessage(_INTL("The {1} made it possible to move boulders around!", item_name))
+      pbMessage(_INTL("{1} usó el {2}!", $player.name, item_name))
+      pbMessage(_INTL("¡El {1} hizo posible mover la roca!", item_name))
       $PokemonMap.strengthUsed = true
       return true
     end
@@ -349,7 +349,7 @@ if Item_Strength[:active]
   ItemHandlers::UseFromBag.add(Item_Strength[:internal_name], proc do |item|
     if $PokemonMap.strengthUsed
       item_name = GameData::Item.get(Item_Strength[:internal_name]).name
-      pbMessage(_INTL("The {1} were already used!", item_name))
+      pbMessage(_INTL("El {1} ya ha sido usado!", item_name))
       next 0
     end
     facingEvent = $game_player.pbFacingEvent
@@ -357,14 +357,14 @@ if Item_Strength[:active]
       next 2
     end
     item_name = GameData::Item.get(Item_Strength[:internal_name]).name
-    pbMessage(_INTL("There is no sensible reason why you would be trying to flex by using the {1} now!", item_name))
+    pbMessage(_INTL("¡No hay ninguna razón sensata por la que usarías el {1} ahora!", item_name))
     next 0
   end)
 
   ItemHandlers::UseInField.add(Item_Strength[:internal_name], proc do |item|
     if $PokemonMap.strengthUsed
       item_name = GameData::Item.get(Item_Strength[:internal_name]).name
-      pbMessage(_INTL("The {1} were already used!", item_name))
+      pbMessage(_INTL("El {1} ya ha sido usado!", item_name))
       next 0
     end
     facingEvent = $game_player.pbFacingEvent
@@ -373,7 +373,7 @@ if Item_Strength[:active]
       next 1
     end
     item_name = GameData::Item.get(Item_Strength[:internal_name]).name
-    pbMessage(_INTL("There is no sensible reason why you would be trying to flex by using {1} now!", item_name))
+    pbMessage(_INTL("¡No hay ninguna razón sensata por la que usarías el {1} ahora!", item_name))
     next 0
   end)
 end
@@ -808,12 +808,12 @@ if Item_Surf[:active]
     return false if !$game_player.can_ride_vehicle_with_follower?
     if !pbCanUseItem(Item_Surf)
       item_name = GameData::Item.get(Item_Surf[:internal_name]).name
-      pbMessage(_INTL("Du hast noch keine Ausrüstung um zu schwimmen.", item_name))
+      pbMessage(_INTL("No tienes ningún objeto para nadar.", item_name))
       return false
     end
-    if pbConfirmMessage(_INTL("The water is a deep blue...\nWould you like to surf on it?"))
+    if pbConfirmMessage(_INTL("El agua está tranquila...\n¿Quieres hacer surf?"))
       GameData::Item.get(Item_Surf[:internal_name]).name
-      pbMessage(_INTL("{1} used the {2}!", $player.name, item_name))
+      pbMessage(_INTL("{1} usó el {2}!", $player.name, item_name))
       pbCancelVehicles
       surfbgm = GameData::Metadata.get.surf_BGM
       pbCueBGM(surfbgm, 0.5) if surfbgm
@@ -825,7 +825,7 @@ if Item_Surf[:active]
 
   ItemHandlers::UseFromBag.add(Item_Surf[:internal_name], proc do |item|
     if $PokemonGlobal.surfing
-      pbMessage(_INTL("You're already surfing."))
+      pbMessage(_INTL("Ya estás surfeando bobo"))
       next 0
     end
     if !$game_player.can_ride_vehicle_with_follower?
@@ -834,13 +834,13 @@ if Item_Surf[:active]
     end
     if GameData::MapMetadata.exists?($game_map.map_id) &&
       GameData::MapMetadata.get($game_map.map_id).always_bicycle
-      pbMessage(_INTL("Let's enjoy cycling!"))
+      pbMessage(_INTL("¡Disfruta del ciclismo!"))
       next 0
     end
     if !$game_player.pbFacingTerrainTag.can_surf_freely ||
       !$game_map.passable?($game_player.x, $game_player.y, $game_player.direction, $game_player)
       item_name = GameData::Item.get(Item_Surf[:internal_name]).name
-      pbMessage(_INTL("You can't use the {1} here!", item_name))
+      pbMessage(_INTL("¡No puedes usar las {1} aquí!", item_name))
       next 0
     end
     next 2
@@ -848,7 +848,7 @@ if Item_Surf[:active]
 
   ItemHandlers::UseInField.add(Item_Surf[:internal_name], proc do |item|
     if $PokemonGlobal.surfing
-      pbMessage(_INTL("You're already surfing."))
+      pbMessage(_INTL("Ya estás surfeando bobo."))
       next 0
     end
     if !$game_player.can_ride_vehicle_with_follower?
@@ -857,12 +857,12 @@ if Item_Surf[:active]
     end
     if GameData::MapMetadata.exists?($game_map.map_id) &&
       GameData::MapMetadata.get($game_map.map_id).always_bicycle
-      pbMessage(_INTL("Let's enjoy cycling!"))
+      pbMessage(_INTL("¡Disfruta del ciclismo!"))
       next 0
       endif !$game_player.pbFacingTerrainTag.can_surf_freely ||
       !$game_map.passable?($game_player.x, $game_player.y, $game_player.direction, $game_player)
       item_name = GameData::Item.get(Item_Surf[:internal_name]).name
-      pbMessage(_INTL("You can't use the {1} here!", item_name))
+      pbMessage(_INTL("¡No puedes usar las {1} aquí!", item_name))
       next 0
     end
     pbSurf
@@ -1195,7 +1195,7 @@ if Item_Fly[:active]
     return false if $game_temp.fly_destination.nil?
     if !pbHiddenMoveAnimation(nil)
       item_name = GameData::Item.get(Item_Fly[:internal_name]).name
-      pbMessage(_INTL("{1} used {2}!", $player.name, item_name))
+      pbMessage(_INTL("{1} usó {2}!", $player.name, item_name))
     end
     $stats.fly_count += 1
     pbFadeOutIn {
@@ -1220,7 +1220,7 @@ if Item_Fly[:active]
     end
     if !$game_map.metadata&.outdoor_map
       item_name = GameData::Item.get(Item_Fly[:internal_name]).name
-      pbMessage(_INTL("You can't use the {1} when you are inside.", item_name))
+      pbMessage(_INTL("No puedes usar la {1} en un interior.", item_name))
       next 0
     end
     next 2
@@ -1233,7 +1233,7 @@ if Item_Fly[:active]
     end
     if !$game_map.metadata&.outdoor_map
       item_name = GameData::Item.get(Item_Fly[:internal_name]).name
-      pbMessage(_INTL("You can't use the {1} when you are inside.", item_name))
+      pbMessage(_INTL("No puedes usar la {1} en un interior.", item_name))
       next 0
     end
     aiFly

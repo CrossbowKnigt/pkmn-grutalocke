@@ -471,6 +471,8 @@ BaseMoney = 64
 Name = Líder
 Gender = Male
 BaseMoney = 100
+BattleBGM = Never_Let_Up
+VictoryBGM = Win fanfare
 #-------------------------------
 [DAN]
 Name = Líder
@@ -523,4 +525,4 @@ BattleBGM = Broodals battle
 Name = Madame
 Gender = Female
 BaseMoney = 64
-BattleBGM = Broodals battle
+BattleBGM = Madame_Broode_Battle_
