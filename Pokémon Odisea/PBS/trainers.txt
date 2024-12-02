@@ -276,3 +276,7 @@ Pokemon = GIBLE,15
 [MOCHILERO,M de Magnífica]
 LoseText = ...
 Pokemon = NACLI,11
+#-------------------------------
+[JOVEN,Proac]
+LoseText = ...
+Pokemon = RATTATA,6

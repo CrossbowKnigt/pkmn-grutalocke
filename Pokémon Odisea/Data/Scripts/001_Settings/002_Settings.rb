@@ -54,12 +54,12 @@ module Settings
   EGG_LEVEL            = 1
   # La posibilidad de que un Pokémon que consigas sea Variocolor (Shiny).
   # (Se aplica sobre 65536. Si pones 1, será 1 de cada 65536).
-  SHINY_POKEMON_CHANCE = (MECHANICS_GENERATION >= 6) ? 16 : 8
+  SHINY_POKEMON_CHANCE = (MECHANICS_GENERATION >= 6) ? 16 : 250
   # Si los Super Variocolor están activados (usan una animación distinta).
   SUPER_SHINY          = (MECHANICS_GENERATION >= 8)
   # La posibilidad de que un Pokémon salvaje o de Huevo tenga Pokérus
   # (Cuántos de cada 65536).
-  POKERUS_CHANCE       = 3
+  POKERUS_CHANCE       = 50
   # Si quieres que los IVs y EVs sean tratados como 0 cuando se calculen las
   # estadísticas de un Pokémon. A pesar de ello, seguirán existiendo ya que son
   # utilizados para cosas como el Poder Oculto.
@@ -68,7 +68,7 @@ module Settings
   #=============================================================================
 
   # Si la iluminación de los mapas dependa de la hora del día.
-  TIME_SHADING                               = true
+  TIME_SHADING                               = false
   # Si los reflejos del jugador y eventos onduleen horizontalmente.
   ANIMATE_REFLECTIONS                        = true
   # Si los Pokémon envenenados pierden PS al caminar el jugador.
