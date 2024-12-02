@@ -436,32 +436,37 @@ ShowArea = true
 SnapEdges = true
 #-------------------------------
 [083]   # Interiores casas cap
+Name = Interiores casas cap
 #-------------------------------
 [084]   # Paso de ruta 2
+Name = Paso de ruta 2
 #-------------------------------
 [085]   #  Ruta 2
 Name = Ruta 2
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+BattleBack = FondoCascada
 #-------------------------------
 [086]   # Cascade
 Name = Cascade
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+BattleBack = FondoCascada
 #-------------------------------
 [087]   # Centro Pokémon
 Name = Centro pokémon
 #-------------------------------
 [089]   # Casa fosilmaníaco
+Name = Casa fosilmaníaco
 #-------------------------------
 [090]   # Casa Proac
 Name = Casa de Proacventure
 ShowArea = true
 #-------------------------------
 [091]   # Gym Klim
-Name = 
+Name = Gym Klim
 #-------------------------------
 [092]   # Ruta 3
 Name = Ruta 3
