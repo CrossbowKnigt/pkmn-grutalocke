@@ -479,3 +479,9 @@ Name = Ciudad Soltitlán
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+#-------------------------------
+[095]   # Ruta 4
+Name = Ruta 4 
+Outdoor = true
+ShowArea = true
+SnapEdges = true
