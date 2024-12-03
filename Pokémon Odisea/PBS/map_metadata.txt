@@ -485,3 +485,8 @@ Name = Ruta 4
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+#-------------------------------
+[096]   # Cueva tuputamadre
+Name = Cueva del hielo
+ShowArea = true
+SnapEdges = true
