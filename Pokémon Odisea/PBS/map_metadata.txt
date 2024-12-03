@@ -420,7 +420,7 @@ ShowArea = true
 SnapEdges = true
 #-------------------------------
 [080]   # Cap Kingdom
-Name = Cap Kingdom
+Name = Villa Chistera
 Outdoor = true
 ShowArea = true
 SnapEdges = true
@@ -449,7 +449,7 @@ SnapEdges = true
 BattleBack = FondoCascada
 #-------------------------------
 [086]   # Cascade
-Name = Cascade
+Name = Salto del Fósil
 Outdoor = true
 ShowArea = true
 SnapEdges = true
@@ -481,7 +481,7 @@ ShowArea = true
 SnapEdges = true
 #-------------------------------
 [095]   # Ruta 4
-Name = Ruta 4 
+Name = Ruta 4
 Outdoor = true
 ShowArea = true
 SnapEdges = true
