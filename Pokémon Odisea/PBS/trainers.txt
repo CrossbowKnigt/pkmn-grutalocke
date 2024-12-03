@@ -280,3 +280,26 @@ Pokemon = NACLI,11
 [JOVEN,Proac]
 LoseText = ...
 Pokemon = RATTATA,6
+#-------------------------------
+[RANGER,placeholder]
+LoseText = ...
+Pokemon = LITLEO,15
+Pokemon = SANDILE,16
+#-------------------------------
+[RANGER,JuegAriel]
+LoseText = ...
+Pokemon = MUNCHLAX,16
+Pokemon = SLAKOTH,17
+#-------------------------------
+[RANGER,Aruson]
+LoseText = ...
+Pokemon = LARVESTA,17
+Pokemon = BRAMBLIN,16
+#-------------------------------
+[RANGER,BlackYoshi]
+LoseText = ...
+Pokemon = SALANDIT,17
+#-------------------------------
+[RANGER,Bento]
+LoseText = ...
+Pokemon = BAGON,18
