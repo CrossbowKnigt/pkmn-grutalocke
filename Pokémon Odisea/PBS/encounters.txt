@@ -392,8 +392,52 @@ Land,10
     20,HIPPOPOTAS,15,17
     20,SILICOBRA,15,17
     20,SIZZLIPEDE,15,17
-    10,NOSEPASS,16,17
-    10,LITLEO,16,17
     10,BRAMBLIN,16,17
-    5,MARACTUS,16,18
+    10,LITLEO,16,17
+    10,NOSEPASS,16,17
     5,LARVESTA,17,18
+    5,MARACTUS,16,18
+#-------------------------------
+[096] # Cueva tuputamadre
+Cave,5
+    20,BERGMITE,18,20
+    20,SANDSHREW_1,18,20
+    20,WOOBAT,18,20
+    10,DARUMAKA_2,19,20
+    10,SNORUNT,19,20
+    10,YAMASK_1,19,20
+    5,FRIGIBAX,20
+    5,SNEASEL,20
+#-------------------------------
+[097] # Pirámide invertida 1
+Cave,5
+    20,CUBONE,17,19
+    20,DIGLETT,17,19
+    20,ROGGENROLA,17,19
+    10,DARUMAKA,18,19
+    10,DRILBUR,18,19
+    10,YAMASK,18,19
+    5,SIGILYPH,18,19
+    5,STONJOURNER,18,19
+#-------------------------------
+[098] # Pirámide invertida 2
+Cave,5
+    20,CUBONE,17,19
+    20,DIGLETT,17,19
+    20,ROGGENROLA,17,19
+    10,DARUMAKA,18,19
+    10,DRILBUR,18,19
+    10,YAMASK,18,19
+    5,SIGILYPH,18,19
+    5,STONJOURNER,18,19
+#-------------------------------
+[099] # Pirámide invertida 3
+Cave,5
+    20,CUBONE,17,19
+    20,DIGLETT,17,19
+    20,ROGGENROLA,17,19
+    10,DARUMAKA,18,19
+    10,DRILBUR,18,19
+    10,YAMASK,18,19
+    5,SIGILYPH,18,19
+    5,STONJOURNER,18,19
