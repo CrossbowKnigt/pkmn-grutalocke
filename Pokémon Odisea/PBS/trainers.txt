@@ -303,3 +303,9 @@ Pokemon = SALANDIT,17
 [RANGER,Bento]
 LoseText = ...
 Pokemon = BAGON,18
+#-------------------------------
+[LUIGI,Luigi,1]
+LoseText = ...
+Pokemon = CUBONE,16
+Pokemon = GREAVARD,17
+Pokemon = DRIFLOON,18
