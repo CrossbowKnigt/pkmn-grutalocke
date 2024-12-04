@@ -210,10 +210,11 @@ MapPosition = 0,11,7
 MapSize = 1,111
 #-------------------------------
 [043]   # Mushroom
-Name = Mushroom
+Name = Reino Champiñón
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+BattleBack = FondoColina
 WildBattleBGM = bowser-battle-theme
 #-------------------------------
 [044]   # Ruta 6
@@ -413,17 +414,20 @@ Name = Ruta 1
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+BattleBack = FondoCap
 #-------------------------------
 [078]   # Interior castillo
-Name = Interior castillo
+Name = Castillo de Peach
 ShowArea = true
 SnapEdges = true
+BattleBack = FondoLaboratorio
 #-------------------------------
 [080]   # Cap Kingdom
 Name = Villa Chistera
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+BattleBack = FondoCap
 #-------------------------------
 [081]   # Casa de Juanca
 Name = Casa de Juanca0s
@@ -434,6 +438,7 @@ Name = Torre sombrero
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+BattleBack = FondoCap
 #-------------------------------
 [083]   # Interiores casas cap
 Name = Interiores casas cap
@@ -472,7 +477,9 @@ Name = Gym Klim
 Name = Ruta 3
 Outdoor = true
 ShowArea = true
+Weather = Sun,100
 SnapEdges = true
+BattleBack = FondoDesierto
 #-------------------------------
 [093]   # Sand
 Name = Ciudad Soltitlán
@@ -480,13 +487,34 @@ Outdoor = true
 ShowArea = true
 SnapEdges = true
 #-------------------------------
+[094]   # Centro Pokémon
+#-------------------------------
 [095]   # Ruta 4
 Name = Ruta 4
 Outdoor = true
 ShowArea = true
+Weather = Sandstorm,100
 SnapEdges = true
+BattleBack = FondoDesierto
 #-------------------------------
-[096]   # Cueva tuputamadre
-Name = Cueva del hielo
+[096]   # Cueva yelo
+Name = Templo helado
 ShowArea = true
 SnapEdges = true
+BattleBack = FondoCuevaHelada
+#-------------------------------
+[097]   # Pirámide invertida 1
+Name = Pirámide invertida 
+ShowArea = true
+BattleBack = yellow2
+#-------------------------------
+[098]   # Pirámide invertida 2
+Name = Pirámide invertida 2
+BattleBack = yellow2
+#-------------------------------
+[099]   # Pirámide invertida 3
+Name = Pirámide invertida 3
+BattleBack = yellow2
+#-------------------------------
+[100]   # Knucklotek
+Name = Templo helado
