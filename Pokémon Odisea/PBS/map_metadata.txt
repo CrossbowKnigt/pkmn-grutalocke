@@ -488,6 +488,7 @@ ShowArea = true
 SnapEdges = true
 #-------------------------------
 [094]   # Centro Pokémon
+Name = Centro Pokémon
 #-------------------------------
 [095]   # Ruta 4
 Name = Ruta 4
@@ -504,7 +505,7 @@ SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
 [097]   # Pirámide invertida 1
-Name = Pirámide invertida 
+Name = Pirámide invertida
 ShowArea = true
 BattleBack = yellow2
 #-------------------------------
@@ -518,3 +519,4 @@ BattleBack = yellow2
 #-------------------------------
 [100]   # Knucklotek
 Name = Templo helado
+BattleBack = FondoCuevaHelada
