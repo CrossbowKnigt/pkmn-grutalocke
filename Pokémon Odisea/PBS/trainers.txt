@@ -150,8 +150,8 @@ Pokemon = VOLTORB,12
 #-------------------------------
 [HARIET,Hariet]
 LoseText = ...
-Pokemon = NIDORANfE,16
-Pokemon = BUNEARY,18
+Pokemon = NIDORINA,20
+Pokemon = BUNEARY,22
 #-------------------------------
 [DAN,Líder Dan]
 LoseText = ...
@@ -167,6 +167,7 @@ LoseText = ...
 Pokemon = ARMAROUGE,49
 Pokemon = MAGCARGO,48
 Pokemon = INFERNAPE,50
+Pokemon = TORKOAL,49
 #-------------------------------
 [DARKWON,Líder Darkwon]
 LoseText = ...
@@ -255,8 +256,9 @@ Pokemon = TYRUNT,14
 #-------------------------------
 [MONTANERO,Gemelo 2]
 LoseText = ...
-Pokemon = ROLYCOLY,12
-Pokemon = GLIMMET,13
+Pokemon = ROLYCOLY,11
+Pokemon = GEODUDE,12
+    Form = 1
 #-------------------------------
 [MOCHILERO,Garrek]
 LoseText = ...
@@ -309,3 +311,25 @@ LoseText = ...
 Pokemon = CUBONE,16
 Pokemon = GREAVARD,17
 Pokemon = DRIFLOON,18
+#-------------------------------
+[RECLUTA,Broodal,2]
+LoseText = ...
+Pokemon = RATTATA,18
+#-------------------------------
+[RECLUTA,Broodal,3]
+LoseText = ...
+Pokemon = ZUBAT,19
+Pokemon = PATRAT,19
+#-------------------------------
+[RECLUTA,Broodal,4]
+LoseText = ...
+Pokemon = WOOBAT,19
+Pokemon = YUNGOOS,19
+#-------------------------------
+[RECLUTA,Broodal,6]
+LoseText = ...
+Pokemon = RATICATE,20
+#-------------------------------
+[RECLUTA,Broodal,5]
+LoseText = ...
+Pokemon = WATCHOG,20
