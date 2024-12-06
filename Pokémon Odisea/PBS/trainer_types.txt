@@ -474,6 +474,13 @@ BaseMoney = 100
 BattleBGM = Never_Let_Up
 VictoryBGM = Win fanfare
 #-------------------------------
+[PACASA]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+BattleBGM = Never_Let_Up
+VictoryBGM = Win fanfare
+#-------------------------------
 [DAN]
 Name = Líder
 Gender = Male

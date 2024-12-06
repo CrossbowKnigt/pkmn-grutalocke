@@ -263,7 +263,7 @@ Pokemon = GEODUDE,12
 [MOCHILERO,Garrek]
 LoseText = ...
 Pokemon = TRAPINCH,13
-Pokemon = CACNEA,14
+Pokemon = CACNEA,13
 #-------------------------------
 [RANGER,Selur]
 LoseText = ...
@@ -333,3 +333,24 @@ Pokemon = RATICATE,20
 [RECLUTA,Broodal,5]
 LoseText = ...
 Pokemon = WATCHOG,20
+#-------------------------------
+[ALUMNA,Ikiiv]
+LoseText = ...
+Pokemon = PHANPY,20
+Pokemon = DIGLETT,20
+#-------------------------------
+[MOCHILERO,Lenco]
+LoseText = ...
+Pokemon = RHYHORN,21
+Pokemon = GLIGAR,21
+#-------------------------------
+[MOCHILERA,Alba]
+LoseText = ...
+Pokemon = TOEDSCOOL,22
+Pokemon = SANDYGAST,22
+#-------------------------------
+[PACASA,Pacasa]
+LoseText = ...
+Pokemon = GOLETT,22
+Pokemon = QUAGSIRE,23
+Pokemon = SANDSLASH,24
