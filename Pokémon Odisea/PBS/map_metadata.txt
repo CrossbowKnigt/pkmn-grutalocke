@@ -486,6 +486,7 @@ Name = Ciudad Soltitlán
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+BattleBack = FondoDesierto
 #-------------------------------
 [094]   # Centro Pokémon
 Name = Centro Pokémon
