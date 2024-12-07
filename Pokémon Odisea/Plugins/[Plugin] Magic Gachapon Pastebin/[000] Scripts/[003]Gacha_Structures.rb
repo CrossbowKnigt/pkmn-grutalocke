@@ -180,19 +180,10 @@ def system(*args)
 end
 
 def openGacha
-  banners = []
-  pbMessage(_INTL("Cargando datos...\\wtnp[5]"))
-  begin
-    gachaponRead(pbDownloadToString(CONFIG_URL))
-    BANNERS.each_value{|value|
-      banners.insert(0,Banner.new(value["name"],value["rewards"],value["stars"],value["bg"],value["url"],value["descr"]))
-    }
-  rescue 
-    pbMessage(_INTL("No se ha podido conectar con el servidor"))
-    aux = defaultBannerConfig
-    aux.each_value{|value|
-      banners.insert(0, Banner.new(value["name"],value["rewards"],value["stars"],value["bg"],value["url"],value["descr"]))
-    }
-  end
+  banners = []  
+  aux = defaultBannerConfig
+  aux.each_value{|value|
+    banners.insert(0, Banner.new(value["name"],value["rewards"],value["stars"],value["bg"],value["url"],value["descr"]))
+  }
   GachaScene.new(banners)
 end
