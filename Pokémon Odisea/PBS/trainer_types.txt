@@ -457,6 +457,11 @@ Name = Ranger
 Gender = Female
 BaseMoney = 32
 #-------------------------------
+[PESCADOR]
+Name = Pescador
+Gender = Male
+BaseMoney = 32
+#-------------------------------
 [E_GUAY]
 Name = Entrenador Guay
 Gender = Male
