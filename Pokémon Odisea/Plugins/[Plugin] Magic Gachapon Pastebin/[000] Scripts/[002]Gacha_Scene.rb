@@ -79,7 +79,7 @@ class BannerReward < Sprite
     if @animated_sprites
 		  y = (@id != 1 ? 30 : 5) # Corrección de altura sprite pokemon animados
     else
-		  y = (@id != 1 ? -5 : -25) # Corrección de altura sprite pokemon estáticos
+		  y = (@id != 1 ? 50 : 25) # Corrección de altura sprite pokemon estáticos
     end
     @rewardSprite.y = value + y + @rewardSprite.oy - self.oy
 	  y2 = (@id != 1 ? 120 : 90) # Corrección de altura sprite estrellas
@@ -186,21 +186,7 @@ class GachaScene
       @sprites["banner#{i}"] = BannerSprite.new(@banners[i].bg, @banners[i].rewards, @banners[i].stars, @viewport)
       @sprites["banner#{i}"].x = Graphics.width*i
     end
-    
-    @sprites["leftArrow"] = Sprite.new(@viewport)
-    @sprites["leftArrow"].bitmap = Bitmap.new("Graphics/UI/Gacha/leftArrow")
-    @sprites["leftArrow"].ox = @sprites["leftArrow"].bitmap.width/2
-    @sprites["leftArrow"].oy = @sprites["leftArrow"].bitmap.height/2
-    @sprites["leftArrow"].x = 20
-    @sprites["leftArrow"].y = Graphics.height/2
-    
-    @sprites["rightArrow"] = Sprite.new(@viewport)
-    @sprites["rightArrow"].bitmap = Bitmap.new("Graphics/UI/Gacha/rightArrow")
-    @sprites["rightArrow"].ox = @sprites["rightArrow"].bitmap.width/2
-    @sprites["rightArrow"].oy = @sprites["rightArrow"].bitmap.height/2
-    @sprites["rightArrow"].x = Graphics.width - 20
-    @sprites["rightArrow"].y = Graphics.height/2
-    
+
     @sprites["bg"] = Sprite.new(@viewport)
     @sprites["bg"].bitmap = Bitmap.new("Graphics/UI/Gacha/Fondo")
     
@@ -273,17 +259,7 @@ class GachaScene
       @sprites["bannerSel"].visible = false
     end
     
-    if @banner_sel == 0
-      @sprites["leftArrow"].opacity = 50
-    else
-      @sprites["leftArrow"].opacity = 255
-    end
-    
-    if @banner_sel == @banners.length-1
-      @sprites["rightArrow"].opacity = 50
-    else
-      @sprites["rightArrow"].opacity = 255
-    end
+
     
     @sprites["text"].bitmap.clear
     pbDrawShadowText(@sprites["text"].bitmap,0,0,Graphics.width,98,@banners[@banner_sel].name,base,shadow,1)

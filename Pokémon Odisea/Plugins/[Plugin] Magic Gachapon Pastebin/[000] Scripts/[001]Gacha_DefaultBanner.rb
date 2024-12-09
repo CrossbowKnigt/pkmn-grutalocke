@@ -1,7 +1,7 @@
 def defaultBannerConfig
   config  = {
       "banner" => {
-              "name" => "Test",
+              "name" => "Gachapón",
               "bg" => "Graphics/Battlebacks/champion1_bg",
               "rewards" => ["Graphics/Items/CHOICEBAND","Graphics/Items/MASTERBALL","Graphics/Items/LEFTOVERS"],
               "stars" => [5, 5, 5],
