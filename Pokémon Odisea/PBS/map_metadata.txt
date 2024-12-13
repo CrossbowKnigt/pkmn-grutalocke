@@ -521,3 +521,19 @@ BattleBack = yellow2
 [100]   # Knucklotek
 Name = Templo helado
 BattleBack = FondoCuevaHelada
+#-------------------------------
+[104]   # Ruta 5
+Name = Ruta 5
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoLago
+#-------------------------------
+[105]   # Lake Kingdom
+Name = Lago Kutur
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoLago

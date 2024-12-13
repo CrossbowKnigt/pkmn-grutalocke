@@ -153,26 +153,6 @@ LoseText = ...
 Pokemon = NIDORINA,20
 Pokemon = BUNEARY,22
 #-------------------------------
-[DAN,Líder Dan]
-LoseText = ...
-Pokemon = TOGETIC,17
-Pokemon = AZUMARILL,18
-#-------------------------------
-[FERBY,Líder Ferby]
-LoseText = ...
-Pokemon = BULBASAUR,10
-#-------------------------------
-[MARC,Líder Marc]
-LoseText = ...
-Pokemon = ARMAROUGE,49
-Pokemon = MAGCARGO,48
-Pokemon = INFERNAPE,50
-Pokemon = TORKOAL,49
-#-------------------------------
-[DARKWON,Líder Darkwon]
-LoseText = ...
-Pokemon = METANG,24
-#-------------------------------
 [JOVEN,Patatus]
 LoseText = ...
 Pokemon = HOOTHOOT,3
@@ -249,6 +229,7 @@ LoseText = ...
 Pokemon = ROLYCOLY,12
 #-------------------------------
 [KLIM8,Klim8]
+Items = POTION
 LoseText = ...
 Pokemon = ROGGENROLA,12
 Pokemon = LARVITAR,13
@@ -350,7 +331,52 @@ Pokemon = TOEDSCOOL,22
 Pokemon = SANDYGAST,22
 #-------------------------------
 [PACASA,Pacasa]
+Items = SUPERPOTION
 LoseText = ...
 Pokemon = GOLETT,22
 Pokemon = QUAGSIRE,23
 Pokemon = SANDSLASH,24
+#-------------------------------
+[MOCHILERO,Juande]
+LoseText = ...
+Pokemon = BIBAREL,23
+Pokemon = SHELLOS,22
+#-------------------------------
+[MOCHILERO,Carley]
+LoseText = ...
+Pokemon = INKAY,23
+Pokemon = DEWPIDER,23
+#-------------------------------
+[PESCADOR,Kera]
+LoseText = ...
+Pokemon = MAGIKARP,22
+Pokemon = FEEBAS,22
+Pokemon = LUVDISC,22
+Pokemon = FINNEON,22
+#-------------------------------
+[DAN,Dan]
+Items = HYPERPOTION
+LoseText = ...
+Pokemon = FLOETTE,26
+Pokemon = TOGETIC,27
+Pokemon = AZUMARILL,28
+#-------------------------------
+[FERBY,Ferby]
+LoseText = ...
+Pokemon = BULBASAUR,10
+#-------------------------------
+[DARKWON,Darkwon]
+LoseText = ...
+Pokemon = METANG,24
+#-------------------------------
+[MARC,Marc]
+LoseText = ...
+Pokemon = ARMAROUGE,49
+Pokemon = MAGCARGO,48
+Pokemon = INFERNAPE,50
+Pokemon = TORKOAL,49
+#-------------------------------
+[RANGO,Rango]
+LoseText = ...
+Pokemon = NIDORINO,25
+Pokemon = RABOOT,26

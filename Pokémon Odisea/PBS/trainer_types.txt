@@ -527,6 +527,12 @@ Gender = Male
 BaseMoney = 64
 BattleBGM = Broodals battle
 #-------------------------------
+[RANGO]
+Name = Broodal
+Gender = Male
+BaseMoney = 64
+BattleBGM = Broodals battle
+#-------------------------------
 [HARIET]
 Name = Broodal
 Gender = Female
@@ -538,3 +544,8 @@ Name = Madame
 Gender = Female
 BaseMoney = 64
 BattleBGM = Madame_Broode_Battle_
+#-------------------------------
+[RANGO_1]
+Name = Unnamed
+Gender = Male
+BaseMoney = 64
