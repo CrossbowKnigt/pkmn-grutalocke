@@ -380,3 +380,11 @@ Pokemon = TORKOAL,49
 LoseText = ...
 Pokemon = NIDORINO,25
 Pokemon = RABOOT,26
+#-------------------------------
+[ALUMNO,Bien]
+LoseText = ...
+Pokemon = FIDOUGH,25
+#-------------------------------
+[ALUMNA,Bien]
+LoseText = ...
+Pokemon = FLOETTE,25

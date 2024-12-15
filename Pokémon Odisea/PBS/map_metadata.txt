@@ -537,3 +537,5 @@ ShowArea = true
 Bicycle = true
 SnapEdges = true
 BattleBack = FondoLago
+#-------------------------------
+[110]   # Gym Dan 2
