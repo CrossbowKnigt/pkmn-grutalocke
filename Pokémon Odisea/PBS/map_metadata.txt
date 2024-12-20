@@ -538,4 +538,10 @@ Bicycle = true
 SnapEdges = true
 BattleBack = FondoLago
 #-------------------------------
+[106]   # Lake underwater
+Name = Lake underwater
+ShowArea = true
+SnapEdges = true
+#-------------------------------
 [110]   # Gym Dan 2
+Name = Gym Dan 2
