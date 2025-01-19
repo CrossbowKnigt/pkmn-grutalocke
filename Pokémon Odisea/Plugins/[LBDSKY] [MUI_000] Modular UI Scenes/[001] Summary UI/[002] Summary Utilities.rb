@@ -95,6 +95,10 @@ class PokemonSummary_Scene
       elsif Input.trigger?(Input::USE)
         pbPlayDecisionSE
         break
+      elsif Input.trigger?(Input::ACTION)
+        newScene = PokemonSummary_Scene.new
+        newScreen = PokemonSummaryScreen.new(newScene)
+        newScreen.pbStartScreen(@party, @partyindex, 3)
       elsif Input.trigger?(Input::UP)
         selmove -= 1
         selmove = maxmove if selmove < 0

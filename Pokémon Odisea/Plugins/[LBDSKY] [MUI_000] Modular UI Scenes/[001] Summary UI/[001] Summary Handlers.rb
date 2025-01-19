@@ -29,34 +29,34 @@
 
 # Info page.
 UIHandlers.add(:summary, :page_info, { 
-  "name"      => "INFO",
+  "name"      => "INFORMACIÓN",
   "suffix"    => "info",
   "order"     => 10,
-  "options"   => [:item, :nickname, :pokedex, :mark],
+  "options"   => [:item, :nickname, :pokedex, :mark, :legacy],
   "layout"    => proc { |pkmn, scene| scene.drawPageOne }
 })
 
 # Memo page.
 UIHandlers.add(:summary, :page_memo, {
-  "name"      => "TRAINER MEMO",
+  "name"      => "NOTAS ENTREN.",
   "suffix"    => "memo",
   "order"     => 20,
-  "options"   => [:item, :nickname, :pokedex, :mark],
+  "options"   => [:item, :nickname, :pokedex, :mark, :legacy],
   "layout"    => proc { |pkmn, scene| scene.drawPageTwo }
 })
 
 # Stat page.
 UIHandlers.add(:summary, :page_skills, {
-  "name"      => "SKILLS",
+  "name"      => "ESTADÍSTICAS",
   "suffix"    => "skills",
   "order"     => 30,
-  "options"   => [:item, :nickname, :pokedex, :mark],
+  "options"   => [:item, :nickname, :pokedex, :mark, :legacy],
   "layout"    => proc { |pkmn, scene| scene.drawPageThree }
 })
 
 # Moves page.
 UIHandlers.add(:summary, :page_moves, {
-  "name"      => "MOVES",
+  "name"      => "MOVIMIENTOS",
   "suffix"    => "moves",
   "order"     => 40,
   "options"   => [:moves, :remember, :forget, :tms],
@@ -65,7 +65,7 @@ UIHandlers.add(:summary, :page_moves, {
 
 # Ribbons page.
 UIHandlers.add(:summary, :page_ribbons, {
-  "name"      => "RIBBONS",
+  "name"      => "CINTAS",
   "suffix"    => "ribbons",
   "order"     => 50,
   "layout"    => proc { |pkmn, scene| scene.drawPageFive }
@@ -77,7 +77,7 @@ UIHandlers.add(:summary, :page_ribbons, {
 
 # Info page.
 UIHandlers.add(:summary, :page_egg, {
-  "name"      => "TRAINER MEMO",
+  "name"      => "NOTAS ENTREN.",
   "suffix"    => "egg",
   "order"     => 10,
   "onlyEggs"  => true,
