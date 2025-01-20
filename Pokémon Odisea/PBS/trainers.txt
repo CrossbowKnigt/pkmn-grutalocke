@@ -230,7 +230,7 @@ Pokemon = ROLYCOLY,12
 #-------------------------------
 [KLIM8,Klim8]
 Items = POTION
-LoseText = ...
+LoseText = Este combate ha sido más intenso que una buena... ¡CARRERA DE BUSEEEEEES!
 Pokemon = ROGGENROLA,12
 Pokemon = LARVITAR,13
 Pokemon = TYRUNT,14
