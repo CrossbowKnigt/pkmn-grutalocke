@@ -366,7 +366,7 @@ Land,10
     5,TURTWIG,10
 #-------------------------------
 [092] # Ruta 3
-Land,3
+Cave,3
     20,SANDILE,12,14
     20,SANDYGAST,12,14
     20,TRAPINCH,12,14
