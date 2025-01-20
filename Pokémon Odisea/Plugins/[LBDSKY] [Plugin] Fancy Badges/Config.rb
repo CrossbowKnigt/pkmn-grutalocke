@@ -12,13 +12,13 @@
 #===============================================================================
 module FancyBadges
   NAMES = [
-      "Medalla Roca",
-      "Medalla Tierra",
-      "Medalla Hada",
-      "Medalla Planta",
-      "Medalla Eléctrica",
-      "Medalla Hielo 6",
-      "Medalla Agua",
-      "Medalla Fuego",
+      "Medalla Fósil",
+      "Medalla Azteca",
+      "Medalla Escama",
+      "Medalla Tuerca",
+      "Medalla Pauline",
+      "Medalla Copo",
+      "Medalla Vieira",
+      "Medalla Pomodoro",
   ]    
 end
