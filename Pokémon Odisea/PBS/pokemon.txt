@@ -2625,7 +2625,7 @@ Generation = 1
 #-------------------------------
 [VOLTORB]
 Name = Voltorb
-Types = ELECTRIC
+Types = ELECTRIC,STEEL
 BaseStats = 40,30,50,100,55,55
 GenderRatio = Genderless
 GrowthRate = Medium
@@ -2651,7 +2651,7 @@ Evolutions = ELECTRODE,Level,30
 #-------------------------------
 [ELECTRODE]
 Name = Electrode
-Types = ELECTRIC
+Types = ELECTRIC,STEEL
 BaseStats = 60,50,70,150,80,80
 GenderRatio = Genderless
 GrowthRate = Medium
