@@ -6050,13 +6050,13 @@ Flags = Fling_30
 Description = Un objeto que atrae a los Pokémon. Puedes utilizarlo para huir de un combate con un Pokémon salvaje.
 #-------------------------------
 [BICYCLE]
-Name = Bici
-NamePlural = Bicis
+Name = Huevo de Yoshi
+NamePlural = Yoshis
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = Bicicleta plegable con la que se va más rápido que con deportivas.
+Description = De él sale un Yoshi que corre muy rápido
 #-------------------------------
 [OLDROD]
 Name = Caña Vieja
@@ -6851,13 +6851,13 @@ Flags = KeyItem
 Description = Puede usarse para mover grandes objetos.
 #-------------------------------------------------------------------------------
 [SURFITEM]
-Name = Aletas
-NamePlural = Aletas
+Name = Huevo de Yoshi azul
+NamePlural = xxx
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = Pueden usarse para surfear.
+Description = De él sale un Yoshi que sabe nadar por el agua.
 #-------------------------------------------------------------------------------
 [FLYITEM]
 Name = Odyssey
