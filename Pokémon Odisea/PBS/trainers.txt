@@ -270,9 +270,9 @@ Pokemon = LITLEO,15
 Pokemon = SANDILE,16
 #-------------------------------
 [RANGER,JuegAriel]
-LoseText = GG.
+LoseText = ...
 Pokemon = MUNCHLAX,16
-Pokemon = SLAKOTH,17
+Pokemon = SLAKOTH,16
 #-------------------------------
 [RANGER,Aruson]
 LoseText = GG.
@@ -284,18 +284,19 @@ LoseText = GG.
 Pokemon = SALANDIT,17
 #-------------------------------
 [RANGER,Bento]
-LoseText = GG.
-Pokemon = BAGON,18
+LoseText = ...
+Pokemon = BAGON,17
 #-------------------------------
 [LUIGI,Luigi,1]
-LoseText = GGS hermano.
-Pokemon = CUBONE,16
-Pokemon = GREAVARD,17
-Pokemon = DRIFLOON,18
+LoseText = ...
+Pokemon = CUBONE,15
+Pokemon = GREAVARD,15
+Pokemon = DRIFLOON,17
 #-------------------------------
 [RECLUTA,Broodal,2]
-LoseText = Ya no voy a conseguir un ascenso...
+LoseText = ...
 Pokemon = RATTATA,18
+Pokemon = SENTRET,18
 #-------------------------------
 [RECLUTA,Broodal,3]
 LoseText = Ya no voy a conseguir un ascenso...
@@ -333,9 +334,9 @@ Pokemon = QUAGSIRE,23
 Pokemon = SANDSLASH,24
 #-------------------------------
 [MOCHILERO,Juande]
-LoseText = GG.
+LoseText = ...
 Pokemon = BIBAREL,23
-Pokemon = SHELLOS,22
+Pokemon = SHELLOS,23
 #-------------------------------
 [MOCHILERO,Carley]
 LoseText = GG.
@@ -343,18 +344,19 @@ Pokemon = INKAY,23
 Pokemon = DEWPIDER,23
 #-------------------------------
 [PESCADOR,Kera]
-LoseText = GG.
-Pokemon = MAGIKARP,22
-Pokemon = FEEBAS,22
-Pokemon = LUVDISC,22
-Pokemon = FINNEON,22
+LoseText = ...
+Pokemon = MAGIKARP,23
+Pokemon = FEEBAS,23
+Pokemon = LUVDISC,23
+Pokemon = FINNEON,23
 #-------------------------------
 [DAN,Dan]
 Items = HYPERPOTION
-LoseText = Ha sido muy buen combate, no me ha bastado con ludonarrativa.
-Pokemon = FLOETTE,26
-Pokemon = TOGETIC,27
-Pokemon = AZUMARILL,28
+LoseText = ...
+Pokemon = JIGGLYPUFF,25
+Pokemon = TOGETIC,26
+Pokemon = AZUMARILL,27
+    Ability = HUGEPOWER
 #-------------------------------
 [FERBY,Ferby]
 LoseText = GGs hermano.
@@ -372,8 +374,8 @@ Pokemon = INFERNAPE,50
 Pokemon = TORKOAL,49
 #-------------------------------
 [RANGO,Rango]
-LoseText = No quería destrozarte.
-Pokemon = NIDORINO,25
+LoseText = ...
+Pokemon = NIDORINO,24
 Pokemon = RABOOT,26
 #-------------------------------
 [ALUMNO,Bien]
@@ -385,6 +387,6 @@ LoseText = GG, ahora te daré una respuesta.
 Pokemon = FLOETTE,25
 #-------------------------------
 [ALUMNA,Ikiiv]
-LoseText = GG.
-Pokemon = PHANPY,20
-Pokemon = DIGLETT,20
+LoseText = ...
+Pokemon = PHANPY,21
+Pokemon = DIGLETT,21
