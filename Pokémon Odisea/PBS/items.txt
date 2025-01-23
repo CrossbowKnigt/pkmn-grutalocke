@@ -6985,4 +6985,92 @@ FieldUse = Direct
 Flags = KeyItem
 Description = A wizard used to own this.
 #-------------------------------------------------------------------------------
-
+[LUNAAMARILLA]
+Name = Luna Amarilla
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
+#-------------------------------------------------------------------------------
+[LUNAVERDE]
+Name = Luna Verde
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
+#-------------------------------------------------------------------------------
+[LUNAROSA]
+Name = Luna Rosa
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
+#-------------------------------------------------------------------------------
+[LUNAAZUL]
+Name = Luna Azul
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
+#-------------------------------------------------------------------------------
+[LUNAMARRON]
+Name = Luna Marrón
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
+#-------------------------------------------------------------------------------
+[LUNAMORADA]
+Name = Luna Morada
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
+#-------------------------------------------------------------------------------
+[LUNACYAN]
+Name = Luna Cyan
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
+#-------------------------------------------------------------------------------
+[LUNAROJA]
+Name = Luna Roja
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
+#-------------------------------------------------------------------------------
+[LUNABLANCA]
+Name = Luna Blanca
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
+#-------------------------------------------------------------------------------
+[ESTRELLA]
+Name = Súper Estrella
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Estrella legendaria.
