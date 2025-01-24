@@ -328,10 +328,10 @@ Pokemon = SANDYGAST,22
 #-------------------------------
 [PACASA,Pacasa]
 Items = SUPERPOTION
-LoseText = Tío, top 5 entrenadores tochos.
+LoseText = ...
 Pokemon = GOLETT,22
 Pokemon = QUAGSIRE,23
-Pokemon = SANDSLASH,24
+Pokemon = SANDSLASH,25
 #-------------------------------
 [MOCHILERO,Juande]
 LoseText = ...
@@ -359,12 +359,17 @@ Pokemon = AZUMARILL,27
     Ability = HUGEPOWER
 #-------------------------------
 [FERBY,Ferby]
-LoseText = GGs hermano.
-Pokemon = BULBASAUR,10
+LoseText = ...
+Pokemon = STARMIE,44
+Pokemon = WISHIWASHI,44
+Pokemon = PALAFIN,45
+Pokemon = LAPRAS,46
 #-------------------------------
 [DARKWON,Darkwon]
-LoseText = GG.
-Pokemon = METANG,24
+LoseText = ...
+Pokemon = ZEBSTRIKA,34
+Pokemon = TOGEDEMARU,35
+Pokemon = PAWMOT,36
 #-------------------------------
 [MARC,Marc]
 LoseText = ¡Fuap! Lavadora nueva.
@@ -390,3 +395,48 @@ Pokemon = FLOETTE,25
 LoseText = ...
 Pokemon = PHANPY,21
 Pokemon = DIGLETT,21
+#-------------------------------
+[ELITEFOUR_Lance,Ivanavi]
+Items = FULLRESTORE
+LoseText = ...
+Pokemon = FERALIGATR,57
+Pokemon = SKELEDIRGE,57
+Pokemon = AMPHAROS,57
+Pokemon = GALLADE,57
+Pokemon = TOGEKISS,58
+#-------------------------------
+[ELITEFOUR_Lance,Karma]
+Items = FULLRESTORE
+LoseText = ...
+Pokemon = CHARIZARD,57
+Pokemon = SCEPTILE,57
+Pokemon = GRENINJA,57
+Pokemon = GASTRODON,57
+Pokemon = LUXRAY,58
+#-------------------------------
+[ELITEFOUR_Lance,Crossbow]
+Items = FULLRESTORE
+LoseText = ...
+Pokemon = PELIPPER,57
+Pokemon = CORVIKNIGHT,57
+Pokemon = INFERNAPE,57
+Pokemon = ZOROARK,57
+Pokemon = LUCARIO,58
+#-------------------------------
+[ELITEFOUR_Lance,Yimmo]
+Items = FULLRESTORE
+LoseText = ...
+Pokemon = BULBASAUR,10
+#-------------------------------
+[LEADER_Brock,Frun]
+LoseText = ...
+Pokemon = EISCUE,40
+Pokemon = BEARTIC,40
+Pokemon = WALREIN,42
+#-------------------------------
+[YOUNGCOUPLE,Diego y Mystery]
+LoseText = ...
+Pokemon = FERROSEED,32
+Pokemon = CARNIVINE,33
+Pokemon = BRELOOM,32
+Pokemon = DOLLIV,33

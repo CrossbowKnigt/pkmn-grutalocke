@@ -549,3 +549,13 @@ BattleBGM = Madame_Broode_Battle_
 Name = Unnamed
 Gender = Male
 BaseMoney = 64
+#-------------------------------
+[ALTOMANDO]
+Name = Unnamed
+Gender = Male
+BaseMoney = 64
+#-------------------------------
+[ALTOMANDO_1]
+Name = Unnamed
+Gender = Male
+BaseMoney = 64
