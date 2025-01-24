@@ -549,7 +549,7 @@ Description = Un hueso de gran valor arqueológico que puede alcanzar un alto pr
 Name = Real de cobre
 NamePlural = Reales de cobre
 Pocket = 1
-Price = 0
+Price = 1000
 Flags = Fling_30
 Description = Moneda de cobre de más de tres mil años de antigüedad. Muy valorada por los coleccionistas.
 #-------------------------------
@@ -557,7 +557,7 @@ Description = Moneda de cobre de más de tres mil años de antigüedad. Muy valo
 Name = Real de plata
 NamePlural = Reales de plata
 Pocket = 1
-Price = 0
+Price = 5000
 Flags = Fling_30
 Description = Moneda de plata de más de tres mil años de antigüedad. Muy valorada por los coleccionistas.
 #-------------------------------
@@ -565,7 +565,7 @@ Description = Moneda de plata de más de tres mil años de antigüedad. Muy valo
 Name = Real de oro
 NamePlural = Reales de oro
 Pocket = 1
-Price = 60000
+Price = 10000
 Flags = Fling_30
 Description = Moneda de oro de más de tres mil años de antigüedad. Muy valorada por los coleccionistas.
 #-------------------------------
@@ -3636,8 +3636,8 @@ Description = Caramelo energético que aumenta mucho los Puntos de Experiencia d
 Name = Caramelo Raro
 NamePlural = Caramelos Raros
 Pocket = 2
-Price = 10000
-BPPrice = 20
+Price = 0
+BPPrice = 0
 FieldUse = OnPokemon
 Flags = Fling_30
 Description = Caramelo energético que sube a un Pokémon de nivel.
