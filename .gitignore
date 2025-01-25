@@ -3,7 +3,7 @@ Data/*
 !Data/Scripts.rxdata
 !Data/Scripts/
 !Data/messages_core.dat
-
+*.rxdata
 # Files in the main project folder
 errorlog.txt
 
