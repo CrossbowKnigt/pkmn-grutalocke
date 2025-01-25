@@ -247,6 +247,9 @@ BattleBack = rocky
 MapSize = 2,11
 Environment = Rock
 #-------------------------------
+[048]   # Casas toad interior
+Name = 
+#-------------------------------
 [049]   # Cueva de Roca P1
 Name = Cueva de Roca P1
 Bicycle = true
@@ -409,6 +412,9 @@ Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
+[076]   # Casa del jugador
+Name = Casa de Mario y Luigi
+#-------------------------------
 [077]   # Ruta 1 Cap-faro
 Name = Ruta 1
 Outdoor = true
@@ -421,6 +427,8 @@ Name = Castillo de Peach
 ShowArea = true
 SnapEdges = true
 BattleBack = FondoLaboratorio
+#-------------------------------
+[079]   # Centro Pokémon
 #-------------------------------
 [080]   # Cap Kingdom
 Name = Villa Chistera
@@ -441,7 +449,7 @@ SnapEdges = true
 BattleBack = FondoCap
 #-------------------------------
 [083]   # Interiores casas cap
-Name = Interiores casas cap
+Name = 
 #-------------------------------
 [084]   # Paso de ruta 2
 Name = Paso de ruta 2
@@ -463,6 +471,8 @@ BattleBack = FondoCascada
 [087]   # Centro Pokémon
 Name = Centro pokémon
 #-------------------------------
+[088]   # Paso de ruta 3
+#-------------------------------
 [089]   # Casa fosilmaníaco
 Name = Casa fosilmaníaco
 #-------------------------------
@@ -471,7 +481,7 @@ Name = Casa de Proacventure
 ShowArea = true
 #-------------------------------
 [091]   # Gym Klim
-Name = Gym Klim
+Name = Gimnasio Catarata
 #-------------------------------
 [092]   # Ruta 3
 Name = Ruta 3
@@ -511,16 +521,25 @@ ShowArea = true
 BattleBack = yellow2
 #-------------------------------
 [098]   # Pirámide invertida 2
-Name = Pirámide invertida 2
+Name = Pirámide invertida
 BattleBack = yellow2
 #-------------------------------
 [099]   # Pirámide invertida 3
-Name = Pirámide invertida 3
+Name = Pirámide invertida
 BattleBack = yellow2
 #-------------------------------
 [100]   # Knucklotek
 Name = Templo helado
 BattleBack = FondoCuevaHelada
+#-------------------------------
+[101]   # Pirámide 4
+Name = Pirámide invertida
+#-------------------------------
+[102]   # Gym Pacasa
+Name = Gimnasio Soltitlán
+#-------------------------------
+[103]   # Slots sand
+Name = Casino Soltitlán
 #-------------------------------
 [104]   # Ruta 5
 Name = Ruta 5
@@ -543,5 +562,19 @@ Name = Plaza Kutur
 ShowArea = true
 SnapEdges = true
 #-------------------------------
+[107]   # Centro Pokémon
+#-------------------------------
+[108]   # Universidad
+Name = Universidad Oceánica
+#-------------------------------
+[109]   # Gym Dan
+Name = Gimnasio Kutur
+#-------------------------------
 [110]   # Gym Dan 2
-Name = Gym Dan 2
+Name = Gimnasio Kutur
+#-------------------------------
+[111]   # Casa cascade random
+#-------------------------------
+[112]   # Paso de ruta 5
+#-------------------------------
+[113]   # Casa baile
