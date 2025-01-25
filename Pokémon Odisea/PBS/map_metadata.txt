@@ -539,7 +539,7 @@ SnapEdges = true
 BattleBack = FondoLago
 #-------------------------------
 [106]   # Lake underwater
-Name = Lake underwater
+Name = Plaza Kutur
 ShowArea = true
 SnapEdges = true
 #-------------------------------
