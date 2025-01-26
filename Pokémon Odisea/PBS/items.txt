@@ -6869,103 +6869,103 @@ Flags = KeyItem
 Description = Nave ancestral con forma de sombrero que te permite viajar a reinos ya visitados.
 #-------------------------------------------------------------------------------
 [HEADBUTTITEM]
-Name = Punching Gloves
-NamePlural = Punching Gloves
+Name = Guantes de boxeo
+NamePlural = Guantes de boxeo
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = Punch the tree to shake it.
+Description = Golpea el árbol para zarandearlo.
 #-------------------------------------------------------------------------------
 [FLASHITEM]
-Name = Lantern
-NamePlural = Lanterns
+Name = Linterna
+NamePlural = Linternas
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = This can be used to illuminate area.
+Description = Puede ser usado para iluminar áreas.
 #-------------------------------------------------------------------------------
 [DIGITEM]
-Name = Used Shovel
-NamePlural = Used Shovels
+Name = Pala usada
+NamePlural = Palas usadas
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = It is a Shovel, it can dig holes. Used to belong to a great knight.
+Description = Puede cavar agujeros para salir de cuevas. Pertenecía a un gran caballero.
 #-------------------------------------------------------------------------------
 [DIVEITEM]
-Name = Scuba Gear
-NamePlural = Scuba Gears
+Name = Equipo de buceo
+NamePlural = Equipos de buceo
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = It allows you breath under water.
+Description = Te permite respirar bajo el agua.
 #-------------------------------------------------------------------------------
 [SWEETSCENTITEM]
-Name = Essence Mixture
-NamePlural = Essence Mixture
+Name = Mezcla de esencias
+NamePlural = Mezclas de esencias
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = It allows you spread a sweet essence around you.
+Description = Te permite desprender un dulce aroma a tu alrededor.
 #-------------------------------------------------------------------------------
 [TELEPORTITEM]
-Name = Disk of returning
-NamePlural = Disks of returning
+Name = Disco de vuelta
+NamePlural = Discos de vuelta
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = This can be used to return to the last healing place.
+Description = Puede ser usado para volver al último punto de curación.
 #-------------------------------------------------------------------------------
 [WATERFALLITEM]
-Name = Float Barclet
-NamePlural = Float Barclet
+Name = Pulsera flotante
+NamePlural = Pulseras flotantes
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = Unique barclet that allow the user to swim up a waterfall.
+Description = Pulsera única que permite subir cascadas.
 #-------------------------------------------------------------------------------
 [WHIRLPOOLITEM]
-Name = Hand Paddles
-NamePlural = Hand Paddles
+Name = Aletas de manos
+NamePlural = Aletas de manos
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = Unique paddles that allow the user to swim a cross a whirlpool.
+Description = Aletas únicas que permiten atravesar torbellinos.
 #-------------------------------------------------------------------------------
 [ROCKCLIMBITEM]
-Name = Climbing Gear
-NamePlural = Climbing Gears
+Name = Equipo de escalada
+NamePlural = Equipos de escalada
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = This can be used to climb big ledges.
+Description = Puede ser usado para escalar precipicios.
 #-------------------------------------------------------------------------------
 [ICEBARRIEREITEM]
-Name = Ice Pick
-NamePlural = Ice Picks
+Name = Pico de hielo
+NamePlural = Picos de hielo
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = This can be used on ice barriers to break at ease.
+Description = Puede ser usado para romper barreras de hielo con facilidad.
 #-------------------------------------------------------------------------------
 [DEFOGITEM]
-Name = Magic Fan
-NamePlural = Magic Fans
+Name = Ventilador mágico
+NamePlural = Ventiladores mágicos
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = A magic fan that can push fog away..
+Description = Un ventilador mágico que puede disipar la niebla.
 #-------------------------------------------------------------------------------
 [WEATHERGADGETITEM]
 Name = Weather Gadget
