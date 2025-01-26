@@ -350,14 +350,6 @@ Pokemon = FEEBAS,23
 Pokemon = LUVDISC,23
 Pokemon = FINNEON,23
 #-------------------------------
-[DAN,Dan]
-Items = HYPERPOTION
-LoseText = ...
-Pokemon = JIGGLYPUFF,25
-Pokemon = TOGETIC,26
-Pokemon = AZUMARILL,27
-    Ability = HUGEPOWER
-#-------------------------------
 [FERBY,Ferby]
 LoseText = ...
 Pokemon = STARMIE,44
@@ -440,3 +432,15 @@ Pokemon = FERROSEED,32
 Pokemon = CARNIVINE,33
 Pokemon = BRELOOM,32
 Pokemon = DOLLIV,33
+#-------------------------------
+[DAN,Dan]
+LoseText = Hasta aquí el combate de hoy.
+Pokemon = JIGGLYPUFF,25
+Pokemon = TOGETIC,26
+Pokemon = AZUMARILL,27
+#-------------------------------
+[DAN,Dan,1]
+LoseText = Hasta aquí el combate de hoy.
+Pokemon = JIGGLYPUFF,26
+Pokemon = TOGETIC,27
+Pokemon = AZUMARILL,28
