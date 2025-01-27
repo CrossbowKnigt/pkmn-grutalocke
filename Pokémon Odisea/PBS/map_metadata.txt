@@ -248,7 +248,7 @@ MapSize = 2,11
 Environment = Rock
 #-------------------------------
 [048]   # Casas toad interior
-Name = 
+Name = Casas toad interior
 #-------------------------------
 [049]   # Cueva de Roca P1
 Name = Cueva de Roca P1
@@ -429,6 +429,7 @@ SnapEdges = true
 BattleBack = FondoLaboratorio
 #-------------------------------
 [079]   # Centro Pokémon
+Name = Centro Pokémon
 #-------------------------------
 [080]   # Cap Kingdom
 Name = Villa Chistera
@@ -449,7 +450,7 @@ SnapEdges = true
 BattleBack = FondoCap
 #-------------------------------
 [083]   # Interiores casas cap
-Name = 
+Name = Interiores casas cap
 #-------------------------------
 [084]   # Paso de ruta 2
 Name = Paso de ruta 2
@@ -472,6 +473,7 @@ BattleBack = FondoCascada
 Name = Centro pokémon
 #-------------------------------
 [088]   # Paso de ruta 3
+Name = Paso de ruta 3
 #-------------------------------
 [089]   # Casa fosilmaníaco
 Name = Casa fosilmaníaco
@@ -529,7 +531,9 @@ Name = Pirámide invertida
 BattleBack = yellow2
 #-------------------------------
 [100]   # Knucklotek
-Name = Templo helado
+Name = Núcleo del hielo
+ShowArea = true
+SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
 [101]   # Pirámide 4
@@ -563,6 +567,7 @@ ShowArea = true
 SnapEdges = true
 #-------------------------------
 [107]   # Centro Pokémon
+Name = Centro Pokémon
 #-------------------------------
 [108]   # Universidad
 Name = Universidad Oceánica
@@ -574,7 +579,10 @@ Name = Gimnasio Kutur
 Name = Gimnasio Kutur
 #-------------------------------
 [111]   # Casa cascade random
+Name = Casa cascade random
 #-------------------------------
 [112]   # Paso de ruta 5
+Name = Paso de ruta 5
 #-------------------------------
 [113]   # Casa baile
+Name = Casa baile
