@@ -586,3 +586,10 @@ Name = Paso de ruta 5
 #-------------------------------
 [113]   # Casa baile
 Name = Casa baile
+#-------------------------------
+[114]   # Ruta 6
+Name = Ruta 6
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
