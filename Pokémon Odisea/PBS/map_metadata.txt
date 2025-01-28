@@ -593,3 +593,4 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 SnapEdges = true
+BattleBack = FondoBosque
