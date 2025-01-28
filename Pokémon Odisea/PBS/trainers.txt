@@ -444,3 +444,23 @@ LoseText = Hasta aquí el combate de hoy.
 Pokemon = JIGGLYPUFF,26
 Pokemon = TOGETIC,27
 Pokemon = AZUMARILL,28
+#-------------------------------
+[MOCHILERO,Ezequiel]
+LoseText = ...
+Pokemon = SWADLOON,26
+Pokemon = MEOWSTIC,26
+#-------------------------------
+[JOVEN,Eloy]
+LoseText = ...
+Pokemon = YANMA,26
+Pokemon = IMPIDIMP,26
+Pokemon = CORVISQUIRE,26
+#-------------------------------
+[PESCADOR,César]
+LoseText = ...
+Pokemon = FLOATZEL,27
+#-------------------------------
+[RANGER,JohnRossums]
+LoseText = ...
+Pokemon = GRAFAIAI,27
+Pokemon = GROVYLE,27
