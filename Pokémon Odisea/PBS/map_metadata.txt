@@ -538,6 +538,7 @@ BattleBack = FondoCuevaHelada
 #-------------------------------
 [101]   # Pirámide 4
 Name = Pirámide invertida
+Outdoor = true
 #-------------------------------
 [102]   # Gym Pacasa
 Name = Gimnasio Soltitlán
@@ -589,6 +590,14 @@ Name = Casa baile
 #-------------------------------
 [114]   # Ruta 6
 Name = Ruta 6
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoBosque
+#-------------------------------
+[115]   # Wooded
+Name = Jardín de Vapor
 Outdoor = true
 ShowArea = true
 Bicycle = true
