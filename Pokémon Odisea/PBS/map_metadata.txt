@@ -603,3 +603,11 @@ ShowArea = true
 Bicycle = true
 SnapEdges = true
 BattleBack = FondoBosque
+#-------------------------------
+[117]   # Ruta 7
+Name = Ruta 7
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoBosque
