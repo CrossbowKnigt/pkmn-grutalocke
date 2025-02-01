@@ -559,3 +559,9 @@ BaseMoney = 64
 Name = Unnamed
 Gender = Male
 BaseMoney = 64
+#-------------------------------
+[SPEWART]
+Name = Broodal
+Gender = Male
+BaseMoney = 64
+BattleBGM = Broodals battle

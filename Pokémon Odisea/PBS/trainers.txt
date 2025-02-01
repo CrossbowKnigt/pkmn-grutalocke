@@ -485,3 +485,9 @@ LoseText = ...
 Pokemon = SWOOBAT,29
 Pokemon = VENONAT,29
 Pokemon = FOONGUS,29
+#-------------------------------
+[SPEWART,Spewart]
+LoseText = ...
+Pokemon = NIDORINO,30
+Pokemon = GRIMER,31
+Pokemon = DIGGERSBY,32
