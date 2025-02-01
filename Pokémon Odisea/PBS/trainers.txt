@@ -464,3 +464,24 @@ Pokemon = FLOATZEL,27
 LoseText = ...
 Pokemon = GRAFAIAI,27
 Pokemon = GROVYLE,27
+#-------------------------------
+[RECLUTA,Broodal,7]
+LoseText = ...
+Pokemon = PAWNIARD,28
+Pokemon = GREEDENT,28
+#-------------------------------
+[RECLUTA,Broodal,8]
+LoseText = ...
+Pokemon = GOLBAT,28
+Pokemon = FURRET,28
+#-------------------------------
+[RECLUTA,Broodal,9]
+LoseText = ...
+Pokemon = LINOONE,29
+Pokemon = ARIADOS,29
+#-------------------------------
+[RECLUTA,Broodal,10]
+LoseText = ...
+Pokemon = SWOOBAT,29
+Pokemon = VENONAT,29
+Pokemon = FOONGUS,29
