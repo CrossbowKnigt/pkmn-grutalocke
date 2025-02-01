@@ -604,8 +604,18 @@ Bicycle = true
 SnapEdges = true
 BattleBack = FondoBosque
 #-------------------------------
+[116]   # Centro Pokémon
+#-------------------------------
 [117]   # Ruta 7
 Name = Ruta 7
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoBosque
+#-------------------------------
+[118]   # Torre Jardin Flotante 
+Name = Torre Jardín Flotante
 Outdoor = true
 ShowArea = true
 Bicycle = true
