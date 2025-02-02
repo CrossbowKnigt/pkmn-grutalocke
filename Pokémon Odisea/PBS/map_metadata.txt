@@ -622,3 +622,11 @@ ShowArea = true
 Bicycle = true
 SnapEdges = true
 BattleBack = FondoBosque
+#-------------------------------
+[119]   # Ruta 8
+Name = Ruta 8
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoBosque
