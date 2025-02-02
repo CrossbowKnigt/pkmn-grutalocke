@@ -605,6 +605,7 @@ SnapEdges = true
 BattleBack = FondoBosque
 #-------------------------------
 [116]   # Centro Pokémon
+Name = Centro Pokémon
 #-------------------------------
 [117]   # Ruta 7
 Name = Ruta 7
