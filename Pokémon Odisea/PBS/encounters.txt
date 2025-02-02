@@ -314,11 +314,11 @@ Land,21
 Land,10
     20,HOOTHOOT,2,5
     20,RATTATA,2,5
-    20,SNOM,2,5
+    20,SHUPPET,2,5
     10,GASTLY,3,5
     10,POLIWAG,3,5
-    10,SHUPPET,3,5
-    5,DRIFLOON,3,5
+    10,DRIFLOON,3,5
+    5,DREEPY,3,5
     5,FROAKIE,5
 #-------------------------------
 [080] # Cap Kingdom
@@ -326,10 +326,10 @@ Land,10
     20,JOLTIK,2,4
     20,PURRLOIN,2,4
     20,ZUBAT,2,4
-    10,GREAVARD,3,4
+    10,DRIFLOON,3,4
     10,PHANTUMP,3,4
     10,PUMPKABOO,3,4
-    5,DRIFLOON,3,5
+    5,GREAVARD,3,5
     5,FROAKIE,5
 #-------------------------------
 [082] # Torre sombrero
@@ -340,7 +340,7 @@ Land,10
     10,JIGGLYPUFF,3,5
     10,MUNNA,3,5
     10,SKITTY,3,5
-    5,DRIFLOON,4,6
+    5,DREEPY,4,6
     5,LITWICK,4,6
 #-------------------------------
 [085] #  Ruta 2
@@ -348,7 +348,7 @@ Land,10
     20,GEODUDE,6,8
     20,MARILL,6,8
     20,STARLY,6,8
-    10,BLIPBUG,6,8
+    10,SURSKIT,6,8
     10,SKIDDO,6,8
     10,SMOLIV,6,8
     5,TURTWIG,8,9
@@ -368,7 +368,7 @@ Land,10
 [092] # Ruta 3
 Land,10
     20,SANDILE,12,14
-    20,SANDYGAST,12,14
+    20,WOOPER_1,12,14
     20,TRAPINCH,12,14
     10,BALTOY,13,14
     10,CACNEA,13,14
@@ -392,11 +392,12 @@ Land,10
     20,HIPPOPOTAS,15,17
     20,SILICOBRA,15,17
     20,SIZZLIPEDE,15,17
+    20,NOSEPASS,15,17
     10,BRAMBLIN,16,17
     10,LITLEO,16,17
-    10,NOSEPASS,16,17
+    10,NINCADA,16,17
     5,LARVESTA,17,18
-    5,MARACTUS,16,18
+    5,SCORBUNNY,16,18
 #-------------------------------
 [096] # Cueva yelo
 Cave,3
@@ -419,6 +420,7 @@ Cave,3
     10,YAMASK,18,19
     5,SIGILYPH,18,19
     5,STONJOURNER,18,19
+    5,LARVESTA,18,19
 #-------------------------------
 [098] # Pirámide invertida 2
 Cave,3
@@ -430,6 +432,7 @@ Cave,3
     10,YAMASK,18,19
     5,SIGILYPH,18,19
     5,STONJOURNER,18,19
+    5,LARVESTA,18,19
 #-------------------------------
 [099] # Pirámide invertida 3
 Cave,3
@@ -441,26 +444,27 @@ Cave,3
     10,YAMASK,18,19
     5,SIGILYPH,18,19
     5,STONJOURNER,18,19
+    5,LARVESTA,18,19
 #-------------------------------
 [104] # Ruta 5
 Land,10
     20,BIBAREL,20,22
     20,FLOETTE,20,22
     20,GOTHITA,20,22
-    12,PONYTA_1,21,22
-    12,SLOWPOKE,21,22
-    12,WIGLETT,21,22
-    2,COMFEY,22
-    2,ORICORIO_1,22
+    10,PONYTA_1,21,22
+    10,SLOWPOKE,21,22
+    10,WIGLETT,21,22
+    5,COMFEY,22
+    5,ORICORIO_2,22
 SuperRod
     20,FEEBAS,20
     20,LUVDISC,20
     20,MAGIKARP,20
-    12,FINNEON,20
-    12,FRILLISH,20
-    12,HORSEA,20
-    2,ALOMOMOLA,20
-    2,DRATINI,20
+    10,FINNEON,20
+    10,FRILLISH,20
+    10,HORSEA,20
+    5,CLAUNCHER,20
+    5,DRATINI,20
 #-------------------------------
 [105] # Lake Kingdom
 Land,10
