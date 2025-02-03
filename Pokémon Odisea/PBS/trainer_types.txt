@@ -571,3 +571,9 @@ Name = Rangers
 Gender = Unknown
 BaseMoney = 60
 SkillLevel = 32
+#-------------------------------
+[WILL]
+Name = Streamer
+Gender = Male
+BaseMoney = 100
+
