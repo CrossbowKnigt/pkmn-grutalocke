@@ -630,3 +630,9 @@ ShowArea = true
 Bicycle = true
 SnapEdges = true
 BattleBack = FondoBosque
+#-------------------------------
+[120]   # Arena Roboflor
+Name = Jardín de Vapor
+ShowArea = true
+SnapEdges = true
+BattleBack = FondoBosque

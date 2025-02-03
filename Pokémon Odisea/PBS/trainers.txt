@@ -491,3 +491,13 @@ LoseText = ...
 Pokemon = NIDORINO,30
 Pokemon = GRIMER,31
 Pokemon = DIGGERSBY,32
+#-------------------------------
+[RANGERS,Freelatas & Carlitos]
+LoseText = ...
+Pokemon = WHIRLIPEDE,29
+Pokemon = MAGNETON,30
+#-------------------------------
+[RANGERS,Rian & Deve]
+LoseText = ...
+Pokemon = WEEPINBELL,30
+Pokemon = PIDGEOTTO,30

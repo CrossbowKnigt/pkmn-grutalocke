@@ -565,3 +565,9 @@ Name = Broodal
 Gender = Male
 BaseMoney = 64
 BattleBGM = Broodals battle
+#-------------------------------
+[RANGERS]
+Name = Rangers
+Gender = Unknown
+BaseMoney = 60
+SkillLevel = 32
