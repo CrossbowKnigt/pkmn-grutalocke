@@ -6914,8 +6914,8 @@ Flags = KeyItem
 Description = Te permite desprender un dulce aroma a tu alrededor.
 #-------------------------------------------------------------------------------
 [TELEPORTITEM]
-Name = Disco de vuelta
-NamePlural = Discos de vuelta
+Name = Tableta Sheikah
+NamePlural = Tableta Sheikah
 Pocket = 8
 Price = 0
 FieldUse = Direct

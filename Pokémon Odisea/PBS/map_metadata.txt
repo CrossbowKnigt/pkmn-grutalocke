@@ -430,6 +430,7 @@ BattleBack = FondoLaboratorio
 #-------------------------------
 [079]   # Centro Pokémon
 Name = Centro Pokémon
+HealingSpot = 80,17,23
 #-------------------------------
 [080]   # Cap Kingdom
 Name = Villa Chistera
@@ -471,6 +472,7 @@ BattleBack = FondoCascada
 #-------------------------------
 [087]   # Centro Pokémon
 Name = Centro pokémon
+HealingSpot = 86,21,29
 #-------------------------------
 [088]   # Paso de ruta 3
 Name = Paso de ruta 3
@@ -502,6 +504,7 @@ BattleBack = FondoDesierto
 #-------------------------------
 [094]   # Centro Pokémon
 Name = Centro Pokémon
+HealingSpot = 93,27,26
 #-------------------------------
 [095]   # Ruta 4
 Name = Ruta 4
@@ -569,6 +572,7 @@ SnapEdges = true
 #-------------------------------
 [107]   # Centro Pokémon
 Name = Centro Pokémon
+HealingSpot = 106,22,16
 #-------------------------------
 [108]   # Universidad
 Name = Universidad Oceánica
@@ -606,6 +610,7 @@ BattleBack = FondoBosque
 #-------------------------------
 [116]   # Centro Pokémon
 Name = Centro Pokémon
+HealingSpot = 115,27,35
 #-------------------------------
 [117]   # Ruta 7
 Name = Ruta 7
