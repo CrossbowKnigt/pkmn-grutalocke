@@ -538,6 +538,7 @@ Name = Núcleo del hielo
 ShowArea = true
 SnapEdges = true
 BattleBack = FondoCuevaHelada
+WildBattleBGM = Knucklotec_Battle.ogg
 #-------------------------------
 [101]   # Pirámide 4
 Name = Pirámide invertida
@@ -641,3 +642,4 @@ Name = Jardín de Vapor
 ShowArea = true
 SnapEdges = true
 BattleBack = FondoBosque
+WildBattleBGM = Torkdrift Battle.ogg
