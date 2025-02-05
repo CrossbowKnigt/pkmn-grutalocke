@@ -532,3 +532,8 @@ Pokemon = FERROSEED,33
 Pokemon = BOUNSWEET,33
 Pokemon = BRELOOM,35
 Pokemon = ARBOLIVA,35
+#-------------------------------
+[MOCHILERO,Machochin]
+LoseText = ...
+Pokemon = LEAFEON,33
+Pokemon = TANGELA,33
