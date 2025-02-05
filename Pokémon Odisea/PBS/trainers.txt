@@ -446,22 +446,22 @@ Pokemon = TOGETIC,27
 Pokemon = AZUMARILL,28
 #-------------------------------
 [MOCHILERO,Ezequiel]
-LoseText = ...
+LoseText = GG.
 Pokemon = SWADLOON,26
 Pokemon = MEOWSTIC,26
 #-------------------------------
 [JOVEN,Eloy]
-LoseText = ...
+LoseText = GG.
 Pokemon = YANMA,26
 Pokemon = IMPIDIMP,26
 Pokemon = CORVISQUIRE,26
 #-------------------------------
 [PESCADOR,César]
-LoseText = ...
+LoseText = GG.
 Pokemon = FLOATZEL,27
 #-------------------------------
 [RANGER,JohnRossums]
-LoseText = ...
+LoseText = GG.
 Pokemon = GRAFAIAI,27
 Pokemon = GROVYLE,27
 #-------------------------------
@@ -493,12 +493,12 @@ Pokemon = GRIMER,31
 Pokemon = DIGGERSBY,32
 #-------------------------------
 [RANGERS,Freelatas & Carlitos]
-LoseText = ...
+LoseText = GG.
 Pokemon = WHIRLIPEDE,29
 Pokemon = MAGNETON,30
 #-------------------------------
 [RANGERS,Rian & Deve]
-LoseText = ...
+LoseText = GG.
 Pokemon = WEEPINBELL,30
 Pokemon = PIDGEOTTO,30
 #-------------------------------
@@ -506,3 +506,22 @@ Pokemon = PIDGEOTTO,30
 LoseText = ...
 Pokemon = UMBREON,32
 Pokemon = ESPEON,32
+#-------------------------------
+[MOCHILERA,Evain]
+LoseText = GG.
+Pokemon = ROSELIA,31
+Pokemon = SHIINOTIC,31
+#-------------------------------
+[MOCHILERO,Somedas]
+LoseText = GG.
+Pokemon = TOGEDEMARU,31
+Pokemon = PAWNIARD,31
+#-------------------------------
+[MOCHILERO,Jota]
+LoseText = GG.
+Pokemon = FERROSEED,32
+Pokemon = GROTLE,31
+#-------------------------------
+[MOCHILERO,Mochi]
+LoseText = GG.
+Pokemon = GOGOAT,32

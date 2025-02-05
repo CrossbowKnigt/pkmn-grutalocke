@@ -643,3 +643,9 @@ ShowArea = true
 SnapEdges = true
 BattleBack = FondoBosque
 WildBattleBGM = Torkdrift Battle.ogg
+#-------------------------------
+[122]   # Deep Woods
+Name = Corazón del bosque
+ShowArea = true
+SnapEdges = true
+BattleBack = FondoBosque
