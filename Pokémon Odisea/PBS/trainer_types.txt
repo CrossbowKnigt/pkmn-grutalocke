@@ -576,4 +576,10 @@ SkillLevel = 32
 Name = Streamer
 Gender = Male
 BaseMoney = 100
-
+#-------------------------------
+[DIEGO_Y_MYSTERY]
+Name = Líderes
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = Never_Let_Up
+VictoryBGM = Win fanfare

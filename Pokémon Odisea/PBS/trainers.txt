@@ -525,3 +525,10 @@ Pokemon = GROTLE,31
 [MOCHILERO,Mochi]
 LoseText = GG.
 Pokemon = GOGOAT,32
+#-------------------------------
+[DIEGO_Y_MYSTERY,Diego y Mystery]
+LoseText = GG.
+Pokemon = FERROSEED,33
+Pokemon = BOUNSWEET,33
+Pokemon = BRELOOM,35
+Pokemon = ARBOLIVA,35

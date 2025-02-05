@@ -19565,7 +19565,7 @@ Category = Lagartoxina
 Pokedex = Los machos están a merced de las hembras. Les ceden la mayoría de presas que capturan, y la falta de nutrientes les impide evolucionar.
 Generation = 7
 WildItemUncommon = SMOKEBALL
-Evolutions = SALAZZLE,LevelFemale,33
+Evolutions = SALAZZLE,Level,33
 #-------------------------------
 [SALAZZLE]
 Name = Salazzle
