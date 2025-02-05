@@ -131,15 +131,15 @@ Pokemon = AVALUGG,56
 Pokemon = TERAPAGOS,57
 #-------------------------------
 [JOVEN,Pedrito]
-LoseText = GG.
+LoseText = Naah my man, ¿Esto qué es?.
 Pokemon = SKIDDO,4
 #-------------------------------
 [CHICA,Flash]
-LoseText = GG.
+LoseText = ¡Pues si que se te nota con ganas!.
 Pokemon = PURRLOIN,4
 #-------------------------------
 [TOPPER,Topper]
-LoseText = No quería ponerme serio contigo.
+LoseText = Hmpf... Eres más fuerte de lo que pensaba.
 Pokemon = NIDORANmA,7
 Pokemon = MARILL,9
 #-------------------------------
