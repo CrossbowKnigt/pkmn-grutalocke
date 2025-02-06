@@ -477,7 +477,7 @@ Pokemon = FURRET,28
 #-------------------------------
 [RECLUTA,Broodal,9]
 LoseText = ...
-Pokemon = LINOONE,29
+Pokemon = LINOONE_1,29
 Pokemon = ARIADOS,29
 #-------------------------------
 [RECLUTA,Broodal,10]
@@ -530,13 +530,28 @@ Pokemon = GOGOAT,32
 LoseText = GG.
 Pokemon = FERROSEED,33
 Pokemon = BOUNSWEET,33
-Pokemon = BRELOOM,35
+Pokemon = LEAFEON,35
 Pokemon = ARBOLIVA,35
 #-------------------------------
 [MOCHILERO,Machochin]
 LoseText = ...
-Pokemon = LEAFEON,33
 Pokemon = TANGELA,33
+#-------------------------------
+[MOCHILERO,Román]
+LoseText = ...
+Pokemon = MAGNETON,33
+#-------------------------------
+[MOCHILERO,Paco]
+LoseText = ...
+Pokemon = BRELOOM,33
+#-------------------------------
+[MOCHILERO,Quantum]
+LoseText = ...
+Pokemon = GLOOM,33
+#-------------------------------
+[MOCHILERO,Snepy]
+LoseText = ...
+Pokemon = APPLETUN,33
 #-------------------------------
 [LUIGI,Luigi,2]
 LoseText = ...

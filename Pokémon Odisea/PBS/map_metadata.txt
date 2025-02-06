@@ -649,3 +649,7 @@ Name = Corazón del bosque
 ShowArea = true
 SnapEdges = true
 BattleBack = FondoBosque
+#-------------------------------
+[123]   # Salas entrenadores
+Name = Salas entrenadores
+BattleBack = FondoBosque
