@@ -537,3 +537,9 @@ Pokemon = ARBOLIVA,35
 LoseText = ...
 Pokemon = LEAFEON,33
 Pokemon = TANGELA,33
+#-------------------------------
+[LUIGI,Luigi,2]
+LoseText = ...
+Pokemon = MAROWAK_1,28
+Pokemon = GREAVARD,28
+Pokemon = DRIFBLIM,29
