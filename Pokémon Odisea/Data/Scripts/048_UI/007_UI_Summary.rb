@@ -670,7 +670,7 @@ class PokemonSummary_Scene
     ability = @pokemon.ability
     if ability
       textpos.push([ability.name, 330, 290, :left, Color.new(64, 64, 64), Color.new(176, 176, 176)])
-      drawTextEx(overlay, 228, 338, 282, 2, "[ESPECIAL]: Descripción", Color.new(64, 64, 64), Color.new(176, 176, 176))
+      drawTextEx(overlay, 228, 338, 282, 2, "[TECLA D]: Descripción", Color.new(64, 64, 64), Color.new(176, 176, 176))
     end
     # Draw all text
     pbDrawTextPositions(overlay, textpos)
