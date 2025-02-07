@@ -543,6 +543,7 @@ WildBattleBGM = Knucklotec_Battle.ogg
 [101]   # Pirámide 4
 Name = Pirámide invertida
 Outdoor = true
+SnapEdges = true
 #-------------------------------
 [102]   # Gym Pacasa
 Name = Gimnasio Soltitlán
