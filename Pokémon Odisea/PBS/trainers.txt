@@ -122,7 +122,7 @@ Pokemon = BLASTOISE,63
 LoseText = GGs hermano.
 Pokemon = DRIFLOON,5
 #-------------------------------
-[BOWSER,Bowser]
+[BOWSER,Bowser,1]
 LoseText = ¡Aaaagggghhhh!¿¡Cómo es posible!?
 Pokemon = TURTONATOR,55
 Pokemon = CARRACOSTA,55
@@ -558,3 +558,9 @@ LoseText = ...
 Pokemon = MAROWAK_1,28
 Pokemon = GREAVARD,28
 Pokemon = DRIFBLIM,29
+#-------------------------------
+[BOWSER,Bowser]
+LoseText = ¡Aaaagggghhhh!¿¡Cómo es posible!?
+Pokemon = TIRTOUGA,34
+Pokemon = TURTONATOR,34
+Pokemon = TORTERRA,34
