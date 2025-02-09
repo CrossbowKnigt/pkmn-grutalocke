@@ -271,12 +271,12 @@ Pokemon = SANDILE,16
 #-------------------------------
 [RANGER,JuegAriel]
 LoseText = ...
-Pokemon = MUNCHLAX,16
+Pokemon = MUNCHLAX,15
 Pokemon = SLAKOTH,16
 #-------------------------------
 [RANGER,Aruson]
 LoseText = GG.
-Pokemon = LARVESTA,17
+Pokemon = LARVESTA,16
 Pokemon = BRAMBLIN,16
 #-------------------------------
 [RANGER,BlackYoshi]
@@ -289,14 +289,14 @@ Pokemon = BAGON,17
 #-------------------------------
 [LUIGI,Luigi,1]
 LoseText = ...
-Pokemon = CUBONE,15
-Pokemon = GREAVARD,15
-Pokemon = DRIFLOON,17
+Pokemon = CUBONE,14
+Pokemon = GREAVARD,14
+Pokemon = DRIFLOON,16
 #-------------------------------
 [RECLUTA,Broodal,2]
 LoseText = ...
 Pokemon = RATTATA,18
-Pokemon = SENTRET,18
+Pokemon = ZIGZAGOON,18
 #-------------------------------
 [RECLUTA,Broodal,3]
 LoseText = Ya no voy a conseguir un ascenso...
@@ -331,7 +331,7 @@ Items = SUPERPOTION
 LoseText = ...
 Pokemon = GOLETT,22
 Pokemon = QUAGSIRE,23
-Pokemon = SANDSLASH,25
+Pokemon = SANDSLASH,24
 #-------------------------------
 [MOCHILERO,Juande]
 LoseText = ...
