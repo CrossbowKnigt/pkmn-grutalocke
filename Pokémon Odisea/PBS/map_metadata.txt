@@ -654,3 +654,17 @@ BattleBack = FondoBosque
 [123]   # Salas entrenadores
 Name = Salas entrenadores
 BattleBack = FondoBosque
+#-------------------------------
+[126]   # Ruta 9
+Name = Ruta 9
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoLago
+#-------------------------------
+[127]   # Cloud
+Name = Plaza Cúmulo
+Outdoor = true
+ShowArea = true
+SnapEdges = true
