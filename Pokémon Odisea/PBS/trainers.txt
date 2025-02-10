@@ -438,12 +438,14 @@ LoseText = Hasta aquí el combate de hoy.
 Pokemon = JIGGLYPUFF,25
 Pokemon = TOGETIC,26
 Pokemon = AZUMARILL,27
+    Shiny = true
 #-------------------------------
 [DAN,Dan,1]
 LoseText = Hasta aquí el combate de hoy.
 Pokemon = JIGGLYPUFF,26
 Pokemon = TOGETIC,27
 Pokemon = AZUMARILL,28
+    Shiny = true
 #-------------------------------
 [MOCHILERO,Ezequiel]
 LoseText = GG.
@@ -554,7 +556,7 @@ LoseText = ...
 Pokemon = APPLETUN,33
 #-------------------------------
 [LUIGI,Luigi,2]
-LoseText = ...
+LoseText = ggs hermano.
 Pokemon = MAROWAK_1,28
 Pokemon = GREAVARD,28
 Pokemon = DRIFBLIM,29
