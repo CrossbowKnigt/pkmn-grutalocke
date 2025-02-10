@@ -661,10 +661,11 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 SnapEdges = true
-BattleBack = FondoLago
+BattleBack = FondoPlaya
 #-------------------------------
 [127]   # Cloud
 Name = Plaza Cúmulo
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+BattleBack = FondoNube
