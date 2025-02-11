@@ -131,11 +131,11 @@ Pokemon = AVALUGG,56
 Pokemon = TERAPAGOS,57
 #-------------------------------
 [JOVEN,Pedrito]
-LoseText = Naah my man, ¿Esto qué es?.
+LoseText = Naah my man, ¿Esto qué es?
 Pokemon = SKIDDO,4
 #-------------------------------
 [CHICA,Flash]
-LoseText = ¡Pues si que se te nota con ganas!.
+LoseText = ¡Pues si que se te nota con ganas!
 Pokemon = PURRLOIN,4
 #-------------------------------
 [TOPPER,Topper]
@@ -154,7 +154,7 @@ Pokemon = NIDORINA,20
 Pokemon = BUNEARY,22
 #-------------------------------
 [JOVEN,Patatus]
-LoseText = GG.
+LoseText = Ostras, ¡Tus pokes si que molan!
 Pokemon = HOOTHOOT,3
 Pokemon = GREAVARD,5
 #-------------------------------
@@ -186,7 +186,7 @@ LoseText = Ya no voy a conseguir un ascenso...
 Pokemon = RATTATA,5
 #-------------------------------
 [RECLUTA,Broodal,1]
-LoseText = Ya no voy a conseguir un ascenso...
+LoseText = Pues empiezo bien mi carrera...
 Pokemon = ZUBAT,6
 #-------------------------------
 [RAFARQUERO,Rafarquero]
