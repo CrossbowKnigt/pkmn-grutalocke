@@ -669,3 +669,12 @@ Outdoor = true
 ShowArea = true
 SnapEdges = true
 BattleBack = FondoNube
+#-------------------------------
+[129]   # Lost
+Name = Isla Perdida
+Outdoor = true
+ShowArea = true
+Bicycle = true
+HealingSpot = 129,26,48
+SnapEdges = true
+BattleBack = FondoPantano
