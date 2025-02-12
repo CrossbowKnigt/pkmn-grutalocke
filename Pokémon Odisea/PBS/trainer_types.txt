@@ -491,7 +491,6 @@ Name = Líder
 Gender = Male
 BaseMoney = 100
 BattleBGM = King D Mind phase 2 - Super Kirby Clash Music [ ezmp3.cc ].ogg
-
 #-------------------------------
 [FERBY]
 Name = Líder
@@ -585,3 +584,8 @@ Gender = Unknown
 BaseMoney = 100
 BattleBGM = Boss - New Super Luigi U - Music [ ezmp3.cc ].ogg
 VictoryBGM = Win fanfare
+#-------------------------------
+[RECLUTAS]
+Name = Reclutas
+Gender = Unknown
+BaseMoney = 64

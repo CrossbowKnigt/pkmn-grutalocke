@@ -566,3 +566,9 @@ LoseText = ¡Aaaagggghhhh!¿¡Cómo es posible!?
 Pokemon = TIRTOUGA,34
 Pokemon = TURTONATOR,34
 Pokemon = TORTERRA,34
+#-------------------------------
+[RECLUTAS,Broodal & Broodal]
+LoseText = Poco me pagan
+Pokemon = GUMSHOOS,30
+Pokemon = FORRETRESS,30
+#-------------------------------
