@@ -577,7 +577,8 @@ Name = Centro Pokémon
 HealingSpot = 106,22,16
 #-------------------------------
 [108]   # Universidad
-Name = Universidad Oceánica
+Name = Universidad Kutur
+ShowArea = true
 #-------------------------------
 [109]   # Gym Dan
 Name = Gimnasio Kutur
@@ -670,6 +671,10 @@ ShowArea = true
 SnapEdges = true
 BattleBack = FondoNube
 #-------------------------------
+[128]   # Planta de arriba
+Name = Cafetería
+ShowArea = true
+#-------------------------------
 [129]   # Lost
 Name = Isla Perdida
 Outdoor = true
@@ -678,3 +683,14 @@ Bicycle = true
 HealingSpot = 129,26,48
 SnapEdges = true
 BattleBack = FondoPantano
+#-------------------------------
+[130]   # Clase 1
+Name = Clase 1
+#-------------------------------
+[132]   # Pasillo
+Name = Pasillo
+ShowArea = true
+#-------------------------------
+[133]   # Baño
+Name = Baño
+ShowArea = true
