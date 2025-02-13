@@ -7074,3 +7074,15 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = Estrella legendaria.
+#-------------------------------
+[PICHONA_MILK]
+Name = Café con leche de pichona
+NamePlural = Cafés con leche de pichona
+Pocket = 2
+Price = 350
+SellPrice = 200
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Bebida amarga pero dulce que restaura 70 PS de un Pokémon.
+#-------------------------------
