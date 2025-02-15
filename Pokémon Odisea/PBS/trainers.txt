@@ -530,8 +530,8 @@ Pokemon = GOGOAT,32
 #-------------------------------
 [DIEGO_Y_MYSTERY,Diego y Mystery]
 LoseText = GG.
-Pokemon = FERROSEED,33
 Pokemon = BOUNSWEET,33
+Pokemon = YANMEGA,33
 Pokemon = LEAFEON,35
 Pokemon = ARBOLIVA,35
 #-------------------------------
