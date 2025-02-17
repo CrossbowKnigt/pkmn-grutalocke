@@ -690,3 +690,14 @@ Land,10
     10,ARBOK,31,32
     5,ZWEILOUS,32
     5,VENUSAUR,32
+#-------------------------------
+[135] # Cueva
+Cave,3
+    20,NOIBAT,31,33
+    20,DUNSPARCE,31,33
+    20,ONIX,31,33
+    10,GLIMMET,32,33
+    10,SABLEYE,32,33
+    10,LAIRON,32,33
+    5,MAWILE,33
+    5,ZWEILOUS,33
