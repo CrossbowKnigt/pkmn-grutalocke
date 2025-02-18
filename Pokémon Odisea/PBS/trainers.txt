@@ -431,7 +431,7 @@ LoseText = ...
 Pokemon = FERROSEED,32
 Pokemon = CARNIVINE,33
 Pokemon = BRELOOM,32
-Pokemon = DOLLIV,33
+Pokemon = YANMEGA,33
 #-------------------------------
 [DAN,Dan]
 LoseText = Hasta aquí el combate de hoy.
