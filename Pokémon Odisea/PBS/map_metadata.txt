@@ -694,3 +694,9 @@ ShowArea = true
 [133]   # Baño
 Name = Baño
 ShowArea = true
+#-------------------------------
+[135]   # Cueva
+Name = Cueva Perdida
+ShowArea = true
+Bicycle = true
+BattleBack = FondoCueva
