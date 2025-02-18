@@ -589,3 +589,13 @@ VictoryBGM = Win fanfare
 Name = Reclutas
 Gender = Unknown
 BaseMoney = 64
+#-------------------------------
+[NADADOR]
+Name = Nadador
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[NADADORA]
+Name = Nadadora
+Gender = Female
+BaseMoney = 32
