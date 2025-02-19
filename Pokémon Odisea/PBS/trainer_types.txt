@@ -599,3 +599,8 @@ BaseMoney = 32
 Name = Nadadora
 Gender = Female
 BaseMoney = 32
+#-------------------------------
+[CHICA_PARASOL]
+Name = Chica Parasol
+Gender = Female
+BaseMoney = 64
