@@ -556,12 +556,59 @@ Pokemon = DRIFBLIM,29
 #-------------------------------
 [BOWSER,Bowser]
 LoseText = ¡Aaaagggghhhh!¿¡Cómo es posible!?
-Pokemon = TIRTOUGA,34
-Pokemon = TURTONATOR,34
-Pokemon = TORTERRA,34
+Pokemon = TIRTOUGA,35
+Pokemon = TURTONATOR,35
+Pokemon = TORTERRA,35
 #-------------------------------
 [RECLUTAS,Broodal & Broodal]
-LoseText = Poco me pagan
+LoseText = Poco me pagan.
 Pokemon = GUMSHOOS,30
 Pokemon = FORRETRESS,30
 #-------------------------------
+[RECLUTAS,Broodal]
+LoseText = Poco me pagan.
+Pokemon = GULPIN,24
+Pokemon = KOFFING,24
+#-------------------------------
+[RECLUTA,Broodal,11]
+LoseText = Poco me pagan.
+Pokemon = MAREANIE,24
+Pokemon = FURRET,24
+#-------------------------------
+[RECLUTA,Broodal,12]
+LoseText = Poco me pagan.
+Pokemon = GULPIN,24
+Pokemon = DUSTOX,24
+#-------------------------------
+[RECLUTA,Broodal,13]
+LoseText = Poco me pagan.
+Pokemon = KOFFING,24
+Pokemon = BEEDRILL,24
+#-------------------------------
+[NADADOR,Nicolás]
+LoseText = ...
+Pokemon = TENTACRUEL,33
+Pokemon = PELIPPER,33
+#-------------------------------
+[RANGER,Ricardo]
+LoseText = ...
+Pokemon = UNFEZANT,33
+Pokemon = CRABRAWLER,33
+Pokemon = SLOWBRO,33
+#-------------------------------
+[NADADORA,Victoria]
+LoseText = ...
+Pokemon = CORSOLA,34
+Pokemon = LUMINEON,34
+#-------------------------------
+[NADADOR,Ferro]
+LoseText = ...
+Pokemon = GOLDUCK,34
+Pokemon = MANTINE,34
+Pokemon = BARRASKEWDA,34
+#-------------------------------
+[CHICA_PARASOL,Noelia]
+LoseText = ...
+Pokemon = ROSERADE,35
+Pokemon = CHERRIM,35
+Pokemon = PERSIAN,35
