@@ -707,3 +707,11 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 SnapEdges = true
+#-------------------------------
+[145]   # Night Metro
+Name = Nueva Donk
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,100
+SnapEdges = true
