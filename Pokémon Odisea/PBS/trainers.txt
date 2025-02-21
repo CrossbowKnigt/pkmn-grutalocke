@@ -612,3 +612,10 @@ LoseText = ...
 Pokemon = ROSERADE,35
 Pokemon = CHERRIM,35
 Pokemon = PERSIAN,35
+#-------------------------------
+[PAULINE,Pauline]
+LoseText = ...
+Pokemon = RILLABOOM,37
+Pokemon = SKELEDIRGE,37
+Pokemon = PRIMARINA,37
+Pokemon = ALTARIA_1,38

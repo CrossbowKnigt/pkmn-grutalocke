@@ -604,3 +604,8 @@ BaseMoney = 32
 Name = Chica Parasol
 Gender = Female
 BaseMoney = 64
+#-------------------------------
+[PAULINE]
+Name = Alcaldesa
+Gender = Female
+BaseMoney = 100
