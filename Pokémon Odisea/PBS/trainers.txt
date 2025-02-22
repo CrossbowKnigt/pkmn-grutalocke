@@ -626,3 +626,33 @@ LoseText = Muy buen combate.
 Pokemon = MORPEKO,38
 Pokemon = JOLTEON,39
 Pokemon = KILOWATTREL,40
+#-------------------------------
+[E_GUAY,KillerDragon]
+LoseText = Bien jugado.
+Pokemon = ELECTABUZZ,37
+Pokemon = ZEBSTRIKA,37
+#-------------------------------
+[E_GUAY,iTor]
+LoseText = Bien jugado.
+Pokemon = PINCURCHIN,37
+Pokemon = BOLTUND,37
+#-------------------------------
+[E_GUAY,MTsergi]
+LoseText = Bien jugado.
+Pokemon = MAGNETON,37
+Pokemon = HELIOLISK,37
+#-------------------------------
+[E_GUAY,Darcus]
+LoseText = Bien jugado.
+Pokemon = PAWMOT,37
+Pokemon = LANTURN,37
+#-------------------------------
+[E_GUAY,Pabolg]
+LoseText = Bien jugado.
+Pokemon = VIKAVOLT,37
+Pokemon = ORICORIO,37
+#-------------------------------
+[E_GUAY,Javi]
+LoseText = Bien jugado.
+Pokemon = EELEKTROSS,37
+Pokemon = TOGEDEMARU,37
