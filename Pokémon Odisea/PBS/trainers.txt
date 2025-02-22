@@ -435,9 +435,10 @@ Pokemon = AZUMARILL,27
 #-------------------------------
 [DAN,Dan,1]
 LoseText = Hasta aquí el combate de hoy.
-Pokemon = JIGGLYPUFF,26
-Pokemon = TOGETIC,27
-Pokemon = AZUMARILL,28
+Pokemon = SYLVEON,25
+Pokemon = JIGGLYPUFF,25
+Pokemon = TOGETIC,26
+Pokemon = AZUMARILL,27
     Shiny = true
 #-------------------------------
 [MOCHILERO,Ezequiel]
@@ -619,3 +620,9 @@ Pokemon = RILLABOOM,37
 Pokemon = SKELEDIRGE,37
 Pokemon = PRIMARINA,37
 Pokemon = ALTARIA_1,38
+#-------------------------------
+[RODILLO,Rodillo]
+LoseText = Muy buen combate.
+Pokemon = MORPEKO,38
+Pokemon = JOLTEON,39
+Pokemon = KILOWATTREL,40

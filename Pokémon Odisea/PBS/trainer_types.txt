@@ -609,3 +609,8 @@ BaseMoney = 64
 Name = Alcaldesa
 Gender = Female
 BaseMoney = 100
+#-------------------------------
+[RODILLO]
+Name = Líder
+Gender = Male
+BaseMoney = 100
