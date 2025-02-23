@@ -507,11 +507,6 @@ Name = Líder
 Gender = Male
 BaseMoney = 100
 #-------------------------------
-[RODILLO]
-Name = Alto Mando
-Gender = Male
-BaseMoney = 100
-#-------------------------------
 [RAFARQUERO]
 Name = Campeón
 Gender = Male
