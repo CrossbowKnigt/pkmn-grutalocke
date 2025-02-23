@@ -199,14 +199,6 @@ Pokemon = ZERAORA,63
 Pokemon = TYRANITAR,65
 Pokemon = METAGROSS,65
 #-------------------------------
-[RODILLO,Rodillo]
-LoseText = ...
-Pokemon = DECIDUEYE,60
-Pokemon = GOLURK,60
-Pokemon = DRAGAPULT,61
-Pokemon = ANNIHILAPE,61
-Pokemon = GENGAR,62
-#-------------------------------
 [MOCHILERA,Marina]
 LoseText = GG.
 Pokemon = NACLI,11
