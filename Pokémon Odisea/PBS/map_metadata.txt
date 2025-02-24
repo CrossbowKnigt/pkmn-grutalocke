@@ -486,6 +486,7 @@ ShowArea = true
 #-------------------------------
 [091]   # Gym Klim
 Name = Gimnasio Catarata
+BattleBack = FondoGymKlim
 #-------------------------------
 [092]   # Ruta 3
 Name = Ruta 3
@@ -547,6 +548,7 @@ SnapEdges = true
 #-------------------------------
 [102]   # Gym Pacasa
 Name = Gimnasio Soltitlán
+BattleBack = FondoInterior
 #-------------------------------
 [103]   # Slots sand
 Name = Casino Soltitlán
@@ -585,6 +587,7 @@ Name = Gimnasio Kutur
 #-------------------------------
 [110]   # Gym Dan 2
 Name = Gimnasio Kutur
+BattleBack = 
 #-------------------------------
 [111]   # Casa cascade random
 Name = Casa cascade random
@@ -656,6 +659,10 @@ BattleBack = FondoBosque
 Name = Salas entrenadores
 BattleBack = FondoBosque
 #-------------------------------
+[124]   # Gimnasio Diego y Mystery
+Name = Gimnasio Diego y Mystery
+BattleBack = field
+#-------------------------------
 [126]   # Ruta 9
 Name = Ruta 9
 Outdoor = true
@@ -707,6 +714,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 SnapEdges = true
+BattleBack = FondoCiudad
 #-------------------------------
 [145]   # Night Metro
 Name = Nueva Donk
@@ -715,3 +723,8 @@ ShowArea = true
 Bicycle = true
 Weather = Storm,100
 SnapEdges = true
+BattleBack = FondoCiudadNoche
+#-------------------------------
+[149]   # Gym Rodillo
+Name = 
+BattleBack = FondoInteriorB

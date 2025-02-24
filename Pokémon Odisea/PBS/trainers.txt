@@ -231,7 +231,6 @@ Pokemon = TYRUNT,14
 LoseText = Bien jugado, ahora te diré la verdad.
 Pokemon = ROLYCOLY,11
 Pokemon = GEODUDE,12
-    Form = 1
 #-------------------------------
 [MOCHILERO,Garrek]
 LoseText = GG.
@@ -289,6 +288,7 @@ Pokemon = DRIFLOON,16
 LoseText = ...
 Pokemon = RATTATA,18
 Pokemon = ZIGZAGOON,18
+	Form = 1
 #-------------------------------
 [RECLUTA,Broodal,3]
 LoseText = Ya no voy a conseguir un ascenso...
@@ -365,6 +365,7 @@ Pokemon = TORKOAL,49
 [RANGO,Rango]
 LoseText = ...
 Pokemon = NIDORINO,24
+Pokemon = GOLBAT,24
 Pokemon = RABOOT,26
 #-------------------------------
 [ALUMNO,Bien]
@@ -465,7 +466,8 @@ Pokemon = FURRET,28
 #-------------------------------
 [RECLUTA,Broodal,9]
 LoseText = ...
-Pokemon = LINOONE_1,29
+Pokemon = LINOONE,29
+	Form = 1
 Pokemon = ARIADOS,29
 #-------------------------------
 [RECLUTA,Broodal,10]
@@ -544,6 +546,7 @@ Pokemon = APPLETUN,33
 [LUIGI,Luigi,2]
 LoseText = ggs hermano.
 Pokemon = MAROWAK_1,28
+	Form = 1
 Pokemon = GREAVARD,28
 Pokemon = DRIFBLIM,29
 #-------------------------------
@@ -629,7 +632,7 @@ LoseText = Bien jugado.
 Pokemon = PINCURCHIN,37
 Pokemon = BOLTUND,37
 #-------------------------------
-[E_GUAY,MTsergi]
+[E_GUAY,MTSergi]
 LoseText = Bien jugado.
 Pokemon = MAGNETON,37
 Pokemon = HELIOLISK,37
