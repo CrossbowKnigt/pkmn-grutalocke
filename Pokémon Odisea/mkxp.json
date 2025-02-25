@@ -151,7 +151,7 @@
     // refresh rate cannot be determined, this option is force-disabled. This
     // option may be force-disabled at build time.
     //
-    "syncToRefreshrate": false,,,,
+    "syncToRefreshrate": false,
 
     // The game's frame rate, if "syncToRefreshrate" is false.
     //
