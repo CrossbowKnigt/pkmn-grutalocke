@@ -609,3 +609,5 @@ BaseMoney = 100
 Name = Líder
 Gender = Male
 BaseMoney = 100
+BattleBGM = Counter Strike.ogg
+VictoryBGM = Win fanfare
