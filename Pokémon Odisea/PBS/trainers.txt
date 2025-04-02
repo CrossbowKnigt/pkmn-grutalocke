@@ -618,7 +618,7 @@ Pokemon = ALTARIA_1,38
 #-------------------------------
 [RODILLO,Rodillo]
 LoseText = Muy buen combate.
-Pokemon = MORPEKO,38
+Pokemon = ROTOM_2,38
 Pokemon = JOLTEON,39
 Pokemon = KILOWATTREL,40
 #-------------------------------
@@ -651,3 +651,31 @@ Pokemon = ORICORIO,37
 LoseText = Bien jugado.
 Pokemon = EELEKTROSS,37
 Pokemon = TOGEDEMARU,37
+#-------------------------------
+[MONTANERO,Lucatrónico]
+LoseText = GG.
+Pokemon = AVALUGG_1, 38
+	Form = 1
+#-------------------------------
+[MOCHILERO,Piercemundy]
+LoseText = GG.
+Pokemon = GOLDUCK,38
+Pokemon = FURFROU,38
+#-------------------------------
+[KARATEKA,Lex]
+LoseText = GG.
+Pokemon = HITMONLEE,38
+Pokemon = HITMONCHAN,38
+Pokemon = HITMONTOP,38
+#-------------------------------
+[KARATEKA,Vichino]
+LoseText = GG.
+Pokemon = MACHAMP,39
+#-------------------------------
+[KARATEKA,Ryu]
+LoseText = GG.
+Pokemon = CONKELDURR,39
+#-------------------------------
+[KARATEKA_F,Merylol]
+LoseText = GG.
+Pokemon = MIENSHAO, 40

@@ -723,3 +723,14 @@ Land,10
     10,MRMIME,35,36
     5,CHANSEY,36
     5,PORYGON,36
+#-------------------------------
+[151] # Ruta 10
+Land,10
+    20,SNORUNT,36,38
+    20,SNOM,36,38
+    20,BERGMITE,36,38
+    10,MRMIME_1,37,38
+    10,PILOSWINE,37,38
+    10,BEARTIC,37,38
+    5,ZORUA_1,39
+    5,ARCTIBAX,39

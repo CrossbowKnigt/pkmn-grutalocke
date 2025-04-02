@@ -611,3 +611,13 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Counter Strike.ogg
 VictoryBGM = Win fanfare
+#-------------------------------
+[KARATEKA]
+Name = Karateka
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[KARATEKA_F]
+Name = Karateka
+Gender = Female
+BaseMoney = 32

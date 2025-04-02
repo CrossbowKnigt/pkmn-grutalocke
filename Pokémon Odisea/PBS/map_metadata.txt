@@ -587,7 +587,6 @@ Name = Gimnasio Kutur
 #-------------------------------
 [110]   # Gym Dan 2
 Name = Gimnasio Kutur
-BattleBack = 
 #-------------------------------
 [111]   # Casa cascade random
 Name = Casa cascade random
@@ -726,5 +725,14 @@ SnapEdges = true
 BattleBack = FondoCiudadNoche
 #-------------------------------
 [149]   # Gym Rodillo
-Name = 
+Name = Gym Rodillo
 BattleBack = FondoInteriorB
+#-------------------------------
+[151]   # Ruta 10
+Name = Ruta 10
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,100
+SnapEdges = true
+BattleBack = FondoNieve
