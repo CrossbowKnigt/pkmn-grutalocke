@@ -736,3 +736,14 @@ Bicycle = true
 Weather = Snow,100
 SnapEdges = true
 BattleBack = FondoNieve
+#-------------------------------
+[155]   # Cueva Goombas
+Name = 
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoCuevaHelada
+#-------------------------------
+[156]   # Cueva Veneno
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoCuevaHelada

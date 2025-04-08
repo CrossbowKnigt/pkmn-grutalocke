@@ -52,8 +52,8 @@ LandNight,21
 Land,21
     50,RATTATA,12,15
     30,POOCHYENA,11,15
-    10,SHINX,10,11
     10,SHINX,10,12
+    10,SHINX,10,11
 Water,2
     60,MAGIKARP,7,10
     30,GOLDEEN,11,14
@@ -87,8 +87,8 @@ Land,21
     20,CATERPIE,10
     20,SUNKERN,12
     20,WEEDLE,10
-    15,PIDGEY,12,14
     15,PIDGEY,10,14
+    15,PIDGEY,12,14
     5,KAKUNA,10
     5,METAPOD,10
 LandNight,21
@@ -194,19 +194,19 @@ RockSmash,50
 #-------------------------------
 [049] # Cueva de Roca P1
 Cave,5
-    20,MAGNETON,14,17
     20,MAGNETON,14,16
-    20,NOSEPASS,13,14
+    20,MAGNETON,14,17
     20,NOSEPASS,14,15
+    20,NOSEPASS,13,14
     10,GEODUDE,13,15
     10,MAWILE,14,16
 #-------------------------------
 [050] # Cueva de Roca S1
 Cave,5
-    20,MAGNETON,14,17
     20,MAGNETON,14,16
-    20,NOSEPASS,13,14
+    20,MAGNETON,14,17
     20,NOSEPASS,14,15
+    20,NOSEPASS,13,14
     10,BURMY,14,16
     10,GEODUDE,13,15
 #-------------------------------
@@ -234,8 +234,8 @@ Land,21
     20,RHYHORN,16,18
     10,AIPOM,14,17
     10,GIRAFARIG,16,17
-    10,VENONAT,15,18
     10,VENONAT,15,17
+    10,VENONAT,15,18
     5,HERACROSS,15,17
     5,TAUROS,15,16
     4,PINSIR,16
@@ -266,13 +266,13 @@ Land,21
     20,MAREEP,16,18
     20,ODDISH,15,17
     13,BONSLY,14,16
-    10,DITTO,16,18
     10,DITTO,15,17
+    10,DITTO,16,18
     10,LOTAD,15,18
     10,LOTAD,15,17
     5,BONSLY,14,17
-    1,BONSLY,15
     1,BONSLY,15,16
+    1,BONSLY,15
 Water,2
     60,TENTACOOL,14,19
     30,MANTYKE,15,16
@@ -715,8 +715,8 @@ Land,10
 #-------------------------------
 [145] # Night Metro
 Land,10
-    20,PERSIAN,34,36
     20,KAKUNA,34,36
+    20,PERSIAN,34,36
     20,TRUBBISH,34,36
     10,BEEDRILL,35,36
     10,KOFFING,35,36
@@ -726,11 +726,51 @@ Land,10
 #-------------------------------
 [151] # Ruta 10
 Land,10
-    20,SNORUNT,36,38
+    20,CETODDLE,36,38
     20,SNOM,36,38
-    20,BERGMITE,36,38
+    20,SNORUNT,36,38
+    10,CASTFORM,37,38
     10,MRMIME_1,37,38
-    10,PILOSWINE,37,38
-    10,BEARTIC,37,38
+    10,SAWSBUCK,37,38
+    5,NINETALES_1,39
     5,ZORUA_1,39
-    5,ARCTIBAX,39
+SuperRod
+    20,SEEL,35
+    20,SHELLDER,35
+    20,SEALEO,35
+    10,ARCTOVISH,35
+    10,QWILFISH_1,35
+    10,VELUZA,35
+    5,LAPRAS,35
+    5,EMPOLEON,35
+Water,2
+     20,SEEL,35
+    20,SHELLDER,35
+    20,SEALEO,35
+    10,ARCTOVISH,35
+    10,QWILFISH_1,35
+    10,VELUZA,35
+    5,LAPRAS,35
+    5,EMPOLEON,35
+#-------------------------------
+[155] # Cueva Goombas
+Cave,3
+    20,BERGMITE,37,39
+    20,VANILLISH,37,39
+    20,PILOSWINE,37,39
+    10,EISCUE,38,39
+    10,BEARTIC,38,39
+    10,JYNX,38,39
+    5,DURALUDON,40
+    5,ARCTIBAX,40
+#-------------------------------
+[156] # Cueva Veneno
+Cave,3
+    20,BERGMITE,37,39
+    20,VANILLISH,37,39
+    20,PILOSWINE,37,39
+    10,EISCUE,38,39
+    10,BEARTIC,38,39
+    10,JYNX,38,39
+    5,DURALUDON,40
+    5,ARCTIBAX,40
