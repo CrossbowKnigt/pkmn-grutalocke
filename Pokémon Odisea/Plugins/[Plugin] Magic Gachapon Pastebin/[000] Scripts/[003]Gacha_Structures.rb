@@ -164,7 +164,7 @@ def gachaponRead(string)
     end
     eval(string)
   else
-    defaultBanner
+    defaultBanner2
   end
     $syslock = false
 end
@@ -182,6 +182,15 @@ end
 def openGacha
   banners = []  
   aux = defaultBannerConfig
+  aux.each_value{|value|
+    banners.insert(0, Banner.new(value["name"],value["rewards"],value["stars"],value["bg"],value["url"],value["descr"]))
+  }
+  GachaScene.new(banners)
+end
+
+def openGacha2
+  banners = []  
+  aux = defaultBannerConfig2
   aux.each_value{|value|
     banners.insert(0, Banner.new(value["name"],value["rewards"],value["stars"],value["bg"],value["url"],value["descr"]))
   }

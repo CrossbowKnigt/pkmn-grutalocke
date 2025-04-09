@@ -37,3 +37,27 @@ def defaultBanner
     itemReward(result,5)
  end  
 end
+
+def defaultBannerConfig2
+  config  = {
+      "banner" => {
+              "name" => "Paralell Gacha",
+              "bg" => "Graphics/Battlebacks/champion1_bg",
+              "rewards" => ["Graphics/Pokemon/Front/CHIKORITA_1","Graphics/Pokemon/Front/CYNDAQUIL_2","Graphics/Pokemon/Front/TOTODILE_1"],
+              "stars" => [5, 5, 5],
+              "url" => nil,
+              "descr" =>  "<ac><b>¡Increíble Banner!</b></ac>\n¡Mira cuántos objetos! ¿No te parece súper guay? ¡Puedes hacerte con todos dejándote el dinero en este banner!\n<ac>Disponible hasta el <c2=043c3aff>25-12-1995</c2>\n\n<u><b>Premios obtenibles:</b></u> \n*Tier 1 (35%)*\nPoción, Antídoto, Antiparalizador, Antiquemar, Antihielo, Despertar, Poké Ball, Baya Aranja, Baya Meloc, Baya Zreza, Baya Atania, Baya Safre, Baya Perasi, Baya Caquic, Zumo de Baya, Repelente, Miniseta, Polvo Estelar, Éter, Elixir, Baya Zanama\n\n*Tier 2 (40%)*\nBola de Humo, Súperball, Cura Total, Agua Fresca, Refresco, Súperpoción, Baya Ziuela, Baya Higog, Baya Wiki, Baya Ango, Baya Guaya, Baya Pabaya, Súperrepelente, Seta grande, Perla, Hueso Raro, Globo Helio, Éter Máximo, Élixir Máximo, Baya Grana, Baya Algama, Baya Íspero, Baya Meluce, Baya Uvav, Baya Tamate, Pokémuñeco\n\n*Tier 3 (15%)*\nRevivir, Hiperpoción, Limonada, Máx. Repelente, Perla Grande, Pepita, Trozo Estrella, Polvo Brillo, Refleluz, Lodo Negro, Cinta Experto, Periscopio, Carbón, Agua Mística, Imán, Semilla Milagro, Antiderretir, Cinturón Negro, Flecha Venenosa, Arena Fina, Pico afilado, Cuchara Torcida, Polvo Plata, Piedra Dura, Hechizo, Colmillo Dragón, Gafas de Sol, Revestimiento Metálico, Pañuelo de Seda, Pluma Feérica, Leche Mu-mu, PP Máximos, Ultraball, Baya Zidra, Escudo Habilidad, Amuleto Puro, Gafa Protectora\n\n*Tier 4 (7%)*\nSeta Aroma, Sarta de Perlas, Casco Dentado, Chaleco Asalto, Huevo Suerte, Moneda Amuleto, Cascabel Alivio, Campana Concha, Llamasfera, Toxisfera, Máx. Revivir, Banda Focus, PP Máx., Cápsula Habilidad, Mineral Evolutivo\n\n*Tier 5 (3%)*\nFragmento Cometa, Maxipepita, Cinta Elección, Gafas Elección, Pañuelo Elección, Restos, Vidaesfera, Master Ball, Parche Habilidad\n\nNo nos hacemos responsables de los problemas que puedan surgir a partir de este juego del demonio. Úsese con responsabilidad."
+              }
+      }
+  return config
+end
+
+def defaultBanner2
+  prob = rand(42)
+  case prob
+  when (1...42)
+    pokes = [:ABRA_2, :ALAKAZAM_2, :ARCANINE_2, :BAYLEEF_1, :CHIKORITA_1, :CROBAT_1, :CROCONAW_1, :CYNDAQUIL_2, :DODRIO_1, :DODUO_1, :FERALIGATR_1, :GASTLY_2, :GENGAR_2, :GOLBAT_1, :GROWLITHE_2, :HAUNTER_2, :HOOTHOOT_1, :HORSEA_1, :HOUNDOOM_2, :HOUNDOUR_2, :KADABRA_2, :KINGDRA_1, :MACHAMP_1, :MACHOKE_1, :MACHOP_1, :MAGCARGO_1, :MEGANIUM_1, :NOCTOWL_1, :PIDGEOTTO_2, :PIDGEOT_2, :PIDGEY_2, :PONYTA_2, :PORYGON2_1, :PORYGONZ_1, :PORYGON_1, :QUILAVA_2, :RAPIDASH_2, :SEADRA_1, :SLUGMA_1, :TOTODILE_1, :TYPHLOSION_2, :ZUBAT_1]
+    result = pokes[rand(pokes.length)]
+    pokeReward(Pokemon.new(result,20,$player),5)
+ end  
+end
