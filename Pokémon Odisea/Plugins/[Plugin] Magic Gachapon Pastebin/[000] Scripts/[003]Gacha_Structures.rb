@@ -164,9 +164,15 @@ def gachaponRead(string)
     end
     eval(string)
   else
-    defaultBanner2
+    if $gacha_id == 1
+      defaultBanner
+    elsif $gacha_id == 2
+      defaultBanner2
+    else
+      pbMessage("Si estás leyendo esto es porque Ferby es tonto y no ha sabido programar el gacha, en tal caso avisa por el discord, gracias")
+    end
   end
-    $syslock = false
+  $syslock = false
 end
   
 $syslock = false
@@ -180,6 +186,7 @@ def system(*args)
 end
 
 def openGacha
+  $gacha_id = 1
   banners = []  
   aux = defaultBannerConfig
   aux.each_value{|value|
@@ -189,6 +196,7 @@ def openGacha
 end
 
 def openGacha2
+  $gacha_id = 2
   banners = []  
   aux = defaultBannerConfig2
   aux.each_value{|value|
