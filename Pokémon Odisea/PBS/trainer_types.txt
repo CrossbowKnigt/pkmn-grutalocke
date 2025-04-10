@@ -621,3 +621,14 @@ BaseMoney = 32
 Name = Karateka
 Gender = Female
 BaseMoney = 32
+#-------------------------------
+[PANDIN]
+Name = Grinder épico
+Gender = Male
+BaseMoney = 64
+#-------------------------------
+[FRUN]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+VictoryBGM = Win fanfare
