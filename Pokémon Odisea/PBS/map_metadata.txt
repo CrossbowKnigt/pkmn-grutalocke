@@ -738,12 +738,18 @@ SnapEdges = true
 BattleBack = FondoNieve
 #-------------------------------
 [155]   # Cueva Goombas
-Name = 
+Name = Cueva Goombas
 Bicycle = true
 SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
 [156]   # Cueva Veneno
+Name = Cueva Veneno
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoCuevaHelada
+#-------------------------------
+[157]   # Cueva shards
 Bicycle = true
 SnapEdges = true
 BattleBack = FondoCuevaHelada
