@@ -7066,6 +7066,15 @@ FieldUse = Direct
 Flags = KeyItem
 Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
 #-------------------------------------------------------------------------------
+[LUNANARANJA]
+Name = Luna Naranja
+NamePlural = 
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Fragmento de luna muy común encontrada en varios reinos. Procede de una era lejana...
+#-------------------------------------------------------------------------------
 [ESTRELLA]
 Name = Súper Estrella
 NamePlural = 

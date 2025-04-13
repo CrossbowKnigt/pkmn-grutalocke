@@ -692,7 +692,7 @@ Pokemon = HOUNDSTONE,40
 Pokemon = MIMIKYU,42
 Pokemon = DRIFBLIM,42
 #-------------------------------
-[RANGO,Rango]
+[RANGO,Rango,2]
 LoseText = ...
 Pokemon = NIDOKING,41
 Pokemon = CROBAT,42
@@ -704,3 +704,20 @@ Pokemon = EISCUE,43
 Pokemon = WALREIN,44
 Pokemon = SANDSLASH,45
 	Form = 1
+#-------------------------------
+[RECLUTA,Broodal,14]
+LoseText = Poco me pagan.
+Pokemon = WEEZING,40
+Pokemon = PERSIAN,40
+#-------------------------------
+[RECLUTA,Broodal,15]
+LoseText = Poco me pagan.
+Pokemon = MUK,40
+	Form = 1
+Pokemon = PERSIAN,40
+	Form = 1
+#-------------------------------
+[RECLUTA,Broodal,16]
+LoseText = Poco me pagan.
+Pokemon = GARBODOR,41
+Pokemon = PERRSERKER,41

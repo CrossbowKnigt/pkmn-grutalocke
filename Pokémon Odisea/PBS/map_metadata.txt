@@ -737,19 +737,33 @@ Weather = Snow,100
 SnapEdges = true
 BattleBack = FondoNieve
 #-------------------------------
+[152]   # Snow
+Name = Friolandia
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoCuevaHelada
+#-------------------------------
 [155]   # Cueva Goombas
-Name = Cueva Goombas
+Name = Cueva Friolandia
 Bicycle = true
 SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
 [156]   # Cueva Veneno
-Name = Cueva Veneno
+Name = Cueva Friolandia
 Bicycle = true
 SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
 [157]   # Cueva shards
+Name = Cueva Friolandia
 Bicycle = true
 SnapEdges = true
 BattleBack = FondoCuevaHelada
+#-------------------------------
+[159]   # Cueva Rango
+Name = Cueva Friolandia
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoNieve

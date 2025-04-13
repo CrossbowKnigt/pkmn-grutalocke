@@ -803,3 +803,14 @@ Water,2
     10,VELUZA,35
     5,LAPRAS,35
     5,EMPOLEON,35
+#-------------------------------
+[159] # Cueva Rango
+Cave,3
+    20,BERGMITE,37,39
+    20,VANILLISH,37,39
+    20,PILOSWINE,37,39
+    10,EISCUE,38,39
+    10,BEARTIC,38,39
+    10,JYNX,38,39
+    5,DURALUDON,40
+    5,ARCTIBAX,40
