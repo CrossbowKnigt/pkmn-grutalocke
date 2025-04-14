@@ -7343,3 +7343,63 @@ BackSprite = 0,20
 FrontSprite = 0,17
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[LUNARIS]
+BackSprite = 0,0
+FrontSprite = -4,14
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[PONYTA,2]
+BackSprite = 0,0
+FrontSprite = -5,16
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[PIDGEY,2]
+BackSprite = 0,0
+FrontSprite = 5,20
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[PIDGEOTTO,2]
+BackSprite = 0,0
+FrontSprite = 8,15
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[PIDGEOT,2]
+BackSprite = 0,0
+FrontSprite = 9,-3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[MEGANIUM,1]
+BackSprite = 0,0
+FrontSprite = -4,4
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[MAGCARGO,1]
+BackSprite = 0,0
+FrontSprite = 3,17
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[MACHOP,1]
+BackSprite = 0,0
+FrontSprite = 1,17
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[MACHOKE,1]
+BackSprite = 0,0
+FrontSprite = -1,11
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[MACHAMP,1]
+BackSprite = 0,0
+FrontSprite = -11,3
+ShadowX = 0
+ShadowSize = 3
