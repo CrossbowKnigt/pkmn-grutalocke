@@ -762,6 +762,12 @@ Bicycle = true
 SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
+[158]   # Cueva Pandin
+Name = Ruta 10
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoCuevaHelada
+#-------------------------------
 [159]   # Cueva Rango
 Name = Cueva Friolandia
 Bicycle = true

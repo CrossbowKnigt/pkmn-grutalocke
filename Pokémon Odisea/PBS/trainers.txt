@@ -288,7 +288,7 @@ Pokemon = DRIFLOON,16
 LoseText = ...
 Pokemon = RATTATA,18
 Pokemon = ZIGZAGOON,18
-	Form = 1
+    Form = 1
 #-------------------------------
 [RECLUTA,Broodal,3]
 LoseText = Ya no voy a conseguir un ascenso...
@@ -467,7 +467,7 @@ Pokemon = FURRET,28
 [RECLUTA,Broodal,9]
 LoseText = ...
 Pokemon = LINOONE,29
-	Form = 1
+    Form = 1
 Pokemon = ARIADOS,29
 #-------------------------------
 [RECLUTA,Broodal,10]
@@ -546,7 +546,7 @@ Pokemon = APPLETUN,33
 [LUIGI,Luigi,2]
 LoseText = ggs hermano.
 Pokemon = MAROWAK_1,28
-	Form = 1
+    Form = 1
 Pokemon = GREAVARD,28
 Pokemon = DRIFBLIM,29
 #-------------------------------
@@ -610,11 +610,13 @@ Pokemon = CHERRIM,35
 Pokemon = PERSIAN,35
 #-------------------------------
 [PAULINE,Pauline]
+Items = MEGARING
 LoseText = ...
 Pokemon = RILLABOOM,37
 Pokemon = SKELEDIRGE,37
 Pokemon = PRIMARINA,37
 Pokemon = ALTARIA_1,38
+    Item = ALTARIANITE
 #-------------------------------
 [RODILLO,Rodillo]
 LoseText = Muy buen combate.
@@ -654,8 +656,8 @@ Pokemon = TOGEDEMARU,37
 #-------------------------------
 [MONTANERO,Lucatrónico]
 LoseText = GG.
-Pokemon = AVALUGG_1, 38
-	Form = 1
+Pokemon = AVALUGG_1,38
+    Form = 1
 #-------------------------------
 [MOCHILERO,Piercemundy]
 LoseText = GG.
@@ -678,16 +680,20 @@ Pokemon = CONKELDURR,39
 #-------------------------------
 [KARATEKA_F,Merylol]
 LoseText = GG.
-Pokemon = MIENSHAO, 40
+Pokemon = MIENSHAO,40
 #-------------------------------
 [PANDIN,Pandin]
-LoseText = GG.
-Pokemon = GLALIE_1, 42
+Items = MEGARING
+LoseText = ...
+Pokemon = PANGORO,39
+Pokemon = MANECTRIC_1,40
+    Item = MANECTITE
+Pokemon = GLALIE,42
 #-------------------------------
 [LUIGI,Luigi,3]
 LoseText = ggs hermano.
 Pokemon = MAROWAK_1,39
-	Form = 1
+    Form = 1
 Pokemon = HOUNDSTONE,40
 Pokemon = MIMIKYU,42
 Pokemon = DRIFBLIM,42
@@ -699,11 +705,12 @@ Pokemon = CROBAT,42
 Pokemon = CINDERACE,43
 #-------------------------------
 [FRUN,Frun]
+LoseText = ...
 Pokemon = BEARTIC,42
 Pokemon = EISCUE,43
 Pokemon = WALREIN,44
 Pokemon = SANDSLASH,45
-	Form = 1
+    Form = 1
 #-------------------------------
 [RECLUTA,Broodal,14]
 LoseText = Poco me pagan.
@@ -713,9 +720,9 @@ Pokemon = PERSIAN,40
 [RECLUTA,Broodal,15]
 LoseText = Poco me pagan.
 Pokemon = MUK,40
-	Form = 1
+    Form = 1
 Pokemon = PERSIAN,40
-	Form = 1
+    Form = 1
 #-------------------------------
 [RECLUTA,Broodal,16]
 LoseText = Poco me pagan.
