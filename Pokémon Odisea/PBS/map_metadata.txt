@@ -773,3 +773,8 @@ Name = Cueva Friolandia
 Bicycle = true
 SnapEdges = true
 BattleBack = FondoNieve
+#-------------------------------
+[160]   # Gym Frun
+Name = 
+SnapEdges = true
+BattleBack = FondoCuevaHielo
