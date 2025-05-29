@@ -1208,7 +1208,6 @@ if Item_Fly[:active]
       $scene.transfer_player
       $game_map.autoplay
       $game_map.refresh
-      pbWait(Graphics.frame_rate / 4)
     }
     pbEraseEscapePoint
   end
