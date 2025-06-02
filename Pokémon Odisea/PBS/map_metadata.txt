@@ -775,6 +775,14 @@ SnapEdges = true
 BattleBack = FondoNieve
 #-------------------------------
 [160]   # Gym Frun
-Name = 
+Name = Gym Frun
 SnapEdges = true
 BattleBack = FondoCuevaHielo
+#-------------------------------
+[161]   # Ruta 11
+Name = Ruta 11
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+BattleBack = FondoPlaya

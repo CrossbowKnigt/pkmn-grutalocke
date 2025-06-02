@@ -728,3 +728,42 @@ Pokemon = PERSIAN,40
 LoseText = Poco me pagan.
 Pokemon = GARBODOR,41
 Pokemon = PERRSERKER,41
+#-------------------------------
+[CICLISTA,Nicolás Tullido]
+LoseText = Mejor correr bien que correr rápido.
+Pokemon = LIEPARD,43
+Pokemon = PURUGLY,43
+#-------------------------------
+[NADADORA,Pola]
+LoseText = ...
+Pokemon = CURSOLA,44
+Pokemon = MILOTIC,44
+#-------------------------------
+[NADADOR,Marco]
+LoseText = ...
+Pokemon = GRAPPLOCT,44
+Pokemon = GYARADOS,44
+#-------------------------------
+[NINO_BIEN,José Miguel]
+LoseText = ...
+Pokemon = PERSIAN,44
+    Form = 1
+Pokemon = GHOLDENGO,44
+#-------------------------------
+[NINA_BIEN,Carolina]
+LoseText = ...
+Pokemon = ALCREMIE,44
+Pokemon = BLISSEY,44
+#-------------------------------
+[E_GUAY,Cristian]
+LoseText = Bien jugado.
+Pokemon = STOUTLAND,45
+Pokemon = PALOSSAND,45
+Pokemon = FLAMIGO,45
+#-------------------------------
+[E_GUAYf,Emma]
+LoseText = Bien jugado.
+Pokemon = ALOMOMOLA,45
+Pokemon = CINCCINO,45
+Pokemon = SYLVEON,45
+#-------------------------------
