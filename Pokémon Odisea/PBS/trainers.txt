@@ -782,3 +782,4 @@ Pokemon = ALOMOMOLA,45
 Pokemon = CINCCINO,45
 Pokemon = SYLVEON,45
 #-------------------------------
+
