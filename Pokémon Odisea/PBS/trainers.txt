@@ -695,7 +695,7 @@ LoseText = ggs hermano.
 Pokemon = MAROWAK_1,39
     Form = 1
 Pokemon = HOUNDSTONE,40
-Pokemon = MIMIKYU,42
+Pokemon = MIMIKYU,40
 Pokemon = DRIFBLIM,42
 #-------------------------------
 [RANGO,Rango,2]
@@ -703,6 +703,21 @@ LoseText = ...
 Pokemon = NIDOKING,41
 Pokemon = CROBAT,42
 Pokemon = CINDERACE,43
+#-------------------------------
+[E_GUAY,Landaris]
+LoseText = Bien jugado.
+Pokemon = MAMOSWINE,42
+Pokemon = CETITAN,42
+#-------------------------------
+[E_GUAY,Fredomel]
+LoseText = Bien jugado.
+Pokemon = VANILLISH,42
+Pokemon = MRRIME,42
+#-------------------------------
+[E_GUAYf,Camila]
+LoseText = Bien jugado.
+Pokemon = FROSMOTH,42
+Pokemon = FROSLASS,42
 #-------------------------------
 [FRUN,Frun]
 LoseText = ...
