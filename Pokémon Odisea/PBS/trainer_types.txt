@@ -632,3 +632,18 @@ Name = Líder
 Gender = Male
 BaseMoney = 100
 VictoryBGM = Win fanfare
+#-------------------------------
+[NINO_BIEN]
+Name = Niño Bien
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[NINA_BIEN]
+Name = Niña Bien
+Gender = Female
+BaseMoney = 100
+#-------------------------------
+[CICLISTA]
+Name = Ciclista
+Gender = Male
+BaseMoney = 32
