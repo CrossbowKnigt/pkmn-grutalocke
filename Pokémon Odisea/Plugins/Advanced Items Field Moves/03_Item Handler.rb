@@ -77,7 +77,7 @@ Item_RockClimb      = AdvancedItemsFieldMoves::ROCKCLIMB_CONFIG
 #===============================================================================
 # Rock Smash
 #===============================================================================
-# This Game $stats handle by this plugin [Overwrites the defualt essentials]
+# This Game $stats handle by this plugin [Overwrites the default essentials]
 
 if Item_RockSmash[:active]
 
@@ -885,11 +885,11 @@ if Item_Dive[:active]
   return false if !map_metadata || !map_metadata.dive_map_id
   move = :DIVE
   movefinder = $player.get_pokemon_with_move(move)
-  if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_DIVE, false) || (!$DEBUG && !movefinder)
-    pbMessage(_INTL("The sea is deep here. A Pokémon may be able to go underwater."))
+  if !pbCanUseItem(Item_Dive)
+    pbMessage(_INTL("El mar es profundo aquí. Podría usar el equipo de buceo en esta zona."))
     return false
   end
-    if pbConfirmMessage(_INTL("The sea is deep here. Would you like to use Dive?"))
+    if pbConfirmMessage(_INTL("El mar es muy profundo. ¿Quieres bucear aquí"))
       item_name = GameData::Item.get(Item_Dive[:internal_name]).name
       pbMessage(_INTL("{1} used {2}!", $player.name, item_name))
       pbHiddenMoveAnimation(nil)
@@ -921,10 +921,10 @@ end
   end
     return if !surface_map_id
     if !pbCanUseItem(Item_Dive)
-      pbMessage(_INTL("Light is filtering down from above. A Pokémon may be able to surface here."))
+      pbMessage(_INTL("La luz se está filtrando desde arriba. Podría usar el equipo de buceo en esta zona."))
       return false
     end
-    if pbConfirmMessage(_INTL("Light is filtering down from above. Would you like to use Dive?"))
+    if pbConfirmMessage(_INTL("La luz se está filtrando desde arriba. ¿Quieres bucear aquí?"))
       item_name = GameData::Item.get(Item_Dive[:internal_name]).name
       pbMessage(_INTL("{1} used {2}!", $player.name, item_name))
       pbHiddenMoveAnimation(nil)

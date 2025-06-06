@@ -21937,7 +21937,7 @@ Evolutions = GRAPPLOCT,HasMove,TAUNT
 #-------------------------------
 [GRAPPLOCT]
 Name = Grapploct
-Types = FIGHTING
+Types = WATER,FIGHTING
 BaseStats = 80,118,90,42,70,80
 GenderRatio = Female50Percent
 GrowthRate = Parabolic

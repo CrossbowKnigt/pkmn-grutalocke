@@ -213,6 +213,7 @@ MapSize = 1,111
 Name = Reino Champiñón
 Outdoor = true
 ShowArea = true
+MapPosition = 0,17,2
 SnapEdges = true
 BattleBack = FondoColina
 WildBattleBGM = bowser-battle-theme
@@ -419,6 +420,7 @@ Name = Casa de Mario y Luigi
 Name = Ruta 1
 Outdoor = true
 ShowArea = true
+MapPosition = 0,13,2
 SnapEdges = true
 BattleBack = FondoCap
 #-------------------------------
@@ -436,6 +438,7 @@ HealingSpot = 80,17,23
 Name = Villa Chistera
 Outdoor = true
 ShowArea = true
+MapPosition = 0,13,3
 SnapEdges = true
 BattleBack = FondoCap
 #-------------------------------
@@ -447,6 +450,7 @@ ShowArea = true
 Name = Torre sombrero
 Outdoor = true
 ShowArea = true
+MapPosition = 0,14,2
 SnapEdges = true
 BattleBack = FondoCap
 #-------------------------------
@@ -460,6 +464,8 @@ Name = Paso de ruta 2
 Name = Ruta 2
 Outdoor = true
 ShowArea = true
+Bicycle = true
+MapPosition = 0,12,3
 SnapEdges = true
 BattleBack = FondoCascada
 #-------------------------------
@@ -467,6 +473,8 @@ BattleBack = FondoCascada
 Name = Salto del Fósil
 Outdoor = true
 ShowArea = true
+Bicycle = true
+MapPosition = 0,10,3
 SnapEdges = true
 BattleBack = FondoCascada
 #-------------------------------
@@ -492,7 +500,9 @@ BattleBack = FondoGymKlim
 Name = Ruta 3
 Outdoor = true
 ShowArea = true
+Bicycle = true
 Weather = Sun,100
+MapPosition = 0,8,5
 SnapEdges = true
 BattleBack = FondoDesierto
 #-------------------------------
@@ -500,6 +510,7 @@ BattleBack = FondoDesierto
 Name = Ciudad Soltitlán
 Outdoor = true
 ShowArea = true
+MapPosition = 0,10,8
 SnapEdges = true
 BattleBack = FondoDesierto
 #-------------------------------
@@ -511,27 +522,33 @@ HealingSpot = 93,27,26
 Name = Ruta 4
 Outdoor = true
 ShowArea = true
+Bicycle = true
 Weather = Sandstorm,100
+MapPosition = 0,10,6
 SnapEdges = true
 BattleBack = FondoDesierto
 #-------------------------------
 [096]   # Cueva yelo
 Name = Templo helado
 ShowArea = true
+MapPosition = 0,11,6
 SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
 [097]   # Pirámide invertida 1
 Name = Pirámide invertida
 ShowArea = true
+MapPosition = 0,9,6
 BattleBack = yellow2
 #-------------------------------
 [098]   # Pirámide invertida 2
 Name = Pirámide invertida
+MapPosition = 0,9,6
 BattleBack = yellow2
 #-------------------------------
 [099]   # Pirámide invertida 3
 Name = Pirámide invertida
+MapPosition = 0,9,6
 BattleBack = yellow2
 #-------------------------------
 [100]   # Knucklotek
@@ -544,6 +561,7 @@ WildBattleBGM = Knucklotec_Battle.ogg
 [101]   # Pirámide 4
 Name = Pirámide invertida
 Outdoor = true
+MapPosition = 0,9,6
 SnapEdges = true
 #-------------------------------
 [102]   # Gym Pacasa
@@ -558,6 +576,7 @@ Name = Ruta 5
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,8,10
 SnapEdges = true
 BattleBack = FondoLago
 #-------------------------------
@@ -566,12 +585,14 @@ Name = Lago Kutur
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,8,12
 SnapEdges = true
 BattleBack = FondoLago
 #-------------------------------
 [106]   # Lake underwater
 Name = Plaza Kutur
 ShowArea = true
+MapPosition = 0,9,12
 SnapEdges = true
 #-------------------------------
 [107]   # Centro Pokémon
@@ -602,6 +623,7 @@ Name = Ruta 6
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,6,12
 SnapEdges = true
 BattleBack = FondoBosque
 #-------------------------------
@@ -610,6 +632,7 @@ Name = Jardín de Vapor
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,4,12
 SnapEdges = true
 BattleBack = FondoBosque
 #-------------------------------
@@ -622,6 +645,7 @@ Name = Ruta 7
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,4,10
 SnapEdges = true
 BattleBack = FondoBosque
 #-------------------------------
@@ -630,6 +654,7 @@ Name = Torre Jardín Flotante
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,4,8
 SnapEdges = true
 BattleBack = FondoBosque
 #-------------------------------
@@ -638,12 +663,14 @@ Name = Ruta 8
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,3,10
 SnapEdges = true
 BattleBack = FondoBosque
 #-------------------------------
 [120]   # Arena Roboflor
 Name = Jardín de Vapor
 ShowArea = true
+MapPosition = 0,2,10
 SnapEdges = true
 BattleBack = FondoBosque
 WildBattleBGM = Torkdrift Battle.ogg
@@ -651,6 +678,7 @@ WildBattleBGM = Torkdrift Battle.ogg
 [122]   # Deep Woods
 Name = Corazón del bosque
 ShowArea = true
+MapPosition = 0,4,11
 SnapEdges = true
 BattleBack = FondoBosque
 #-------------------------------
@@ -667,6 +695,7 @@ Name = Ruta 9
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,7,15
 SnapEdges = true
 BattleBack = FondoPlaya
 #-------------------------------
@@ -674,6 +703,7 @@ BattleBack = FondoPlaya
 Name = Plaza Cúmulo
 Outdoor = true
 ShowArea = true
+MapPosition = 0,10,15
 SnapEdges = true
 BattleBack = FondoNube
 #-------------------------------
@@ -687,6 +717,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 HealingSpot = 129,26,48
+MapPosition = 0,13,18
 SnapEdges = true
 BattleBack = FondoPantano
 #-------------------------------
@@ -705,6 +736,7 @@ ShowArea = true
 Name = Cueva Perdida
 ShowArea = true
 Bicycle = true
+MapPosition = 0,14,18
 BattleBack = FondoCueva
 #-------------------------------
 [136]   # Day Metro
@@ -712,8 +744,17 @@ Name = Nueva Donk
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,16,15
 SnapEdges = true
 BattleBack = FondoCiudad
+#-------------------------------
+[139]   # Monte Cúmulo
+Name = Monte Cúmulo
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,15
+SnapEdges = true
+BattleBack = FondoCueva
 #-------------------------------
 [145]   # Night Metro
 Name = Nueva Donk
@@ -721,6 +762,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Storm,100
+MapPosition = 0,16,15
 SnapEdges = true
 BattleBack = FondoCiudadNoche
 #-------------------------------
@@ -734,6 +776,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Snow,100
+MapPosition = 0,19,13
 SnapEdges = true
 BattleBack = FondoNieve
 #-------------------------------
@@ -741,24 +784,28 @@ BattleBack = FondoNieve
 Name = Friolandia
 ShowArea = true
 Bicycle = true
+MapPosition = 0,19,11
 SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
 [155]   # Cueva Goombas
 Name = Cueva Friolandia
 Bicycle = true
+MapPosition = 0,20,11
 SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
 [156]   # Cueva Veneno
 Name = Cueva Friolandia
 Bicycle = true
+MapPosition = 0,18,11
 SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
 [157]   # Cueva shards
 Name = Cueva Friolandia
 Bicycle = true
+MapPosition = 0,20,10
 SnapEdges = true
 BattleBack = FondoCuevaHelada
 #-------------------------------
@@ -771,6 +818,7 @@ BattleBack = FondoCuevaHelada
 [159]   # Cueva Rango
 Name = Cueva Friolandia
 Bicycle = true
+MapPosition = 0,18,10
 SnapEdges = true
 BattleBack = FondoNieve
 #-------------------------------
@@ -784,5 +832,23 @@ Name = Ruta 11
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,22,15
 SnapEdges = true
 BattleBack = FondoPlaya
+#-------------------------------
+[163]   # Seaside
+Name = Playa Pulpièrre
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,24,15
+DiveMap = 165
+SnapEdges = true
+BattleBack = FondoPlaya
+#-------------------------------
+[165]   # Seaside underwater
+Name = Playa Pulpiérre
+ShowArea = true
+MapPosition = 0,25,15
+SnapEdges = true
+BattleBack = FondoMarino
