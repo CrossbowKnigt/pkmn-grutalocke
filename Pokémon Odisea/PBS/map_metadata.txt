@@ -846,6 +846,12 @@ DiveMap = 165
 SnapEdges = true
 BattleBack = FondoPlaya
 #-------------------------------
+[164]   # Gimnasio Ferby
+Name = Gimnasio Pulpièrre
+ShowArea = true
+SnapEdges = true
+BattleBack = FondoPantano
+#-------------------------------
 [165]   # Seaside underwater
 Name = Playa Pulpiérre
 ShowArea = true
