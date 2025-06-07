@@ -793,7 +793,7 @@ Pokemon = VAPOREON,45
 Pokemon = GASTRODON,45
 Pokemon = POLITOED,45
 #-------------------------------
-[E_GUAYF,Gwen]
+[E_GUAYf,Gwen]
 LoseText = Bien jugado.
 Pokemon = KINGLER,45
 Pokemon = BASCULEGION,45
