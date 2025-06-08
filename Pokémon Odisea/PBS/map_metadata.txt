@@ -474,9 +474,10 @@ Name = Salto del Fósil
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,10,3
+MapPosition = 0,9,3
 SnapEdges = true
 BattleBack = FondoCascada
+MapSize = 2,1100
 #-------------------------------
 [087]   # Centro Pokémon
 Name = Centro pokémon
