@@ -782,6 +782,20 @@ Pokemon = ALOMOMOLA,45
 Pokemon = CINCCINO,45
 Pokemon = SYLVEON,45
 #-------------------------------
+[MOCHILERO,Gio]
+LoseText = Bien jugado.
+Pokemon = BOMBIRDIER,46
+#-------------------------------
+[ALUMNA,Victoria]
+LoseText = Bien jugado.
+Pokemon = EMOLGA,45
+Pokemon = AMPHAROS,45
+#-------------------------------
+[ALUMNO,Hollow]
+LoseText = Bien jugado.
+Pokemon = PELIPPER,45
+Pokemon = CRAWDAUNT,45
+#-------------------------------
 [RANGER,Volibear]
 LoseText = Bien jugado.
 Pokemon = SLOWKING,46
