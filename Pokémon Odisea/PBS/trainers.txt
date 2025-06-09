@@ -760,23 +760,23 @@ Pokemon = GRAPPLOCT,44
 Pokemon = GYARADOS,44
 #-------------------------------
 [NINO_BIEN,José Miguel]
-LoseText = ...
+LoseText = Bien jugado.
 Pokemon = PERSIAN,44
     Form = 1
 Pokemon = GHOLDENGO,44
 #-------------------------------
 [NINA_BIEN,Carolina]
-LoseText = ...
+LoseText = Bien jugado.
 Pokemon = ALCREMIE,44
 Pokemon = BLISSEY,44
 #-------------------------------
 [E_GUAY,Cristian]
-LoseText = Bien jugado.
-Pokemon = STOUTLAND,45
-Pokemon = PALOSSAND,45
-Pokemon = FLAMIGO,45
+LoseText = Bien jugado, juapo LUL.
+Pokemon = LICKILICKY,45
+Pokemon = BEWEAR,45
+Pokemon = MISMAGIUS,45
 #-------------------------------
-[E_GUAYf,Emma]
+[E_GUAYf,Miku]
 LoseText = Bien jugado.
 Pokemon = ALOMOMOLA,45
 Pokemon = CINCCINO,45
@@ -786,7 +786,7 @@ Pokemon = SYLVEON,45
 LoseText = Bien jugado.
 Pokemon = BOMBIRDIER,46
 #-------------------------------
-[ALUMNA,Victoria]
+[ALUMNA,Mar]
 LoseText = Bien jugado.
 Pokemon = EMOLGA,45
 Pokemon = AMPHAROS,45
