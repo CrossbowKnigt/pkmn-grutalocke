@@ -746,7 +746,7 @@ ShowArea = true
 Name = Cueva Perdida
 ShowArea = true
 Bicycle = true
-MapPosition = 0,14,18
+MapPosition = 0,12,18
 BattleBack = FondoCueva
 #-------------------------------
 [136]   # Day Metro

@@ -344,10 +344,10 @@ Pokemon = FINNEON,23
 #-------------------------------
 [FERBY,Ferby]
 LoseText = ...
-Pokemon = STARMIE,44
-Pokemon = WISHIWASHI,44
-Pokemon = PALAFIN,45
-Pokemon = LAPRAS,46
+Pokemon = STARMIE,46
+Pokemon = WISHIWASHI,47
+Pokemon = PALAFIN,48
+Pokemon = LAPRAS,49
 #-------------------------------
 [DARKWON,Darkwon]
 LoseText = ...
@@ -817,3 +817,23 @@ Pokemon = LUVDISC,45
 LoseText = Bien jugado.
 Pokemon = DONDOZO,46
 Pokemon = TATSUGIRI,46
+#-------------------------------
+[RECLUTA,Broodal,17]
+LoseText = Poco me pagan.
+Pokemon = BISHARP,47
+Pokemon = GRIMMSNARL,47
+#-------------------------------
+[RECLUTA,Broodal,18]
+LoseText = Poco me pagan.
+Pokemon = SALAZZLE,47
+Pokemon = CACTURNE,47
+#-------------------------------
+[RECLUTA,Broodal,19]
+LoseText = Poco me pagan.
+Pokemon = ZANGOOSE,48
+Pokemon = WEAVILE,48
+#-------------------------------
+[RECLUTA,Broodal,20]
+LoseText = Poco me pagan.
+Pokemon = SEVIPER,48
+Pokemon = ARBOK,48
