@@ -431,7 +431,7 @@ SuperRod
     10,GYARADOS,35
     10,QWILFISH_1,35
     10,VELUZA,35
-    5,LAPRAS,35
+    5,EISCUE,35
     5,EMPOLEON,35
 Water,2
      20,SEEL,35
@@ -440,7 +440,7 @@ Water,2
     10,GYARADOS,35
     10,QWILFISH_1,35
     10,VELUZA,35
-    5,LAPRAS,35
+    5,EISCUE,35
     5,EMPOLEON,35
 #-------------------------------
 [155] # Cueva Goombas
@@ -482,7 +482,7 @@ SuperRod
     10,GYARADOS,35
     10,QWILFISH_1,35
     10,VELUZA,35
-    5,LAPRAS,35
+    5,EISCUE,35
     5,EMPOLEON,35
 Water,2
      20,SEEL,35
@@ -491,7 +491,7 @@ Water,2
     10,GYARADOS,35
     10,QWILFISH_1,35
     10,VELUZA,35
-    5,LAPRAS,35
+    5,EISCUE,35
     5,EMPOLEON,35
 #-------------------------------
 [159] # Cueva Rango
@@ -538,7 +538,7 @@ Water,2
 SuperRod
     20,TENTACRUEL,40
     20,SEADRA,40
-    20,LUMINEON,40
+    20,LAPRAS,40
     10,GRAPPLOCT,40
     10,SHARPEDO,40
     10,PALAFIN,40
@@ -547,7 +547,7 @@ SuperRod
 Water,2
     20,TENTACRUEL,40
     20,SEADRA,40
-    20,LUMINEON,40
+    20,LAPRAS,40
     10,GRAPPLOCT,40
     10,SHARPEDO,40
     10,PALAFIN,40
