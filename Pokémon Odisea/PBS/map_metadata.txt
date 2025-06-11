@@ -871,3 +871,22 @@ MapPosition = 0,24,15
 SnapEdges = true
 BattleBack = FondoMarino
 MapSize = 2,1100
+#-------------------------------
+[167]   # Ruta 12
+Name = Ruta 12
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,24,11
+SnapEdges = true
+BattleBack = FondoLuncheon
+MapSize = 1,1111
+#-------------------------------
+[170]   # Plaza Delisubio
+Name = Ciudad de los Fogones
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,24,9
+SnapEdges = true
+BattleBack = FondoLuncheon
