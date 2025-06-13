@@ -837,3 +837,26 @@ Pokemon = WEAVILE,48
 LoseText = Poco me pagan.
 Pokemon = SEVIPER,48
 Pokemon = ARBOK,48
+#-------------------------------
+[SPEWART,Spewart,1]
+LoseText = ...
+Pokemon = NIDOKING,47
+Pokemon = MUK,48
+Pokemon = DIGGERSBY,50
+#-------------------------------
+[RANGER,Satoru]
+LoseText = Bien jugado.
+Pokemon = TALONFLAME,50
+Pokemon = LYCANROC,50
+Pokemon = CHIMECHO,50
+#-------------------------------
+[RANGER,Migue]
+LoseText = Bien jugado.
+Pokemon = THROH,51
+Pokemon = ZEBSTRIKA,51
+#-------------------------------
+[RANGER,Riusevic]
+LoseText = Bien jugado.
+Pokemon = ARMALDO,51
+Pokemon = SWANNA,51
+
