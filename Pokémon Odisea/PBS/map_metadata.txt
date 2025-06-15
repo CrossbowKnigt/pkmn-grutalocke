@@ -900,3 +900,13 @@ MapPosition = 0,22,8
 SnapEdges = true
 BattleBack = FondoLuncheon
 MapSize = 1,11
+#-------------------------------
+[175]   # Ruta 14
+Name = Ruta 14
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,24,6
+SnapEdges = true
+BattleBack = FondoLuncheon
+MapSize = 1,111
