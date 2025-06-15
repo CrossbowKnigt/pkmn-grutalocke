@@ -1,5 +1,5 @@
 --- EXPORTACIÓN DE EVENTOS RPG MAKER XP ---
-Fecha: 2025-06-14 15:59:26 +0200
+Fecha: 2025-06-15 13:29:50 +0200
 
 ==================================================
 MAPA ID: 1 - Nombre: Desconocido
@@ -33231,24 +33231,14 @@ MAPA ID: 104 - Nombre: Desconocido
 MAPA ID: 105 - Nombre: Desconocido
 ==================================================
 
---- Evento ID: 38 - Nombre: EV038 (X:10, Y:4) ---
+--- Evento ID: 49 - Nombre: EV049 (X:64, Y:16) ---
   Página: 1
-    [101] ["Al Norte: Ruta 5\\n Al Sur: Ciudad Kutur\\n Al Oeste: "]
-      TEXTO: "Al Norte: Ruta 5\n Al Sur: Ciudad Kutur\n Al Oeste: "
-    [401] ["Ruta 6"]
-      TEXTO: "Ruta 6"
-    [0] []
-
---- Evento ID: 27 - Nombre: invisiwall (X:17, Y:24) ---
-  Página: 1
-    [0] []
-
---- Evento ID: 5 - Nombre: EV005 (X:15, Y:15) ---
-  Página: 1
-    [111] [6, -1, 2]
+    [111] [6, -1, 6]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
@@ -33275,14 +33265,12 @@ MAPA ID: 105 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 49 - Nombre: EV049 (X:64, Y:16) ---
+--- Evento ID: 5 - Nombre: EV005 (X:15, Y:15) ---
   Página: 1
-    [111] [6, -1, 6]
+    [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
@@ -33292,27 +33280,16 @@ MAPA ID: 105 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 44 - Nombre: ArbolCorte (X:2, Y:6) ---
-  Página: 1
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [111] [12, "pbCut"]
-      CONDITIONAL BRANCH: Type 12, Value pbCut
-    [250] [#<RPG::AudioFile>]
-    [355] ["pbSmashThisEvent"]
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 33 - Nombre: invisiwall (X:20, Y:23) ---
+--- Evento ID: 27 - Nombre: invisiwall (X:17, Y:24) ---
   Página: 1
     [0] []
 
---- Evento ID: 22 - Nombre: invisiwall (X:17, Y:25) ---
+--- Evento ID: 38 - Nombre: EV038 (X:10, Y:4) ---
   Página: 1
+    [101] ["Al Norte: Ruta 5\\n Al Sur: Ciudad Kutur\\n Al Oeste: "]
+      TEXTO: "Al Norte: Ruta 5\n Al Sur: Ciudad Kutur\n Al Oeste: "
+    [401] ["Ruta 6"]
+      TEXTO: "Ruta 6"
     [0] []
 
 --- Evento ID: 11 - Nombre: Tubo -> abajo (X:26, Y:26) ---
@@ -33334,45 +33311,27 @@ MAPA ID: 105 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 39 - Nombre: EV039 (X:8, Y:14) ---
-  Página: 1
-    [101] ["Toma y calla que me espantas los peces."]
-      TEXTO: "Toma y calla que me espantas los peces."
-    [111] [12, "pbReceiveItem(:SUPERROD)"]
-      CONDITIONAL BRANCH: Type 12, Value pbReceiveItem(:SUPERROD)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [123] ["A", 0]
-    [0] []
-  Página: 2
-    [101] ["Vete y no me espantes los peces."]
-      TEXTO: "Vete y no me espantes los peces."
-    [0] []
-
---- Evento ID: 28 - Nombre: invisiwall (X:17, Y:23) ---
+--- Evento ID: 22 - Nombre: invisiwall (X:17, Y:25) ---
   Página: 1
     [0] []
 
---- Evento ID: 17 - Nombre: Rango (X:48, Y:17) ---
+--- Evento ID: 33 - Nombre: invisiwall (X:20, Y:23) ---
   Página: 1
-    [0] []
-  Página: 2
     [0] []
 
---- Evento ID: 6 - Nombre: EV006 (X:14, Y:16) ---
+--- Evento ID: 44 - Nombre: ArbolCorte (X:2, Y:6) ---
   Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [111] [12, "pbCut"]
+      CONDITIONAL BRANCH: Type 12, Value pbCut
     [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
+    [355] ["pbSmashThisEvent"]
+    [123] ["A", 0]
     [0] []
     [412] []
+    [0] []
+  Página: 2
     [0] []
 
 --- Evento ID: 50 - Nombre: EV050 (X:64, Y:18) ---
@@ -33392,41 +33351,45 @@ MAPA ID: 105 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 34 - Nombre: invisiwall (X:21, Y:23) ---
+--- Evento ID: 6 - Nombre: EV006 (X:14, Y:16) ---
   Página: 1
-    [0] []
-
---- Evento ID: 23 - Nombre: invisiwall (X:18, Y:25) ---
-  Página: 1
-    [0] []
-
---- Evento ID: 12 - Nombre: Tubo -> abajo (X:27, Y:26) ---
-  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
-    [210] []
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 106, 6, 32, 8, 0]
-      TRANSFER PLAYER: MapID 0, X 106, Y 6
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
     [0] []
 
---- Evento ID: 1 - Nombre: Warp  (X:13, Y:0) ---
+--- Evento ID: 17 - Nombre: Rango (X:48, Y:17) ---
   Página: 1
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 104, 12, 58, 0, 0]
-      TRANSFER PLAYER: MapID 0, X 104, Y 12
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 28 - Nombre: invisiwall (X:17, Y:23) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 39 - Nombre: EV039 (X:8, Y:14) ---
+  Página: 1
+    [101] ["Toma y calla que me espantas los peces."]
+      TEXTO: "Toma y calla que me espantas los peces."
+    [111] [12, "pbReceiveItem(:SUPERROD)"]
+      CONDITIONAL BRANCH: Type 12, Value pbReceiveItem(:SUPERROD)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [123] ["A", 0]
+    [0] []
+  Página: 2
+    [101] ["Vete y no me espantes los peces."]
+      TEXTO: "Vete y no me espantes los peces."
     [0] []
 
 --- Evento ID: 45 - Nombre: Tubo -> abajo (X:85, Y:15) ---
@@ -33448,18 +33411,81 @@ MAPA ID: 105 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 40 - Nombre: Warp  (X:0, Y:6) ---
+--- Evento ID: 1 - Nombre: Warp  (X:13, Y:0) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 114, 83, 6, 4, 0]
-      TRANSFER PLAYER: MapID 0, X 114, Y 83
+    [201] [0, 104, 12, 58, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 104, Y 12
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
---- Evento ID: 29 - Nombre: invisiwall (X:17, Y:22) ---
+--- Evento ID: 12 - Nombre: Tubo -> abajo (X:27, Y:26) ---
   Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 106, 6, 32, 8, 0]
+      TRANSFER PLAYER: MapID 0, X 106, Y 6
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 23 - Nombre: invisiwall (X:18, Y:25) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 34 - Nombre: invisiwall (X:21, Y:23) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 51 - Nombre: Trainer(5) (X:84, Y:22) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:RECLUTA)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["Ah, parece que tenemos un intruso. ¡Vamos a darte "]
+      TEXTO: "Ah, parece que tenemos un intruso. ¡Vamos a darte "
+    [401] ["tu merecido!"]
+      TEXTO: "tu merecido!"
+    [111] [12, "TrainerBattle.start(:RECLUTA, \"Broodal\", 12)"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RECLUTA, "Broodal", 12)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [202] [0, 0, 84, 22, 0]
+    [101] ["Es imposible combatir bien con un compañero tan "]
+      TEXTO: "Es imposible combatir bien con un compañero tan "
+    [401] ["inútil."]
+      TEXTO: "inútil."
+    [0] []
+  Página: 3
+    [0] []
+
+--- Evento ID: 7 - Nombre: EV007 (X:15, Y:16) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
     [0] []
 
 --- Evento ID: 18 - Nombre: Rango trigger (X:56, Y:17) ---
@@ -33509,80 +33535,17 @@ MAPA ID: 105 - Nombre: Desconocido
   Página: 2
     [0] []
 
---- Evento ID: 7 - Nombre: EV007 (X:15, Y:16) ---
-  Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 51 - Nombre: Trainer(5) (X:84, Y:22) ---
-  Página: 1
-    [355] ["pbTrainerIntro(:RECLUTA)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["Ah, parece que tenemos un intruso. ¡Vamos a darte "]
-      TEXTO: "Ah, parece que tenemos un intruso. ¡Vamos a darte "
-    [401] ["tu merecido!"]
-      TEXTO: "tu merecido!"
-    [111] [12, "TrainerBattle.start(:RECLUTA, \"Broodal\", 12)"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RECLUTA, "Broodal", 12)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [355] ["pbTrainerEnd"]
-    [0] []
-  Página: 2
-    [202] [0, 0, 84, 22, 0]
-    [101] ["Es imposible combatir bien con un compañero tan "]
-      TEXTO: "Es imposible combatir bien con un compañero tan "
-    [401] ["inútil."]
-      TEXTO: "inútil."
-    [0] []
-  Página: 3
-    [0] []
-
---- Evento ID: 35 - Nombre: invisiwall (X:21, Y:24) ---
+--- Evento ID: 29 - Nombre: invisiwall (X:17, Y:22) ---
   Página: 1
     [0] []
 
---- Evento ID: 24 - Nombre: invisiwall (X:19, Y:25) ---
-  Página: 1
-    [0] []
-
---- Evento ID: 13 - Nombre: Tubo -> abajo (X:28, Y:26) ---
-  Página: 1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [210] []
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 106, 6, 32, 8, 0]
-      TRANSFER PLAYER: MapID 0, X 106, Y 6
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-
---- Evento ID: 2 - Nombre: Warp  (X:12, Y:0) ---
+--- Evento ID: 40 - Nombre: Warp  (X:0, Y:6) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 104, 12, 58, 0, 0]
-      TRANSFER PLAYER: MapID 0, X 104, Y 12
+    [201] [0, 114, 83, 6, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 114, Y 83
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
@@ -33605,57 +33568,41 @@ MAPA ID: 105 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 41 - Nombre: Warp  (X:0, Y:5) ---
+--- Evento ID: 2 - Nombre: Warp  (X:12, Y:0) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 114, 83, 6, 4, 0]
-      TRANSFER PLAYER: MapID 0, X 114, Y 83
+    [201] [0, 104, 12, 58, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 104, Y 12
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
---- Evento ID: 30 - Nombre: EV030 (X:27, Y:14) ---
+--- Evento ID: 13 - Nombre: Tubo -> abajo (X:28, Y:26) ---
   Página: 1
-    [111] [12, "pbItemBall(:SOOTHEBELL)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:SOOTHEBELL)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 8 - Nombre: EV008 (X:14, Y:19) ---
-  Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 19 - Nombre: EV019 (X:65, Y:18) ---
-  Página: 1
-    [111] [6, -1, 4]
-      CONDITIONAL BRANCH: Type 6, Value -1
+    [210] []
     [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 106, 6, 32, 8, 0]
+      TRANSFER PLAYER: MapID 0, X 106, Y 6
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
     [0] []
-    [411] []
+
+--- Evento ID: 24 - Nombre: invisiwall (X:19, Y:25) ---
+  Página: 1
     [0] []
-    [412] []
+
+--- Evento ID: 35 - Nombre: invisiwall (X:21, Y:24) ---
+  Página: 1
     [0] []
 
 --- Evento ID: 52 - Nombre: Trainer(5) (X:90, Y:22) ---
@@ -33679,6 +33626,105 @@ MAPA ID: 105 - Nombre: Desconocido
       TEXTO: "inútil."
     [0] []
   Página: 3
+    [0] []
+
+--- Evento ID: 19 - Nombre: EV019 (X:65, Y:18) ---
+  Página: 1
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 8 - Nombre: EV008 (X:14, Y:19) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 30 - Nombre: EV030 (X:27, Y:14) ---
+  Página: 1
+    [111] [12, "pbItemBall(:SOOTHEBELL)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:SOOTHEBELL)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 41 - Nombre: Warp  (X:0, Y:5) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 114, 83, 6, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 114, Y 83
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 47 - Nombre: EV047 (X:65, Y:20) ---
+  Página: 1
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 14 - Nombre: EV014 (X:14, Y:22) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 3 - Nombre: Warp  (X:14, Y:0) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 104, 12, 58, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 104, Y 12
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 25 - Nombre: invisiwall (X:20, Y:25) ---
+  Página: 1
     [0] []
 
 --- Evento ID: 36 - Nombre: EV036 (X:2, Y:5) ---
@@ -33717,23 +33763,9 @@ MAPA ID: 105 - Nombre: Desconocido
       TEXTO: "brazo o algo de eso..."
     [0] []
 
---- Evento ID: 25 - Nombre: invisiwall (X:20, Y:25) ---
+--- Evento ID: 9 - Nombre: EV009 (X:15, Y:19) ---
   Página: 1
-    [0] []
-
---- Evento ID: 3 - Nombre: Warp  (X:14, Y:0) ---
-  Página: 1
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 104, 12, 58, 0, 0]
-      TRANSFER PLAYER: MapID 0, X 104, Y 12
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [0] []
-
---- Evento ID: 14 - Nombre: EV014 (X:14, Y:22) ---
-  Página: 1
-    [111] [6, -1, 8]
+    [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -33744,57 +33776,6 @@ MAPA ID: 105 - Nombre: Desconocido
     [411] []
     [0] []
     [412] []
-    [0] []
-
---- Evento ID: 47 - Nombre: EV047 (X:65, Y:20) ---
-  Página: 1
-    [111] [6, -1, 4]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 53 - Nombre: Trainer(5) (X:73, Y:20) ---
-  Página: 1
-    [355] ["pbTrainerIntro(:RECLUTA)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["¡Todos los que se opongan al Team Broodal sufrirán!"]
-      TEXTO: "¡Todos los que se opongan al Team Broodal sufrirán!"
-    [111] [12, "TrainerBattle.start(:RECLUTA, \"Broodal\", 11)"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RECLUTA, "Broodal", 11)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [355] ["pbTrainerEnd"]
-    [0] []
-  Página: 2
-    [101] ["¡Ay, qué daño! ¡Yo si que he sufrido!"]
-      TEXTO: "¡Ay, qué daño! ¡Yo si que he sufrido!"
-    [0] []
-  Página: 3
-    [0] []
-
---- Evento ID: 42 - Nombre: Warp  (X:0, Y:7) ---
-  Página: 1
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 114, 83, 6, 4, 0]
-      TRANSFER PLAYER: MapID 0, X 114, Y 83
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [0] []
-
---- Evento ID: 31 - Nombre: invisiwall (X:18, Y:23) ---
-  Página: 1
     [0] []
 
 --- Evento ID: 20 - Nombre: Rango trigger (X:56, Y:16) ---
@@ -33845,46 +33826,48 @@ MAPA ID: 105 - Nombre: Desconocido
   Página: 2
     [0] []
 
---- Evento ID: 9 - Nombre: EV009 (X:15, Y:19) ---
+--- Evento ID: 31 - Nombre: invisiwall (X:18, Y:23) ---
   Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
     [0] []
-    [411] []
+
+--- Evento ID: 42 - Nombre: Warp  (X:0, Y:7) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 114, 83, 6, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 114, Y 83
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 53 - Nombre: Trainer(5) (X:73, Y:20) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:RECLUTA)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["¡Todos los que se opongan al Team Broodal sufrirán!"]
+      TEXTO: "¡Todos los que se opongan al Team Broodal sufrirán!"
+    [111] [12, "TrainerBattle.start(:RECLUTA, \"Broodal\", 11)"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RECLUTA, "Broodal", 11)
+    [123] ["A", 0]
     [0] []
     [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [101] ["¡Ay, qué daño! ¡Yo si que he sufrido!"]
+      TEXTO: "¡Ay, qué daño! ¡Yo si que he sufrido!"
+    [0] []
+  Página: 3
     [0] []
 
---- Evento ID: 26 - Nombre: invisiwall (X:21, Y:25) ---
+--- Evento ID: 48 - Nombre: EV048 (X:64, Y:17) ---
   Página: 1
-    [0] []
-
---- Evento ID: 4 - Nombre: EV004 (X:14, Y:15) ---
-  Página: 1
-    [111] [6, -1, 2]
+    [111] [6, -1, 6]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 15 - Nombre: EV015 (X:15, Y:22) ---
-  Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
@@ -33909,14 +33892,12 @@ MAPA ID: 105 - Nombre: Desconocido
   Página: 2
     [0] []
 
---- Evento ID: 48 - Nombre: EV048 (X:64, Y:17) ---
+--- Evento ID: 15 - Nombre: EV015 (X:15, Y:22) ---
   Página: 1
-    [111] [6, -1, 6]
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
@@ -33926,43 +33907,61 @@ MAPA ID: 105 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 54 - Nombre: EV054 (X:37, Y:29) ---
+--- Evento ID: 4 - Nombre: EV004 (X:14, Y:15) ---
   Página: 1
-    [0] []
-  Página: 2
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
-    [106] [10]
-    [202] [0, 0, 50, 16, 0]
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
-    [106] [10]
-    [355] ["NameBox.load('Cappy')"]
-    [101] ["¿Ha dicho Lunaris? ¿Quién o qué es eso?"]
-      TEXTO: "¿Ha dicho Lunaris? ¿Quién o qué es eso?"
-    [101] ["Necesitamos saber más sobre ese ser misterioso, \\PN."]
-      TEXTO: "Necesitamos saber más sobre ese ser misterioso, \PN."
-    [401] ["Vamos, vayamos a la universidad, seguro que podemos encontrar más información sobre él."]
-      TEXTO: "Vamos, vayamos a la universidad, seguro que podemos encontrar más información sobre él."
-    [207] [0, 10]
-    [106] [20]
-    [209] [0, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [355] ["NameBox.dispose"]
-    [123] ["A", 0]
     [0] []
-  Página: 3
+    [411] []
+    [0] []
+    [412] []
     [0] []
 
---- Evento ID: 32 - Nombre: invisiwall (X:19, Y:23) ---
+--- Evento ID: 26 - Nombre: invisiwall (X:21, Y:25) ---
   Página: 1
+    [0] []
+
+--- Evento ID: 43 - Nombre: Tubo -> abajo (X:84, Y:16) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 106, 38, 4, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 106, Y 38
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 10 - Nombre: Tubo -> abajo (X:27, Y:27) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 106, 6, 32, 8, 0]
+      TRANSFER PLAYER: MapID 0, X 106, Y 6
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
     [0] []
 
 --- Evento ID: 21 - Nombre: Rango trigger (X:56, Y:18) ---
@@ -34013,49 +34012,56 @@ MAPA ID: 105 - Nombre: Desconocido
   Página: 2
     [0] []
 
---- Evento ID: 10 - Nombre: Tubo -> abajo (X:27, Y:27) ---
+--- Evento ID: 32 - Nombre: invisiwall (X:19, Y:23) ---
   Página: 1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [210] []
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 106, 6, 32, 8, 0]
-      TRANSFER PLAYER: MapID 0, X 106, Y 6
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 43 - Nombre: Tubo -> abajo (X:84, Y:16) ---
+--- Evento ID: 54 - Nombre: EV054 (X:37, Y:29) ---
   Página: 1
+    [0] []
+  Página: 2
     [250] [#<RPG::AudioFile>]
+    [106] [10]
+    [202] [0, 0, 50, 16, 0]
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
+    [106] [10]
+    [355] ["NameBox.load('Cappy')"]
+    [101] ["¿Ha dicho Lunaris? ¿Quién o qué es eso?"]
+      TEXTO: "¿Ha dicho Lunaris? ¿Quién o qué es eso?"
+    [101] ["Necesitamos saber más sobre ese ser misterioso, \\PN."]
+      TEXTO: "Necesitamos saber más sobre ese ser misterioso, \PN."
+    [401] ["Vamos, vayamos a la universidad, seguro que podemos encontrar más información sobre él."]
+      TEXTO: "Vamos, vayamos a la universidad, seguro que podemos encontrar más información sobre él."
+    [207] [0, 10]
+    [106] [20]
+    [209] [0, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
-    [210] []
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 106, 38, 4, 2, 0]
-      TRANSFER PLAYER: MapID 0, X 106, Y 38
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
-    [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [355] ["NameBox.dispose"]
+    [123] ["A", 0]
+    [0] []
+  Página: 3
     [0] []
 ==================================================
 MAPA ID: 106 - Nombre: Desconocido
 ==================================================
 
---- Evento ID: 27 - Nombre: invisiwall (X:38, Y:15) ---
+--- Evento ID: 16 - Nombre: Entrar casa (X:36, Y:24) ---
   Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 108, 14, 18, 8, 1]
+      TRANSFER PLAYER: MapID 0, X 108, Y 14
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
 --- Evento ID: 5 - Nombre: Tubo -> abajo (X:5, Y:33) ---
@@ -34077,25 +34083,8 @@ MAPA ID: 106 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 16 - Nombre: Entrar casa (X:36, Y:24) ---
+--- Evento ID: 27 - Nombre: invisiwall (X:38, Y:15) ---
   Página: 1
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 108, 14, 18, 8, 1]
-      TRANSFER PLAYER: MapID 0, X 108, Y 14
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [0] []
-
---- Evento ID: 22 - Nombre: EV022 (X:29, Y:6) ---
-  Página: 1
-    [111] [12, "pbItemBall(:PEARLSTRING)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:PEARLSTRING)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
     [0] []
 
 --- Evento ID: 11 - Nombre: Tubo -> abajo (X:38, Y:3) ---
@@ -34117,8 +34106,25 @@ MAPA ID: 106 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 28 - Nombre: invisiwall (X:40, Y:15) ---
+--- Evento ID: 22 - Nombre: EV022 (X:29, Y:6) ---
   Página: 1
+    [111] [12, "pbItemBall(:PEARLSTRING)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:PEARLSTRING)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 17 - Nombre: Entrar casa (X:7, Y:11) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 109, 10, 13, 8, 1]
+      TRANSFER PLAYER: MapID 0, X 109, Y 10
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
 --- Evento ID: 6 - Nombre: Tubo -> abajo (X:6, Y:33) ---
@@ -34140,30 +34146,18 @@ MAPA ID: 106 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 17 - Nombre: Entrar casa (X:7, Y:11) ---
+--- Evento ID: 28 - Nombre: invisiwall (X:40, Y:15) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 1 - Nombre: Entrar casa (X:22, Y:15) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 109, 10, 13, 8, 1]
-      TRANSFER PLAYER: MapID 0, X 109, Y 10
+    [201] [0, 107, 8, 22, 8, 1]
+      TRANSFER PLAYER: MapID 0, X 107, Y 8
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [0] []
-
---- Evento ID: 23 - Nombre: NPC 1 (X:12, Y:24) ---
-  Página: 1
-    [101] ["¡Hola, viajero! Bienvenido al Lago Kutur. ¿Ya visitaste "]
-      TEXTO: "¡Hola, viajero! Bienvenido al Lago Kutur. ¿Ya visitaste "
-    [401] ["nuestra prestigiosa Universidad? Es el orgullo de "]
-      TEXTO: "nuestra prestigiosa Universidad? Es el orgullo de "
-    [401] ["nuestra ciudad. Aquí, sirenas y humanos estudian "]
-      TEXTO: "nuestra ciudad. Aquí, sirenas y humanos estudian "
-    [401] ["juntos."]
-      TEXTO: "juntos."
-    [101] ["Dicen que los secretos de las Mega Piedras y "]
-      TEXTO: "Dicen que los secretos de las Mega Piedras y "
-    [401] ["los Cristales Z fueron descubiertos aquí."]
-      TEXTO: "los Cristales Z fueron descubiertos aquí."
     [0] []
 
 --- Evento ID: 12 - Nombre: sirena trigger (X:6, Y:31) ---
@@ -34235,26 +34229,20 @@ MAPA ID: 106 - Nombre: Desconocido
   Página: 3
     [0] []
 
---- Evento ID: 1 - Nombre: Entrar casa (X:22, Y:15) ---
+--- Evento ID: 23 - Nombre: NPC 1 (X:12, Y:24) ---
   Página: 1
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 107, 8, 22, 8, 1]
-      TRANSFER PLAYER: MapID 0, X 107, Y 8
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [0] []
-
---- Evento ID: 29 - Nombre: invisiwall (X:39, Y:15) ---
-  Página: 1
-    [0] []
-
---- Evento ID: 18 - Nombre: NPC 1 (X:17, Y:8) ---
-  Página: 1
-    [101] ["No todos los que se acercan al agua pueden escuchar lo que susurra. Pero tú... tú tienes algo especial. "]
-      TEXTO: "No todos los que se acercan al agua pueden escuchar lo que susurra. Pero tú... tú tienes algo especial. "
-    [401] ["Tal vez podrías entender la llamada del legendario que descubrimos aquí."]
-      TEXTO: "Tal vez podrías entender la llamada del legendario que descubrimos aquí."
+    [101] ["¡Hola, viajero! Bienvenido al Lago Kutur. ¿Ya visitaste "]
+      TEXTO: "¡Hola, viajero! Bienvenido al Lago Kutur. ¿Ya visitaste "
+    [401] ["nuestra prestigiosa Universidad? Es el orgullo de "]
+      TEXTO: "nuestra prestigiosa Universidad? Es el orgullo de "
+    [401] ["nuestra ciudad. Aquí, sirenas y humanos estudian "]
+      TEXTO: "nuestra ciudad. Aquí, sirenas y humanos estudian "
+    [401] ["juntos."]
+      TEXTO: "juntos."
+    [101] ["Dicen que los secretos de las Mega Piedras y "]
+      TEXTO: "Dicen que los secretos de las Mega Piedras y "
+    [401] ["los Cristales Z fueron descubiertos aquí."]
+      TEXTO: "los Cristales Z fueron descubiertos aquí."
     [0] []
 
 --- Evento ID: 7 - Nombre: Tubo -> abajo (X:7, Y:33) ---
@@ -34276,23 +34264,16 @@ MAPA ID: 106 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 24 - Nombre: EV024 (X:41, Y:30) ---
+--- Evento ID: 18 - Nombre: NPC 1 (X:17, Y:8) ---
   Página: 1
-    [111] [12, "pbItemBall(:SHELLBELL)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:SHELLBELL)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
+    [101] ["No todos los que se acercan al agua pueden escuchar lo que susurra. Pero tú... tú tienes algo especial. "]
+      TEXTO: "No todos los que se acercan al agua pueden escuchar lo que susurra. Pero tú... tú tienes algo especial. "
+    [401] ["Tal vez podrías entender la llamada del legendario que descubrimos aquí."]
+      TEXTO: "Tal vez podrías entender la llamada del legendario que descubrimos aquí."
     [0] []
 
---- Evento ID: 13 - Nombre: EV013 (X:6, Y:30) ---
+--- Evento ID: 29 - Nombre: invisiwall (X:39, Y:15) ---
   Página: 1
-    [101] ["¡Date prisa, que no escape!"]
-      TEXTO: "¡Date prisa, que no escape!"
-    [0] []
-  Página: 2
     [0] []
 
 --- Evento ID: 2 - Nombre: CONSE (X:7, Y:12) ---
@@ -34311,10 +34292,23 @@ MAPA ID: 106 - Nombre: Desconocido
   Página: 2
     [0] []
 
---- Evento ID: 19 - Nombre: NPC 1 (X:34, Y:17) ---
+--- Evento ID: 13 - Nombre: EV013 (X:6, Y:30) ---
   Página: 1
-    [101] ["Si buscas bien por aquí podrás encontrar perlas, de nada por el consejo."]
-      TEXTO: "Si buscas bien por aquí podrás encontrar perlas, de nada por el consejo."
+    [101] ["¡Date prisa, que no escape!"]
+      TEXTO: "¡Date prisa, que no escape!"
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 24 - Nombre: EV024 (X:41, Y:30) ---
+  Página: 1
+    [111] [12, "pbItemBall(:SHELLBELL)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:SHELLBELL)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
     [0] []
 
 --- Evento ID: 8 - Nombre: Tubo -> abajo (X:37, Y:2) ---
@@ -34336,10 +34330,18 @@ MAPA ID: 106 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 25 - Nombre: EV025 (X:32, Y:24) ---
+--- Evento ID: 19 - Nombre: NPC 1 (X:34, Y:17) ---
   Página: 1
-    [101] ["Universidad Kutur"]
-      TEXTO: "Universidad Kutur"
+    [101] ["Si buscas bien por aquí podrás encontrar perlas, de nada por el consejo."]
+      TEXTO: "Si buscas bien por aquí podrás encontrar perlas, de nada por el consejo."
+    [0] []
+
+--- Evento ID: 14 - Nombre: EV014 (X:7, Y:30) ---
+  Página: 1
+    [101] ["¡Date prisa, que no escape!"]
+      TEXTO: "¡Date prisa, que no escape!"
+    [0] []
+  Página: 2
     [0] []
 
 --- Evento ID: 3 - Nombre: EV003 (X:36, Y:25) ---
@@ -34355,23 +34357,10 @@ MAPA ID: 106 - Nombre: Desconocido
   Página: 2
     [0] []
 
---- Evento ID: 14 - Nombre: EV014 (X:7, Y:30) ---
+--- Evento ID: 25 - Nombre: EV025 (X:32, Y:24) ---
   Página: 1
-    [101] ["¡Date prisa, que no escape!"]
-      TEXTO: "¡Date prisa, que no escape!"
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 20 - Nombre: EV020 (X:3, Y:14) ---
-  Página: 1
-    [111] [12, "pbItemBall(:PEARL)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:PEARL)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
+    [101] ["Universidad Kutur"]
+      TEXTO: "Universidad Kutur"
     [0] []
 
 --- Evento ID: 9 - Nombre: Tubo -> abajo (X:38, Y:2) ---
@@ -34393,10 +34382,23 @@ MAPA ID: 106 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 26 - Nombre: EV026 (X:40, Y:24) ---
+--- Evento ID: 20 - Nombre: EV020 (X:3, Y:14) ---
   Página: 1
-    [101] ["Universidad Kutur"]
-      TEXTO: "Universidad Kutur"
+    [111] [12, "pbItemBall(:PEARL)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:PEARL)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 15 - Nombre: EV015 (X:5, Y:30) ---
+  Página: 1
+    [101] ["¡Date prisa, que no escape!"]
+      TEXTO: "¡Date prisa, que no escape!"
+    [0] []
+  Página: 2
     [0] []
 
 --- Evento ID: 4 - Nombre: Tubo -> abajo (X:6, Y:34) ---
@@ -34418,23 +34420,10 @@ MAPA ID: 106 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 15 - Nombre: EV015 (X:5, Y:30) ---
+--- Evento ID: 26 - Nombre: EV026 (X:40, Y:24) ---
   Página: 1
-    [101] ["¡Date prisa, que no escape!"]
-      TEXTO: "¡Date prisa, que no escape!"
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 21 - Nombre: EV021 (X:33, Y:30) ---
-  Página: 1
-    [111] [12, "pbItemBall(:BIGPEARL)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:BIGPEARL)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
+    [101] ["Universidad Kutur"]
+      TEXTO: "Universidad Kutur"
     [0] []
 
 --- Evento ID: 10 - Nombre: Tubo -> abajo (X:39, Y:2) ---
@@ -34454,6 +34443,17 @@ MAPA ID: 106 - Nombre: Desconocido
     [210] []
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 21 - Nombre: EV021 (X:33, Y:30) ---
+  Página: 1
+    [111] [12, "pbItemBall(:BIGPEARL)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:BIGPEARL)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
     [0] []
 ==================================================
 MAPA ID: 107 - Nombre: Desconocido
@@ -41665,37 +41665,23 @@ MAPA ID: 121 - Nombre: Desconocido
 MAPA ID: 122 - Nombre: Desconocido
 ==================================================
 
---- Evento ID: 27 - Nombre: EV027 (X:37, Y:26) ---
+--- Evento ID: 38 - Nombre: Tubo -> abajo (X:47, Y:15) ---
   Página: 1
-    [209] [0, #<RPG::MoveRoute>]
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [210] []
-    [111] [12, "WildBattle.start(:FOONGUS,30)"]
-      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:FOONGUS,30)
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [123] ["A", 0]
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 5 - Nombre: ArbolCorte (X:29, Y:47) ---
-  Página: 1
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [111] [12, "pbCut"]
-      CONDITIONAL BRANCH: Type 12, Value pbCut
     [250] [#<RPG::AudioFile>]
-    [355] ["pbSmashThisEvent"]
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 123, 33, 6, 8, 0]
+      TRANSFER PLAYER: MapID 0, X 123, Y 33
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
     [0] []
 
 --- Evento ID: 16 - Nombre: Tubo -> abajo (X:22, Y:44) ---
@@ -41717,7 +41703,40 @@ MAPA ID: 122 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 38 - Nombre: Tubo -> abajo (X:47, Y:15) ---
+--- Evento ID: 5 - Nombre: ArbolCorte (X:29, Y:47) ---
+  Página: 1
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [111] [12, "pbCut"]
+      CONDITIONAL BRANCH: Type 12, Value pbCut
+    [250] [#<RPG::AudioFile>]
+    [355] ["pbSmashThisEvent"]
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 27 - Nombre: EV027 (X:37, Y:26) ---
+  Página: 1
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [111] [12, "WildBattle.start(:FOONGUS,30)"]
+      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:FOONGUS,30)
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [123] ["A", 0]
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 11 - Nombre: Tubo -> abajo (X:2, Y:23) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -41728,12 +41747,51 @@ MAPA ID: 122 - Nombre: Desconocido
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 123, 33, 6, 8, 0]
-      TRANSFER PLAYER: MapID 0, X 123, Y 33
+    [201] [0, 122, 22, 45, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 122, Y 22
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [210] []
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 33 - Nombre: EV033 (X:2, Y:7) ---
+  Página: 1
+    [101] ["¿Quieres volver a la entrada?"]
+      TEXTO: "¿Quieres volver a la entrada?"
+    [102] [["Sí", "No"], 2]
+      CHOICES: Sí, No
+    [402] [0, "Sí"]
+    [121] [117, 117, 1]
+      CHANGE SWITCH: ID 117 to 117, Value 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 115, 52, 18, 4, 1]
+      TRANSFER PLAYER: MapID 0, X 115, Y 52
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+    [402] [1, "No"]
+    [0] []
+    [404] []
+    [0] []
+
+--- Evento ID: 22 - Nombre: Trainer(5) (X:1, Y:34) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:MOCHILERA)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["Estoy buscando bayas medicinales... pero una batalla también cura el espíritu."]
+      TEXTO: "Estoy buscando bayas medicinales... pero una batalla también cura el espíritu."
+    [111] [12, "TrainerBattle.start(:MOCHILERA, \"Evain\")"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:MOCHILERA, "Evain")
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [101] ["Tus movimientos son más efectivos que cualquier hierba que haya encontrado."]
+      TEXTO: "Tus movimientos son más efectivos que cualquier hierba que haya encontrado."
     [0] []
 
 --- Evento ID: 44 - Nombre: EV044 (X:64, Y:15) ---
@@ -41751,8 +41809,6 @@ MAPA ID: 122 - Nombre: Desconocido
     [655] ["end"]
     [0] []
   Página: 2
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
     [207] [0, 3]
     [355] ["NameBox.load('Diego')"]
     [101] ["¡Hombre Mystery! Veo que has traído contigo a un "]
@@ -41817,46 +41873,7 @@ MAPA ID: 122 - Nombre: Desconocido
   Página: 4
     [0] []
 
---- Evento ID: 22 - Nombre: Trainer(5) (X:1, Y:34) ---
-  Página: 1
-    [355] ["pbTrainerIntro(:MOCHILERA)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["Estoy buscando bayas medicinales... pero una batalla también cura el espíritu."]
-      TEXTO: "Estoy buscando bayas medicinales... pero una batalla también cura el espíritu."
-    [111] [12, "TrainerBattle.start(:MOCHILERA, \"Evain\")"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:MOCHILERA, "Evain")
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [355] ["pbTrainerEnd"]
-    [0] []
-  Página: 2
-    [101] ["Tus movimientos son más efectivos que cualquier hierba que haya encontrado."]
-      TEXTO: "Tus movimientos son más efectivos que cualquier hierba que haya encontrado."
-    [0] []
-
---- Evento ID: 33 - Nombre: EV033 (X:2, Y:7) ---
-  Página: 1
-    [101] ["¿Quieres volver a la entrada?"]
-      TEXTO: "¿Quieres volver a la entrada?"
-    [102] [["Sí", "No"], 2]
-      CHOICES: Sí, No
-    [402] [0, "Sí"]
-    [121] [117, 117, 1]
-      CHANGE SWITCH: ID 117 to 117, Value 1
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 115, 52, 18, 4, 1]
-      TRANSFER PLAYER: MapID 0, X 115, Y 52
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [0] []
-    [402] [1, "No"]
-    [0] []
-    [404] []
-    [0] []
-
---- Evento ID: 11 - Nombre: Tubo -> abajo (X:2, Y:23) ---
+--- Evento ID: 39 - Nombre: Tubo -> abajo (X:50, Y:15) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -41867,45 +41884,12 @@ MAPA ID: 122 - Nombre: Desconocido
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 122, 22, 45, 2, 0]
-      TRANSFER PLAYER: MapID 0, X 122, Y 22
+    [201] [0, 123, 2, 6, 8, 0]
+      TRANSFER PLAYER: MapID 0, X 123, Y 2
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [210] []
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
-    [0] []
-
---- Evento ID: 28 - Nombre: EV028 (X:45, Y:41) ---
-  Página: 1
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [210] []
-    [111] [12, "WildBattle.start(:FOONGUS,25)"]
-      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:FOONGUS,25)
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [123] ["A", 0]
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 6 - Nombre: ArbolCorte (X:37, Y:41) ---
-  Página: 1
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [111] [12, "pbCut"]
-      CONDITIONAL BRANCH: Type 12, Value pbCut
-    [250] [#<RPG::AudioFile>]
-    [355] ["pbSmashThisEvent"]
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
     [0] []
 
 --- Evento ID: 17 - Nombre: Tubo -> abajo (X:25, Y:47) ---
@@ -41927,7 +41911,40 @@ MAPA ID: 122 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 39 - Nombre: Tubo -> abajo (X:50, Y:15) ---
+--- Evento ID: 6 - Nombre: ArbolCorte (X:37, Y:41) ---
+  Página: 1
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [111] [12, "pbCut"]
+      CONDITIONAL BRANCH: Type 12, Value pbCut
+    [250] [#<RPG::AudioFile>]
+    [355] ["pbSmashThisEvent"]
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 28 - Nombre: EV028 (X:45, Y:41) ---
+  Página: 1
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [111] [12, "WildBattle.start(:FOONGUS,25)"]
+      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:FOONGUS,25)
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [123] ["A", 0]
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 34 - Nombre: Tubo -> abajo (X:22, Y:47) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -41944,41 +41961,6 @@ MAPA ID: 122 - Nombre: Desconocido
     [210] []
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
-    [0] []
-
---- Evento ID: 23 - Nombre: Trainer(5) (X:28, Y:40) ---
-  Página: 1
-    [355] ["pbTrainerIntro(:MOCHILERO)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["¡Buh! Menudo escondite tenía, ¿eh?"]
-      TEXTO: "¡Buh! Menudo escondite tenía, ¿eh?"
-    [111] [12, "TrainerBattle.start(:MOCHILERO, \"Jota\")"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:MOCHILERO, "Jota")
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [355] ["pbTrainerEnd"]
-    [0] []
-  Página: 2
-    [101] ["No se me darán muy bien los combates, pero "]
-      TEXTO: "No se me darán muy bien los combates, pero "
-    [401] ["escondiéndome soy el mejor."]
-      TEXTO: "escondiéndome soy el mejor."
-    [0] []
-
---- Evento ID: 1 - Nombre: ArbolCorte (X:11, Y:25) ---
-  Página: 1
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [111] [12, "pbCut"]
-      CONDITIONAL BRANCH: Type 12, Value pbCut
-    [250] [#<RPG::AudioFile>]
-    [355] ["pbSmashThisEvent"]
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
     [0] []
 
 --- Evento ID: 12 - Nombre: Tyrantrum (X:14, Y:15) ---
@@ -42016,47 +41998,7 @@ MAPA ID: 122 - Nombre: Desconocido
     [123] ["B", 1]
     [0] []
 
---- Evento ID: 34 - Nombre: Tubo -> abajo (X:22, Y:47) ---
-  Página: 1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [210] []
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 123, 2, 6, 8, 0]
-      TRANSFER PLAYER: MapID 0, X 123, Y 2
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-
---- Evento ID: 40 - Nombre: invisiwall (X:19, Y:5) ---
-  Página: 1
-    [101] ["¿A dónde vas?"]
-      TEXTO: "¿A dónde vas?"
-    [101] ["¿Lo ibas a cheesear o que manin?"]
-      TEXTO: "¿Lo ibas a cheesear o que manin?"
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-
---- Evento ID: 29 - Nombre: EV029 (X:60, Y:29) ---
-  Página: 1
-    [111] [12, "pbItemBall(:BIGMUSHROOM)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:BIGMUSHROOM)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 7 - Nombre: ArbolCorte (X:43, Y:46) ---
+--- Evento ID: 1 - Nombre: ArbolCorte (X:11, Y:25) ---
   Página: 1
     [209] [0, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
@@ -42069,6 +42011,26 @@ MAPA ID: 122 - Nombre: Desconocido
     [412] []
     [0] []
   Página: 2
+    [0] []
+
+--- Evento ID: 23 - Nombre: Trainer(5) (X:28, Y:40) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:MOCHILERO)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["¡Buh! Menudo escondite tenía, ¿eh?"]
+      TEXTO: "¡Buh! Menudo escondite tenía, ¿eh?"
+    [111] [12, "TrainerBattle.start(:MOCHILERO, \"Jota\")"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:MOCHILERO, "Jota")
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [101] ["No se me darán muy bien los combates, pero "]
+      TEXTO: "No se me darán muy bien los combates, pero "
+    [401] ["escondiéndome soy el mejor."]
+      TEXTO: "escondiéndome soy el mejor."
     [0] []
 
 --- Evento ID: 18 - Nombre: Tubo -> abajo (X:44, Y:17) ---
@@ -42090,25 +42052,7 @@ MAPA ID: 122 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 24 - Nombre: Trainer(5) (X:39, Y:42) ---
-  Página: 1
-    [355] ["pbTrainerIntro(:MOCHILERO)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["¿Eh? ¿Este no era el camino hacia la salida? Bueno… ¡ya que estamos, combatamos!"]
-      TEXTO: "¿Eh? ¿Este no era el camino hacia la salida? Bueno… ¡ya que estamos, combatamos!"
-    [111] [12, "TrainerBattle.start(:MOCHILERO, \"Mochi\")"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:MOCHILERO, "Mochi")
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [355] ["pbTrainerEnd"]
-    [0] []
-  Página: 2
-    [101] ["Supongo que también me perdí en la estrategia.."]
-      TEXTO: "Supongo que también me perdí en la estrategia.."
-    [0] []
-
---- Evento ID: 2 - Nombre: ArbolCorte (X:6, Y:41) ---
+--- Evento ID: 7 - Nombre: ArbolCorte (X:43, Y:46) ---
   Página: 1
     [209] [0, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
@@ -42123,23 +42067,23 @@ MAPA ID: 122 - Nombre: Desconocido
   Página: 2
     [0] []
 
---- Evento ID: 13 - Nombre: Tubo -> abajo (X:3, Y:23) ---
+--- Evento ID: 29 - Nombre: EV029 (X:60, Y:29) ---
   Página: 1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [210] []
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [121] [119, 119, 1]
-      CHANGE SWITCH: ID 119 to 119, Value 1
-    [201] [0, 122, 22, 45, 2, 0]
-      TRANSFER PLAYER: MapID 0, X 122, Y 22
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
+    [111] [12, "pbItemBall(:BIGMUSHROOM)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:BIGMUSHROOM)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 40 - Nombre: invisiwall (X:19, Y:5) ---
+  Página: 1
+    [101] ["¿A dónde vas?"]
+      TEXTO: "¿A dónde vas?"
+    [101] ["¿Lo ibas a cheesear o que manin?"]
+      TEXTO: "¿Lo ibas a cheesear o que manin?"
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [0] []
@@ -42163,14 +42107,92 @@ MAPA ID: 122 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 41 - Nombre: Entrar casa (X:64, Y:13) ---
+--- Evento ID: 13 - Nombre: Tubo -> abajo (X:3, Y:23) ---
   Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 124, 10, 15, 8, 1]
-      TRANSFER PLAYER: MapID 0, X 124, Y 10
+    [121] [119, 119, 1]
+      CHANGE SWITCH: ID 119 to 119, Value 1
+    [201] [0, 122, 22, 45, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 122, Y 22
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 2 - Nombre: ArbolCorte (X:6, Y:41) ---
+  Página: 1
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [111] [12, "pbCut"]
+      CONDITIONAL BRANCH: Type 12, Value pbCut
+    [250] [#<RPG::AudioFile>]
+    [355] ["pbSmashThisEvent"]
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 24 - Nombre: Trainer(5) (X:39, Y:42) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:MOCHILERO)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["¿Eh? ¿Este no era el camino hacia la salida? Bueno… ¡ya que estamos, combatamos!"]
+      TEXTO: "¿Eh? ¿Este no era el camino hacia la salida? Bueno… ¡ya que estamos, combatamos!"
+    [111] [12, "TrainerBattle.start(:MOCHILERO, \"Mochi\")"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:MOCHILERO, "Mochi")
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [101] ["Supongo que también me perdí en la estrategia.."]
+      TEXTO: "Supongo que también me perdí en la estrategia.."
+    [0] []
+
+--- Evento ID: 19 - Nombre: Tubo -> abajo (X:50, Y:20) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 122, 65, 44, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 122, Y 65
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 8 - Nombre: ArbolCorte (X:36, Y:47) ---
+  Página: 1
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [111] [12, "pbCut"]
+      CONDITIONAL BRANCH: Type 12, Value pbCut
+    [250] [#<RPG::AudioFile>]
+    [355] ["pbSmashThisEvent"]
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
     [0] []
 
 --- Evento ID: 30 - Nombre: EV030 (X:2, Y:8) ---
@@ -42194,83 +42216,14 @@ MAPA ID: 122 - Nombre: Desconocido
     [404] []
     [0] []
 
---- Evento ID: 8 - Nombre: ArbolCorte (X:36, Y:47) ---
+--- Evento ID: 41 - Nombre: Entrar casa (X:64, Y:13) ---
   Página: 1
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [111] [12, "pbCut"]
-      CONDITIONAL BRANCH: Type 12, Value pbCut
-    [250] [#<RPG::AudioFile>]
-    [355] ["pbSmashThisEvent"]
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 19 - Nombre: Tubo -> abajo (X:50, Y:20) ---
-  Página: 1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [210] []
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 122, 65, 44, 4, 0]
-      TRANSFER PLAYER: MapID 0, X 122, Y 65
+    [201] [0, 124, 10, 15, 8, 1]
+      TRANSFER PLAYER: MapID 0, X 124, Y 10
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-
---- Evento ID: 25 - Nombre: EV025 (X:19, Y:6) ---
-  Página: 1
-    [111] [12, "pbItemBall(:HYPERPOTION)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:HYPERPOTION)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 3 - Nombre: ArbolCorte (X:17, Y:39) ---
-  Página: 1
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [111] [12, "pbCut"]
-      CONDITIONAL BRANCH: Type 12, Value pbCut
-    [250] [#<RPG::AudioFile>]
-    [355] ["pbSmashThisEvent"]
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 14 - Nombre: Tubo -> abajo (X:4, Y:23) ---
-  Página: 1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [210] []
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 122, 22, 45, 2, 0]
-      TRANSFER PLAYER: MapID 0, X 122, Y 22
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
     [0] []
 
 --- Evento ID: 36 - Nombre: Tubo -> abajo (X:47, Y:20) ---
@@ -42292,35 +42245,64 @@ MAPA ID: 122 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 42 - Nombre: invisiwall (X:32, Y:5) ---
+--- Evento ID: 14 - Nombre: Tubo -> abajo (X:4, Y:23) ---
   Página: 1
-    [101] ["¿A dónde vas?"]
-      TEXTO: "¿A dónde vas?"
-    [101] ["¿Lo ibas a cheesear o que manin?"]
-      TEXTO: "¿Lo ibas a cheesear o que manin?"
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 122, 22, 45, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 122, Y 22
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 31 - Nombre: EV031 (X:3, Y:8) ---
+--- Evento ID: 3 - Nombre: ArbolCorte (X:17, Y:39) ---
   Página: 1
-    [101] ["¿Quieres volver a la entrada?"]
-      TEXTO: "¿Quieres volver a la entrada?"
-    [102] [["Sí", "No"], 2]
-      CHOICES: Sí, No
-    [402] [0, "Sí"]
-    [121] [117, 117, 1]
-      CHANGE SWITCH: ID 117 to 117, Value 1
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [111] [12, "pbCut"]
+      CONDITIONAL BRANCH: Type 12, Value pbCut
     [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 115, 52, 18, 4, 1]
-      TRANSFER PLAYER: MapID 0, X 115, Y 52
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [355] ["pbSmashThisEvent"]
+    [123] ["A", 0]
     [0] []
-    [402] [1, "No"]
+    [412] []
     [0] []
-    [404] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 25 - Nombre: EV025 (X:19, Y:6) ---
+  Página: 1
+    [111] [12, "pbItemBall(:HYPERPOTION)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:HYPERPOTION)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 9 - Nombre: ArbolCorte (X:47, Y:40) ---
+  Página: 1
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [111] [12, "pbCut"]
+      CONDITIONAL BRANCH: Type 12, Value pbCut
+    [250] [#<RPG::AudioFile>]
+    [355] ["pbSmashThisEvent"]
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
     [0] []
 
 --- Evento ID: 20 - Nombre: EV020 (X:1, Y:0) ---
@@ -42366,62 +42348,33 @@ MAPA ID: 122 - Nombre: Desconocido
   Página: 2
     [0] []
 
---- Evento ID: 9 - Nombre: ArbolCorte (X:47, Y:40) ---
+--- Evento ID: 31 - Nombre: EV031 (X:3, Y:8) ---
   Página: 1
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [111] [12, "pbCut"]
-      CONDITIONAL BRANCH: Type 12, Value pbCut
-    [250] [#<RPG::AudioFile>]
-    [355] ["pbSmashThisEvent"]
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 26 - Nombre: EV026 (X:11, Y:24) ---
-  Página: 1
-    [111] [12, "pbItemBall(:LUMBERRY, 3)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:LUMBERRY, 3)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 4 - Nombre: ArbolCorte (X:27, Y:34) ---
-  Página: 1
-    [209] [0, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [111] [12, "pbCut"]
-      CONDITIONAL BRANCH: Type 12, Value pbCut
-    [250] [#<RPG::AudioFile>]
-    [355] ["pbSmashThisEvent"]
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 15 - Nombre: Tubo -> abajo (X:3, Y:24) ---
-  Página: 1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [210] []
+    [101] ["¿Quieres volver a la entrada?"]
+      TEXTO: "¿Quieres volver a la entrada?"
+    [102] [["Sí", "No"], 2]
+      CHOICES: Sí, No
+    [402] [0, "Sí"]
+    [121] [117, 117, 1]
+      CHANGE SWITCH: ID 117 to 117, Value 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 122, 22, 45, 2, 0]
-      TRANSFER PLAYER: MapID 0, X 122, Y 22
+    [201] [0, 115, 52, 18, 4, 1]
+      TRANSFER PLAYER: MapID 0, X 115, Y 52
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
+    [0] []
+    [402] [1, "No"]
+    [0] []
+    [404] []
+    [0] []
+
+--- Evento ID: 42 - Nombre: invisiwall (X:32, Y:5) ---
+  Página: 1
+    [101] ["¿A dónde vas?"]
+      TEXTO: "¿A dónde vas?"
+    [101] ["¿Lo ibas a cheesear o que manin?"]
+      TEXTO: "¿Lo ibas a cheesear o que manin?"
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [0] []
@@ -42445,51 +42398,49 @@ MAPA ID: 122 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 43 - Nombre: EV043 (X:65, Y:15) ---
+--- Evento ID: 15 - Nombre: Tubo -> abajo (X:3, Y:24) ---
   Página: 1
-    [0] []
-  Página: 2
-    [0] []
-  Página: 3
-    [0] []
-
---- Evento ID: 32 - Nombre: EV032 (X:3, Y:7) ---
-  Página: 1
-    [101] ["¿Quieres volver a la entrada?"]
-      TEXTO: "¿Quieres volver a la entrada?"
-    [102] [["Sí", "No"], 2]
-      CHOICES: Sí, No
-    [402] [0, "Sí"]
-    [121] [117, 117, 1]
-      CHANGE SWITCH: ID 117 to 117, Value 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 115, 52, 18, 4, 1]
-      TRANSFER PLAYER: MapID 0, X 115, Y 52
+    [201] [0, 122, 22, 45, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 122, Y 22
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [0] []
-    [402] [1, "No"]
-    [0] []
-    [404] []
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 21 - Nombre: Trainer(5) (X:19, Y:31) ---
+--- Evento ID: 4 - Nombre: ArbolCorte (X:27, Y:34) ---
   Página: 1
-    [355] ["pbTrainerIntro(:MOCHILERO)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["¡Nada como el olor de los árboles y una buena batalla Pokémon para empezar el día!"]
-      TEXTO: "¡Nada como el olor de los árboles y una buena batalla Pokémon para empezar el día!"
-    [111] [12, "TrainerBattle.start(:MOCHILERO, \"Somedas\")"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:MOCHILERO, "Somedas")
+    [209] [0, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [111] [12, "pbCut"]
+      CONDITIONAL BRANCH: Type 12, Value pbCut
+    [250] [#<RPG::AudioFile>]
+    [355] ["pbSmashThisEvent"]
     [123] ["A", 0]
     [0] []
     [412] []
-    [355] ["pbTrainerEnd"]
     [0] []
   Página: 2
-    [101] ["¡Y yo que pensaba que el sendero era lo difícil! Eres increíble."]
-      TEXTO: "¡Y yo que pensaba que el sendero era lo difícil! Eres increíble."
+    [0] []
+
+--- Evento ID: 26 - Nombre: EV026 (X:11, Y:24) ---
+  Página: 1
+    [111] [12, "pbItemBall(:LUMBERRY, 3)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:LUMBERRY, 3)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
     [0] []
 
 --- Evento ID: 10 - Nombre: Arbol Trevenant (X:29, Y:37) ---
@@ -42540,6 +42491,53 @@ MAPA ID: 122 - Nombre: Desconocido
     [123] ["B", 0]
     [0] []
   Página: 4
+    [0] []
+
+--- Evento ID: 21 - Nombre: Trainer(5) (X:19, Y:31) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:MOCHILERO)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["¡Nada como el olor de los árboles y una buena batalla Pokémon para empezar el día!"]
+      TEXTO: "¡Nada como el olor de los árboles y una buena batalla Pokémon para empezar el día!"
+    [111] [12, "TrainerBattle.start(:MOCHILERO, \"Somedas\")"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:MOCHILERO, "Somedas")
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [101] ["¡Y yo que pensaba que el sendero era lo difícil! Eres increíble."]
+      TEXTO: "¡Y yo que pensaba que el sendero era lo difícil! Eres increíble."
+    [0] []
+
+--- Evento ID: 32 - Nombre: EV032 (X:3, Y:7) ---
+  Página: 1
+    [101] ["¿Quieres volver a la entrada?"]
+      TEXTO: "¿Quieres volver a la entrada?"
+    [102] [["Sí", "No"], 2]
+      CHOICES: Sí, No
+    [402] [0, "Sí"]
+    [121] [117, 117, 1]
+      CHANGE SWITCH: ID 117 to 117, Value 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 115, 52, 18, 4, 1]
+      TRANSFER PLAYER: MapID 0, X 115, Y 52
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+    [402] [1, "No"]
+    [0] []
+    [404] []
+    [0] []
+
+--- Evento ID: 43 - Nombre: EV043 (X:65, Y:15) ---
+  Página: 1
+    [0] []
+  Página: 2
+    [0] []
+  Página: 3
     [0] []
 ==================================================
 MAPA ID: 123 - Nombre: Desconocido
@@ -63181,24 +63179,22 @@ MAPA ID: 154 - Nombre: Desconocido
 MAPA ID: 155 - Nombre: Desconocido
 ==================================================
 
---- Evento ID: 5 - Nombre: EV005 (X:4, Y:19) ---
+--- Evento ID: 49 - Nombre: EV049 (X:26, Y:5) ---
   Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
+    [111] [12, "WildBattle.start(:SHROOMISH,40)"]
+      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:SHROOMISH,40)
+    [123] ["A", 0]
     [0] []
     [411] []
     [0] []
     [412] []
     [0] []
+  Página: 2
+    [0] []
 
---- Evento ID: 16 - Nombre: EV016 (X:7, Y:12) ---
+--- Evento ID: 38 - Nombre: EV038 (X:18, Y:8) ---
   Página: 1
-    [111] [6, -1, 8]
+    [111] [6, -1, 6]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63226,35 +63222,7 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 38 - Nombre: EV038 (X:18, Y:8) ---
-  Página: 1
-    [111] [6, -1, 6]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 49 - Nombre: EV049 (X:26, Y:5) ---
-  Página: 1
-    [111] [12, "WildBattle.start(:SHROOMISH,40)"]
-      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:SHROOMISH,40)
-    [123] ["A", 0]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 11 - Nombre: EV011 (X:9, Y:19) ---
+--- Evento ID: 16 - Nombre: EV016 (X:7, Y:12) ---
   Página: 1
     [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -63269,24 +63237,9 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 22 - Nombre: EV022 (X:6, Y:17) ---
+--- Evento ID: 5 - Nombre: EV005 (X:4, Y:19) ---
   Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 33 - Nombre: EV033 (X:13, Y:10) ---
-  Página: 1
-    [111] [6, -1, 6]
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63314,7 +63267,37 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 6 - Nombre: EV006 (X:5, Y:19) ---
+--- Evento ID: 33 - Nombre: EV033 (X:13, Y:10) ---
+  Página: 1
+    [111] [6, -1, 6]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 22 - Nombre: EV022 (X:6, Y:17) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 11 - Nombre: EV011 (X:9, Y:19) ---
   Página: 1
     [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -63329,9 +63312,22 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 17 - Nombre: EV017 (X:8, Y:12) ---
+--- Evento ID: 50 - Nombre: EV050 (X:28, Y:8) ---
   Página: 1
-    [111] [6, -1, 8]
+    [111] [12, "WildBattle.start(:SHROOMISH,40)"]
+      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:SHROOMISH,40)
+    [123] ["A", 0]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 39 - Nombre: EV039 (X:15, Y:8) ---
+  Página: 1
+    [111] [6, -1, 4]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63359,9 +63355,9 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 39 - Nombre: EV039 (X:15, Y:8) ---
+--- Evento ID: 17 - Nombre: EV017 (X:8, Y:12) ---
   Página: 1
-    [111] [6, -1, 4]
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63374,41 +63370,34 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 50 - Nombre: EV050 (X:28, Y:8) ---
+--- Evento ID: 6 - Nombre: EV006 (X:5, Y:19) ---
   Página: 1
-    [111] [12, "WildBattle.start(:SHROOMISH,40)"]
-      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:SHROOMISH,40)
-    [123] ["A", 0]
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
     [0] []
     [411] []
     [0] []
     [412] []
     [0] []
-  Página: 2
-    [0] []
 
---- Evento ID: 1 - Nombre: Tubo -> abajo (X:5, Y:24) ---
+--- Evento ID: 45 - Nombre: Warp CP-Cap (X:25, Y:29) ---
   Página: 1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [210] []
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 152, 19, 17, 2, 0]
-      TRANSFER PLAYER: MapID 0, X 152, Y 19
+    [201] [0, 152, 35, 17, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 152, Y 35
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 12 - Nombre: EV012 (X:3, Y:12) ---
+--- Evento ID: 34 - Nombre: EV034 (X:13, Y:9) ---
   Página: 1
-    [111] [6, -1, 8]
+    [111] [6, -1, 6]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63436,9 +63425,9 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 34 - Nombre: EV034 (X:13, Y:9) ---
+--- Evento ID: 12 - Nombre: EV012 (X:3, Y:12) ---
   Página: 1
-    [111] [6, -1, 6]
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63451,34 +63440,41 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 45 - Nombre: Warp CP-Cap (X:25, Y:29) ---
+--- Evento ID: 1 - Nombre: Tubo -> abajo (X:5, Y:24) ---
   Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 152, 35, 17, 0, 0]
-      TRANSFER PLAYER: MapID 0, X 152, Y 35
+    [201] [0, 152, 19, 17, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 152, Y 19
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [0] []
-
---- Evento ID: 7 - Nombre: EV007 (X:6, Y:19) ---
-  Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
+    [210] []
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 51 - Nombre: EV051 (X:29, Y:4) ---
+  Página: 1
+    [111] [12, "WildBattle.start(:SHROOMISH,40)"]
+      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:SHROOMISH,40)
+    [123] ["A", 0]
     [0] []
     [411] []
     [0] []
     [412] []
     [0] []
+  Página: 2
+    [0] []
 
---- Evento ID: 18 - Nombre: EV018 (X:9, Y:12) ---
+--- Evento ID: 40 - Nombre: EV040 (X:15, Y:9) ---
   Página: 1
-    [111] [6, -1, 8]
+    [111] [6, -1, 4]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63506,65 +63502,7 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 40 - Nombre: EV040 (X:15, Y:9) ---
-  Página: 1
-    [111] [6, -1, 4]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 51 - Nombre: EV051 (X:29, Y:4) ---
-  Página: 1
-    [111] [12, "WildBattle.start(:SHROOMISH,40)"]
-      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:SHROOMISH,40)
-    [123] ["A", 0]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 46 - Nombre: EV046 (X:6, Y:23) ---
-  Página: 1
-    [121] [147, 147, 0]
-      CHANGE SWITCH: ID 147 to 147, Value 0
-    [123] ["A", 0]
-    [101] ["La puerta se ha abierto."]
-      TEXTO: "La puerta se ha abierto."
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 2 - Nombre: Tubo -> abajo (X:6, Y:24) ---
-  Página: 1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [210] []
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 152, 19, 17, 2, 0]
-      TRANSFER PLAYER: MapID 0, X 152, Y 19
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [210] []
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-
---- Evento ID: 13 - Nombre: EV013 (X:4, Y:12) ---
+--- Evento ID: 18 - Nombre: EV018 (X:9, Y:12) ---
   Página: 1
     [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -63579,9 +63517,9 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 24 - Nombre: EV024 (X:8, Y:17) ---
+--- Evento ID: 7 - Nombre: EV007 (X:6, Y:19) ---
   Página: 1
-    [111] [6, -1, 2]
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63609,7 +63547,22 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 8 - Nombre: EV008 (X:7, Y:19) ---
+--- Evento ID: 24 - Nombre: EV024 (X:8, Y:17) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 13 - Nombre: EV013 (X:4, Y:12) ---
   Página: 1
     [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -63624,9 +63577,39 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 19 - Nombre: EV019 (X:3, Y:17) ---
+--- Evento ID: 2 - Nombre: Tubo -> abajo (X:6, Y:24) ---
   Página: 1
-    [111] [6, -1, 2]
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 152, 19, 17, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 152, Y 19
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 46 - Nombre: EV046 (X:6, Y:23) ---
+  Página: 1
+    [121] [147, 147, 0]
+      CHANGE SWITCH: ID 147 to 147, Value 0
+    [123] ["A", 0]
+    [101] ["La puerta se ha abierto."]
+      TEXTO: "La puerta se ha abierto."
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 41 - Nombre: EV041 (X:15, Y:10) ---
+  Página: 1
+    [111] [6, -1, 4]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63654,9 +63637,82 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 41 - Nombre: EV041 (X:15, Y:10) ---
+--- Evento ID: 19 - Nombre: EV019 (X:3, Y:17) ---
   Página: 1
-    [111] [6, -1, 4]
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 8 - Nombre: EV008 (X:7, Y:19) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 47 - Nombre: EV047 (X:24, Y:9) ---
+  Página: 1
+    [111] [12, "WildBattle.start(:SHROOMISH,40)"]
+      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:SHROOMISH,40)
+    [123] ["A", 0]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 36 - Nombre: EV036 (X:18, Y:10) ---
+  Página: 1
+    [111] [6, -1, 6]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 25 - Nombre: EV025 (X:9, Y:17) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 14 - Nombre: EV014 (X:5, Y:12) ---
+  Página: 1
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63688,82 +63744,9 @@ MAPA ID: 155 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 14 - Nombre: EV014 (X:5, Y:12) ---
+--- Evento ID: 42 - Nombre: EV042 (X:20, Y:8) ---
   Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 25 - Nombre: EV025 (X:9, Y:17) ---
-  Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 36 - Nombre: EV036 (X:18, Y:10) ---
-  Página: 1
-    [111] [6, -1, 6]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 47 - Nombre: EV047 (X:24, Y:9) ---
-  Página: 1
-    [111] [12, "WildBattle.start(:SHROOMISH,40)"]
-      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:SHROOMISH,40)
-    [123] ["A", 0]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 9 - Nombre: EV009 (X:8, Y:19) ---
-  Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 20 - Nombre: EV020 (X:4, Y:17) ---
-  Página: 1
-    [111] [6, -1, 2]
+    [111] [6, -1, 4]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63791,9 +63774,82 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 42 - Nombre: EV042 (X:20, Y:8) ---
+--- Evento ID: 20 - Nombre: EV020 (X:4, Y:17) ---
   Página: 1
-    [111] [6, -1, 4]
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 9 - Nombre: EV009 (X:8, Y:19) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 48 - Nombre: EV048 (X:23, Y:6) ---
+  Página: 1
+    [111] [12, "WildBattle.start(:SHROOMISH,40)"]
+      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:SHROOMISH,40)
+    [123] ["A", 0]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 37 - Nombre: EV037 (X:18, Y:9) ---
+  Página: 1
+    [111] [6, -1, 6]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 26 - Nombre: EV026 (X:3, Y:10) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 15 - Nombre: EV015 (X:6, Y:12) ---
+  Página: 1
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63825,82 +63881,9 @@ MAPA ID: 155 - Nombre: Desconocido
     [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 15 - Nombre: EV015 (X:6, Y:12) ---
+--- Evento ID: 43 - Nombre: EV043 (X:20, Y:9) ---
   Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 26 - Nombre: EV026 (X:3, Y:10) ---
-  Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 37 - Nombre: EV037 (X:18, Y:9) ---
-  Página: 1
-    [111] [6, -1, 6]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 48 - Nombre: EV048 (X:23, Y:6) ---
-  Página: 1
-    [111] [12, "WildBattle.start(:SHROOMISH,40)"]
-      CONDITIONAL BRANCH: Type 12, Value WildBattle.start(:SHROOMISH,40)
-    [123] ["A", 0]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 10 - Nombre: EV010 (X:3, Y:19) ---
-  Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 21 - Nombre: EV021 (X:5, Y:17) ---
-  Página: 1
-    [111] [6, -1, 2]
+    [111] [6, -1, 4]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -63928,9 +63911,24 @@ MAPA ID: 155 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 43 - Nombre: EV043 (X:20, Y:9) ---
+--- Evento ID: 21 - Nombre: EV021 (X:5, Y:17) ---
   Página: 1
-    [111] [6, -1, 4]
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 10 - Nombre: EV010 (X:3, Y:19) ---
+  Página: 1
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -69091,34 +69089,46 @@ MAPA ID: 166 - Nombre: Desconocido
 MAPA ID: 167 - Nombre: Desconocido
 ==================================================
 
---- Evento ID: 49 - Nombre: EV049 (X:23, Y:12) ---
+--- Evento ID: 60 - Nombre: Warp  (X:24, Y:0) ---
   Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 170, 29, 38, 8, 0]
+      TRANSFER PLAYER: MapID 0, X 170, Y 29
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
---- Evento ID: 38 - Nombre: EV038 (X:21, Y:51) ---
+--- Evento ID: 5 - Nombre: EV005 (X:43, Y:60) ---
   Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
+    [0] []
+  Página: 2
+    [101] ["¿Quieres que te lance al otro lado?"]
+      TEXTO: "¿Quieres que te lance al otro lado?"
+    [102] [["Sí", "No"], 2]
+      CHOICES: Sí, No
+    [402] [0, "Sí"]
+    [101] ["De acuerdo, ¡agárrate fuerte a mí y después suelta!"]
+      TEXTO: "De acuerdo, ¡agárrate fuerte a mí y después suelta!"
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [0] []
-    [411] []
+    [402] [1, "No"]
+    [101] ["Vale, como quieras."]
+      TEXTO: "Vale, como quieras."
     [0] []
-    [412] []
+    [404] []
+    [0] []
+
+--- Evento ID: 16 - Nombre: EV016 (X:23, Y:25) ---
+  Página: 1
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+  Página: 2
     [0] []
 
 --- Evento ID: 27 - Nombre: EV027 (X:25, Y:68) ---
@@ -69147,68 +69157,49 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 16 - Nombre: EV016 (X:23, Y:25) ---
+--- Evento ID: 38 - Nombre: EV038 (X:21, Y:51) ---
   Página: 1
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 5 - Nombre: EV005 (X:43, Y:60) ---
-  Página: 1
-    [0] []
-  Página: 2
-    [101] ["¿Quieres que te lance al otro lado?"]
-      TEXTO: "¿Quieres que te lance al otro lado?"
-    [102] [["Sí", "No"], 2]
-      CHOICES: Sí, No
-    [402] [0, "Sí"]
-    [101] ["De acuerdo, ¡agárrate fuerte a mí y después suelta!"]
-      TEXTO: "De acuerdo, ¡agárrate fuerte a mí y después suelta!"
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [0] []
-    [402] [1, "No"]
-    [101] ["Vale, como quieras."]
-      TEXTO: "Vale, como quieras."
+    [411] []
     [0] []
-    [404] []
+    [412] []
     [0] []
 
---- Evento ID: 60 - Nombre: Warp  (X:24, Y:0) ---
+--- Evento ID: 49 - Nombre: EV049 (X:23, Y:12) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 22 - Nombre: Warp  (X:30, Y:77) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 170, 29, 38, 8, 0]
-      TRANSFER PLAYER: MapID 0, X 170, Y 29
+    [201] [0, 168, 8, 5, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 168, Y 8
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
---- Evento ID: 11 - Nombre: EV011 (X:43, Y:59) ---
+--- Evento ID: 33 - Nombre: EV033 (X:21, Y:62) ---
   Página: 1
-    [355] ["NameBox.load('Cappy')"]
-    [250] [#<RPG::AudioFile>]
-    [101] ["Hmmm... No creo que puedas saltar desde aquí hasta "]
-      TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta "
-    [401] ["el otro lado."]
-      TEXTO: "el otro lado."
-    [101] ["Busquemos algo con lo que podamos pasar."]
-      TEXTO: "Busquemos algo con lo que podamos pasar."
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [355] ["NameBox.dispose"]
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 55 - Nombre: EV055 (X:29, Y:50) ---
-  Página: 1
-    [111] [6, -1, 6]
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -69236,9 +69227,9 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 33 - Nombre: EV033 (X:21, Y:62) ---
+--- Evento ID: 55 - Nombre: EV055 (X:29, Y:50) ---
   Página: 1
-    [111] [6, -1, 8]
+    [111] [6, -1, 6]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -69251,44 +69242,63 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 22 - Nombre: Warp  (X:30, Y:77) ---
+--- Evento ID: 11 - Nombre: EV011 (X:43, Y:59) ---
+  Página: 1
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["Hmmm... No creo que puedas saltar desde aquí hasta "]
+      TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta "
+    [401] ["el otro lado."]
+      TEXTO: "el otro lado."
+    [101] ["Busquemos algo con lo que podamos pasar."]
+      TEXTO: "Busquemos algo con lo que podamos pasar."
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [355] ["NameBox.dispose"]
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 61 - Nombre: Warp  (X:25, Y:0) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 168, 8, 5, 0, 0]
-      TRANSFER PLAYER: MapID 0, X 168, Y 8
+    [201] [0, 170, 30, 38, 8, 0]
+      TRANSFER PLAYER: MapID 0, X 170, Y 30
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
---- Evento ID: 50 - Nombre: EV050 (X:24, Y:12) ---
+--- Evento ID: 6 - Nombre: EV006 (X:43, Y:54) ---
   Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
+    [0] []
+  Página: 2
+    [101] ["¿Quieres que te lance al otro lado?"]
+      TEXTO: "¿Quieres que te lance al otro lado?"
+    [102] [["Sí", "No"], 2]
+      CHOICES: Sí, No
+    [402] [0, "Sí"]
+    [101] ["De acuerdo, ¡agárrate fuerte a mí y después suelta!"]
+      TEXTO: "De acuerdo, ¡agárrate fuerte a mí y después suelta!"
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [0] []
-    [411] []
+    [402] [1, "No"]
+    [101] ["Vale, como quieras."]
+      TEXTO: "Vale, como quieras."
     [0] []
-    [412] []
+    [404] []
     [0] []
 
---- Evento ID: 39 - Nombre: EV039 (X:22, Y:51) ---
+--- Evento ID: 17 - Nombre: EV017 (X:25, Y:25) ---
   Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
     [0] []
-    [411] []
-    [0] []
-    [412] []
+  Página: 2
     [0] []
 
 --- Evento ID: 28 - Nombre: EV028 (X:26, Y:68) ---
@@ -69317,68 +69327,69 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 17 - Nombre: EV017 (X:25, Y:25) ---
+--- Evento ID: 39 - Nombre: EV039 (X:22, Y:51) ---
   Página: 1
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 6 - Nombre: EV006 (X:43, Y:54) ---
-  Página: 1
-    [0] []
-  Página: 2
-    [101] ["¿Quieres que te lance al otro lado?"]
-      TEXTO: "¿Quieres que te lance al otro lado?"
-    [102] [["Sí", "No"], 2]
-      CHOICES: Sí, No
-    [402] [0, "Sí"]
-    [101] ["De acuerdo, ¡agárrate fuerte a mí y después suelta!"]
-      TEXTO: "De acuerdo, ¡agárrate fuerte a mí y después suelta!"
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [509] [#<RPG::MoveCommand>]
     [0] []
-    [402] [1, "No"]
-    [101] ["Vale, como quieras."]
-      TEXTO: "Vale, como quieras."
+    [411] []
     [0] []
-    [404] []
+    [412] []
     [0] []
 
---- Evento ID: 61 - Nombre: Warp  (X:25, Y:0) ---
+--- Evento ID: 50 - Nombre: EV050 (X:24, Y:12) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 1 - Nombre: Trainer(5) (X:22, Y:31) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:RECLUTA)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [111] [12, "TrainerBattle.start(:RECLUTA, \"Broodal\", 19)"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RECLUTA, "Broodal", 19)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [0] []
+  Página: 3
+    [0] []
+
+--- Evento ID: 23 - Nombre: Warp  (X:31, Y:77) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 170, 30, 38, 8, 0]
-      TRANSFER PLAYER: MapID 0, X 170, Y 30
+    [201] [0, 168, 9, 5, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 168, Y 9
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
---- Evento ID: 12 - Nombre: EV012 (X:44, Y:59) ---
+--- Evento ID: 34 - Nombre: EV034 (X:22, Y:62) ---
   Página: 1
-    [355] ["NameBox.load('Cappy')"]
-    [250] [#<RPG::AudioFile>]
-    [101] ["Hmmm... No creo que puedas saltar desde aquí hasta "]
-      TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta "
-    [401] ["el otro lado."]
-      TEXTO: "el otro lado."
-    [101] ["Busquemos algo con lo que podamos pasar."]
-      TEXTO: "Busquemos algo con lo que podamos pasar."
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [355] ["NameBox.dispose"]
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 56 - Nombre: EV056 (X:29, Y:51) ---
-  Página: 1
-    [111] [6, -1, 6]
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -69406,9 +69417,9 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 34 - Nombre: EV034 (X:22, Y:62) ---
+--- Evento ID: 56 - Nombre: EV056 (X:29, Y:51) ---
   Página: 1
-    [111] [6, -1, 8]
+    [111] [6, -1, 6]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -69421,79 +69432,43 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 23 - Nombre: Warp  (X:31, Y:77) ---
+--- Evento ID: 12 - Nombre: EV012 (X:44, Y:59) ---
   Página: 1
+    [355] ["NameBox.load('Cappy')"]
     [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 168, 9, 5, 0, 0]
-      TRANSFER PLAYER: MapID 0, X 168, Y 9
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [101] ["Hmmm... No creo que puedas saltar desde aquí hasta "]
+      TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta "
+    [401] ["el otro lado."]
+      TEXTO: "el otro lado."
+    [101] ["Busquemos algo con lo que podamos pasar."]
+      TEXTO: "Busquemos algo con lo que podamos pasar."
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [355] ["NameBox.dispose"]
+    [0] []
+  Página: 2
     [0] []
 
---- Evento ID: 1 - Nombre: Trainer(5) (X:22, Y:31) ---
+--- Evento ID: 7 - Nombre: EV007 (X:26, Y:59) ---
   Página: 1
-    [355] ["pbTrainerIntro(:RECLUTA)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["Placeholder."]
-      TEXTO: "Placeholder."
-    [111] [12, "TrainerBattle.start(:RECLUTA, \"Broodal\", 19)"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RECLUTA, "Broodal", 19)
+    [111] [12, "pbItemBall(:FULLRESTORE)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:FULLRESTORE)
     [123] ["A", 0]
     [0] []
     [412] []
-    [355] ["pbTrainerEnd"]
     [0] []
   Página: 2
-    [101] ["Placeholder."]
-      TEXTO: "Placeholder."
-    [0] []
-  Página: 3
     [0] []
 
---- Evento ID: 62 - Nombre: EV062 (X:22, Y:53) ---
+--- Evento ID: 18 - Nombre: EV018 (X:16, Y:32) ---
   Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
+    [111] [12, "pbItemBall(:CHARCOAL)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:CHARCOAL)
+    [123] ["A", 0]
     [0] []
     [412] []
     [0] []
-
---- Evento ID: 51 - Nombre: EV051 (X:25, Y:12) ---
-  Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 40 - Nombre: EV040 (X:21, Y:54) ---
-  Página: 1
-    [111] [6, -1, 2]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
+  Página: 2
     [0] []
 
 --- Evento ID: 29 - Nombre: EV029 (X:27, Y:68) ---
@@ -69522,48 +69497,9 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 18 - Nombre: EV018 (X:16, Y:32) ---
+--- Evento ID: 40 - Nombre: EV040 (X:21, Y:54) ---
   Página: 1
-    [111] [12, "pbItemBall(:CHARCOAL)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:CHARCOAL)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 7 - Nombre: EV007 (X:26, Y:59) ---
-  Página: 1
-    [111] [12, "pbItemBall(:FULLRESTORE)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:FULLRESTORE)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 13 - Nombre: EV013 (X:45, Y:59) ---
-  Página: 1
-    [355] ["NameBox.load('Cappy')"]
-    [250] [#<RPG::AudioFile>]
-    [101] ["Hmmm... No creo que puedas saltar desde aquí hasta "]
-      TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta "
-    [401] ["el otro lado."]
-      TEXTO: "el otro lado."
-    [101] ["Busquemos algo con lo que podamos pasar."]
-      TEXTO: "Busquemos algo con lo que podamos pasar."
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [355] ["NameBox.dispose"]
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 57 - Nombre: EV057 (X:31, Y:50) ---
-  Página: 1
-    [111] [6, -1, 4]
+    [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -69576,9 +69512,9 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 46 - Nombre: EV046 (X:23, Y:10) ---
+--- Evento ID: 51 - Nombre: EV051 (X:25, Y:12) ---
   Página: 1
-    [111] [6, -1, 8]
+    [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -69591,22 +69527,7 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 35 - Nombre: EV035 (X:21, Y:59) ---
-  Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 24 - Nombre: EV024 (X:25, Y:70) ---
+--- Evento ID: 62 - Nombre: EV062 (X:22, Y:53) ---
   Página: 1
     [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -69641,9 +69562,9 @@ MAPA ID: 167 - Nombre: Desconocido
   Página: 3
     [0] []
 
---- Evento ID: 63 - Nombre: EV063 (X:22, Y:60) ---
+--- Evento ID: 24 - Nombre: EV024 (X:25, Y:70) ---
   Página: 1
-    [111] [6, -1, 2]
+    [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -69656,7 +69577,93 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 52 - Nombre: EV052 (X:23, Y:8) ---
+--- Evento ID: 35 - Nombre: EV035 (X:21, Y:59) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 46 - Nombre: EV046 (X:23, Y:10) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 57 - Nombre: EV057 (X:31, Y:50) ---
+  Página: 1
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 13 - Nombre: EV013 (X:45, Y:59) ---
+  Página: 1
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["Hmmm... No creo que puedas saltar desde aquí hasta "]
+      TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta "
+    [401] ["el otro lado."]
+      TEXTO: "el otro lado."
+    [101] ["Busquemos algo con lo que podamos pasar."]
+      TEXTO: "Busquemos algo con lo que podamos pasar."
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [355] ["NameBox.dispose"]
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 8 - Nombre: EV008 (X:37, Y:50) ---
+  Página: 1
+    [121] [158, 158, 0]
+      CHANGE SWITCH: ID 158 to 158, Value 0
+    [123] ["A", 0]
+    [101] ["Has activado el interruptor."]
+      TEXTO: "Has activado el interruptor."
+    [101] ["¡Han aparecido 2 delisubianos!"]
+      TEXTO: "¡Han aparecido 2 delisubianos!"
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 19 - Nombre: EV019 (X:44, Y:68) ---
+  Página: 1
+    [111] [12, "pbItemBall(:LAVACOOKIE)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:LAVACOOKIE)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 30 - Nombre: EV030 (X:25, Y:66) ---
   Página: 1
     [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -69686,7 +69693,7 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 30 - Nombre: EV030 (X:25, Y:66) ---
+--- Evento ID: 52 - Nombre: EV052 (X:23, Y:8) ---
   Página: 1
     [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -69701,33 +69708,9 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 19 - Nombre: EV019 (X:44, Y:68) ---
+--- Evento ID: 63 - Nombre: EV063 (X:22, Y:60) ---
   Página: 1
-    [111] [12, "pbItemBall(:LAVACOOKIE)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:LAVACOOKIE)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 8 - Nombre: EV008 (X:37, Y:50) ---
-  Página: 1
-    [121] [158, 158, 0]
-      CHANGE SWITCH: ID 158 to 158, Value 0
-    [123] ["A", 0]
-    [101] ["Has activado el interruptor."]
-      TEXTO: "Has activado el interruptor."
-    [101] ["¡Han aparecido 2 delisubianos!"]
-      TEXTO: "¡Han aparecido 2 delisubianos!"
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 58 - Nombre: EV058 (X:31, Y:51) ---
-  Página: 1
-    [111] [6, -1, 4]
+    [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -69740,7 +69723,47 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 47 - Nombre: EV047 (X:24, Y:10) ---
+--- Evento ID: 14 - Nombre: Trainer(5) (X:11, Y:44) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:RECLUTA)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [111] [12, "TrainerBattle.start(:RECLUTA, \"Broodal\", 17)"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RECLUTA, "Broodal", 17)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [0] []
+  Página: 3
+    [0] []
+
+--- Evento ID: 3 - Nombre: Trainer(5) (X:34, Y:38) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:RECLUTA)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [111] [12, "TrainerBattle.start(:RECLUTA, \"Broodal\", 18)"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RECLUTA, "Broodal", 18)
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [0] []
+  Página: 3
+    [0] []
+
+--- Evento ID: 25 - Nombre: EV025 (X:26, Y:70) ---
   Página: 1
     [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -69770,7 +69793,7 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 25 - Nombre: EV025 (X:26, Y:70) ---
+--- Evento ID: 47 - Nombre: EV047 (X:24, Y:10) ---
   Página: 1
     [111] [6, -1, 8]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -69785,47 +69808,50 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 3 - Nombre: Trainer(5) (X:34, Y:38) ---
+--- Evento ID: 58 - Nombre: EV058 (X:31, Y:51) ---
   Página: 1
-    [355] ["pbTrainerIntro(:RECLUTA)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["Placeholder."]
-      TEXTO: "Placeholder."
-    [111] [12, "TrainerBattle.start(:RECLUTA, \"Broodal\", 18)"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RECLUTA, "Broodal", 18)
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 9 - Nombre: EV009 (X:41, Y:59) ---
+  Página: 1
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["Hmmm... No creo que puedas saltar desde aquí hasta "]
+      TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta "
+    [401] ["el otro lado."]
+      TEXTO: "el otro lado."
+    [101] ["Busquemos algo con lo que podamos pasar."]
+      TEXTO: "Busquemos algo con lo que podamos pasar."
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [355] ["NameBox.dispose"]
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 20 - Nombre: EV020 (X:13, Y:44) ---
+  Página: 1
+    [111] [12, "pbItemBall(:TM38)"]
+      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:TM38)
     [123] ["A", 0]
     [0] []
     [412] []
-    [355] ["pbTrainerEnd"]
     [0] []
   Página: 2
-    [101] ["Placeholder."]
-      TEXTO: "Placeholder."
-    [0] []
-  Página: 3
     [0] []
 
---- Evento ID: 14 - Nombre: Trainer(5) (X:11, Y:44) ---
-  Página: 1
-    [355] ["pbTrainerIntro(:RECLUTA)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["Placeholder."]
-      TEXTO: "Placeholder."
-    [111] [12, "TrainerBattle.start(:RECLUTA, \"Broodal\", 17)"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RECLUTA, "Broodal", 17)
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [355] ["pbTrainerEnd"]
-    [0] []
-  Página: 2
-    [101] ["Placeholder."]
-      TEXTO: "Placeholder."
-    [0] []
-  Página: 3
-    [0] []
-
---- Evento ID: 53 - Nombre: EV053 (X:24, Y:8) ---
+--- Evento ID: 31 - Nombre: EV031 (X:26, Y:66) ---
   Página: 1
     [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -69855,7 +69881,7 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 31 - Nombre: EV031 (X:26, Y:66) ---
+--- Evento ID: 53 - Nombre: EV053 (X:24, Y:8) ---
   Página: 1
     [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -69870,77 +69896,20 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 20 - Nombre: EV020 (X:13, Y:44) ---
+--- Evento ID: 59 - Nombre: Warp  (X:23, Y:0) ---
   Página: 1
-    [111] [12, "pbItemBall(:TM38)"]
-      CONDITIONAL BRANCH: Type 12, Value pbItemBall(:TM38)
-    [123] ["A", 0]
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 170, 28, 38, 8, 0]
+      TRANSFER PLAYER: MapID 0, X 170, Y 28
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
-    [412] []
+
+--- Evento ID: 4 - Nombre: Spewart (X:24, Y:19) ---
+  Página: 1
     [0] []
   Página: 2
-    [0] []
-
---- Evento ID: 9 - Nombre: EV009 (X:41, Y:59) ---
-  Página: 1
-    [355] ["NameBox.load('Cappy')"]
-    [250] [#<RPG::AudioFile>]
-    [101] ["Hmmm... No creo que puedas saltar desde aquí hasta "]
-      TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta "
-    [401] ["el otro lado."]
-      TEXTO: "el otro lado."
-    [101] ["Busquemos algo con lo que podamos pasar."]
-      TEXTO: "Busquemos algo con lo que podamos pasar."
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [355] ["NameBox.dispose"]
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 48 - Nombre: EV048 (X:25, Y:10) ---
-  Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 37 - Nombre: EV037 (X:21, Y:53) ---
-  Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 26 - Nombre: EV026 (X:27, Y:70) ---
-  Página: 1
-    [111] [6, -1, 8]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
     [0] []
 
 --- Evento ID: 15 - Nombre: Trigger Spewart (X:24, Y:25) ---
@@ -69992,40 +69961,62 @@ MAPA ID: 167 - Nombre: Desconocido
   Página: 2
     [0] []
 
---- Evento ID: 4 - Nombre: Spewart (X:24, Y:19) ---
+--- Evento ID: 26 - Nombre: EV026 (X:27, Y:70) ---
   Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
     [0] []
-  Página: 2
+    [411] []
+    [0] []
+    [412] []
     [0] []
 
---- Evento ID: 59 - Nombre: Warp  (X:23, Y:0) ---
+--- Evento ID: 37 - Nombre: EV037 (X:21, Y:53) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 48 - Nombre: EV048 (X:25, Y:10) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 21 - Nombre: Warp  (X:29, Y:77) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 170, 28, 38, 8, 0]
-      TRANSFER PLAYER: MapID 0, X 170, Y 28
+    [201] [0, 168, 7, 5, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 168, Y 7
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
---- Evento ID: 10 - Nombre: EV010 (X:42, Y:59) ---
-  Página: 1
-    [355] ["NameBox.load('Cappy')"]
-    [250] [#<RPG::AudioFile>]
-    [101] ["Hmmm... No creo que puedas saltar desde aquí hasta "]
-      TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta "
-    [401] ["el otro lado."]
-      TEXTO: "el otro lado."
-    [101] ["Busquemos algo con lo que podamos pasar."]
-      TEXTO: "Busquemos algo con lo que podamos pasar."
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [355] ["NameBox.dispose"]
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 54 - Nombre: EV054 (X:25, Y:8) ---
+--- Evento ID: 32 - Nombre: EV032 (X:27, Y:66) ---
   Página: 1
     [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -70055,7 +70046,7 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 32 - Nombre: EV032 (X:27, Y:66) ---
+--- Evento ID: 54 - Nombre: EV054 (X:25, Y:8) ---
   Página: 1
     [111] [6, -1, 2]
       CONDITIONAL BRANCH: Type 6, Value -1
@@ -70070,14 +70061,21 @@ MAPA ID: 167 - Nombre: Desconocido
     [412] []
     [0] []
 
---- Evento ID: 21 - Nombre: Warp  (X:29, Y:77) ---
+--- Evento ID: 10 - Nombre: EV010 (X:42, Y:59) ---
   Página: 1
+    [355] ["NameBox.load('Cappy')"]
     [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 168, 7, 5, 0, 0]
-      TRANSFER PLAYER: MapID 0, X 168, Y 7
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [101] ["Hmmm... No creo que puedas saltar desde aquí hasta "]
+      TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta "
+    [401] ["el otro lado."]
+      TEXTO: "el otro lado."
+    [101] ["Busquemos algo con lo que podamos pasar."]
+      TEXTO: "Busquemos algo con lo que podamos pasar."
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [355] ["NameBox.dispose"]
+    [0] []
+  Página: 2
     [0] []
 ==================================================
 MAPA ID: 168 - Nombre: Desconocido
@@ -70505,19 +70503,16 @@ MAPA ID: 169 - Nombre: Desconocido
 MAPA ID: 170 - Nombre: Desconocido
 ==================================================
 
---- Evento ID: 38 - Nombre: EV038 (X:6, Y:21) ---
+--- Evento ID: 16 - Nombre: Nabo 1 (X:54, Y:15) ---
   Página: 1
-    [111] [6, -1, 6]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
     [0] []
-    [411] []
+  Página: 2
     [0] []
-    [412] []
+
+--- Evento ID: 27 - Nombre: EV027 (X:34, Y:20) ---
+  Página: 1
+    [101] ["Son un montón de latas vacías."]
+      TEXTO: "Son un montón de latas vacías."
     [0] []
 
 --- Evento ID: 5 - Nombre: EV005 (X:37, Y:35) ---
@@ -70539,21 +70534,9 @@ MAPA ID: 170 - Nombre: Desconocido
   Página: 3
     [0] []
 
---- Evento ID: 27 - Nombre: EV027 (X:34, Y:20) ---
+--- Evento ID: 38 - Nombre: EV038 (X:6, Y:21) ---
   Página: 1
-    [101] ["Son un montón de latas vacías."]
-      TEXTO: "Son un montón de latas vacías."
-    [0] []
-
---- Evento ID: 16 - Nombre: Nabo 1 (X:54, Y:15) ---
-  Página: 1
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 33 - Nombre: EV033 (X:8, Y:19) ---
-  Página: 1
-    [111] [6, -1, 4]
+    [111] [6, -1, 6]
       CONDITIONAL BRANCH: Type 6, Value -1
     [250] [#<RPG::AudioFile>]
     [209] [-1, #<RPG::MoveRoute>]
@@ -70564,18 +70547,6 @@ MAPA ID: 170 - Nombre: Desconocido
     [411] []
     [0] []
     [412] []
-    [0] []
-
---- Evento ID: 11 - Nombre: EV011 (X:45, Y:28) ---
-  Página: 1
-    [101] ["Es una lata de mejillones en escabeche."]
-      TEXTO: "Es una lata de mejillones en escabeche."
-    [0] []
-
---- Evento ID: 22 - Nombre: EV022 (X:34, Y:36) ---
-  Página: 1
-    [101] ["Son un montón de latas vacías."]
-      TEXTO: "Son un montón de latas vacías."
     [0] []
 
 --- Evento ID: 44 - Nombre: EV044 (X:58, Y:25) ---
@@ -70596,10 +70567,47 @@ MAPA ID: 170 - Nombre: Desconocido
   Página: 3
     [0] []
 
---- Evento ID: 6 - Nombre: EV006 (X:34, Y:29) ---
+--- Evento ID: 22 - Nombre: EV022 (X:34, Y:36) ---
   Página: 1
-    [101] ["Es una lata de sardinas."]
-      TEXTO: "Es una lata de sardinas."
+    [101] ["Son un montón de latas vacías."]
+      TEXTO: "Son un montón de latas vacías."
+    [0] []
+
+--- Evento ID: 11 - Nombre: EV011 (X:45, Y:28) ---
+  Página: 1
+    [101] ["Es una lata de mejillones en escabeche."]
+      TEXTO: "Es una lata de mejillones en escabeche."
+    [0] []
+
+--- Evento ID: 33 - Nombre: EV033 (X:8, Y:19) ---
+  Página: 1
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 39 - Nombre: Warp  (X:3, Y:17) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 173, 31, 67, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 173, Y 31
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 28 - Nombre: EV028 (X:34, Y:16) ---
+  Página: 1
+    [101] ["Son un montón de latas vacías."]
+      TEXTO: "Son un montón de latas vacías."
     [0] []
 
 --- Evento ID: 17 - Nombre: EV017 (X:54, Y:16) ---
@@ -70629,20 +70637,47 @@ MAPA ID: 170 - Nombre: Desconocido
       TEXTO: "Es un nabo blanco."
     [0] []
 
---- Evento ID: 28 - Nombre: EV028 (X:34, Y:16) ---
+--- Evento ID: 6 - Nombre: EV006 (X:34, Y:29) ---
+  Página: 1
+    [101] ["Es una lata de sardinas."]
+      TEXTO: "Es una lata de sardinas."
+    [0] []
+
+--- Evento ID: 23 - Nombre: EV023 (X:36, Y:31) ---
   Página: 1
     [101] ["Son un montón de latas vacías."]
       TEXTO: "Son un montón de latas vacías."
     [0] []
 
---- Evento ID: 39 - Nombre: Warp  (X:3, Y:17) ---
+--- Evento ID: 12 - Nombre: EV012 (X:53, Y:22) ---
+  Página: 1
+    [101] ["Es una lata de maíz dulce."]
+      TEXTO: "Es una lata de maíz dulce."
+    [0] []
+
+--- Evento ID: 1 - Nombre: Warp  (X:28, Y:39) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 173, 31, 67, 0, 0]
-      TRANSFER PLAYER: MapID 0, X 173, Y 31
+    [201] [0, 167, 23, 1, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 167, Y 23
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 34 - Nombre: EV034 (X:8, Y:20) ---
+  Página: 1
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
     [0] []
 
 --- Evento ID: 45 - Nombre: Diegolazo (X:46, Y:31) ---
@@ -70727,47 +70762,40 @@ MAPA ID: 170 - Nombre: Desconocido
     [355] ["NameBox.dispose"]
     [0] []
 
---- Evento ID: 34 - Nombre: EV034 (X:8, Y:20) ---
+--- Evento ID: 40 - Nombre: Binoculars (X:33, Y:18) ---
   Página: 1
-    [111] [6, -1, 4]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
+    [101] ["Parece que se pueden usar estos prismáticos para "]
+      TEXTO: "Parece que se pueden usar estos prismáticos para "
+    [401] ["ver el volcán..."]
+      TEXTO: "ver el volcán..."
+    [224] [(255.000000, 255.000000, 255.000000, 255.000000), 4]
+    [231] [1, "MAPA_EXPORTADO_13_06_2025T12_28_19", 0, 0, 0, 0, 100, 100, 255, 0]
+    [106] [10]
+    [104] [0, 1]
+      TEXT OPTIONS: Position 0, Window 1
+    [101] ["Se ve algo borroso, parece que el vapor de la... "]
+      TEXTO: "Se ve algo borroso, parece que el vapor de la... "
+    [401] ["¿lava? ha empañado los cristales."]
+      TEXTO: "¿lava? ha empañado los cristales."
+    [101] ["De todas formas se distinge un volcán grande, se "]
+      TEXTO: "De todas formas se distinge un volcán grande, se "
+    [401] ["puede apreciar un entramado de escaleras y el "]
+      TEXTO: "puede apreciar un entramado de escaleras y el "
+    [401] ["cráter..."]
+      TEXTO: "cráter..."
+    [235] [1]
+    [104] [2, 0]
+      TEXT OPTIONS: Position 2, Window 0
     [0] []
 
---- Evento ID: 1 - Nombre: Warp  (X:28, Y:39) ---
+--- Evento ID: 29 - Nombre: Entrar casa (X:18, Y:31) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 167, 23, 1, 2, 0]
-      TRANSFER PLAYER: MapID 0, X 167, Y 23
+    [201] [0, 171, 8, 22, 8, 1]
+      TRANSFER PLAYER: MapID 0, X 171, Y 8
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [0] []
-
---- Evento ID: 12 - Nombre: EV012 (X:53, Y:22) ---
-  Página: 1
-    [101] ["Es una lata de maíz dulce."]
-      TEXTO: "Es una lata de maíz dulce."
-    [0] []
-
---- Evento ID: 23 - Nombre: EV023 (X:36, Y:31) ---
-  Página: 1
-    [101] ["Son un montón de latas vacías."]
-      TEXTO: "Son un montón de latas vacías."
-    [0] []
-
---- Evento ID: 7 - Nombre: EV007 (X:40, Y:31) ---
-  Página: 1
-    [101] ["Es una lata de melocotones en almíbar."]
-      TEXTO: "Es una lata de melocotones en almíbar."
     [0] []
 
 --- Evento ID: 18 - Nombre: EV018 (X:52, Y:16) ---
@@ -70807,79 +70835,16 @@ MAPA ID: 170 - Nombre: Desconocido
   Página: 4
     [0] []
 
---- Evento ID: 29 - Nombre: Entrar casa (X:18, Y:31) ---
+--- Evento ID: 7 - Nombre: EV007 (X:40, Y:31) ---
   Página: 1
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 171, 8, 22, 8, 1]
-      TRANSFER PLAYER: MapID 0, X 171, Y 8
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [101] ["Es una lata de melocotones en almíbar."]
+      TEXTO: "Es una lata de melocotones en almíbar."
     [0] []
 
---- Evento ID: 40 - Nombre: Binoculars (X:33, Y:18) ---
+--- Evento ID: 24 - Nombre: EV024 (X:20, Y:19) ---
   Página: 1
-    [101] ["Parece que se pueden usar estos prismáticos para "]
-      TEXTO: "Parece que se pueden usar estos prismáticos para "
-    [401] ["ver el volcán..."]
-      TEXTO: "ver el volcán..."
-    [224] [(255.000000, 255.000000, 255.000000, 255.000000), 4]
-    [231] [1, "MAPA_EXPORTADO_13_06_2025T12_28_19", 0, 0, 0, 0, 100, 100, 255, 0]
-    [106] [10]
-    [104] [0, 1]
-      TEXT OPTIONS: Position 0, Window 1
-    [101] ["Se ve algo borroso, parece que el vapor de la... "]
-      TEXTO: "Se ve algo borroso, parece que el vapor de la... "
-    [401] ["¿lava? ha empañado los cristales."]
-      TEXTO: "¿lava? ha empañado los cristales."
-    [101] ["De todas formas se distinge un volcán grande, se "]
-      TEXTO: "De todas formas se distinge un volcán grande, se "
-    [401] ["puede apreciar un entramado de escaleras y el "]
-      TEXTO: "puede apreciar un entramado de escaleras y el "
-    [401] ["cráter..."]
-      TEXTO: "cráter..."
-    [235] [1]
-    [104] [2, 0]
-      TEXT OPTIONS: Position 2, Window 0
-    [0] []
-
---- Evento ID: 46 - Nombre: EV046 (X:31, Y:16) ---
-  Página: 1
-    [101] ["Es un frijol."]
-      TEXTO: "Es un frijol."
-    [0] []
-  Página: 2
-    [101] ["Es un frijol."]
-      TEXTO: "Es un frijol."
-    [101] ["¡Eh! Este frijol nos sirve para el guiso de Diegolazo! Vayamos a entregárselo."]
-      TEXTO: "¡Eh! Este frijol nos sirve para el guiso de Diegolazo! Vayamos a entregárselo."
-    [122] [81, 81, 1, 0, 1]
-      CHANGE VARIABLE: ID 81 to 81, Type 1, Value 0
-    [0] []
-
---- Evento ID: 35 - Nombre: EV035 (X:8, Y:21) ---
-  Página: 1
-    [111] [6, -1, 4]
-      CONDITIONAL BRANCH: Type 6, Value -1
-    [250] [#<RPG::AudioFile>]
-    [209] [-1, #<RPG::MoveRoute>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [509] [#<RPG::MoveCommand>]
-    [0] []
-    [411] []
-    [0] []
-    [412] []
-    [0] []
-
---- Evento ID: 2 - Nombre: Warp  (X:29, Y:39) ---
-  Página: 1
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 167, 24, 1, 2, 0]
-      TRANSFER PLAYER: MapID 0, X 167, Y 24
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [101] ["Son un montón de latas vacías."]
+      TEXTO: "Son un montón de latas vacías."
     [0] []
 
 --- Evento ID: 13 - Nombre: EV013 (X:50, Y:16) ---
@@ -70909,10 +70874,68 @@ MAPA ID: 170 - Nombre: Desconocido
       TEXTO: "Es un nabo blanco."
     [0] []
 
---- Evento ID: 24 - Nombre: EV024 (X:20, Y:19) ---
+--- Evento ID: 2 - Nombre: Warp  (X:29, Y:39) ---
   Página: 1
-    [101] ["Son un montón de latas vacías."]
-      TEXTO: "Son un montón de latas vacías."
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 167, 24, 1, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 167, Y 24
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 35 - Nombre: EV035 (X:8, Y:21) ---
+  Página: 1
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 46 - Nombre: EV046 (X:31, Y:16) ---
+  Página: 1
+    [101] ["Es un frijol."]
+      TEXTO: "Es un frijol."
+    [0] []
+  Página: 2
+    [101] ["Es un frijol."]
+      TEXTO: "Es un frijol."
+    [101] ["¡Eh! Este frijol nos sirve para el guiso de Diegolazo! Vayamos a entregárselo."]
+      TEXTO: "¡Eh! Este frijol nos sirve para el guiso de Diegolazo! Vayamos a entregárselo."
+    [122] [81, 81, 1, 0, 1]
+      CHANGE VARIABLE: ID 81 to 81, Type 1, Value 0
+    [123] ["A", 0]
+    [0] []
+  Página: 3
+    [0] []
+
+--- Evento ID: 30 - Nombre: Entrar casa (X:17, Y:22) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 172, 7, 14, 8, 1]
+      TRANSFER PLAYER: MapID 0, X 172, Y 7
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 19 - Nombre: EV019 (X:47, Y:20) ---
+  Página: 1
+    [101] ["Es una lata de lentejas. Ugh... qué asco."]
+      TEXTO: "Es una lata de lentejas. Ugh... qué asco."
+    [0] []
+
+--- Evento ID: 8 - Nombre: EV008 (X:37, Y:24) ---
+  Página: 1
+    [101] ["Es una lata de leche condensada."]
+      TEXTO: "Es una lata de leche condensada."
     [0] []
 
 --- Evento ID: 41 - Nombre: Entrar casa (X:26, Y:23) ---
@@ -70925,25 +70948,44 @@ MAPA ID: 170 - Nombre: Desconocido
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
---- Evento ID: 8 - Nombre: EV008 (X:37, Y:24) ---
+--- Evento ID: 47 - Nombre: Tubo -> abajo (X:59, Y:25) ---
   Página: 1
-    [101] ["Es una lata de leche condensada."]
-      TEXTO: "Es una lata de leche condensada."
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 37, 59, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 37
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 19 - Nombre: EV019 (X:47, Y:20) ---
+--- Evento ID: 25 - Nombre: EV025 (X:40, Y:27) ---
   Página: 1
-    [101] ["Es una lata de lentejas. Ugh... qué asco."]
-      TEXTO: "Es una lata de lentejas. Ugh... qué asco."
+    [101] ["Son un montón de latas vacías."]
+      TEXTO: "Son un montón de latas vacías."
     [0] []
 
---- Evento ID: 30 - Nombre: Entrar casa (X:17, Y:22) ---
+--- Evento ID: 14 - Nombre: Nabo 1 (X:50, Y:15) ---
+  Página: 1
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 3 - Nombre: Warp  (X:30, Y:39) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
     [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
     [106] [8]
-    [201] [0, 172, 7, 14, 8, 1]
-      TRANSFER PLAYER: MapID 0, X 172, Y 7
+    [201] [0, 167, 25, 1, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 167, Y 25
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
@@ -70960,58 +71002,6 @@ MAPA ID: 170 - Nombre: Desconocido
     [411] []
     [0] []
     [412] []
-    [0] []
-
---- Evento ID: 3 - Nombre: Warp  (X:30, Y:39) ---
-  Página: 1
-    [250] [#<RPG::AudioFile>]
-    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
-    [106] [8]
-    [201] [0, 167, 25, 1, 2, 0]
-      TRANSFER PLAYER: MapID 0, X 167, Y 25
-    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
-    [0] []
-
---- Evento ID: 14 - Nombre: Nabo 1 (X:50, Y:15) ---
-  Página: 1
-    [0] []
-  Página: 2
-    [0] []
-
---- Evento ID: 25 - Nombre: EV025 (X:40, Y:27) ---
-  Página: 1
-    [101] ["Son un montón de latas vacías."]
-      TEXTO: "Son un montón de latas vacías."
-    [0] []
-
---- Evento ID: 42 - Nombre: EV042 (X:58, Y:27) ---
-  Página: 1
-    [101] ["Hay un problema con el volcán y hemos cortado el "]
-      TEXTO: "Hay un problema con el volcán y hemos cortado el "
-    [401] ["acceso a la ruta"]
-      TEXTO: "acceso a la ruta"
-    [0] []
-  Página: 2
-    [101] ["Gracias por solucionar el problema del volcán, ahora "]
-      TEXTO: "Gracias por solucionar el problema del volcán, ahora "
-    [401] ["tenemos a trabajadores preparados arreglando el "]
-      TEXTO: "tenemos a trabajadores preparados arreglando el "
-    [401] ["estropicio"]
-      TEXTO: "estropicio"
-    [0] []
-  Página: 3
-    [0] []
-
---- Evento ID: 9 - Nombre: EV009 (X:55, Y:28) ---
-  Página: 1
-    [101] ["Es una lata de chili con carne."]
-      TEXTO: "Es una lata de chili con carne."
-    [0] []
-
---- Evento ID: 20 - Nombre: EV020 (X:38, Y:36) ---
-  Página: 1
-    [101] ["Es una lata de fabada."]
-      TEXTO: "Es una lata de fabada."
     [0] []
 
 --- Evento ID: 31 - Nombre: CONSE (X:26, Y:24) ---
@@ -71032,6 +71022,75 @@ MAPA ID: 170 - Nombre: Desconocido
   Página: 2
     [0] []
 
+--- Evento ID: 20 - Nombre: EV020 (X:38, Y:36) ---
+  Página: 1
+    [101] ["Es una lata de fabada."]
+      TEXTO: "Es una lata de fabada."
+    [0] []
+
+--- Evento ID: 9 - Nombre: EV009 (X:55, Y:28) ---
+  Página: 1
+    [101] ["Es una lata de chili con carne."]
+      TEXTO: "Es una lata de chili con carne."
+    [0] []
+
+--- Evento ID: 42 - Nombre: EV042 (X:58, Y:27) ---
+  Página: 1
+    [101] ["Hay un problema con el volcán y hemos cortado el "]
+      TEXTO: "Hay un problema con el volcán y hemos cortado el "
+    [401] ["acceso a la ruta"]
+      TEXTO: "acceso a la ruta"
+    [0] []
+  Página: 2
+    [101] ["Gracias por solucionar el problema del volcán, ahora "]
+      TEXTO: "Gracias por solucionar el problema del volcán, ahora "
+    [401] ["tenemos a trabajadores preparados arreglando el "]
+      TEXTO: "tenemos a trabajadores preparados arreglando el "
+    [401] ["estropicio"]
+      TEXTO: "estropicio"
+    [0] []
+  Página: 3
+    [0] []
+
+--- Evento ID: 48 - Nombre: Tubo -> abajo (X:60, Y:26) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 37, 59, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 37
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 15 - Nombre: Nabo 1 (X:52, Y:15) ---
+  Página: 1
+    [0] []
+  Página: 2
+    [0] []
+  Página: 3
+    [0] []
+
+--- Evento ID: 26 - Nombre: EV026 (X:36, Y:36) ---
+  Página: 1
+    [101] ["Son un montón de latas vacías."]
+      TEXTO: "Son un montón de latas vacías."
+    [0] []
+
+--- Evento ID: 4 - Nombre: EV004 (X:26, Y:26) ---
+  Página: 1
+    [101] ["Es una lata de piña en almíbar."]
+      TEXTO: "Es una lata de piña en almíbar."
+    [0] []
+
 --- Evento ID: 37 - Nombre: EV037 (X:6, Y:20) ---
   Página: 1
     [111] [6, -1, 6]
@@ -71045,44 +71104,6 @@ MAPA ID: 170 - Nombre: Desconocido
     [411] []
     [0] []
     [412] []
-    [0] []
-
---- Evento ID: 4 - Nombre: EV004 (X:26, Y:26) ---
-  Página: 1
-    [101] ["Es una lata de piña en almíbar."]
-      TEXTO: "Es una lata de piña en almíbar."
-    [0] []
-
---- Evento ID: 26 - Nombre: EV026 (X:36, Y:36) ---
-  Página: 1
-    [101] ["Son un montón de latas vacías."]
-      TEXTO: "Son un montón de latas vacías."
-    [0] []
-
---- Evento ID: 15 - Nombre: Nabo 1 (X:52, Y:15) ---
-  Página: 1
-    [0] []
-  Página: 2
-    [0] []
-  Página: 3
-    [0] []
-
---- Evento ID: 32 - Nombre: EV032 (X:40, Y:36) ---
-  Página: 1
-    [101] ["Son un montón de latas vacías."]
-      TEXTO: "Son un montón de latas vacías."
-    [0] []
-
---- Evento ID: 10 - Nombre: EV010 (X:51, Y:19) ---
-  Página: 1
-    [101] ["Es una lata de pimientos asados."]
-      TEXTO: "Es una lata de pimientos asados."
-    [0] []
-
---- Evento ID: 21 - Nombre: EV021 (X:24, Y:36) ---
-  Página: 1
-    [101] ["Son un montón de latas vacías."]
-      TEXTO: "Son un montón de latas vacías."
     [0] []
 
 --- Evento ID: 43 - Nombre: EV043 (X:58, Y:26) ---
@@ -71101,6 +71122,24 @@ MAPA ID: 170 - Nombre: Desconocido
       TEXTO: "estropicio"
     [0] []
   Página: 3
+    [0] []
+
+--- Evento ID: 21 - Nombre: EV021 (X:24, Y:36) ---
+  Página: 1
+    [101] ["Son un montón de latas vacías."]
+      TEXTO: "Son un montón de latas vacías."
+    [0] []
+
+--- Evento ID: 10 - Nombre: EV010 (X:51, Y:19) ---
+  Página: 1
+    [101] ["Es una lata de pimientos asados."]
+      TEXTO: "Es una lata de pimientos asados."
+    [0] []
+
+--- Evento ID: 32 - Nombre: EV032 (X:40, Y:36) ---
+  Página: 1
+    [101] ["Son un montón de latas vacías."]
+      TEXTO: "Son un montón de latas vacías."
     [0] []
 ==================================================
 MAPA ID: 171 - Nombre: Desconocido
@@ -72746,6 +72785,42 @@ MAPA ID: 174 - Nombre: Desconocido
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
 
+--- Evento ID: 9 - Nombre: Trainer (X:37, Y:11) ---
+  Página: 1
+    [101] ["Comanda"]
+      TEXTO: "Comanda"
+    [123] ["A", 0]
+    [0] []
+  Página: 2
+    [111] [0, 167, 0]
+      CONDITIONAL BRANCH: Type 0, Value 167
+    [101] ["Gracias por la comida, y ahora de postre, un "]
+      TEXTO: "Gracias por la comida, y ahora de postre, un "
+    [401] ["combate"]
+      TEXTO: "combate"
+    [123] ["B", 0]
+    [0] []
+    [411] []
+    [101] ["Esa no es mi comida, no la quiero"]
+      TEXTO: "Esa no es mi comida, no la quiero"
+    [0] []
+    [412] []
+    [0] []
+  Página: 3
+    [355] ["pbTrainerIntro(:RANGER)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [111] [12, "TrainerBattle.start(:RANGER, \"Satoru\")"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RANGER, "Satoru")
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [0] []
+
 --- Evento ID: 4 - Nombre: Warp CP-Cap (X:40, Y:20) ---
   Página: 1
     [250] [#<RPG::AudioFile>]
@@ -72755,44 +72830,260 @@ MAPA ID: 174 - Nombre: Desconocido
       TRANSFER PLAYER: MapID 0, X 170, Y 26
     [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
     [0] []
+
+--- Evento ID: 10 - Nombre: EV010 (X:6, Y:7) ---
+  Página: 1
+    [111] [0, 171, 0]
+      CONDITIONAL BRANCH: Type 0, Value 171
+    [101] ["Solo puedo llevar un plato a la vez"]
+      TEXTO: "Solo puedo llevar un plato a la vez"
+    [0] []
+    [411] []
+    [101] ["Es un plato de X, ¿quieres cogerlo?"]
+      TEXTO: "Es un plato de X, ¿quieres cogerlo?"
+    [102] [["Si", "No"], 2]
+      CHOICES: Si, No
+    [402] [0, "Si"]
+    [123] ["A", 0]
+    [0] []
+    [402] [1, "No"]
+    [0] []
+    [404] []
+    [0] []
+    [412] []
+    [0] []
+  Página: 2
+    [101] ["¿Quieres dejar el plato?"]
+      TEXTO: "¿Quieres dejar el plato?"
+    [102] [["Si", "No"], 2]
+      CHOICES: Si, No
+    [402] [0, "Si"]
+    [123] ["A", 1]
+    [0] []
+    [402] [1, "No"]
+    [0] []
+    [404] []
+    [0] []
+  Página: 3
+    [0] []
 ==================================================
 MAPA ID: 175 - Nombre: Desconocido
 ==================================================
 
---- Evento ID: 5 - Nombre: Trainer(5) (X:21, Y:17) ---
+--- Evento ID: 9 - Nombre: Tubo -> abajo (X:36, Y:57) ---
   Página: 1
-    [355] ["pbTrainerIntro(:RANGER)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["Placeholder."]
-      TEXTO: "Placeholder."
-    [111] [12, "TrainerBattle.start(:RANGER, \"Riusevic\")"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RANGER, "Riusevic")
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [355] ["pbTrainerEnd"]
-    [0] []
-  Página: 2
-    [101] ["Placeholder."]
-      TEXTO: "Placeholder."
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 170, 58, 26, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 170, Y 58
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
     [0] []
 
---- Evento ID: 6 - Nombre: Trainer(5) (X:36, Y:15) ---
+--- Evento ID: 47 - Nombre: EV047 (X:23, Y:46) ---
   Página: 1
-    [355] ["pbTrainerIntro(:RANGER)"]
-    [355] ["pbNoticePlayer(get_self)"]
-    [101] ["Placeholder."]
-      TEXTO: "Placeholder."
-    [111] [12, "TrainerBattle.start(:RANGER, \"Migue\")"]
-      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RANGER, "Migue")
-    [123] ["A", 0]
-    [0] []
-    [412] []
-    [355] ["pbTrainerEnd"]
+    [209] [44, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["¿Has visto \\PN? ¡Era Bowser! ¡Rápido, vayamos tras "]
+      TEXTO: "¿Has visto \PN? ¡Era Bowser! ¡Rápido, vayamos tras "
+    [401] ["él!"]
+      TEXTO: "él!"
+    [355] ["NameBox.dispose"]
+    [121] [165, 165, 0]
+      CHANGE SWITCH: ID 165 to 165, Value 0
     [0] []
   Página: 2
-    [101] ["Placeholder."]
-      TEXTO: "Placeholder."
+    [0] []
+
+--- Evento ID: 28 - Nombre: EV028 (X:24, Y:38) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 66 - Nombre: invisiwall (X:25, Y:14) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 19 - Nombre: Warp  (X:26, Y:3) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 176, 7, 15, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 176, Y 7
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 57 - Nombre: EV057 (X:20, Y:57) ---
+  Página: 1
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 38 - Nombre: EV038 (X:12, Y:30) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 67 - Nombre: invisiwall (X:25, Y:20) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 10 - Nombre: Tubo -> abajo (X:37, Y:58) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 170, 58, 26, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 170, Y 58
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 48 - Nombre: EV048 (X:24, Y:46) ---
+  Página: 1
+    [209] [44, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["¿Has visto \\PN? ¡Era Bowser! ¡Rápido, vayamos tras "]
+      TEXTO: "¿Has visto \PN? ¡Era Bowser! ¡Rápido, vayamos tras "
+    [401] ["él!"]
+      TEXTO: "él!"
+    [355] ["NameBox.dispose"]
+    [121] [165, 165, 0]
+      CHANGE SWITCH: ID 165 to 165, Value 0
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 29 - Nombre: EV029 (X:22, Y:34) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 20 - Nombre: EV020 (X:22, Y:40) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 58 - Nombre: EV058 (X:17, Y:56) ---
+  Página: 1
+    [111] [6, -1, 6]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
     [0] []
 
 --- Evento ID: 1 - Nombre: EV001 (X:23, Y:33) ---
@@ -72806,6 +73097,124 @@ MAPA ID: 175 - Nombre: Desconocido
   Página: 2
     [0] []
 
+--- Evento ID: 39 - Nombre: EV039 (X:13, Y:30) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 68 - Nombre: invisiwall (X:39, Y:9) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 30 - Nombre: EV030 (X:23, Y:34) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 11 - Nombre: Tubo -> abajo (X:39, Y:14) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 69, 8, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 69
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 49 - Nombre: EV049 (X:25, Y:46) ---
+  Página: 1
+    [209] [44, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["¿Has visto \\PN? ¡Era Bowser! ¡Rápido, vayamos tras "]
+      TEXTO: "¿Has visto \PN? ¡Era Bowser! ¡Rápido, vayamos tras "
+    [401] ["él!"]
+      TEXTO: "él!"
+    [355] ["NameBox.dispose"]
+    [121] [165, 165, 0]
+      CHANGE SWITCH: ID 165 to 165, Value 0
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 21 - Nombre: EV021 (X:23, Y:40) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 59 - Nombre: EV059 (X:17, Y:55) ---
+  Página: 1
+    [111] [6, -1, 6]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
 --- Evento ID: 2 - Nombre: EV002 (X:7, Y:56) ---
   Página: 1
     [111] [12, "pbItemBall(:FULLRESTORE)"]
@@ -72817,6 +73226,74 @@ MAPA ID: 175 - Nombre: Desconocido
   Página: 2
     [0] []
 
+--- Evento ID: 40 - Nombre: EV040 (X:12, Y:33) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 69 - Nombre: invisiwall (X:36, Y:8) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 31 - Nombre: EV031 (X:24, Y:34) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 12 - Nombre: Tubo -> abajo (X:40, Y:14) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 69, 8, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 69
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 50 - Nombre: EV050 (X:17, Y:43) ---
+  Página: 1
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["¡\\PN, tenemos que ir a por Bowser, no dejes que se "]
+      TEXTO: "¡\PN, tenemos que ir a por Bowser, no dejes que se "
+    [401] ["escape!"]
+      TEXTO: "escape!"
+    [355] ["NameBox.dispose"]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+  Página: 2
+    [0] []
+
 --- Evento ID: 3 - Nombre: EV003 (X:60, Y:10) ---
   Página: 1
     [111] [12, "pbItemBall(:FLAMEORB)"]
@@ -72824,6 +73301,106 @@ MAPA ID: 175 - Nombre: Desconocido
     [123] ["A", 0]
     [0] []
     [412] []
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 41 - Nombre: EV041 (X:13, Y:33) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 22 - Nombre: EV022 (X:24, Y:40) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 60 - Nombre: EV060 (X:19, Y:57) ---
+  Página: 1
+    [111] [6, -1, 6]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 70 - Nombre: invisiwall (X:33, Y:7) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 32 - Nombre: EV032 (X:12, Y:38) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 13 - Nombre: Tubo -> abajo (X:41, Y:14) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 69, 8, 2, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 69
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 51 - Nombre: EV051 (X:17, Y:42) ---
+  Página: 1
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["¡\\PN, tenemos que ir a por Bowser, no dejes que se "]
+      TEXTO: "¡\PN, tenemos que ir a por Bowser, no dejes que se "
+    [401] ["escape!"]
+      TEXTO: "escape!"
+    [355] ["NameBox.dispose"]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
     [0] []
   Página: 2
     [0] []
@@ -72845,7 +73422,580 @@ MAPA ID: 175 - Nombre: Desconocido
     [101] ["Placeholder."]
       TEXTO: "Placeholder."
     [0] []
---- Mapa 176 no encontrado. Saltando. ---
+
+--- Evento ID: 42 - Nombre: EV042 (X:12, Y:36) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 23 - Nombre: EV023 (X:22, Y:36) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 61 - Nombre: EV061 (X:19, Y:56) ---
+  Página: 1
+    [111] [6, -1, 6]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 71 - Nombre: invisiwall (X:36, Y:28) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 14 - Nombre: Tubo -> abajo (X:69, Y:7) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 38, 14, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 38
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 52 - Nombre: EV052 (X:17, Y:41) ---
+  Página: 1
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["¡\\PN, tenemos que ir a por Bowser, no dejes que se "]
+      TEXTO: "¡\PN, tenemos que ir a por Bowser, no dejes que se "
+    [401] ["escape!"]
+      TEXTO: "escape!"
+    [355] ["NameBox.dispose"]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 33 - Nombre: EV033 (X:13, Y:38) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 43 - Nombre: EV043 (X:13, Y:36) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 24 - Nombre: EV024 (X:23, Y:36) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 62 - Nombre: invisiwall (X:62, Y:8) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 5 - Nombre: Trainer(5) (X:21, Y:17) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:RANGER)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [111] [12, "TrainerBattle.start(:RANGER, \"Riusevic\")"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RANGER, "Riusevic")
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [0] []
+
+--- Evento ID: 72 - Nombre: invisiwall (X:34, Y:52) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 15 - Nombre: Tubo -> abajo (X:68, Y:6) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 38, 14, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 38
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 53 - Nombre: EV053 (X:17, Y:40) ---
+  Página: 1
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["¡\\PN, tenemos que ir a por Bowser, no dejes que se "]
+      TEXTO: "¡\PN, tenemos que ir a por Bowser, no dejes que se "
+    [401] ["escape!"]
+      TEXTO: "escape!"
+    [355] ["NameBox.dispose"]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 34 - Nombre: EV034 (X:12, Y:35) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 25 - Nombre: EV025 (X:24, Y:36) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 63 - Nombre: invisiwall (X:61, Y:8) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 6 - Nombre: Trainer(5) (X:36, Y:15) ---
+  Página: 1
+    [355] ["pbTrainerIntro(:RANGER)"]
+    [355] ["pbNoticePlayer(get_self)"]
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [111] [12, "TrainerBattle.start(:RANGER, \"Migue\")"]
+      CONDITIONAL BRANCH: Type 12, Value TrainerBattle.start(:RANGER, "Migue")
+    [123] ["A", 0]
+    [0] []
+    [412] []
+    [355] ["pbTrainerEnd"]
+    [0] []
+  Página: 2
+    [101] ["Placeholder."]
+      TEXTO: "Placeholder."
+    [0] []
+
+--- Evento ID: 44 - Nombre: Bowser (X:29, Y:42) ---
+  Página: 1
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 54 - Nombre: EV054 (X:18, Y:57) ---
+  Página: 1
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 35 - Nombre: EV035 (X:13, Y:35) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 16 - Nombre: Tubo -> abajo (X:69, Y:6) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 38, 14, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 38
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 26 - Nombre: EV026 (X:22, Y:38) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 64 - Nombre: invisiwall (X:64, Y:7) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 7 - Nombre: Warp  (X:27, Y:3) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 176, 8, 15, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 176, Y 8
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 45 - Nombre: EV045 (X:21, Y:46) ---
+  Página: 1
+    [209] [44, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["¿Has visto \\PN? ¡Era Bowser! ¡Rápido, vayamos tras "]
+      TEXTO: "¿Has visto \PN? ¡Era Bowser! ¡Rápido, vayamos tras "
+    [401] ["él!"]
+      TEXTO: "él!"
+    [355] ["NameBox.dispose"]
+    [121] [165, 165, 0]
+      CHANGE SWITCH: ID 165 to 165, Value 0
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 36 - Nombre: EV036 (X:12, Y:32) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 17 - Nombre: Tubo -> abajo (X:70, Y:6) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 38, 14, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 38
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 55 - Nombre: EV055 (X:18, Y:56) ---
+  Página: 1
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 65 - Nombre: invisiwall (X:63, Y:7) ---
+  Página: 1
+    [0] []
+
+--- Evento ID: 8 - Nombre: Tubo -> abajo (X:37, Y:57) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 170, 58, 26, 4, 0]
+      TRANSFER PLAYER: MapID 0, X 170, Y 58
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [210] []
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+
+--- Evento ID: 46 - Nombre: EV046 (X:22, Y:46) ---
+  Página: 1
+    [209] [44, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [210] []
+    [355] ["NameBox.load('Cappy')"]
+    [250] [#<RPG::AudioFile>]
+    [101] ["¿Has visto \\PN? ¡Era Bowser! ¡Rápido, vayamos tras "]
+      TEXTO: "¿Has visto \PN? ¡Era Bowser! ¡Rápido, vayamos tras "
+    [401] ["él!"]
+      TEXTO: "él!"
+    [355] ["NameBox.dispose"]
+    [121] [165, 165, 0]
+      CHANGE SWITCH: ID 165 to 165, Value 0
+    [0] []
+  Página: 2
+    [0] []
+
+--- Evento ID: 27 - Nombre: EV027 (X:23, Y:38) ---
+  Página: 1
+    [111] [6, -1, 2]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 37 - Nombre: EV037 (X:13, Y:32) ---
+  Página: 1
+    [111] [6, -1, 8]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+
+--- Evento ID: 18 - Nombre: Warp  (X:28, Y:3) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 176, 9, 15, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 176, Y 9
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 56 - Nombre: EV056 (X:20, Y:58) ---
+  Página: 1
+    [111] [6, -1, 4]
+      CONDITIONAL BRANCH: Type 6, Value -1
+    [250] [#<RPG::AudioFile>]
+    [209] [-1, #<RPG::MoveRoute>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [509] [#<RPG::MoveCommand>]
+    [0] []
+    [411] []
+    [0] []
+    [412] []
+    [0] []
+==================================================
+MAPA ID: 176 - Nombre: Desconocido
+==================================================
+
+--- Evento ID: 11 - Nombre: Warp (X:7, Y:16) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 26, 4, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 26
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 1 - Nombre: Warp (X:8, Y:16) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 27, 4, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 27
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 7 - Nombre: EV007 (X:3, Y:10) ---
+  Página: 1
+    [355] ["NameBox.load('María Unpajote')"]
+    [101] ["Esta ruta conecta la Ruta 14 (Monte Delisubio) con la "]
+      TEXTO: "Esta ruta conecta la Ruta 14 (Monte Delisubio) con la "
+    [401] ["ruta 15 (Castilllo de Bowser)."]
+      TEXTO: "ruta 15 (Castilllo de Bowser)."
+    [355] ["NameBox.dispose"]
+    [0] []
+
+--- Evento ID: 2 - Nombre: Warp (X:9, Y:16) ---
+  Página: 1
+    [250] [#<RPG::AudioFile>]
+    [223] [(-255.000000, -255.000000, -255.000000, 0.000000), 6]
+    [106] [8]
+    [201] [0, 175, 28, 4, 0, 0]
+      TRANSFER PLAYER: MapID 0, X 175, Y 28
+    [223] [(0.000000, 0.000000, 0.000000, 0.000000), 6]
+    [0] []
+
+--- Evento ID: 4 - Nombre: EV004 (X:13, Y:5) ---
+  Página: 1
+    [101] ["¿Qué haces mirando en la basura mi bro?"]
+      TEXTO: "¿Qué haces mirando en la basura mi bro?"
+    [0] []
 --- Mapa 177 no encontrado. Saltando. ---
 --- Mapa 178 no encontrado. Saltando. ---
 --- Mapa 179 no encontrado. Saltando. ---
