@@ -901,6 +901,11 @@ SnapEdges = true
 BattleBack = FondoLuncheon
 MapSize = 1,11
 #-------------------------------
+[174]   # Gimnasio Marc
+Name = Gimnasio Delisubio
+SnapEdges = true
+BattleBack = FondoInterior
+#-------------------------------
 [175]   # Ruta 14
 Name = Ruta 14
 Outdoor = true
