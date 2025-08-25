@@ -122,7 +122,7 @@ Pokemon = BLASTOISE,63
 LoseText = GGs hermano.
 Pokemon = DRIFLOON,5
 #-------------------------------
-[BOWSER,Bowser,1]
+[BOWSER1,Bowser]
 LoseText = ¡Aaaagggghhhh!¿¡Cómo es posible!?
 Pokemon = TURTONATOR,55
 Pokemon = CARRACOSTA,55
@@ -343,6 +343,7 @@ Pokemon = LUVDISC,23
 Pokemon = FINNEON,23
 #-------------------------------
 [FERBY,Ferby]
+Items = HYPERPOTION
 LoseText = ...
 Pokemon = STARMIE,46
 Pokemon = WISHIWASHI,47
@@ -356,6 +357,7 @@ Pokemon = TOGEDEMARU,35
 Pokemon = PAWMOT,36
 #-------------------------------
 [MARC,Marc]
+Items = HYPERPOTION
 LoseText = ¡Fuap! Lavadora nueva.
 Pokemon = ARMAROUGE,49
 Pokemon = MAGCARGO,48
@@ -413,13 +415,8 @@ Items = FULLRESTORE
 LoseText = ...
 Pokemon = BULBASAUR,10
 #-------------------------------
-[LEADER_Brock,Frun]
-LoseText = ...
-Pokemon = EISCUE,40
-Pokemon = BEARTIC,40
-Pokemon = WALREIN,42
-#-------------------------------
 [DAN,Dan]
+Items = SUPERPOTION
 LoseText = Hasta aquí el combate de hoy.
 Pokemon = JIGGLYPUFF,25
 Pokemon = TOGETIC,26
@@ -427,6 +424,7 @@ Pokemon = AZUMARILL,27
     Shiny = true
 #-------------------------------
 [DAN,Dan,1]
+Items = SUPERPOTION
 LoseText = Hasta aquí el combate de hoy.
 Pokemon = SYLVEON,25
 Pokemon = JIGGLYPUFF,25
@@ -517,6 +515,7 @@ LoseText = GG.
 Pokemon = GOGOAT,32
 #-------------------------------
 [DIEGO_Y_MYSTERY,Diego y Mystery]
+Items = HYPERPOTION
 LoseText = GG.
 Pokemon = FERROSEED,33
 Pokemon = YANMEGA,33
@@ -619,6 +618,7 @@ Pokemon = ALTARIA_1,38
     Item = ALTARIANITE
 #-------------------------------
 [RODILLO,Rodillo]
+Items = HYPERPOTION
 LoseText = Muy buen combate.
 Pokemon = ROTOM_2,38
 Pokemon = JOLTEON,39
@@ -720,6 +720,7 @@ Pokemon = FROSMOTH,42
 Pokemon = FROSLASS,42
 #-------------------------------
 [FRUN,Frun]
+Items = HYPERPOTION
 LoseText = ...
 Pokemon = BEARTIC,42
 Pokemon = EISCUE,43
@@ -859,4 +860,17 @@ Pokemon = ZEBSTRIKA,51
 LoseText = Bien jugado.
 Pokemon = ARMALDO,51
 Pokemon = SWANNA,51
+#-------------------------------
+[HARIET,Hariet,1]
+LoseText = Te lo he puesto demasiado fácil.
+Pokemon = NIDOQUEEN,54
+Pokemon = MORPEKO,55
+Pokemon = LOPUNNY,56
+#-------------------------------
+[TOPPER,Topper,1]
+LoseText = Hmpf... Eres más fuerte de lo que pensaba.
+Pokemon = NIDOKING,54
+Pokemon = PAWMOT,55
+Pokemon = AZUMARILL,56
+
 

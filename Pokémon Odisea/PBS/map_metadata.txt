@@ -922,3 +922,10 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,26,5
 SnapEdges = true
+#-------------------------------
+[179]   # Bowsers
+Name = Reino de Bowser
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+BattleBack = FondoBowser

@@ -412,6 +412,12 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = bowser-battle-theme
 #-------------------------------
+[BOWSER1, 1]
+Name = Rey Koopa
+Gender = Male
+BaseMoney = 100
+BattleBGM = Bowser_final_boss
+#-------------------------------
 [ALUMNA]
 Name = Alumna
 Gender = Female
