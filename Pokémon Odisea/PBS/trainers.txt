@@ -351,10 +351,13 @@ Pokemon = PALAFIN,48
 Pokemon = LAPRAS,49
 #-------------------------------
 [DARKWON,Darkwon]
-LoseText = ...
-Pokemon = ZEBSTRIKA,34
-Pokemon = TOGEDEMARU,35
-Pokemon = PAWMOT,36
+Items = MEGARING
+LoseText = ¡Ay! Creo que me he hecho sangre.
+Pokemon = GLISCOR,52
+Pokemon = DRAPION,53
+Pokemon = KOMMOO,54
+Pokemon = METAGROSS_1,55
+	Item = METAGROSSITE
 #-------------------------------
 [MARC,Marc]
 Items = HYPERPOTION

@@ -929,3 +929,9 @@ Outdoor = true
 ShowArea = true
 SnapEdges = true
 BattleBack = FondoBowser
+#-------------------------------
+[181]   # Dojo Darkwon
+Name = Dojo
+SnapEdges = true
+BattleBack = FondoInterior
+WildBattleBGM = Islands

@@ -509,7 +509,7 @@ Gender = Male
 BaseMoney = 100
 #-------------------------------
 [DARKWON]
-Name = Líder
+Name = Maestro Dojo
 Gender = Male
 BaseMoney = 100
 #-------------------------------
