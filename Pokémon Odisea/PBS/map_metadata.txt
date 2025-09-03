@@ -929,6 +929,7 @@ Outdoor = true
 ShowArea = true
 SnapEdges = true
 BattleBack = FondoBowser
+WildBattleBGM = Final_Bowser_Battle
 #-------------------------------
 [181]   # Dojo Darkwon
 Name = Dojo
