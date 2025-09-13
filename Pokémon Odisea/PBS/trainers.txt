@@ -122,7 +122,7 @@ Pokemon = BLASTOISE,63
 LoseText = GGs hermano.
 Pokemon = DRIFLOON,5
 #-------------------------------
-[BOWSER1,Bowser]
+[BOWSER1,Bowsette]
 LoseText = ¡Aaaagggghhhh!¿¡Cómo es posible!?
 Pokemon = TURTONATOR,55
 Pokemon = CARRACOSTA,55
@@ -386,37 +386,48 @@ LoseText = ...
 Pokemon = PHANPY,21
 Pokemon = DIGLETT,21
 #-------------------------------
-[ELITEFOUR_Lance,Ivanavi]
-Items = FULLRESTORE
-LoseText = ...
-Pokemon = FERALIGATR,57
-Pokemon = SKELEDIRGE,57
-Pokemon = AMPHAROS,57
-Pokemon = GALLADE,57
-Pokemon = TOGEKISS,58
+[IVANAVI,Ivanavi]
+Items = FULLRESTORE, MEGARING
+LoseText = A este demonio no lo vi venir...
+Pokemon = FERALIGATR,60
+Pokemon = SKELEDIRGE,61
+Pokemon = AMPHAROS,62
+Pokemon = GALLADE,64
+	Item = GALLADITE
+Pokemon = TOGEKISS,63
 #-------------------------------
-[ELITEFOUR_Lance,Karma]
-Items = FULLRESTORE
-LoseText = ...
-Pokemon = CHARIZARD,57
-Pokemon = SCEPTILE,57
-Pokemon = GRENINJA,57
-Pokemon = GASTRODON,57
-Pokemon = LUXRAY,58
+[KARMA,Karma]
+Items = FULLRESTORE, MEGARING
+LoseText = Esto con Greninja-Ash no pasaba.
+Pokemon = LUXRAY,60
+Pokemon = SCEPTILE,61
+Pokemon = GRENINJA,62
+Pokemon = CROBAT_1,63
+	Form = 1
+Pokemon = CHARIZARD,64
+	Item = CHARIZARDITEX
 #-------------------------------
-[ELITEFOUR_Lance,Crossbow]
-Items = FULLRESTORE
-LoseText = ...
-Pokemon = PELIPPER,57
-Pokemon = CORVIKNIGHT,57
-Pokemon = INFERNAPE,57
-Pokemon = ZOROARK,57
-Pokemon = LUCARIO,58
+[CROSS,Crossbow]
+Items = FULLRESTORE, MEGARING
+LoseText = ¡¿Pero este tío?!
+Pokemon = PELIPPER,60
+Pokemon = CORVIKNIGHT,61
+Pokemon = INFERNAPE,62
+Pokemon = ZOROARK,63
+Pokemon = LUCARIO,64
+	Item = LUCARIONITE
+	
 #-------------------------------
-[ELITEFOUR_Lance,Yimmo]
-Items = FULLRESTORE
-LoseText = ...
-Pokemon = BULBASAUR,10
+[YIMMO,Yimmo]
+Items = FULLRESTORE, MEGARING
+LoseText = GG.
+Pokemon = GREATTUSK,60
+Pokemon = PRIMARINA,61
+Pokemon = DRAGAPULT,62
+Pokemon = KARTANA,63
+Pokemon = LOPUNNY,64
+	Item = LOPUNNITE
+
 #-------------------------------
 [DAN,Dan]
 Items = SUPERPOTION
@@ -687,7 +698,7 @@ Pokemon = MIENSHAO,40
 #-------------------------------
 [PANDIN,Pandin]
 Items = MEGARING
-LoseText = ...
+LoseText = Mi bombi.
 Pokemon = PANGORO,39
 Pokemon = MANECTRIC_1,40
     Item = MANECTITE

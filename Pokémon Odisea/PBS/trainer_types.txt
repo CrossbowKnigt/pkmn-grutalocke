@@ -365,28 +365,28 @@ BaseMoney = 100
 BattleBGM = Battle Líder de Gimnasio
 VictoryBGM = Battle victory leader
 #-------------------------------
-[ELITEFOUR_Lorelei]
-Name = Alto Mando
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Elite
-VictoryBGM = Battle victory leader
-#-------------------------------
-[ELITEFOUR_Bruno]
+[CROSS]
 Name = Alto Mando
 Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
 #-------------------------------
-[ELITEFOUR_Agatha]
+[IVANAVI]
 Name = Alto Mando
-Gender = Female
+Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
 #-------------------------------
-[ELITEFOUR_Lance]
+[KARMA]
+Name = Alto Mando
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[YIMMO]
 Name = Alto Mando
 Gender = Male
 BaseMoney = 100
@@ -412,7 +412,7 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = bowser-battle-theme
 #-------------------------------
-[BOWSER1, 1]
+[BOWSER1]
 Name = Rey Koopa
 Gender = Male
 BaseMoney = 100
