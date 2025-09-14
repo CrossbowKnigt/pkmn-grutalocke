@@ -936,3 +936,10 @@ Name = Dojo
 SnapEdges = true
 BattleBack = FondoInterior
 WildBattleBGM = Islands
+#-------------------------------
+[184]   # Moon Cave
+Name = Calle Victoria
+ShowArea = true
+MapPosition = 0,16,8
+SnapEdges = true
+BattleBack = FondoBowser

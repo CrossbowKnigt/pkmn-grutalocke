@@ -128,7 +128,7 @@ Pokemon = TURTONATOR,55
 Pokemon = CARRACOSTA,55
 Pokemon = TORTERRA,55
 Pokemon = AVALUGG,56
-Pokemon = TERAPAGOS,57
+Pokemon = LUNARIS,57
 #-------------------------------
 [JOVEN,Pedrito]
 LoseText = Naah my man, ¿Esto qué es?
@@ -415,8 +415,7 @@ Pokemon = CORVIKNIGHT,61
 Pokemon = INFERNAPE,62
 Pokemon = ZOROARK,63
 Pokemon = LUCARIO,64
-	Item = LUCARIONITE
-	
+	Item = LUCARIONITE	
 #-------------------------------
 [YIMMO,Yimmo]
 Items = FULLRESTORE, MEGARING
@@ -427,7 +426,6 @@ Pokemon = DRAGAPULT,62
 Pokemon = KARTANA,63
 Pokemon = LOPUNNY,64
 	Item = LOPUNNITE
-
 #-------------------------------
 [DAN,Dan]
 Items = SUPERPOTION
@@ -859,11 +857,30 @@ Pokemon = NIDOKING,47
 Pokemon = MUK,48
 Pokemon = DIGGERSBY,50
 #-------------------------------
+[ALUMNO,Aitor Tilla]
+LoseText = Bien jugado.
+Pokemon = CENTISKORCH,49
+Pokemon = CAMERUPT,49
+#-------------------------------
+[CHICA,Susi Roll]
+LoseText = Bien jugado.
+Pokemon = DELPHOX,49
+Pokemon = EMBOAR,49
+#-------------------------------
+[RANGER,Pepe Roni]
+LoseText = Bien jugado.
+Pokemon = FLAREON,49
+Pokemon = CHANDELURE,49
+#-------------------------------
+[E_GUAYf,Carla Melo]
+LoseText = Bien jugado.
+Pokemon = SCOVILLAIN,49
+Pokemon = MAGMORTAR,49
+#-------------------------------
 [RANGER,Satoru]
 LoseText = Bien jugado.
-Pokemon = TALONFLAME,50
-Pokemon = LYCANROC,50
-Pokemon = CHIMECHO,50
+Pokemon = TALONFLAME,51
+Pokemon = LYCANROC,51
 #-------------------------------
 [RANGER,Migue]
 LoseText = Bien jugado.
@@ -874,6 +891,31 @@ Pokemon = ZEBSTRIKA,51
 LoseText = Bien jugado.
 Pokemon = ARMALDO,51
 Pokemon = SWANNA,51
+#-------------------------------
+[RECLUTA,Broodal,21]
+LoseText = Poco me pagan.
+Pokemon = CROBAT,52
+Pokemon = VENOMOTH,53
+#-------------------------------
+[RECLUTA,Broodal,22]
+LoseText = Poco me pagan.
+Pokemon = OBSTAGOON,52
+Pokemon = KINGAMBIT,53
+#-------------------------------
+[RECLUTA,Broodal,23]
+LoseText = Poco me pagan.
+Pokemon = SCOLIPEDE,52
+Pokemon = SWALOT,53
+#-------------------------------
+[RECLUTA,Broodal,24]
+LoseText = Poco me pagan.
+Pokemon = SABLEYE,52
+Pokemon = TOXTRICITY,53
+#-------------------------------
+[RECLUTA,Broodal,25]
+LoseText = Poco me pagan.
+Pokemon = MABOSSTIFF,54
+Pokemon = HOUNDOOM,55
 #-------------------------------
 [HARIET,Hariet,1]
 LoseText = Te lo he puesto demasiado fácil.
@@ -886,5 +928,29 @@ LoseText = Hmpf... Eres más fuerte de lo que pensaba.
 Pokemon = NIDOKING,54
 Pokemon = PAWMOT,55
 Pokemon = AZUMARILL,56
-
+#-------------------------------
+[RECLUTA,Broodal,26]
+LoseText = Poco me pagan.
+Pokemon = TOXAPEX,54
+Pokemon = SKUNTANK,55
+#-------------------------------
+[RECLUTA,Broodal,27]
+LoseText = Poco me pagan.
+Pokemon = VILEPLUME,54
+Pokemon = VICTREEBEL,55
+#-------------------------------
+[RECLUTA,Broodal,28]
+LoseText = Poco me pagan.
+Pokemon = HYPNO,54
+Pokemon = STOUTLAND,55
+#-------------------------------
+[RECLUTA,Broodal,29]
+LoseText = Poco me pagan.
+Pokemon = EELEKTROSS,54
+Pokemon = REUNICLUS,55
+#-------------------------------
+[RECLUTA,Broodal,30]
+LoseText = Poco me pagan.
+Pokemon = GENGAR,54
+Pokemon = UMBREON,55
 
