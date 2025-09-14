@@ -1,5 +1,5 @@
 --- EXPORTACIÓN DE DIÁLOGOS RPG MAKER XP ---
-Fecha: 2025-08-14 14:13:44 +0200
+Fecha: 2025-09-10 15:57:43 +0200
 
 ==================================================
 MAPA ID: 1 - Nombre: Intro
@@ -143,10 +143,6 @@ MAPA ID: 2 - Nombre: Pueblo Inicio
 MAPA ID: 3 - Nombre: Casa del jugador
 ==================================================
 
---- Evento ID: 5 - Nombre: Terminal de Debug (X:25, Y:1) ---
-  Página: 1
-    TEXTO: "Si pulsas F3 mientras estás en modo debug  accederás a un comando para poder escribir scripts  en tiempo real. Útil para testear cosas."
-
 --- Evento ID: 16 - Nombre: Grito y género. (X:11, Y:5) ---
   Página: 1
     TEXTO: "\sh¡HOLA, ESTOY GRITANDO!"
@@ -155,9 +151,25 @@ MAPA ID: 3 - Nombre: Casa del jugador
   Página: 1
     TEXTO: "Según tu género puedo decir que eres chic\@."
 
+--- Evento ID: 5 - Nombre: Terminal de Debug (X:25, Y:1) ---
+  Página: 1
+    TEXTO: "Si pulsas F3 mientras estás en modo debug  accederás a un comando para poder escribir scripts  en tiempo real. Útil para testear cosas."
+
 --- Evento ID: 11 - Nombre: Tile de transporte 2 (X:2, Y:3) ---
   Página: 1
     TEXTO: "Elige un destino."
+
+--- Evento ID: 17 - Nombre: NPC mostrar nombre (X:11, Y:4) ---
+  Página: 1
+    TEXTO: "Yo soy un evento que cuando habla te muestra un  cartel con su nombre. Para que aparezca tienes que  poner el comando que sale encima de este mensaje."
+
+--- Evento ID: 17 - Nombre: NPC mostrar nombre (X:11, Y:4) ---
+  Página: 1
+    TEXTO: "Añádelo de nuevo para que aparezca el nombre de  otro evento."
+
+--- Evento ID: 17 - Nombre: NPC mostrar nombre (X:11, Y:4) ---
+  Página: 1
+    TEXTO: "Por último, acuérdate de siempre llamar a  "Namebox.dispose" cuando el personaje acabe de  hablar para que se quite."
 
 --- Evento ID: 6 - Nombre: Trainer, Visual Editor, Terrain Tags (X:29, Y:1) ---
   Página: 1
@@ -174,18 +186,6 @@ MAPA ID: 3 - Nombre: Casa del jugador
 --- Evento ID: 6 - Nombre: Trainer, Visual Editor, Terrain Tags (X:29, Y:1) ---
   Página: 1
     TEXTO: "Cada tile del tileset (los gráficos para poner en los mapas) tiene un valor númerico asociado, que es el que le da propiedades a ese gráfico (que dejes huellas al pisarlo, que puedas saltar por un borde, etc). Estos Tags de Terreno o Terrain Tags, como se les conoce en inglés, son números a partir del 1, ya que el terreno 0 no hace nada. Por ejemplo, el tag 1 es el que hace que saltes a través de un bordillo. Sin embargo, el hecho de que solo lo puedas saltar en una única dirección es por las flechas de dirección, que son otra opción distinta. En el caso de los tiles de hierba, para que tengan encuentros con Pokémon salvajes al pisarlos, tienen un 2. Si quieres ver más efectos te recomiendo que entre en el editor de tiles y mires los que ya existen. Si tienes dudas sobre ellos puedes consultar la wiki, donde viene información en más detalle. Ten en cuenta que desde el propio editor de tilesets del RPG maker XP no te deja poner un valor mayor que 7, y después pasa a 0. SIn embargo, hay más de 7 tags de terreno que puedes elegir. Para acceder al editor de tags de terreno, ve al menú Debug (F9) y puilsa  "Otros Editores..." >  "Editar Tags de Terreno"."
-
---- Evento ID: 17 - Nombre: NPC mostrar nombre (X:11, Y:4) ---
-  Página: 1
-    TEXTO: "Yo soy un evento que cuando habla te muestra un  cartel con su nombre. Para que aparezca tienes que  poner el comando que sale encima de este mensaje."
-
---- Evento ID: 17 - Nombre: NPC mostrar nombre (X:11, Y:4) ---
-  Página: 1
-    TEXTO: "Añádelo de nuevo para que aparezca el nombre de  otro evento."
-
---- Evento ID: 17 - Nombre: NPC mostrar nombre (X:11, Y:4) ---
-  Página: 1
-    TEXTO: "Por último, acuérdate de siempre llamar a  "Namebox.dispose" cuando el personaje acabe de  hablar para que se quite."
 
 --- Evento ID: 12 - Nombre: NPC Opciones (X:9, Y:7) ---
   Página: 1
@@ -9917,10 +9917,6 @@ MAPA ID: 136 - Nombre: Day Metro
   Página: 1
     TEXTO: "\sh SPINPOUND ÉPICO."
 
---- Evento ID: 328 - Nombre: EV328 (X:27, Y:60) ---
-  Página: 1
-    TEXTO: "Si te desmayas en combate, te llevan al Centro Pokémon… Pero si te desmayas en la vida, solo te llevan a Recursos Humanos."
-
 --- Evento ID: 194 - Nombre: EV194 (X:25, Y:79) ---
   Página: 1
     TEXTO: "No tengo amigos, qué raro que te hayas parado a hablar conmigo. Antes me sentaba en un banco que había en este mismo lugar con la esperanza de que alguien viniese a escuchar mis penas. Ahora ya ni eso, me robaron el banco y me toca joderme. Gracias por escucharme, toma esto como regalo."
@@ -9928,6 +9924,10 @@ MAPA ID: 136 - Nombre: Day Metro
 --- Evento ID: 194 - Nombre: EV194 (X:25, Y:79) ---
   Página: 2
     TEXTO: "Gracias por escucharme."
+
+--- Evento ID: 328 - Nombre: EV328 (X:27, Y:60) ---
+  Página: 1
+    TEXTO: "Si te desmayas en combate, te llevan al Centro Pokémon… Pero si te desmayas en la vida, solo te llevan a Recursos Humanos."
 
 --- Evento ID: 329 - Nombre: EV329 (X:11, Y:60) ---
   Página: 1
@@ -9941,25 +9941,25 @@ MAPA ID: 136 - Nombre: Day Metro
   Página: 1
     TEXTO: "Vengo a la terraza porque es el único lugar donde puedo ver el caos de la ciudad sin que me tiren una Poké Ball."
 
---- Evento ID: 131 - Nombre: EV131 (X:51, Y:45) ---
-  Página: 1
-    TEXTO: "¡Ha aparecido un Pokémon!"
-
 --- Evento ID: 332 - Nombre: EV332 (X:13, Y:44) ---
   Página: 1
     TEXTO: "El líder de gimnasio monta una ruidera acojonante a las 3AM jugando con su lavadora."
+
+--- Evento ID: 131 - Nombre: EV131 (X:51, Y:45) ---
+  Página: 1
+    TEXTO: "¡Ha aparecido un Pokémon!"
 
 --- Evento ID: 333 - Nombre: EV333 (X:56, Y:33) ---
   Página: 1
     TEXTO: "Nunca he entendido por qué la gente se queja del calor. Yo llevo 10 años tratando de salir de este bucle y no me quejo."
 
---- Evento ID: 133 - Nombre: EV133 (X:24, Y:65) ---
-  Página: 1
-    TEXTO: "¡Ha aparecido un Pokémon!"
-
 --- Evento ID: 334 - Nombre: EV334 (X:53, Y:40) ---
   Página: 1
     TEXTO: "La alcaldesa es la anticocina, da igual lo que votes, en esta ciudad siempre sale la misma."
+
+--- Evento ID: 133 - Nombre: EV133 (X:24, Y:65) ---
+  Página: 1
+    TEXTO: "¡Ha aparecido un Pokémon!"
 ==================================================
 MAPA ID: 137 - Nombre: Centro Pokémon
 ==================================================
@@ -11160,11 +11160,11 @@ MAPA ID: 145 - Nombre: Night Metro
   Página: 2
     TEXTO: "Pues nada."
 
---- Evento ID: 174 - Nombre: EV174 (X:47, Y:4) ---
+--- Evento ID: 174 - Nombre: EV174 (X:45, Y:4) ---
   Página: 1
     TEXTO: "Cuidado, que viene."
 
---- Evento ID: 174 - Nombre: EV174 (X:47, Y:4) ---
+--- Evento ID: 174 - Nombre: EV174 (X:45, Y:4) ---
   Página: 2
     TEXTO: "Enhorabuena crack, yo me piro de aquí, vente  conmigo."
 ==================================================
@@ -12334,15 +12334,23 @@ MAPA ID: 167 - Nombre: Ruta 12
   Página: 2
     TEXTO: "Vale, como quieras."
 
---- Evento ID: 12 - Nombre: EV012 (X:44, Y:59) ---
-  Página: 1
-    TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta  el otro lado. Busquemos algo con lo que podamos pasar."
-
 --- Evento ID: 1 - Nombre: Trainer(5) (X:22, Y:31) ---
   Página: 1
     TEXTO: "Placeholder."
 
 --- Evento ID: 1 - Nombre: Trainer(5) (X:22, Y:31) ---
+  Página: 2
+    TEXTO: "Placeholder."
+
+--- Evento ID: 12 - Nombre: EV012 (X:44, Y:59) ---
+  Página: 1
+    TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta  el otro lado. Busquemos algo con lo que podamos pasar."
+
+--- Evento ID: 2 - Nombre: Trainer(5) (X:26, Y:31) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 2 - Nombre: Trainer(5) (X:26, Y:31) ---
   Página: 2
     TEXTO: "Placeholder."
 
@@ -12350,31 +12358,23 @@ MAPA ID: 167 - Nombre: Ruta 12
   Página: 1
     TEXTO: "Hmmm... No creo que puedas saltar desde aquí hasta  el otro lado. Busquemos algo con lo que podamos pasar."
 
---- Evento ID: 2 - Nombre: Trainer(5) (X:26, Y:31) ---
-  Página: 1
-    TEXTO: "Placeholder."
-
---- Evento ID: 2 - Nombre: Trainer(5) (X:26, Y:31) ---
-  Página: 2
-    TEXTO: "Placeholder."
-
 --- Evento ID: 8 - Nombre: EV008 (X:37, Y:50) ---
   Página: 1
     TEXTO: "Has activado el interruptor. ¡Han aparecido 2 delisubianos!"
 
---- Evento ID: 3 - Nombre: Trainer(5) (X:34, Y:38) ---
+--- Evento ID: 14 - Nombre: Trainer(5) (X:11, Y:44) ---
   Página: 1
     TEXTO: "Placeholder."
 
---- Evento ID: 3 - Nombre: Trainer(5) (X:34, Y:38) ---
+--- Evento ID: 14 - Nombre: Trainer(5) (X:11, Y:44) ---
   Página: 2
     TEXTO: "Placeholder."
 
---- Evento ID: 14 - Nombre: Trainer(5) (X:11, Y:44) ---
+--- Evento ID: 3 - Nombre: Trainer(5) (X:34, Y:38) ---
   Página: 1
     TEXTO: "Placeholder."
 
---- Evento ID: 14 - Nombre: Trainer(5) (X:11, Y:44) ---
+--- Evento ID: 3 - Nombre: Trainer(5) (X:34, Y:38) ---
   Página: 2
     TEXTO: "Placeholder."
 
@@ -12475,6 +12475,10 @@ MAPA ID: 169 - Nombre: Faro
 MAPA ID: 170 - Nombre: Plaza Delisubio
 ==================================================
 
+--- Evento ID: 27 - Nombre: EV027 (X:34, Y:20) ---
+  Página: 1
+    TEXTO: "Son un montón de latas vacías."
+
 --- Evento ID: 5 - Nombre: EV005 (X:37, Y:35) ---
   Página: 1
     TEXTO: "Es una lata de tomate frito."
@@ -12482,18 +12486,6 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
 --- Evento ID: 5 - Nombre: EV005 (X:37, Y:35) ---
   Página: 2
     TEXTO: "Es una lata de tomate frito. ¡Eh! ¡Esta es la lata que necesitamos! Vayamos a entregársela a Diegolazo."
-
---- Evento ID: 27 - Nombre: EV027 (X:34, Y:20) ---
-  Página: 1
-    TEXTO: "Son un montón de latas vacías."
-
---- Evento ID: 11 - Nombre: EV011 (X:45, Y:28) ---
-  Página: 1
-    TEXTO: "Es una lata de mejillones en escabeche."
-
---- Evento ID: 22 - Nombre: EV022 (X:34, Y:36) ---
-  Página: 1
-    TEXTO: "Son un montón de latas vacías."
 
 --- Evento ID: 44 - Nombre: EV044 (X:58, Y:25) ---
   Página: 1
@@ -12503,9 +12495,17 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 2
     TEXTO: "Gracias por solucionar el problema del volcán, ahora  tenemos a trabajadores preparados arreglando el  estropicio"
 
---- Evento ID: 6 - Nombre: EV006 (X:34, Y:29) ---
+--- Evento ID: 22 - Nombre: EV022 (X:34, Y:36) ---
   Página: 1
-    TEXTO: "Es una lata de sardinas."
+    TEXTO: "Son un montón de latas vacías."
+
+--- Evento ID: 11 - Nombre: EV011 (X:45, Y:28) ---
+  Página: 1
+    TEXTO: "Es una lata de mejillones en escabeche."
+
+--- Evento ID: 28 - Nombre: EV028 (X:34, Y:16) ---
+  Página: 1
+    TEXTO: "Son un montón de latas vacías."
 
 --- Evento ID: 17 - Nombre: EV017 (X:54, Y:16) ---
   Página: 1
@@ -12523,9 +12523,17 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 2
     TEXTO: "Es un nabo blanco."
 
---- Evento ID: 28 - Nombre: EV028 (X:34, Y:16) ---
+--- Evento ID: 6 - Nombre: EV006 (X:34, Y:29) ---
+  Página: 1
+    TEXTO: "Es una lata de sardinas."
+
+--- Evento ID: 23 - Nombre: EV023 (X:36, Y:31) ---
   Página: 1
     TEXTO: "Son un montón de latas vacías."
+
+--- Evento ID: 12 - Nombre: EV012 (X:53, Y:22) ---
+  Página: 1
+    TEXTO: "Es una lata de maíz dulce."
 
 --- Evento ID: 45 - Nombre: Diegolazo (X:46, Y:31) ---
   Página: 1
@@ -12567,17 +12575,13 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 6
     TEXTO: "Después de cocinar me pondré a entrenar, ¡llegaré a ser cinturón negro!."
 
---- Evento ID: 12 - Nombre: EV012 (X:53, Y:22) ---
+--- Evento ID: 40 - Nombre: Binoculars (X:33, Y:18) ---
   Página: 1
-    TEXTO: "Es una lata de maíz dulce."
+    TEXTO: "Parece que se pueden usar estos prismáticos para  ver el volcán..."
 
---- Evento ID: 23 - Nombre: EV023 (X:36, Y:31) ---
+--- Evento ID: 40 - Nombre: Binoculars (X:33, Y:18) ---
   Página: 1
-    TEXTO: "Son un montón de latas vacías."
-
---- Evento ID: 7 - Nombre: EV007 (X:40, Y:31) ---
-  Página: 1
-    TEXTO: "Es una lata de melocotones en almíbar."
+    TEXTO: "Se ve algo borroso, parece que el vapor de la...  ¿lava? ha empañado los cristales. De todas formas se distinge un volcán grande, se  puede apreciar un entramado de escaleras y el  cráter..."
 
 --- Evento ID: 18 - Nombre: EV018 (X:52, Y:16) ---
   Página: 1
@@ -12599,21 +12603,13 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 3
     TEXTO: "Es un nabo dorado. ¡Este es el nabo dorado que necesitamos! Vayamos a entregárselo a Diegolazo."
 
---- Evento ID: 40 - Nombre: Binoculars (X:33, Y:18) ---
+--- Evento ID: 7 - Nombre: EV007 (X:40, Y:31) ---
   Página: 1
-    TEXTO: "Parece que se pueden usar estos prismáticos para  ver el volcán..."
+    TEXTO: "Es una lata de melocotones en almíbar."
 
---- Evento ID: 40 - Nombre: Binoculars (X:33, Y:18) ---
+--- Evento ID: 24 - Nombre: EV024 (X:20, Y:19) ---
   Página: 1
-    TEXTO: "Se ve algo borroso, parece que el vapor de la...  ¿lava? ha empañado los cristales. De todas formas se distinge un volcán grande, se  puede apreciar un entramado de escaleras y el  cráter..."
-
---- Evento ID: 46 - Nombre: EV046 (X:31, Y:16) ---
-  Página: 1
-    TEXTO: "Es un frijol."
-
---- Evento ID: 46 - Nombre: EV046 (X:31, Y:16) ---
-  Página: 2
-    TEXTO: "Es un frijol. ¡Eh! Este frijol nos sirve para el guiso de Diegolazo! Vayamos a entregárselo."
+    TEXTO: "Son un montón de latas vacías."
 
 --- Evento ID: 13 - Nombre: EV013 (X:50, Y:16) ---
   Página: 1
@@ -12631,21 +12627,37 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 2
     TEXTO: "Es un nabo blanco."
 
---- Evento ID: 24 - Nombre: EV024 (X:20, Y:19) ---
+--- Evento ID: 46 - Nombre: EV046 (X:31, Y:16) ---
   Página: 1
-    TEXTO: "Son un montón de latas vacías."
+    TEXTO: "Es un frijol."
 
---- Evento ID: 8 - Nombre: EV008 (X:37, Y:24) ---
-  Página: 1
-    TEXTO: "Es una lata de leche condensada."
+--- Evento ID: 46 - Nombre: EV046 (X:31, Y:16) ---
+  Página: 2
+    TEXTO: "Es un frijol. ¡Eh! Este frijol nos sirve para el guiso de Diegolazo! Vayamos a entregárselo."
 
 --- Evento ID: 19 - Nombre: EV019 (X:47, Y:20) ---
   Página: 1
     TEXTO: "Es una lata de lentejas. Ugh... qué asco."
 
+--- Evento ID: 8 - Nombre: EV008 (X:37, Y:24) ---
+  Página: 1
+    TEXTO: "Es una lata de leche condensada."
+
 --- Evento ID: 25 - Nombre: EV025 (X:40, Y:27) ---
   Página: 1
     TEXTO: "Son un montón de latas vacías."
+
+--- Evento ID: 31 - Nombre: CONSE (X:26, Y:24) ---
+  Página: 1
+    TEXTO: "Buenas tardes joven entrenador. El líder no se encuentra disponible en este momento,  al parecer hay un problema con el volcán de la zona  y ha ido a investigar. Vuelve más tarde si deseas desafiarlo."
+
+--- Evento ID: 20 - Nombre: EV020 (X:38, Y:36) ---
+  Página: 1
+    TEXTO: "Es una lata de fabada."
+
+--- Evento ID: 9 - Nombre: EV009 (X:55, Y:28) ---
+  Página: 1
+    TEXTO: "Es una lata de chili con carne."
 
 --- Evento ID: 42 - Nombre: EV042 (X:58, Y:27) ---
   Página: 1
@@ -12655,27 +12667,23 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 2
     TEXTO: "Gracias por solucionar el problema del volcán, ahora  tenemos a trabajadores preparados arreglando el  estropicio"
 
---- Evento ID: 9 - Nombre: EV009 (X:55, Y:28) ---
+--- Evento ID: 26 - Nombre: EV026 (X:36, Y:36) ---
   Página: 1
-    TEXTO: "Es una lata de chili con carne."
-
---- Evento ID: 20 - Nombre: EV020 (X:38, Y:36) ---
-  Página: 1
-    TEXTO: "Es una lata de fabada."
-
---- Evento ID: 31 - Nombre: CONSE (X:26, Y:24) ---
-  Página: 1
-    TEXTO: "Buenas tardes joven entrenador. El líder no se encuentra disponible en este momento,  al parecer hay un problema con el volcán de la zona  y ha ido a investigar. Vuelve más tarde si deseas desafiarlo."
+    TEXTO: "Son un montón de latas vacías."
 
 --- Evento ID: 4 - Nombre: EV004 (X:26, Y:26) ---
   Página: 1
     TEXTO: "Es una lata de piña en almíbar."
 
---- Evento ID: 26 - Nombre: EV026 (X:36, Y:36) ---
+--- Evento ID: 43 - Nombre: EV043 (X:58, Y:26) ---
   Página: 1
-    TEXTO: "Son un montón de latas vacías."
+    TEXTO: "Hay un problema con el volcán y hemos cortado el  acceso a la ruta"
 
---- Evento ID: 32 - Nombre: EV032 (X:40, Y:36) ---
+--- Evento ID: 43 - Nombre: EV043 (X:58, Y:26) ---
+  Página: 2
+    TEXTO: "Gracias por solucionar el problema del volcán, ahora  tenemos a trabajadores preparados arreglando el  estropicio"
+
+--- Evento ID: 21 - Nombre: EV021 (X:24, Y:36) ---
   Página: 1
     TEXTO: "Son un montón de latas vacías."
 
@@ -12683,17 +12691,9 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 1
     TEXTO: "Es una lata de pimientos asados."
 
---- Evento ID: 21 - Nombre: EV021 (X:24, Y:36) ---
+--- Evento ID: 32 - Nombre: EV032 (X:40, Y:36) ---
   Página: 1
     TEXTO: "Son un montón de latas vacías."
-
---- Evento ID: 43 - Nombre: EV043 (X:58, Y:26) ---
-  Página: 1
-    TEXTO: "Hay un problema con el volcán y hemos cortado el  acceso a la ruta"
-
---- Evento ID: 43 - Nombre: EV043 (X:58, Y:26) ---
-  Página: 2
-    TEXTO: "Gracias por solucionar el problema del volcán, ahora  tenemos a trabajadores preparados arreglando el  estropicio"
 ==================================================
 MAPA ID: 171 - Nombre: Centro Pokémon
 ==================================================
@@ -12813,6 +12813,14 @@ MAPA ID: 172 - Nombre: Slots Luncheon
   Página: 1
     TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
 
+--- Evento ID: 12 - Nombre: EV012 (X:3, Y:10) ---
+  Página: 1
+    TEXTO: "Es la ruleta. ¿Quieres jugar?"
+
+--- Evento ID: 12 - Nombre: EV012 (X:3, Y:10) ---
+  Página: 1
+    TEXTO: "¿Qué cantidad deseas apostar?"
+
 --- Evento ID: 1 - Nombre: EV001 (X:15, Y:9) ---
   Página: 1
     TEXTO: "\CNCambiamos tus FICHAS por premios."
@@ -12845,17 +12853,13 @@ MAPA ID: 172 - Nombre: Slots Luncheon
   Página: 1
     TEXTO: "\CN\PN received the \v[3]!"
 
---- Evento ID: 12 - Nombre: EV012 (X:3, Y:10) ---
-  Página: 1
-    TEXTO: "Es la ruleta. ¿Quieres jugar?"
-
---- Evento ID: 12 - Nombre: EV012 (X:3, Y:10) ---
-  Página: 1
-    TEXTO: "¿Qué cantidad deseas apostar?"
-
 --- Evento ID: 7 - Nombre: EV007 (X:8, Y:5) ---
   Página: 1
     TEXTO: "Es el juego de Ekans. ¿Quieres jugar?"
+
+--- Evento ID: 13 - Nombre: EV013 (X:12, Y:6) ---
+  Página: 1
+    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
 
 --- Evento ID: 2 - Nombre: EV002 (X:9, Y:14) ---
   Página: 1
@@ -12877,13 +12881,13 @@ MAPA ID: 172 - Nombre: Slots Luncheon
   Página: 1
     TEXTO: "Y luego tenemos la novedad, el gachapon, para este  no se utilizan las fichas normales sino las monedas  que puedes comprar en nuestra tienda. Ya no te aburro más, y ahora sí. \sh ¡¡¡LET'S GO GAMBLING!!!"
 
---- Evento ID: 13 - Nombre: EV013 (X:12, Y:6) ---
-  Página: 1
-    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
-
 --- Evento ID: 8 - Nombre: EV008 (X:6, Y:5) ---
   Página: 1
     TEXTO: "Es el minijuego de ¿Cuál es este Pokémon? ¿Quieres jugar?"
+
+--- Evento ID: 14 - Nombre: EV014 (X:11, Y:6) ---
+  Página: 1
+    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
 
 --- Evento ID: 3 - Nombre: EV003 (X:15, Y:7) ---
   Página: 1
@@ -12924,10 +12928,6 @@ MAPA ID: 172 - Nombre: Slots Luncheon
 --- Evento ID: 3 - Nombre: EV003 (X:15, Y:7) ---
   Página: 1
     TEXTO: "\G\CN¿No?\n¡Vuelve cuando quieras para divertirte!"
-
---- Evento ID: 14 - Nombre: EV014 (X:11, Y:6) ---
-  Página: 1
-    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
 
 --- Evento ID: 9 - Nombre: EV009 (X:3, Y:12) ---
   Página: 1
@@ -13031,18 +13031,6 @@ MAPA ID: 174 - Nombre: Gimnasio Marc
   Página: 3
     TEXTO: "Cuando acabe el servicio es el momento de la... ESNIFADAAAAAA"
 
---- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
-  Página: 1
-    TEXTO: "¡Saludos, joven promesa! (¿Nos conocemos? Ya no  me acuerdo...) Soy Paco Legiado y este es el gimnasio de la ciudad de los Fogones que cuenta con el líder Marc, especializado en el tipo Fuego. Este gimnasio es un restaurante y el líder está muy ocupado cocinando, pero tal vez acceda a combatir contigo si trabajas de camarero. Tendrás que tomar nota de las comandas de cada mesa, de una en una y llevárselas al cocinero. Cuando se la entregues, el preparará la comida y tendrás que llevarla a la mesa correspondiente. Pero cuidado, algunos comensales pueden estar descontentos (o contentos de más) con su comida/bebida y querrán retarte. Para que no te líes con las mesas, te diré el nº de cada una de ellas: mesa 1: arriba izquierda, mesa 2: arriba derecha, mesa 3: abajo izquierda, mesa 4: abajo izquierda. Empieza tomando nota por la mesa 1 y ve en orden. Aquí tienes un obsequio para que te resulte más  fácil."
-
---- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
-  Página: 1
-    TEXTO: "¡Ánimo y a por la medalla! (ay, mi espalda, necesito la  jubilación ya)."
-
---- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
-  Página: 2
-    TEXTO: "¡Ay, se me olvidaba! El tipo Fuego es débil al tipo  Agua, Roca y Tierra. Pero seguro que un entrenador avezado como tú ya  conocerá eso (a estos jóvenes de hoy en día hay  que recordarles la tabla de tipos...)"
-
 --- Evento ID: 12 - Nombre: EV012 (X:10, Y:7) ---
   Página: 1
     TEXTO: "Solo puedo llevar un plato a la vez"
@@ -13054,6 +13042,18 @@ MAPA ID: 174 - Nombre: Gimnasio Marc
 --- Evento ID: 12 - Nombre: EV012 (X:10, Y:7) ---
   Página: 2
     TEXTO: "¿Quieres dejar el plato?"
+
+--- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
+  Página: 1
+    TEXTO: "¡Saludos, joven promesa! (¿Nos conocemos? Ya no  me acuerdo...) Soy Paco Legiado y este es el gimnasio de la ciudad de los Fogones que cuenta con el líder Marc, especializado en el tipo Fuego. Este gimnasio es un restaurante y el líder está muy ocupado cocinando, pero tal vez acceda a combatir contigo si trabajas de camarero. Tendrás que tomar nota de las comandas de cada mesa, de una en una y llevárselas al cocinero. Cuando se la entregues, el preparará la comida y tendrás que llevarla a la mesa correspondiente. Pero cuidado, algunos comensales pueden estar descontentos (o contentos de más) con su comida/bebida y querrán retarte. Para que no te líes con las mesas, te diré el nº de cada una de ellas: mesa 1: arriba izquierda, mesa 2: arriba derecha, mesa 3: abajo izquierda, mesa 4: abajo izquierda. Empieza tomando nota por la mesa 1 y ve en orden. Aquí tienes un obsequio para que te resulte más  fácil."
+
+--- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
+  Página: 1
+    TEXTO: "¡Ánimo y a por la medalla! (ay, mi espalda, necesito la  jubilación ya)."
+
+--- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
+  Página: 2
+    TEXTO: "¡Ay, se me olvidaba! El tipo Fuego es débil al tipo  Agua, Roca y Tierra. Pero seguro que un entrenador avezado como tú ya  conocerá eso (a estos jóvenes de hoy en día hay  que recordarles la tabla de tipos...)"
 
 --- Evento ID: 18 - Nombre: Trainer (X:43, Y:16) ---
   Página: 1
@@ -13260,63 +13260,63 @@ MAPA ID: 177 - Nombre: Ruined
   Página: 1
     TEXTO: "Qué raro, ya están todas las lunas colocadas y no  hay ni rastro de Bowser, ¿habrás escapado de  nuevo? Necesitamos investigar esta zona para más adelante,  continuemos nuestro camino, \PN."
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "¡Sabía que estabas detrás de esto!"
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "¡Jua, jua, jua, alguien ha caído en mi trampa!  Necesitaba reunir todas las lunas que tu tenías en tu  poder así que me he aprovechado de tu necesidad  de entrometerte en todo."
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "Pero no ha sucedido nada al poner las lunas, tu plan  ha fracasado. Vamos Mario, salvemos a las chicas y  vayámonos de aquí. ¡Demuéstrale lo fuertes que se han  vuelto tus Pokémon!"
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "No tan rápido amigo ¡jua jua jua! Las lunas no es lo  único que hace falta para invocar al todopoderoso  Lunaris. Y es la razón por la que estás aquí, princesa."
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "Lunaris reacciona a tu voz, solo debes llamarlo y  aparecerá... vamos, hazlo, ¿a qué esperas?"
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "Me niego a hacerte caso Bowser, \pn ayúdame."
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "Si no quieres hacerlo por las buenas, lo haremos por  las malas. Tú, ¡ven aquí!"
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "\sh ¡AHHHHHHHHH!"
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "\sh ¡GROOOOOOAAAAAAARRRR!"
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "Sabía que la princesa se negaría, este era mi plan  desde el principio"
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "Por eso secuestraste también a mi hermana, para  tomar el control de la princesa."
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "¡Jua, jua, jua! Ahora tengo todo lo necesario. \sh LUNARIS YO TE INVOCO"
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "\sh ¡GROOOOOOAAAAAAARRRR!"
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "¡Ahora respondes ante mí! Vamos a hacer grandes  cosas juntos. Venga vayámonos de aquí, no tiene  sentido seguir con estos payasos."
 
---- Evento ID: 17 - Nombre: EV017 (X:14, Y:32) ---
+--- Evento ID: 17 - Nombre: EV017 (X:15, Y:32) ---
   Página: 1
     TEXTO: "\pn tenemos que parar a Bowser y separarlo de la  princesa.  Tiene razón, los villachisterenses podemos  hacer eso, pero nos duele mucho, debemos salvar a  las chicas y a Lunaris. Se habrá ido a su castillo, vamos, esta al norte de la  ruta 14."
 
@@ -13422,6 +13422,18 @@ MAPA ID: 179 - Nombre: Bowsers
   Página: 1
     TEXTO: "DOJO DE DARKWON"
 
+--- Evento ID: 104 - Nombre: EV104 (X:28, Y:17) ---
+  Página: 1
+    TEXTO: "Texto. Evento. Combate."
+
+--- Evento ID: 104 - Nombre: EV104 (X:28, Y:17) ---
+  Página: 2
+    TEXTO: "Aun no he terminado."
+
+--- Evento ID: 104 - Nombre: EV104 (X:28, Y:17) ---
+  Página: 2
+    TEXTO: "Oh no me has derrotado adios."
+
 --- Evento ID: 95 - Nombre: EV095 (X:46, Y:88) ---
   Página: 1
     TEXTO: "Debería de enfrentarme a Hariet y a Topper primero"
@@ -13472,7 +13484,7 @@ MAPA ID: 179 - Nombre: Bowsers
 
 --- Evento ID: 91 - Nombre: EV091 (X:51, Y:92) ---
   Página: 1
-    TEXTO: "¿Seguro que no enfrentare a Hariet primero?"
+    TEXTO: "¿Seguro que no enfrentaré a Hariet primero?"
 
 --- Evento ID: 92 - Nombre: EV092 (X:45, Y:88) ---
   Página: 1
@@ -13588,9 +13600,33 @@ MAPA ID: 180 - Nombre: Centro Pokémon
 MAPA ID: 181 - Nombre: Dojo Darkwon
 ==================================================
 
+--- Evento ID: 5 - Nombre: EV005 (X:3, Y:4) ---
+  Página: 1
+    TEXTO: "¡Eh! Aquí hay algo."
+
+--- Evento ID: 6 - Nombre: EV006 (X:17, Y:10) ---
+  Página: 1
+    TEXTO: "Está subiendo un vídeo en todas las plataformas posibles. thedarkwon97"
+
 --- Evento ID: 4 - Nombre: EV004 (X:10, Y:5) ---
   Página: 1
-    TEXTO: "Soy Darkwon"
+    TEXTO: "¡Sandulos! ¿Que quién soy yo? Esa es la pregunta más difícil que me pueden llegar a hacer... Soy Darkwon, un intento de creador de contenido sobre Pokémon y estoy aquí entrenándome para ser el mejor kendoka. Te enseñaré a cómo blandir tu espada, ¿quieres?"
+
+--- Evento ID: 4 - Nombre: EV004 (X:10, Y:5) ---
+  Página: 1
+    TEXTO: "Ahora verás, me voy a poner serio y si te gano te cuento un chiste, ¡prepárate!"
+
+--- Evento ID: 4 - Nombre: EV004 (X:10, Y:5) ---
+  Página: 1
+    TEXTO: "Chssst... no se atreve con mi espada."
+
+--- Evento ID: 4 - Nombre: EV004 (X:10, Y:5) ---
+  Página: 2
+    TEXTO: "¡Vaya, no sabía que eras tan fuerte, tendré que entrenar aún más! Toma esto como recompensa por haberme vencido."
+
+--- Evento ID: 4 - Nombre: EV004 (X:10, Y:5) ---
+  Página: 3
+    TEXTO: "No olvides seguirme en mis redes sociales."
 ==================================================
 MAPA ID: 182 - Nombre: Casa baile seaside
 ==================================================
@@ -13618,8 +13654,9 @@ MAPA ID: 182 - Nombre: Casa baile seaside
 --- Evento ID: 3 - Nombre: EV003 (X:7, Y:7) ---
   Página: 1
     TEXTO: "Hermano, ¿quieres bailar con nosotros?"
---- Mapa 183 no encontrado. Saltando. ---
---- Mapa 184 no encontrado. Saltando. ---
+==================================================
+MAPA ID: 183 - Nombre: Moon
+==================================================
 --- Mapa 185 no encontrado. Saltando. ---
 --- Mapa 186 no encontrado. Saltando. ---
 --- Mapa 187 no encontrado. Saltando. ---
