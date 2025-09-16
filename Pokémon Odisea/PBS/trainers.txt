@@ -953,4 +953,43 @@ Pokemon = REUNICLUS,55
 LoseText = Poco me pagan.
 Pokemon = GENGAR,54
 Pokemon = UMBREON,55
-
+#-------------------------------
+[MADAME,Broodal,1]
+LoseText = ¡¿Cómo es posible que haya perdido otra vez?!
+Pokemon = NIDOQUEEN,57
+Pokemon = SNORLAX,58
+Pokemon = ELECTRODE,59
+#-------------------------------
+[LUIGI,Luigi,4]
+LoseText = ggs hermano.
+Pokemon = MAROWAK_1,58
+    Form = 1
+Pokemon = HOUNDSTONE,59
+Pokemon = MIMIKYU,60
+Pokemon = DRIFBLIM,61
+Pokemon = GENGAR,62
+	Item = Gengarite
+#-------------------------------
+[E_GUAYf,Alma Marcela Gozo]
+LoseText = Bien jugado.
+Pokemon = BLISSEY,56
+Pokemon = EXCADRILL,57
+Pokemon = CLEFABLE,58
+#-------------------------------
+[E_GUAY,Kerry Caverga]
+LoseText = Bien jugado.
+Pokemon = YANMEGA,56
+Pokemon = EXPLOUD,57
+#-------------------------------
+[E_GUAY,Benito Camela]
+LoseText = Bien jugado.
+Pokemon = EMPOLEON,56
+Pokemon = HERACROSS,57
+Pokemon = SKARMORY,58
+#-------------------------------
+[E_GUAY,Misco]
+LoseText = Bien jugado.
+Pokemon = MACHAMP,56
+Pokemon = FLAREON,57
+Pokemon = BAXCALIBUR,58
+#-------------------------------
