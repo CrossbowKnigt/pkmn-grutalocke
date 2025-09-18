@@ -968,28 +968,63 @@ Pokemon = HOUNDSTONE,59
 Pokemon = MIMIKYU,60
 Pokemon = DRIFBLIM,61
 Pokemon = GENGAR,62
-	Item = Gengarite
+	Item = GENGARITE
 #-------------------------------
 [E_GUAYf,Alma Marcela Gozo]
 LoseText = Bien jugado.
-Pokemon = BLISSEY,56
+Pokemon = SYLVEON,56
 Pokemon = EXCADRILL,57
-Pokemon = CLEFABLE,58
 #-------------------------------
 [E_GUAY,Kerry Caverga]
 LoseText = Bien jugado.
 Pokemon = YANMEGA,56
 Pokemon = EXPLOUD,57
 #-------------------------------
-[E_GUAY,Benito Camela]
+[JOVEN,Benito Camela]
 LoseText = Bien jugado.
 Pokemon = EMPOLEON,56
 Pokemon = HERACROSS,57
 Pokemon = SKARMORY,58
 #-------------------------------
-[E_GUAY,Misco]
+[MOCHILERO,Misco]
 LoseText = Bien jugado.
 Pokemon = MACHAMP,56
 Pokemon = FLAREON,57
 Pokemon = BAXCALIBUR,58
+#-------------------------------
+[RANGER,Armando Jaleo]
+LoseText = Bien jugado.
+Pokemon = GARDEVOIR,56
+Pokemon = GLIMMORA,57
+Pokemon = PYROAR,58
+#-------------------------------
+[MONTANERO,Queco Jones]
+LoseText = Bien jugado.
+Pokemon = AVALUGG,56
+Pokemon = CLOYSTER,57
+Pokemon = STEELIX,58
+#-------------------------------
+[ALUMNO,Elver Galarga]
+LoseText = Bien jugado.
+Pokemon = NOIVERN,56
+Pokemon = SCEPTILE,57
+Pokemon = AERODACTYL,58
+#-------------------------------
+[CHICA,Debora Melo]
+LoseText = Bien jugado.
+Pokemon = GOODRA,56
+Pokemon = FLORGES,57
+Pokemon = UMBREON,58
+#-------------------------------
+[ALUMNA,Ana Lisa Melculo]
+LoseText = Bien jugado.
+Pokemon = BLISSEY,56
+Pokemon = WAILORD,57
+Pokemon = DRIFBLIM,58
+#-------------------------------
+[MOCHILERA,Elva Gina]
+LoseText = Bien jugado.
+Pokemon = MEGANIUM,56
+Pokemon = EMBOAR,57
+Pokemon = FERALIGATR,58
 #-------------------------------
