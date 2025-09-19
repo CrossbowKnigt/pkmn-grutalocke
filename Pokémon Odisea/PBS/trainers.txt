@@ -877,12 +877,12 @@ LoseText = Bien jugado.
 Pokemon = SCOVILLAIN,49
 Pokemon = MAGMORTAR,49
 #-------------------------------
-[RANGER,Satoru]
+[RANGER,Lagpu]
 LoseText = Bien jugado.
 Pokemon = TALONFLAME,51
 Pokemon = LYCANROC,51
 #-------------------------------
-[RANGER,Migue]
+[RANGER,Lonk]
 LoseText = Bien jugado.
 Pokemon = THROH,51
 Pokemon = ZEBSTRIKA,51
