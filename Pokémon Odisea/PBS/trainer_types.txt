@@ -502,6 +502,7 @@ BattleBGM = King D Mind phase 2 - Super Kirby Clash Music [ ezmp3.cc ].ogg
 Name = Líder
 Gender = Male
 BaseMoney = 100
+BattleBGM = Summertime-groove.ogg
 #-------------------------------
 [MARC]
 Name = Líder
@@ -637,6 +638,7 @@ BaseMoney = 64
 Name = Líder
 Gender = Male
 BaseMoney = 100
+BattleBGM = All I Want for Chipmas is You - Chirpy Chips.ogg
 VictoryBGM = Win fanfare
 #-------------------------------
 [NINO_BIEN]
