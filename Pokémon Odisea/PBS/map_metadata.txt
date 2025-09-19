@@ -946,9 +946,32 @@ SnapEdges = true
 BattleBack = FondoInterior
 WildBattleBGM = Islands
 #-------------------------------
+[183]   # Moon
+Name = Cresta Lunamiel
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,15,8
+SnapEdges = true
+#-------------------------------
 [184]   # Moon Cave
 Name = Calle Victoria
 ShowArea = true
 MapPosition = 0,16,8
 SnapEdges = true
 BattleBack = FondoBowser
+#-------------------------------
+[186]   # Mushroom 2
+Name = Reino Champiñón
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,2
+SnapEdges = true
+BattleBack = FondoColina
+#-------------------------------
+[190]   # Ruta 16
+Name = Ruta 16
+Outdoor = true
+ShowArea = true
+SnapEdges = true
