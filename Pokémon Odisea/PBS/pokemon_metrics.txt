@@ -7346,7 +7346,7 @@ ShadowSize = 3
 #-------------------------------
 [LUNARIS]
 BackSprite = 0,0
-FrontSprite = -4,14
+FrontSprite = -4,7
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -7403,3 +7403,15 @@ BackSprite = 0,0
 FrontSprite = -11,3
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[HOUNDOOM,2]
+BackSprite = 0,0
+FrontSprite = 7,10
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[HOUNDOUR,2]
+BackSprite = 0,0
+FrontSprite = -3,22
+ShadowX = 0
+ShadowSize = 2

@@ -365,18 +365,25 @@ BaseMoney = 100
 BattleBGM = Battle Líder de Gimnasio
 VictoryBGM = Battle victory leader
 #-------------------------------
+[CHAMPION]
+Name = Campeón
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Champion
+VictoryBGM = Battle victory leader
+#-------------------------------
 [CROSS]
 Name = Alto Mando
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Elite
+BattleBGM = Cross_theme.ogg
 VictoryBGM = Battle victory leader
 #-------------------------------
 [IVANAVI]
 Name = Alto Mando
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Elite
+BattleBGM = Ivanavi_theme.ogg
 VictoryBGM = Battle victory leader
 #-------------------------------
 [KARMA]
@@ -390,10 +397,10 @@ VictoryBGM = Battle victory leader
 Name = Alto Mando
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Elite
+BattleBGM = Yimmo_theme.ogg
 VictoryBGM = Battle victory leader
 #-------------------------------
-[CHAMPION]
+[RAFARQUERO]
 Name = Campeón
 Gender = Male
 BaseMoney = 100
@@ -511,11 +518,6 @@ BaseMoney = 100
 #-------------------------------
 [DARKWON]
 Name = Maestro Dojo
-Gender = Male
-BaseMoney = 100
-#-------------------------------
-[RAFARQUERO]
-Name = Campeón
 Gender = Male
 BaseMoney = 100
 #-------------------------------

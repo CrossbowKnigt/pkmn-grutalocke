@@ -953,6 +953,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,15,8
 SnapEdges = true
+BattleBack = FondoLuna
 #-------------------------------
 [184]   # Moon Cave
 Name = Calle Victoria
@@ -975,3 +976,12 @@ Name = Ruta 16
 Outdoor = true
 ShowArea = true
 SnapEdges = true
+#-------------------------------
+[193]   # Alto Mando Yimmo
+Name = Liga Pokémon
+SnapEdges = true
+BattleBack = elite6
+#-------------------------------
+[194]   # Alto Mando Cross
+Name = Liga Pokémon
+BattleBack = elite1
