@@ -985,3 +985,6 @@ BattleBack = elite6
 [194]   # Alto Mando Cross
 Name = Liga Pokémon
 BattleBack = elite1
+#-------------------------------
+[197]   # Casas Seaside
+SnapEdges = true
