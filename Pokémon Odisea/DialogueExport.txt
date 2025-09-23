@@ -1,5 +1,5 @@
 --- EXPORTACIÓN DE DIÁLOGOS RPG MAKER XP ---
-Fecha: 2025-09-10 15:57:43 +0200
+Fecha: 2025-09-23 16:38:19 +0200
 
 ==================================================
 MAPA ID: 1 - Nombre: Intro
@@ -6290,7 +6290,7 @@ MAPA ID: 93 - Nombre: Sand
 
 --- Evento ID: 30 - Nombre: NPC 2 (X:26, Y:16) ---
   Página: 1
-    TEXTO: "A nosotros, los tostarenos, nos encanta bailar. Si te apetece entrenerte con nosotros, ve a la casa  de la izquierda, donde está el campanario."
+    TEXTO: "A nosotros, los tostarenos, nos encanta bailar, ¡Hasta tenemos una pista de baile donde hacemos  fiestas en la casa del campanario!"
 
 --- Evento ID: 31 - Nombre: NPC 2 (X:28, Y:38) ---
   Página: 1
@@ -6573,7 +6573,7 @@ MAPA ID: 98 - Nombre: Pirámide invertida 2
 
 --- Evento ID: 2 - Nombre: Trainer(5) (X:8, Y:8) ---
   Página: 1
-    TEXTO: "¡Te pillé! La señorita Harriet me ha pedido expresamente que  no la molesten, ¡vete o sufrirás la ira de mis Pokémon!"
+    TEXTO: "¡Te pillé! La señorita Hariet me ha pedido expresamente que  no la molesten, ¡vete o sufrirás la ira de mis Pokémon!"
 
 --- Evento ID: 2 - Nombre: Trainer(5) (X:8, Y:8) ---
   Página: 2
@@ -6930,6 +6930,14 @@ MAPA ID: 103 - Nombre: Slots sand
   Página: 1
     TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
 
+--- Evento ID: 12 - Nombre: EV012 (X:3, Y:10) ---
+  Página: 1
+    TEXTO: "Es la ruleta. ¿Quieres jugar?"
+
+--- Evento ID: 12 - Nombre: EV012 (X:3, Y:10) ---
+  Página: 1
+    TEXTO: "¿Qué cantidad deseas apostar?"
+
 --- Evento ID: 1 - Nombre: EV001 (X:15, Y:9) ---
   Página: 1
     TEXTO: "\CNCambiamos tus FICHAS por premios."
@@ -6962,17 +6970,13 @@ MAPA ID: 103 - Nombre: Slots sand
   Página: 1
     TEXTO: "\CN\PN received the \v[3]!"
 
---- Evento ID: 12 - Nombre: EV012 (X:3, Y:10) ---
-  Página: 1
-    TEXTO: "Es la ruleta. ¿Quieres jugar?"
-
---- Evento ID: 12 - Nombre: EV012 (X:3, Y:10) ---
-  Página: 1
-    TEXTO: "¿Qué cantidad deseas apostar?"
-
 --- Evento ID: 7 - Nombre: EV007 (X:8, Y:5) ---
   Página: 1
     TEXTO: "Es el juego de Ekans. ¿Quieres jugar?"
+
+--- Evento ID: 13 - Nombre: EV013 (X:12, Y:6) ---
+  Página: 1
+    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
 
 --- Evento ID: 2 - Nombre: EV002 (X:9, Y:14) ---
   Página: 1
@@ -6994,13 +6998,13 @@ MAPA ID: 103 - Nombre: Slots sand
   Página: 1
     TEXTO: "Y luego tenemos la novedad, el gachapon, para este  no se utilizan las fichas normales sino las monedas  que puedes comprar en nuestra tienda. Ya no te aburro más, y ahora sí. \sh ¡¡¡LET'S GO GAMBLING!!!"
 
---- Evento ID: 13 - Nombre: EV013 (X:12, Y:6) ---
-  Página: 1
-    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
-
 --- Evento ID: 8 - Nombre: EV008 (X:6, Y:5) ---
   Página: 1
     TEXTO: "Es el minijuego de ¿Cuál es este Pokémon? ¿Quieres jugar?"
+
+--- Evento ID: 14 - Nombre: EV014 (X:11, Y:6) ---
+  Página: 1
+    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
 
 --- Evento ID: 3 - Nombre: EV003 (X:15, Y:7) ---
   Página: 1
@@ -7041,10 +7045,6 @@ MAPA ID: 103 - Nombre: Slots sand
 --- Evento ID: 3 - Nombre: EV003 (X:15, Y:7) ---
   Página: 1
     TEXTO: "\G\CN¿No?\n¡Vuelve cuando quieras para divertirte!"
-
---- Evento ID: 14 - Nombre: EV014 (X:11, Y:6) ---
-  Página: 1
-    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
 
 --- Evento ID: 9 - Nombre: EV009 (X:3, Y:12) ---
   Página: 1
@@ -7421,97 +7421,93 @@ MAPA ID: 107 - Nombre: Centro Pokémon
 MAPA ID: 108 - Nombre: Universidad
 ==================================================
 
---- Evento ID: 5 - Nombre: EV005 (X:4, Y:3) ---
+--- Evento ID: 60 - Nombre: EV060 (X:22, Y:13) ---
   Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 16 - Nombre: EV016 (X:18, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+    TEXTO: "HISTORIA de la GRUTA (II) Un día de pronto el server cambió de nombre y se inauguró una nueva era: había nacido la Gruta del Runner. Un lugar del ciberespacio en el que tanto runners  como enjoyers tendrían cabida para disfrutar del noble arte de pasarse los juegos mu’ rápido."
 
 --- Evento ID: 49 - Nombre: EV049 (X:3, Y:13) ---
   Página: 1
     TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (II) En los Jardines de Vapor hay una strat avanzada que permite traspasar un muro ayudándote de una nuez, por ello su nombre es el Nutclip. Clipear en el muro  requiere de un patrón de movimientos al ritmo de “pim, pi-pá”. Aunque una vez interiorizado hay que tener cuidado con el movement out of bounds."
 
---- Evento ID: 60 - Nombre: EV060 (X:22, Y:13) ---
-  Página: 1
-    TEXTO: "HISTORIA de la GRUTA (II) Un día de pronto el server cambió de nombre y se inauguró una nueva era: había nacido la Gruta del Runner. Un lugar del ciberespacio en el que tanto runners  como enjoyers tendrían cabida para disfrutar del noble arte de pasarse los juegos mu’ rápido."
-
---- Evento ID: 44 - Nombre: EV044 (X:20, Y:7) ---
-  Página: 1
-    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. FUNDAMENTOS DE SPEEDRUN: All Moons Para completar una run de All Moons de SMO es necesario recoger las 880 lunas únicas de la aventura."
-
---- Evento ID: 11 - Nombre: EV011 (X:11, Y:3) ---
+--- Evento ID: 16 - Nombre: EV016 (X:18, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 22 - Nombre: EV022 (X:25, Y:3) ---
+--- Evento ID: 5 - Nombre: EV005 (X:4, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 33 - Nombre: NPC 1 (X:10, Y:8) ---
-  Página: 1
-    TEXTO: "Déjame, estoy estudiando."
-
---- Evento ID: 55 - Nombre: EV055 (X:9, Y:13) ---
-  Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (V) La ruta en el Reino de Bowser desde hace mucho tiempo el mundo se divide en dos vertientes para los runners: el Camino de Hariet First y el Camino de  Topper First. A pesar de sus disputas, ambos caminos son igual de óptimos y no dejan de ser una elección del runner."
 
 --- Evento ID: 66 - Nombre: EV066 (X:28, Y:13) ---
   Página: 1
     TEXTO: "HISTORIA de la GRUTA (V) Recientemente, se proclamó 2025 como “el año del content” y, entre muchos otros proyectos, se creó el primer podcast de speedrun en español llamado Frame a  Frame.  ¡Anda! Hay un pósit con una flecha que indica: PISTA para EXAMEN."
 
---- Evento ID: 50 - Nombre: EV050 (X:4, Y:13) ---
+--- Evento ID: 55 - Nombre: EV055 (X:9, Y:13) ---
   Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (II) En los Jardines de Vapor hay una strat avanzada que permite traspasar un muro ayudándote de una nuez, por ello su nombre es el Nutclip. Clipear en el muro  requiere de un patrón de movimientos al ritmo de “pim, pi-pá”. Aunque una vez interiorizado hay que tener cuidado con el movement out of bounds."
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (V) La ruta en el Reino de Bowser desde hace mucho tiempo el mundo se divide en dos vertientes para los runners: el Camino de Hariet First y el Camino de  Topper First. A pesar de sus disputas, ambos caminos son igual de óptimos y no dejan de ser una elección del runner."
 
---- Evento ID: 6 - Nombre: EV006 (X:5, Y:3) ---
+--- Evento ID: 33 - Nombre: NPC 1 (X:10, Y:8) ---
+  Página: 1
+    TEXTO: "Déjame, estoy estudiando."
+
+--- Evento ID: 22 - Nombre: EV022 (X:25, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 17 - Nombre: EV017 (X:19, Y:3) ---
+--- Evento ID: 11 - Nombre: EV011 (X:11, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 44 - Nombre: EV044 (X:20, Y:7) ---
+  Página: 1
+    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. FUNDAMENTOS DE SPEEDRUN: All Moons Para completar una run de All Moons de SMO es necesario recoger las 880 lunas únicas de la aventura."
 
 --- Evento ID: 61 - Nombre: EV061 (X:23, Y:13) ---
   Página: 1
     TEXTO: "HISTORIA de la GRUTA (III) Tiempo después, en los territorios de la Gruta, surgió una iniciativa llamada Experience Speedruns, ExSp para abreviar, que focalizaría en el objetivo inicial de la  Gruta: extender la experiencia del speedrun hasta cotas jamás vistas por medio de torneos y otros eventos de gran magnitud."
 
---- Evento ID: 56 - Nombre: EV056 (X:10, Y:13) ---
-  Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (V) La ruta en el Reino de Bowser desde hace mucho tiempo el mundo se divide en dos vertientes para los runners: el Camino de Hariet First y el Camino de  Topper First. A pesar de sus disputas, ambos caminos son igual de óptimos y no dejan de ser una elección del runner."
-
---- Evento ID: 1 - Nombre: EV001 (X:0, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones."
-
---- Evento ID: 12 - Nombre: EV012 (X:12, Y:3) ---
+--- Evento ID: 17 - Nombre: EV017 (X:19, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 23 - Nombre: EV023 (X:26, Y:3) ---
+--- Evento ID: 6 - Nombre: EV006 (X:5, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 34 - Nombre: NPC 1 (X:22, Y:7) ---
+--- Evento ID: 50 - Nombre: EV050 (X:4, Y:13) ---
   Página: 1
-    TEXTO: "El legendario Lunaris del que tanto habla el líder es único, antes se creía que era una leyenda pero existe de verdad, ¡es un descubrimiento increíble!"
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (II) En los Jardines de Vapor hay una strat avanzada que permite traspasar un muro ayudándote de una nuez, por ello su nombre es el Nutclip. Clipear en el muro  requiere de un patrón de movimientos al ritmo de “pim, pi-pá”. Aunque una vez interiorizado hay que tener cuidado con el movement out of bounds."
 
 --- Evento ID: 45 - Nombre: EV045 (X:3, Y:16) ---
   Página: 1
     TEXTO: "Biología de Vaporeon El libro no se puede abrir, las páginas están como pegadas... (Definitivamente esto NO es una pista del examen...)"
 
---- Evento ID: 40 - Nombre: EV040 (X:6, Y:3) ---
+--- Evento ID: 34 - Nombre: NPC 1 (X:22, Y:7) ---
   Página: 1
-    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. Togepi es un Pokémon tipo hada nativo de la región de Johto. Tiene el número 175 en la Pokédex Nacional. Se considera un símbolo de buena suerte y, según se dice, su cascarón está lleno de alegría. En el pósit hay otra anotación: "Es el Pokémon favorito del líder de este gym y el emblema de su canal"."
+    TEXTO: "El legendario Lunaris del que tanto habla el líder es único, antes se creía que era una leyenda pero existe de verdad, ¡es un descubrimiento increíble!"
 
---- Evento ID: 7 - Nombre: EV007 (X:7, Y:3) ---
-  Página: 1
-    TEXTO: "Citas célebres: "Me gusta esa flor" - Dan, 19/11/2024\n "¿Metemos a Mega-Gengar shiny con vestido de novia?" - Darkwon, 13/12/2024\n "¿Tenemos un piano?" - Frun, 16/01/2025\n  "Esto se arreglaba con repelentes." - Karma, 25/01/2025\n "Si consigo recuperar este mapa soy un genio" - Cross, 31/01/2025\n "No sé ni cómo se pone a doble píxel hulio" - Iván, 03/02/2025\n "Tíjola" - Ferby, (siempre lo dice)."
-
---- Evento ID: 18 - Nombre: EV018 (X:20, Y:3) ---
+--- Evento ID: 23 - Nombre: EV023 (X:26, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 12 - Nombre: EV012 (X:12, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 1 - Nombre: EV001 (X:0, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones."
+
+--- Evento ID: 56 - Nombre: EV056 (X:10, Y:13) ---
+  Página: 1
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (V) La ruta en el Reino de Bowser desde hace mucho tiempo el mundo se divide en dos vertientes para los runners: el Camino de Hariet First y el Camino de  Topper First. A pesar de sus disputas, ambos caminos son igual de óptimos y no dejan de ser una elección del runner."
+
+--- Evento ID: 62 - Nombre: EV062 (X:24, Y:13) ---
+  Página: 1
+    TEXTO: "HISTORIA de la GRUTA (III) Tiempo después, en los territorios de la Gruta, surgió una iniciativa llamada Experience Speedruns, ExSp para abreviar, que focalizaría en el objetivo inicial de la  Gruta: extender la experiencia del speedrun hasta cotas jamás vistas por medio de torneos y otros eventos de gran magnitud."
+
+--- Evento ID: 51 - Nombre: EV051 (X:5, Y:13) ---
+  Página: 1
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (III) En el Lago Kutur hay una strat avanzada que también implica traspasar paredes llamada Lake Clip. Una versión con más flow del mismo se denomina TUMADRE y  por algún motivo que todavía se desconoce se relaciona con el Pokémon Wailmer. ¿Quizá antaño se utilizaban Wailmer para rebotar y subir a sitios inaccesibles? ¡Anda! Aquí hay un pósit que señala este último párrafo: "PISTA para EXAMEN""
 
 --- Evento ID: 29 - Nombre: EV029 (X:15, Y:4) ---
   Página: 1
@@ -7537,15 +7533,31 @@ MAPA ID: 108 - Nombre: Universidad
   Página: 2
     TEXTO: "Uy pero mira qué tarde es... me tengo que ir al  gimnasio ya de ya, nos vemos allí si vienes a  desafiarme más tarde."
 
---- Evento ID: 51 - Nombre: EV051 (X:5, Y:13) ---
+--- Evento ID: 18 - Nombre: EV018 (X:20, Y:3) ---
   Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (III) En el Lago Kutur hay una strat avanzada que también implica traspasar paredes llamada Lake Clip. Una versión con más flow del mismo se denomina TUMADRE y  por algún motivo que todavía se desconoce se relaciona con el Pokémon Wailmer. ¿Quizá antaño se utilizaban Wailmer para rebotar y subir a sitios inaccesibles? ¡Anda! Aquí hay un pósit que señala este último párrafo: "PISTA para EXAMEN""
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 62 - Nombre: EV062 (X:24, Y:13) ---
+--- Evento ID: 7 - Nombre: EV007 (X:7, Y:3) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (III) Tiempo después, en los territorios de la Gruta, surgió una iniciativa llamada Experience Speedruns, ExSp para abreviar, que focalizaría en el objetivo inicial de la  Gruta: extender la experiencia del speedrun hasta cotas jamás vistas por medio de torneos y otros eventos de gran magnitud."
+    TEXTO: "Citas célebres: "Me gusta esa flor" - Dan, 19/11/2024\n "¿Metemos a Mega-Gengar shiny con vestido de novia?" - Darkwon, 13/12/2024\n "¿Tenemos un piano?" - Frun, 16/01/2025\n  "Esto se arreglaba con repelentes." - Karma, 25/01/2025\n "Si consigo recuperar este mapa soy un genio" - Cross, 31/01/2025\n "No sé ni cómo se pone a doble píxel hulio" - Iván, 03/02/2025\n "Tíjola" - Ferby, (siempre lo dice)."
 
---- Evento ID: 2 - Nombre: EV002 (X:1, Y:3) ---
+--- Evento ID: 40 - Nombre: EV040 (X:6, Y:3) ---
+  Página: 1
+    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. Togepi es un Pokémon tipo hada nativo de la región de Johto. Tiene el número 175 en la Pokédex Nacional. Se considera un símbolo de buena suerte y, según se dice, su cascarón está lleno de alegría. En el pósit hay otra anotación: "Es el Pokémon favorito del líder de este gym y el emblema de su canal"."
+
+--- Evento ID: 57 - Nombre: EV057 (X:19, Y:13) ---
+  Página: 1
+    TEXTO: "HISTORIA de la GRUTA (I) Hace mucho mucho tiempo, cuando todo esto era campo, se creó un server llamado Rafarmy. Desde allí, su fundador Rafarqueiro da Souza do Janeiro quiso  expandir el conocimiento y el gusto por el noble arte de los speedruns."
+
+--- Evento ID: 46 - Nombre: EV046 (X:26, Y:16) ---
+  Página: 1
+    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTAS para EXAMEN. HISTORIA del VIDEOJUEGO Miyamoto creó el arcade Donkey Kong en 1981.  Tan solo 4 años después, en 1985, dirigió SMB1. El avance tecnológico llegaría en 1996, de la mano de SM64. Y, por fin, en 2017, sale a la venta SMO."
+
+--- Evento ID: 35 - Nombre: NPC 1 (X:24, Y:16) ---
+  Página: 1
+    TEXTO: "Vengo aquí todos los días a estudiar, pero la verdad es que acabo viendo el móvil y al final no me cunde. Ahora estoy viendo un programa del Grand Prix, soy una gran fan de la Miltank Luisa Fernanda, tengo todo su merchandising. (Algo me dice que esto... ¿podría ser una PISTA para el EXAMEN?)"
+
+--- Evento ID: 24 - Nombre: EV024 (X:27, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
@@ -7553,51 +7565,43 @@ MAPA ID: 108 - Nombre: Universidad
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 24 - Nombre: EV024 (X:27, Y:3) ---
+--- Evento ID: 2 - Nombre: EV002 (X:1, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 35 - Nombre: NPC 1 (X:24, Y:16) ---
-  Página: 1
-    TEXTO: "Vengo aquí todos los días a estudiar, pero la verdad es que acabo viendo el móvil y al final no me cunde. Ahora estoy viendo un programa del Grand Prix, soy una gran fan de la Miltank Luisa Fernanda, tengo todo su merchandising. (Algo me dice que esto... ¿podría ser una PISTA para el EXAMEN?)"
-
---- Evento ID: 46 - Nombre: EV046 (X:26, Y:16) ---
-  Página: 1
-    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTAS para EXAMEN. HISTORIA del VIDEOJUEGO Miyamoto creó el arcade Donkey Kong en 1981.  Tan solo 4 años después, en 1985, dirigió SMB1. El avance tecnológico llegaría en 1996, de la mano de SM64. Y, por fin, en 2017, sale a la venta SMO."
-
---- Evento ID: 57 - Nombre: EV057 (X:19, Y:13) ---
-  Página: 1
-    TEXTO: "HISTORIA de la GRUTA (I) Hace mucho mucho tiempo, cuando todo esto era campo, se creó un server llamado Rafarmy. Desde allí, su fundador Rafarqueiro da Souza do Janeiro quiso  expandir el conocimiento y el gusto por el noble arte de los speedruns."
-
---- Evento ID: 41 - Nombre: EV041 (X:14, Y:3) ---
-  Página: 1
-    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. Hall de la Fama ExSp (SMO edition) ExSp 1: Rafarquero\nExSp 2: Rodillo ExSp Live: Panda ExSp 4: Rodillo"
-
---- Evento ID: 8 - Nombre: EV008 (X:8, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 19 - Nombre: EV019 (X:21, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 30 - Nombre: EV030 (X:0, Y:14) ---
-  Página: 1
-    TEXTO: "Alguien ha tirado una revista aquí. En la portada sale Juanjo Bona, el ganador de Jotalent 1 y Naiara, la ganadera de OT2023 dando el pregón de las Fiestas de  Nueva Donk desde el balcón del ayuntamiento junto a la alcaldesa Pauline. En la portada hay pegado un pósit que pone: ¿PISTA para EXAMEN?"
-
---- Evento ID: 52 - Nombre: EV052 (X:6, Y:13) ---
-  Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (III) En el Lago Kutur hay una strat avanzada que también implica traspasar paredes llamada Lake Clip. Una versión con más flow del mismo se denomina TUMADRE y  por algún motivo que todavía se desconoce se relaciona con el Pokémon Wailmer. ¿Quizá antaño se utilizaban Wailmer para rebotar y subir a sitios inaccesibles? ¡Anda! Aquí hay un pósit que señala este último párrafo: "PISTA para EXAMEN""
 
 --- Evento ID: 63 - Nombre: EV063 (X:25, Y:13) ---
   Página: 1
     TEXTO: "HISTORIA de la GRUTA (IV) Aunque la Gruta nació como un lugar virtual en medio del ciberespacio, en 2023 se realizó el primer evento presencial de ExSp. La experiencia fue tan gratificante  que un año después tuvo lugar la primera Grutatón presencial."
 
---- Evento ID: 36 - Nombre: EV036 (X:15, Y:3) ---
+--- Evento ID: 52 - Nombre: EV052 (X:6, Y:13) ---
   Página: 1
-    TEXTO: "La última página está muy desgastada y es ilegible..."
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (III) En el Lago Kutur hay una strat avanzada que también implica traspasar paredes llamada Lake Clip. Una versión con más flow del mismo se denomina TUMADRE y  por algún motivo que todavía se desconoce se relaciona con el Pokémon Wailmer. ¿Quizá antaño se utilizaban Wailmer para rebotar y subir a sitios inaccesibles? ¡Anda! Aquí hay un pósit que señala este último párrafo: "PISTA para EXAMEN""
 
---- Evento ID: 3 - Nombre: EV003 (X:2, Y:3) ---
+--- Evento ID: 30 - Nombre: EV030 (X:0, Y:14) ---
+  Página: 1
+    TEXTO: "Alguien ha tirado una revista aquí. En la portada sale Juanjo Bona, el ganador de Jotalent 1 y Naiara, la ganadera de OT2023 dando el pregón de las Fiestas de  Nueva Donk desde el balcón del ayuntamiento junto a la alcaldesa Pauline. En la portada hay pegado un pósit que pone: ¿PISTA para EXAMEN?"
+
+--- Evento ID: 19 - Nombre: EV019 (X:21, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 8 - Nombre: EV008 (X:8, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 41 - Nombre: EV041 (X:14, Y:3) ---
+  Página: 1
+    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. Hall de la Fama ExSp (SMO edition) ExSp 1: Rafarquero\nExSp 2: Rodillo ExSp Live: Panda ExSp 4: Rodillo"
+
+--- Evento ID: 58 - Nombre: EV058 (X:20, Y:13) ---
+  Página: 1
+    TEXTO: "HISTORIA de la GRUTA (I) Hace mucho mucho tiempo, cuando todo esto era campo, se creó un server llamado Rafarmy. Desde allí, su fundador Rafarqueiro da Souza do Janeiro quiso  expandir el conocimiento y el gusto por el noble arte de los speedruns."
+
+--- Evento ID: 47 - Nombre: EV047 (X:2, Y:13) ---
+  Página: 1
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (I) Un strat básica que se puede practicar en el Salto del Fósil es el Dino Skip. Su versión avanzada, el Dino Skip Skip o DSS para abreviar, es una técnica avanzada  mucho más compleja."
+
+--- Evento ID: 25 - Nombre: EV025 (X:28, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
@@ -7605,43 +7609,47 @@ MAPA ID: 108 - Nombre: Universidad
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 25 - Nombre: EV025 (X:28, Y:3) ---
+--- Evento ID: 3 - Nombre: EV003 (X:2, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 47 - Nombre: EV047 (X:2, Y:13) ---
+--- Evento ID: 36 - Nombre: EV036 (X:15, Y:3) ---
   Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (I) Un strat básica que se puede practicar en el Salto del Fósil es el Dino Skip. Su versión avanzada, el Dino Skip Skip o DSS para abreviar, es una técnica avanzada  mucho más compleja."
-
---- Evento ID: 58 - Nombre: EV058 (X:20, Y:13) ---
-  Página: 1
-    TEXTO: "HISTORIA de la GRUTA (I) Hace mucho mucho tiempo, cuando todo esto era campo, se creó un server llamado Rafarmy. Desde allí, su fundador Rafarqueiro da Souza do Janeiro quiso  expandir el conocimiento y el gusto por el noble arte de los speedruns."
-
---- Evento ID: 42 - Nombre: EV042 (X:23, Y:3) ---
-  Página: 1
-    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. Jigglypuff es un Pokémon tipo normal / hada nativo de la región de Kanto. Tiene el número 39 en la Pokédex Nacional. Recientemente se descubrió en la región de Paldea una forma paradoja de este Pokémon cuyo nombre es Colagrito."
-
---- Evento ID: 31 - Nombre: EV031 (X:29, Y:14) ---
-  Página: 1
-    TEXTO: "Alguien ha tirado una revista aquí. Le hacen una entrevista a Rodillo, líder de Gimnasio de Ciudad Nueva Donk. Es de la época que consiguió el primer subhora  hispano. En la portada hay pegado un pósit que pone: ¿PISTA para EXAMEN?"
-
---- Evento ID: 9 - Nombre: EV009 (X:9, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 20 - Nombre: EV020 (X:22, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 53 - Nombre: EV053 (X:7, Y:13) ---
-  Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (IV) En los exteriores de la Ciudad de Friolandia hay una strat legendaria que se denomina Snow Dram. Aunque lleve la palabra Dram en su nombre, no es un verdadero  Dram, pero sigue siendo un truco icónico solo al alcance de unos pocos."
+    TEXTO: "La última página está muy desgastada y es ilegible..."
 
 --- Evento ID: 64 - Nombre: EV064 (X:26, Y:13) ---
   Página: 1
     TEXTO: "HISTORIA de la GRUTA (IV) Aunque la Gruta nació como un lugar virtual en medio del ciberespacio, en 2023 se realizó el primer evento presencial de ExSp. La experiencia fue tan gratificante  que un año después tuvo lugar la primera Grutatón presencial."
 
---- Evento ID: 4 - Nombre: EV004 (X:3, Y:3) ---
+--- Evento ID: 53 - Nombre: EV053 (X:7, Y:13) ---
+  Página: 1
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (IV) En los exteriores de la Ciudad de Friolandia hay una strat legendaria que se denomina Snow Dram. Aunque lleve la palabra Dram en su nombre, no es un verdadero  Dram, pero sigue siendo un truco icónico solo al alcance de unos pocos."
+
+--- Evento ID: 20 - Nombre: EV020 (X:22, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 9 - Nombre: EV009 (X:9, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 31 - Nombre: EV031 (X:29, Y:14) ---
+  Página: 1
+    TEXTO: "Alguien ha tirado una revista aquí. Le hacen una entrevista a Rodillo, líder de Gimnasio de Ciudad Nueva Donk. Es de la época que consiguió el primer subhora  hispano. En la portada hay pegado un pósit que pone: ¿PISTA para EXAMEN?"
+
+--- Evento ID: 42 - Nombre: EV042 (X:23, Y:3) ---
+  Página: 1
+    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. Jigglypuff es un Pokémon tipo normal / hada nativo de la región de Kanto. Tiene el número 39 en la Pokédex Nacional. Recientemente se descubrió en la región de Paldea una forma paradoja de este Pokémon cuyo nombre es Colagrito."
+
+--- Evento ID: 59 - Nombre: EV059 (X:21, Y:13) ---
+  Página: 1
+    TEXTO: "HISTORIA de la GRUTA (II) Un día de pronto el server cambió de nombre y se inauguró una nueva era: había nacido la Gruta del Runner. Un lugar del ciberespacio en el que tanto runners  como enjoyers tendrían cabida para disfrutar del noble arte de pasarse los juegos mu’ rápido."
+
+--- Evento ID: 48 - Nombre: EV048 (X:1, Y:13) ---
+  Página: 1
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (I) Un strat básica que se puede practicar en el Salto del Fósil es el Dino Skip. Su versión avanzada, el Dino Skip Skip o DSS para abreviar, es una técnica avanzada  mucho más compleja."
+
+--- Evento ID: 26 - Nombre: EV026 (X:29, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
@@ -7649,29 +7657,17 @@ MAPA ID: 108 - Nombre: Universidad
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 26 - Nombre: EV026 (X:29, Y:3) ---
+--- Evento ID: 4 - Nombre: EV004 (X:3, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 48 - Nombre: EV048 (X:1, Y:13) ---
+--- Evento ID: 65 - Nombre: EV065 (X:27, Y:13) ---
   Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (I) Un strat básica que se puede practicar en el Salto del Fósil es el Dino Skip. Su versión avanzada, el Dino Skip Skip o DSS para abreviar, es una técnica avanzada  mucho más compleja."
+    TEXTO: "HISTORIA de la GRUTA (V) Recientemente, se proclamó 2025 como “el año del content” y, entre muchos otros proyectos, se creó el primer podcast de speedrun en español llamado Frame a  Frame.  ¡Anda! Hay un pósit con una flecha que indica: PISTA para EXAMEN."
 
---- Evento ID: 59 - Nombre: EV059 (X:21, Y:13) ---
+--- Evento ID: 54 - Nombre: EV054 (X:8, Y:13) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (II) Un día de pronto el server cambió de nombre y se inauguró una nueva era: había nacido la Gruta del Runner. Un lugar del ciberespacio en el que tanto runners  como enjoyers tendrían cabida para disfrutar del noble arte de pasarse los juegos mu’ rápido."
-
---- Evento ID: 43 - Nombre: EV043 (X:9, Y:7) ---
-  Página: 1
-    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. FUNDAMENTOS DE SPEEDRUN: El any% Para completar una run de any% de SMO es necesario recoger al menos 124 lunas."
-
---- Evento ID: 10 - Nombre: EV010 (X:10, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 21 - Nombre: EV021 (X:24, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (IV) En los exteriores de la Ciudad de Friolandia hay una strat legendaria que se denomina Snow Dram. Aunque lleve la palabra Dram en su nombre, no es un verdadero  Dram, pero sigue siendo un truco icónico solo al alcance de unos pocos."
 
 --- Evento ID: 32 - Nombre: NPC 1 (X:2, Y:16) ---
   Página: 1
@@ -7681,13 +7677,17 @@ MAPA ID: 108 - Nombre: Universidad
   Página: 2
     TEXTO: "Este libro tiene más curiosidades sobre Vaporeon,  pero mejor no quieras saberlo..."
 
---- Evento ID: 54 - Nombre: EV054 (X:8, Y:13) ---
+--- Evento ID: 21 - Nombre: EV021 (X:24, Y:3) ---
   Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (IV) En los exteriores de la Ciudad de Friolandia hay una strat legendaria que se denomina Snow Dram. Aunque lleve la palabra Dram en su nombre, no es un verdadero  Dram, pero sigue siendo un truco icónico solo al alcance de unos pocos."
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 65 - Nombre: EV065 (X:27, Y:13) ---
+--- Evento ID: 10 - Nombre: EV010 (X:10, Y:3) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (V) Recientemente, se proclamó 2025 como “el año del content” y, entre muchos otros proyectos, se creó el primer podcast de speedrun en español llamado Frame a  Frame.  ¡Anda! Hay un pósit con una flecha que indica: PISTA para EXAMEN."
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 43 - Nombre: EV043 (X:9, Y:7) ---
+  Página: 1
+    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. FUNDAMENTOS DE SPEEDRUN: El any% Para completar una run de any% de SMO es necesario recoger al menos 124 lunas."
 ==================================================
 MAPA ID: 109 - Nombre: Gym Dan
 ==================================================
@@ -7711,26 +7711,6 @@ MAPA ID: 109 - Nombre: Gym Dan
 --- Evento ID: 5 - Nombre: Trainer (X:2, Y:12) ---
   Página: 3
     TEXTO: "La respuesta a la pregunta 5 es... la b) Demo Oro Spaceworld 97."
-
---- Evento ID: 11 - Nombre: Trainer (X:17, Y:12) ---
-  Página: 1
-    TEXTO: "Si me ganas en un combate, te doy la respuesta a  una pregunta, qué me dices?"
-
---- Evento ID: 11 - Nombre: Trainer (X:17, Y:12) ---
-  Página: 1
-    TEXTO: "¡Pues adelante!"
-
---- Evento ID: 11 - Nombre: Trainer (X:17, Y:12) ---
-  Página: 1
-    TEXTO: "Pues allá tú."
-
---- Evento ID: 11 - Nombre: Trainer (X:17, Y:12) ---
-  Página: 2
-    TEXTO: "La respuesta a la pregunta 9 es... la b) Abraham  Mateo."
-
---- Evento ID: 11 - Nombre: Trainer (X:17, Y:12) ---
-  Página: 3
-    TEXTO: "La respuesta a la pregunta 9 es... la b) Abraham  Mateo."
 
 --- Evento ID: 22 - Nombre: EV022 (X:15, Y:5) ---
   Página: 1
@@ -7916,6 +7896,26 @@ MAPA ID: 109 - Nombre: Gym Dan
   Página: 1
     TEXTO: "Has terminado el examen, ve a la sala del líder para  realizar la prueba final: el combate oficial por la  medalla."
 
+--- Evento ID: 11 - Nombre: Trainer (X:17, Y:12) ---
+  Página: 1
+    TEXTO: "Si me ganas en un combate, te doy la respuesta a  una pregunta, qué me dices?"
+
+--- Evento ID: 11 - Nombre: Trainer (X:17, Y:12) ---
+  Página: 1
+    TEXTO: "¡Pues adelante!"
+
+--- Evento ID: 11 - Nombre: Trainer (X:17, Y:12) ---
+  Página: 1
+    TEXTO: "Pues allá tú."
+
+--- Evento ID: 11 - Nombre: Trainer (X:17, Y:12) ---
+  Página: 2
+    TEXTO: "La respuesta a la pregunta 9 es... la b) Abraham  Mateo."
+
+--- Evento ID: 11 - Nombre: Trainer (X:17, Y:12) ---
+  Página: 3
+    TEXTO: "La respuesta a la pregunta 9 es... la b) Abraham  Mateo."
+
 --- Evento ID: 6 - Nombre: Trainer (X:2, Y:6) ---
   Página: 1
     TEXTO: "Si me ganas en un combate, te doy la respuesta a  una pregunta, qué me dices?"
@@ -7936,17 +7936,9 @@ MAPA ID: 109 - Nombre: Gym Dan
   Página: 3
     TEXTO: "La respuesta a la pregunta 2 es... la c) Tortigepi."
 
---- Evento ID: 12 - Nombre: Trainer (X:15, Y:12) ---
+--- Evento ID: 1 - Nombre: EV001 (X:0, Y:14) ---
   Página: 1
-    TEXTO: "Esto es un placeholder."
-
---- Evento ID: 12 - Nombre: Trainer (X:15, Y:12) ---
-  Página: 2
-    TEXTO: "La respuesta a la pregunta 5 es... la b) Gayumbos."
-
---- Evento ID: 12 - Nombre: Trainer (X:15, Y:12) ---
-  Página: 3
-    TEXTO: "La respuesta a la pregunta 5 es... la b) Gayumbos."
+    TEXTO: "Esta papelera está vacía."
 
 --- Evento ID: 23 - Nombre: EV023 (X:4, Y:5) ---
   Página: 1
@@ -8128,9 +8120,17 @@ MAPA ID: 109 - Nombre: Gym Dan
   Página: 1
     TEXTO: "Has terminado el examen, ve a la sala del líder para  realizar la prueba final: el combate oficial por la  medalla."
 
---- Evento ID: 1 - Nombre: EV001 (X:0, Y:14) ---
+--- Evento ID: 12 - Nombre: Trainer (X:15, Y:12) ---
   Página: 1
-    TEXTO: "Esta papelera está vacía."
+    TEXTO: "Esto es un placeholder."
+
+--- Evento ID: 12 - Nombre: Trainer (X:15, Y:12) ---
+  Página: 2
+    TEXTO: "La respuesta a la pregunta 5 es... la b) Gayumbos."
+
+--- Evento ID: 12 - Nombre: Trainer (X:15, Y:12) ---
+  Página: 3
+    TEXTO: "La respuesta a la pregunta 5 es... la b) Gayumbos."
 
 --- Evento ID: 7 - Nombre: Trainer (X:4, Y:12) ---
   Página: 1
@@ -8176,6 +8176,18 @@ MAPA ID: 109 - Nombre: Gym Dan
   Página: 3
     TEXTO: "La respuesta a la pregunta 2 es... la c) Platino."
 
+--- Evento ID: 14 - Nombre: Trainer (X:4, Y:9) ---
+  Página: 1
+    TEXTO: "Me he visto todas las ediciones de OT incluso de antes de que nací... ¡Al parecer hay preguntas sobre ello en el examen! Si me ganas te chivo una respuesta."
+
+--- Evento ID: 14 - Nombre: Trainer (X:4, Y:9) ---
+  Página: 2
+    TEXTO: "La respuesta a la pregunta 10 es... la c) Naiara. Nuestra querida ganadera..."
+
+--- Evento ID: 14 - Nombre: Trainer (X:4, Y:9) ---
+  Página: 3
+    TEXTO: "La respuesta a la pregunta 10 es... la c) Naiara."
+
 --- Evento ID: 3 - Nombre: CONSE (X:11, Y:13) ---
   Página: 1
     TEXTO: "¡Saludos, joven promesa! (¿Nos conocemos? Ya no  me acuerdo...) Soy Paco Legiado y este es el gimnasio de Ciudad  Kutur, que cuenta con el líder Storydan,  especializado en el tipo Hada. Para llegar al líder, tendrás que aprobar un examen.  Habrá 11 preguntas, cada una vale un punto y una  última pregunta extra. (¿Cómo que pregunta extra? Cada vez los alumnos  tienen más facilidades...) Hay 2 tipos de examen, opción Togepi (izquierda) y opción Jigglypuff (derecha).  Puedes combatir antes con los demás alumnos para sacar pistas sobre las respuestas.  Aunque si has estudiado bien la biblioteca no deberías necesitarlo... (Copiaros si queréis, a mí me la pela, no me pagan  por vigilaros). Cuando hayas hecho el examen y creas que estás  aprobado, entrégaselo al líder, él te lo corregirá en el  momento y podrás combatir contra él. Aquí tienes un obsequio para que te resulte más  fácil."
@@ -8188,42 +8200,30 @@ MAPA ID: 109 - Nombre: Gym Dan
   Página: 2
     TEXTO: "¡Ay, se me olvidaba! El tipo Hada es débil a los tipos  Acero y Veneno. Pero seguro que un entrenador avezado como tú ya  conocerá eso (a estos jóvenes de hoy en día hay  que recordarles la tabla de tipos...)"
 
---- Evento ID: 14 - Nombre: Trainer (X:4, Y:9) ---
-  Página: 1
-    TEXTO: "Esto es un placeholder."
-
---- Evento ID: 14 - Nombre: Trainer (X:4, Y:9) ---
-  Página: 2
-    TEXTO: "La respuesta a la pregunta 10 es... la c) Naiara."
-
---- Evento ID: 14 - Nombre: Trainer (X:4, Y:9) ---
-  Página: 3
-    TEXTO: "La respuesta a la pregunta 10 es... la c) Naiara."
-
---- Evento ID: 9 - Nombre: Trainer (X:15, Y:9) ---
-  Página: 1
-    TEXTO: "Si me ganas en un combate, te doy la respuesta a  una pregunta, qué me dices?"
-
---- Evento ID: 9 - Nombre: Trainer (X:15, Y:9) ---
-  Página: 1
-    TEXTO: "¡Pues adelante!"
-
---- Evento ID: 9 - Nombre: Trainer (X:15, Y:9) ---
-  Página: 1
-    TEXTO: "Pues allá tú."
-
---- Evento ID: 9 - Nombre: Trainer (X:15, Y:9) ---
-  Página: 2
-    TEXTO: "La respuesta a la pregunta 3 es... la a) 21."
-
---- Evento ID: 9 - Nombre: Trainer (X:15, Y:9) ---
-  Página: 3
-    TEXTO: "La respuesta a la pregunta 3 es... la a) 21."
-
 --- Evento ID: 20 - Nombre: EV020 (X:9, Y:3) ---
   Página: 1
     TEXTO: "¡\PN! ¡Haz primero el examen!"
 
+--- Evento ID: 9 - Nombre: Trainer (X:15, Y:9) ---
+  Página: 1
+    TEXTO: "Si me ganas en un combate, te doy la respuesta a  una pregunta, qué me dices?"
+
+--- Evento ID: 9 - Nombre: Trainer (X:15, Y:9) ---
+  Página: 1
+    TEXTO: "¡Pues adelante!"
+
+--- Evento ID: 9 - Nombre: Trainer (X:15, Y:9) ---
+  Página: 1
+    TEXTO: "Pues allá tú."
+
+--- Evento ID: 9 - Nombre: Trainer (X:15, Y:9) ---
+  Página: 2
+    TEXTO: "La respuesta a la pregunta 3 es... la a) 21."
+
+--- Evento ID: 9 - Nombre: Trainer (X:15, Y:9) ---
+  Página: 3
+    TEXTO: "La respuesta a la pregunta 3 es... la a) 21."
+
 --- Evento ID: 4 - Nombre: Trainer (X:2, Y:9) ---
   Página: 1
     TEXTO: "Si me ganas en un combate, te doy la respuesta a  una pregunta, qué me dices?"
@@ -8243,30 +8243,30 @@ MAPA ID: 109 - Nombre: Gym Dan
 --- Evento ID: 4 - Nombre: Trainer (X:2, Y:9) ---
   Página: 3
     TEXTO: "La respuesta a la pregunta 3 es... la a) Temporada alfa."
-
---- Evento ID: 10 - Nombre: Trainer (X:17, Y:9) ---
-  Página: 1
-    TEXTO: "Si me ganas en un combate, te doy la respuesta a  una pregunta, qué me dices?"
-
---- Evento ID: 10 - Nombre: Trainer (X:17, Y:9) ---
-  Página: 1
-    TEXTO: "¡Pues adelante!"
-
---- Evento ID: 10 - Nombre: Trainer (X:17, Y:9) ---
-  Página: 1
-    TEXTO: "Pues allá tú."
-
---- Evento ID: 10 - Nombre: Trainer (X:17, Y:9) ---
-  Página: 2
-    TEXTO: "La respuesta a la pregunta 10 es... la c) Juanjo Bona."
-
---- Evento ID: 10 - Nombre: Trainer (X:17, Y:9) ---
-  Página: 3
-    TEXTO: "La respuesta a la pregunta 10 es... la c) Juanjo Bona."
 
 --- Evento ID: 21 - Nombre: EV021 (X:10, Y:3) ---
   Página: 1
     TEXTO: "¡\PN! ¡Haz primero el examen!"
+
+--- Evento ID: 10 - Nombre: Trainer (X:17, Y:9) ---
+  Página: 1
+    TEXTO: "Si me ganas en un combate, te doy la respuesta a  una pregunta, qué me dices?"
+
+--- Evento ID: 10 - Nombre: Trainer (X:17, Y:9) ---
+  Página: 1
+    TEXTO: "¡Pues adelante!"
+
+--- Evento ID: 10 - Nombre: Trainer (X:17, Y:9) ---
+  Página: 1
+    TEXTO: "Pues allá tú."
+
+--- Evento ID: 10 - Nombre: Trainer (X:17, Y:9) ---
+  Página: 2
+    TEXTO: "La respuesta a la pregunta 10 es... la c) Juanjo Bona."
+
+--- Evento ID: 10 - Nombre: Trainer (X:17, Y:9) ---
+  Página: 3
+    TEXTO: "La respuesta a la pregunta 10 es... la c) Juanjo Bona."
 ==================================================
 MAPA ID: 110 - Nombre: Gym Dan 2
 ==================================================
@@ -8511,7 +8511,7 @@ MAPA ID: 112 - Nombre: Paso de ruta 5
 
 --- Evento ID: 7 - Nombre: EV007 (X:3, Y:10) ---
   Página: 1
-    TEXTO: "Esta ruta conecta Soltitlán con el Lago Kutur."
+    TEXTO: "Esta ruta conecta Soltitlán con el Lago Kutur. Antaño era la meca de la moda pero ahora también  es una potencia cultural gracias a su universidad."
 
 --- Evento ID: 2 - Nombre: EV002 (X:7, Y:15) ---
   Página: 1
@@ -8523,7 +8523,7 @@ MAPA ID: 112 - Nombre: Paso de ruta 5
 
 --- Evento ID: 4 - Nombre: EV004 (X:13, Y:5) ---
   Página: 1
-    TEXTO: "¿Qué haces mirando en la basura mi bro?"
+    TEXTO: "¿Qué haces mirando en la basura, mi bro?"
 ==================================================
 MAPA ID: 113 - Nombre: Casa baile
 ==================================================
@@ -8861,10 +8861,6 @@ MAPA ID: 116 - Nombre: Centro Pokémon
   Página: 1
     TEXTO: "Si tu Pokémon necesita recordar un movimiento, acude a mí."
 
---- Evento ID: 4 - Nombre: Mapa (X:2, Y:13) ---
-  Página: 1
-    TEXTO: "Región de Odisea."
-
 --- Evento ID: 15 - Nombre: Proac (X:12, Y:20) ---
   Página: 1
     TEXTO: "Heyy, \PN, ¿que tal estás? Estoy por aquí comprando trajes regionales para  hacer línea que con suerte me hago PB."
@@ -8896,6 +8892,10 @@ MAPA ID: 116 - Nombre: Centro Pokémon
 --- Evento ID: 15 - Nombre: Proac (X:12, Y:20) ---
   Página: 5
     TEXTO: "¿Molaría un Pokémon centaleón no?"
+
+--- Evento ID: 4 - Nombre: Mapa (X:2, Y:13) ---
+  Página: 1
+    TEXTO: "Región de Odisea."
 ==================================================
 MAPA ID: 117 - Nombre: Ruta 7
 ==================================================
@@ -9167,6 +9167,18 @@ MAPA ID: 121 - Nombre: Casas Wooded
 MAPA ID: 122 - Nombre: Deep Woods
 ==================================================
 
+--- Evento ID: 33 - Nombre: EV033 (X:2, Y:7) ---
+  Página: 1
+    TEXTO: "¿Quieres volver a la entrada?"
+
+--- Evento ID: 22 - Nombre: Trainer(5) (X:1, Y:34) ---
+  Página: 1
+    TEXTO: "Estoy buscando bayas medicinales... pero una batalla también cura el espíritu."
+
+--- Evento ID: 22 - Nombre: Trainer(5) (X:1, Y:34) ---
+  Página: 2
+    TEXTO: "Tus movimientos son más efectivos que cualquier hierba que haya encontrado."
+
 --- Evento ID: 44 - Nombre: EV044 (X:64, Y:15) ---
   Página: 2
     TEXTO: "¡Hombre Mystery! Veo que has traído contigo a un  aspirante jajaja."
@@ -9178,18 +9190,6 @@ MAPA ID: 122 - Nombre: Deep Woods
 --- Evento ID: 44 - Nombre: EV044 (X:64, Y:15) ---
   Página: 3
     TEXTO: "Era todo una mentira... Pero no digas que ha sido para mal, lo has hecho  genial \PN, has sabido desenvolverte por el laberíntico bosque con creces. Te esperamos para el combate."
-
---- Evento ID: 22 - Nombre: Trainer(5) (X:1, Y:34) ---
-  Página: 1
-    TEXTO: "Estoy buscando bayas medicinales... pero una batalla también cura el espíritu."
-
---- Evento ID: 22 - Nombre: Trainer(5) (X:1, Y:34) ---
-  Página: 2
-    TEXTO: "Tus movimientos son más efectivos que cualquier hierba que haya encontrado."
-
---- Evento ID: 33 - Nombre: EV033 (X:2, Y:7) ---
-  Página: 1
-    TEXTO: "¿Quieres volver a la entrada?"
 
 --- Evento ID: 23 - Nombre: Trainer(5) (X:28, Y:40) ---
   Página: 1
@@ -9215,14 +9215,6 @@ MAPA ID: 122 - Nombre: Deep Woods
   Página: 1
     TEXTO: "¿Quieres volver a la entrada?"
 
---- Evento ID: 42 - Nombre: invisiwall (X:32, Y:5) ---
-  Página: 1
-    TEXTO: "¿A dónde vas? ¿Lo ibas a cheesear o que manin?"
-
---- Evento ID: 31 - Nombre: EV031 (X:3, Y:8) ---
-  Página: 1
-    TEXTO: "¿Quieres volver a la entrada?"
-
 --- Evento ID: 20 - Nombre: EV020 (X:1, Y:0) ---
   Página: 1
     TEXTO: "Vaya, esto está demasiado oscuro... no parece que  haya un solo camino desde aquí, aunque casi no veo  nada... Oyes eso? Parece que hacia la derecha hay un ruido  fuerte, como de... pisadas gigantes?"
@@ -9231,17 +9223,13 @@ MAPA ID: 122 - Nombre: Deep Woods
   Página: 1
     TEXTO: "V-vaaaale... eso n-no se que era, p-pero me ha  puesto los pelos de punta... Delante no veo bien, pero hay algo verde y redondo  parece...  si me agacho, hay como una espacio de tierra entre  tanta hierba... será algún tipo de camino? Aunque  escucho alguna voz... Tengo mucho miedo \PN, elige con cuidado porfa,  espero que Diego se encuentre bien..."
 
---- Evento ID: 32 - Nombre: EV032 (X:3, Y:7) ---
+--- Evento ID: 31 - Nombre: EV031 (X:3, Y:8) ---
   Página: 1
     TEXTO: "¿Quieres volver a la entrada?"
 
---- Evento ID: 21 - Nombre: Trainer(5) (X:19, Y:31) ---
+--- Evento ID: 42 - Nombre: invisiwall (X:32, Y:5) ---
   Página: 1
-    TEXTO: "¡Nada como el olor de los árboles y una buena batalla Pokémon para empezar el día!"
-
---- Evento ID: 21 - Nombre: Trainer(5) (X:19, Y:31) ---
-  Página: 2
-    TEXTO: "¡Y yo que pensaba que el sendero era lo difícil! Eres increíble."
+    TEXTO: "¿A dónde vas? ¿Lo ibas a cheesear o que manin?"
 
 --- Evento ID: 10 - Nombre: Arbol Trevenant (X:29, Y:37) ---
   Página: 1
@@ -9262,6 +9250,18 @@ MAPA ID: 122 - Nombre: Deep Woods
 --- Evento ID: 10 - Nombre: Arbol Trevenant (X:29, Y:37) ---
   Página: 3
     TEXTO: "¡Vaya, resulta que el árbol encantado era un  Pokémon! Vamos \pn, tenemos que informar de esto a Will."
+
+--- Evento ID: 21 - Nombre: Trainer(5) (X:19, Y:31) ---
+  Página: 1
+    TEXTO: "¡Nada como el olor de los árboles y una buena batalla Pokémon para empezar el día!"
+
+--- Evento ID: 21 - Nombre: Trainer(5) (X:19, Y:31) ---
+  Página: 2
+    TEXTO: "¡Y yo que pensaba que el sendero era lo difícil! Eres increíble."
+
+--- Evento ID: 32 - Nombre: EV032 (X:3, Y:7) ---
+  Página: 1
+    TEXTO: "¿Quieres volver a la entrada?"
 ==================================================
 MAPA ID: 123 - Nombre: Salas entrenadores
 ==================================================
@@ -10821,18 +10821,6 @@ MAPA ID: 143 - Nombre: Paso de ruta 9-metro
 MAPA ID: 144 - Nombre: Casino Metro
 ==================================================
 
---- Evento ID: 27 - Nombre: EV027 (X:19, Y:11) ---
-  Página: 1
-    TEXTO: "Es la máquina de gachapón. ¿Quieres jugar?"
-
---- Evento ID: 16 - Nombre: EV016 (X:54, Y:16) ---
-  Página: 1
-    TEXTO: "Es la ruleta. ¿Quieres jugar?"
-
---- Evento ID: 16 - Nombre: EV016 (X:54, Y:16) ---
-  Página: 1
-    TEXTO: "¿Qué cantidad deseas apostar?"
-
 --- Evento ID: 5 - Nombre: EV005 (X:13, Y:6) ---
   Página: 1
     TEXTO: "\G\CN¡Bienvenido a los slots de Nueva Donk!"
@@ -10873,13 +10861,21 @@ MAPA ID: 144 - Nombre: Casino Metro
   Página: 1
     TEXTO: "\G\CN¿No?\n¡Vuelve cuando quieras para divertirte!"
 
---- Evento ID: 33 - Nombre: EV033 (X:22, Y:14) ---
+--- Evento ID: 16 - Nombre: EV016 (X:54, Y:16) ---
   Página: 1
-    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
+    TEXTO: "Es la ruleta. ¿Quieres jugar?"
 
---- Evento ID: 22 - Nombre: EV022 (X:51, Y:15) ---
+--- Evento ID: 16 - Nombre: EV016 (X:54, Y:16) ---
   Página: 1
-    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
+    TEXTO: "¿Qué cantidad deseas apostar?"
+
+--- Evento ID: 27 - Nombre: EV027 (X:19, Y:11) ---
+  Página: 1
+    TEXTO: "Es la máquina de gachapón. ¿Quieres jugar?"
+
+--- Evento ID: 44 - Nombre: EV044 (X:56, Y:8) ---
+  Página: 1
+    TEXTO: "El azar era mi amiga. Pero ahora ni me contesta los mensajes. Es como mi ex, siempre me decía que estaba ahí para mí, pero al final solo me dejó con las manos vacías."
 
 --- Evento ID: 11 - Nombre: EV011 (X:38, Y:17) ---
   Página: 1
@@ -10889,9 +10885,21 @@ MAPA ID: 144 - Nombre: Casino Metro
   Página: 1
     TEXTO: "¿Qué cantidad deseas apostar?"
 
---- Evento ID: 44 - Nombre: EV044 (X:56, Y:8) ---
+--- Evento ID: 22 - Nombre: EV022 (X:51, Y:15) ---
   Página: 1
-    TEXTO: "El azar era mi amiga. Pero ahora ni me contesta los mensajes. Es como mi ex, siempre me decía que estaba ahí para mí, pero al final solo me dejó con las manos vacías."
+    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
+
+--- Evento ID: 33 - Nombre: EV033 (X:22, Y:14) ---
+  Página: 1
+    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
+
+--- Evento ID: 17 - Nombre: EV017 (X:41, Y:15) ---
+  Página: 1
+    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
+
+--- Evento ID: 28 - Nombre: EV028 (X:19, Y:14) ---
+  Página: 1
+    TEXTO: "Es la máquina de gachapón. ¿Quieres jugar?"
 
 --- Evento ID: 6 - Nombre: EV006 (X:50, Y:6) ---
   Página: 1
@@ -10925,30 +10933,6 @@ MAPA ID: 144 - Nombre: Casino Metro
   Página: 1
     TEXTO: "\CN\PN received the \v[3]!"
 
---- Evento ID: 28 - Nombre: EV028 (X:19, Y:14) ---
-  Página: 1
-    TEXTO: "Es la máquina de gachapón. ¿Quieres jugar?"
-
---- Evento ID: 17 - Nombre: EV017 (X:41, Y:15) ---
-  Página: 1
-    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
-
---- Evento ID: 34 - Nombre: EV034 (X:22, Y:11) ---
-  Página: 1
-    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
-
---- Evento ID: 23 - Nombre: EV023 (X:8, Y:11) ---
-  Página: 1
-    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
-
---- Evento ID: 12 - Nombre: EV012 (X:38, Y:16) ---
-  Página: 1
-    TEXTO: "Es la ruleta. ¿Quieres jugar?"
-
---- Evento ID: 12 - Nombre: EV012 (X:38, Y:16) ---
-  Página: 1
-    TEXTO: "¿Qué cantidad deseas apostar?"
-
 --- Evento ID: 1 - Nombre: EV001 (X:11, Y:6) ---
   Página: 1
     TEXTO: "\G¡Bienvenido a los slots de Nueva Donk! ¿Quieres comprar monedas para el gacha?"
@@ -10977,9 +10961,25 @@ MAPA ID: 144 - Nombre: Casino Metro
   Página: 1
     TEXTO: "Aquí tienes tu moneda, ludópata."
 
---- Evento ID: 29 - Nombre: EV029 (X:26, Y:14) ---
+--- Evento ID: 12 - Nombre: EV012 (X:38, Y:16) ---
   Página: 1
-    TEXTO: "Es la máquina de gachapón. ¿Quieres jugar?"
+    TEXTO: "Es la ruleta. ¿Quieres jugar?"
+
+--- Evento ID: 12 - Nombre: EV012 (X:38, Y:16) ---
+  Página: 1
+    TEXTO: "¿Qué cantidad deseas apostar?"
+
+--- Evento ID: 23 - Nombre: EV023 (X:8, Y:11) ---
+  Página: 1
+    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
+
+--- Evento ID: 34 - Nombre: EV034 (X:22, Y:11) ---
+  Página: 1
+    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
+
+--- Evento ID: 40 - Nombre: EV040 (X:40, Y:5) ---
+  Página: 1
+    TEXTO: "Es el minijuego de ¿Cuál es este Pokémon? ¿Quieres jugar?"
 
 --- Evento ID: 18 - Nombre: EV018 (X:54, Y:15) ---
   Página: 1
@@ -10989,23 +10989,35 @@ MAPA ID: 144 - Nombre: Casino Metro
   Página: 1
     TEXTO: "¿Qué cantidad deseas apostar?"
 
---- Evento ID: 40 - Nombre: EV040 (X:40, Y:5) ---
+--- Evento ID: 29 - Nombre: EV029 (X:26, Y:14) ---
   Página: 1
-    TEXTO: "Es el minijuego de ¿Cuál es este Pokémon? ¿Quieres jugar?"
-
---- Evento ID: 35 - Nombre: EV035 (X:9, Y:14) ---
-  Página: 1
-    TEXTO: "Dicen que la suerte es cuestión de tiempo… Yo debo haber nacido en el año equivocado."
-
---- Evento ID: 24 - Nombre: EV024 (X:8, Y:14) ---
-  Página: 1
-    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
+    TEXTO: "Es la máquina de gachapón. ¿Quieres jugar?"
 
 --- Evento ID: 13 - Nombre: EV013 (X:38, Y:15) ---
   Página: 1
     TEXTO: "Es la ruleta. ¿Quieres jugar?"
 
 --- Evento ID: 13 - Nombre: EV013 (X:38, Y:15) ---
+  Página: 1
+    TEXTO: "¿Qué cantidad deseas apostar?"
+
+--- Evento ID: 24 - Nombre: EV024 (X:8, Y:14) ---
+  Página: 1
+    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
+
+--- Evento ID: 35 - Nombre: EV035 (X:9, Y:14) ---
+  Página: 1
+    TEXTO: "Dicen que la suerte es cuestión de tiempo… Yo debo haber nacido en el año equivocado."
+
+--- Evento ID: 41 - Nombre: EV041 (X:41, Y:5) ---
+  Página: 1
+    TEXTO: "Es el juego de Ekans. ¿Quieres jugar?"
+
+--- Evento ID: 19 - Nombre: EV019 (X:54, Y:14) ---
+  Página: 1
+    TEXTO: "Es la ruleta. ¿Quieres jugar?"
+
+--- Evento ID: 19 - Nombre: EV019 (X:54, Y:14) ---
   Página: 1
     TEXTO: "¿Qué cantidad deseas apostar?"
 
@@ -11013,33 +11025,29 @@ MAPA ID: 144 - Nombre: Casino Metro
   Página: 1
     TEXTO: "Es la máquina de gachapón. ¿Quieres jugar?"
 
---- Evento ID: 19 - Nombre: EV019 (X:54, Y:14) ---
+--- Evento ID: 14 - Nombre: EV014 (X:38, Y:14) ---
   Página: 1
     TEXTO: "Es la ruleta. ¿Quieres jugar?"
 
---- Evento ID: 19 - Nombre: EV019 (X:54, Y:14) ---
+--- Evento ID: 14 - Nombre: EV014 (X:38, Y:14) ---
   Página: 1
     TEXTO: "¿Qué cantidad deseas apostar?"
-
---- Evento ID: 41 - Nombre: EV041 (X:41, Y:5) ---
-  Página: 1
-    TEXTO: "Es el juego de Ekans. ¿Quieres jugar?"
-
---- Evento ID: 36 - Nombre: EV036 (X:18, Y:11) ---
-  Página: 1
-    TEXTO: "Mi mujer me dijo ‘si entras ahí, no vuelvas’ Bueno, ahora duermo aquí."
 
 --- Evento ID: 25 - Nombre: EV025 (X:12, Y:11) ---
   Página: 1
     TEXTO: "Es la máquina de gachapón. ¿Quieres jugar?"
 
---- Evento ID: 14 - Nombre: EV014 (X:38, Y:14) ---
+--- Evento ID: 36 - Nombre: EV036 (X:18, Y:11) ---
   Página: 1
-    TEXTO: "Es la ruleta. ¿Quieres jugar?"
+    TEXTO: "Mi mujer me dijo ‘si entras ahí, no vuelvas’ Bueno, ahora duermo aquí."
 
---- Evento ID: 14 - Nombre: EV014 (X:38, Y:14) ---
+--- Evento ID: 20 - Nombre: EV020 (X:42, Y:15) ---
   Página: 1
-    TEXTO: "¿Qué cantidad deseas apostar?"
+    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
+
+--- Evento ID: 31 - Nombre: EV031 (X:15, Y:11) ---
+  Página: 1
+    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
 
 --- Evento ID: 42 - Nombre: EV042 (X:52, Y:6) ---
   Página: 1
@@ -11073,13 +11081,17 @@ MAPA ID: 144 - Nombre: Casino Metro
   Página: 1
     TEXTO: "\G\CN¿No?\n¡Vuelve cuando quieras para divertirte!"
 
---- Evento ID: 31 - Nombre: EV031 (X:15, Y:11) ---
+--- Evento ID: 15 - Nombre: EV015 (X:54, Y:17) ---
   Página: 1
-    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
+    TEXTO: "Es la ruleta. ¿Quieres jugar?"
 
---- Evento ID: 20 - Nombre: EV020 (X:42, Y:15) ---
+--- Evento ID: 15 - Nombre: EV015 (X:54, Y:17) ---
   Página: 1
-    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
+    TEXTO: "¿Qué cantidad deseas apostar?"
+
+--- Evento ID: 26 - Nombre: EV026 (X:12, Y:14) ---
+  Página: 1
+    TEXTO: "Es la máquina de gachapón. ¿Quieres jugar?"
 
 --- Evento ID: 37 - Nombre: EV037 (X:23, Y:14) ---
   Página: 1
@@ -11097,17 +11109,13 @@ MAPA ID: 144 - Nombre: Casino Metro
   Página: 3
     TEXTO: "No mires coño que no hay nada. ¿No ves que es un juego para niños? Debería sorprenderte más el hecho de que llevaba peluca."
 
---- Evento ID: 26 - Nombre: EV026 (X:12, Y:14) ---
+--- Evento ID: 21 - Nombre: EV021 (X:50, Y:15) ---
   Página: 1
-    TEXTO: "Es la máquina de gachapón. ¿Quieres jugar?"
+    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
 
---- Evento ID: 15 - Nombre: EV015 (X:54, Y:17) ---
+--- Evento ID: 32 - Nombre: EV032 (X:15, Y:14) ---
   Página: 1
-    TEXTO: "Es la ruleta. ¿Quieres jugar?"
-
---- Evento ID: 15 - Nombre: EV015 (X:54, Y:17) ---
-  Página: 1
-    TEXTO: "¿Qué cantidad deseas apostar?"
+    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
 
 --- Evento ID: 43 - Nombre: EV043 (X:19, Y:17) ---
   Página: 1
@@ -11128,14 +11136,6 @@ MAPA ID: 144 - Nombre: Casino Metro
 --- Evento ID: 43 - Nombre: EV043 (X:19, Y:17) ---
   Página: 1
     TEXTO: "Y luego tenemos la novedad, el gachapon, para este  no se utilizan las fichas normales sino las monedas  que puedes comprar en nuestra tienda. Ya no te aburro más, y ahora sí. \sh ¡¡¡LET'S GO GAMBLING!!!"
-
---- Evento ID: 32 - Nombre: EV032 (X:15, Y:14) ---
-  Página: 1
-    TEXTO: "Es la máquina de slots. ¿Quieres jugar?"
-
---- Evento ID: 21 - Nombre: EV021 (X:50, Y:15) ---
-  Página: 1
-    TEXTO: "Es el juego de Giravoltorb. ¿Quieres jugar?"
 ==================================================
 MAPA ID: 145 - Nombre: Night Metro
 ==================================================
@@ -11979,6 +11979,10 @@ MAPA ID: 163 - Nombre: Seaside
     TEXTO: "¡Ha aparecido Pulpièrre!"
 
 --- Evento ID: 1 - Nombre: EV001 (X:59, Y:35) ---
+  Página: 1
+    TEXTO: "¡Mi bombi has logrado que el pulpo loco baje de la  copa! La cocina. Venga va, te ayudo a vencerlo, vamos a darle una  paliza"
+
+--- Evento ID: 1 - Nombre: EV001 (X:59, Y:35) ---
   Página: 2
     TEXTO: "Pulpièrre ha soltado esto."
 
@@ -12018,6 +12022,18 @@ MAPA ID: 163 - Nombre: Seaside
   Página: 1
     TEXTO: "Has activado el interruptor."
 
+--- Evento ID: 90 - Nombre: Will 2 (X:59, Y:30) ---
+  Página: 2
+    TEXTO: "¿Quieres hacer equipo conmigo de nuevo?"
+
+--- Evento ID: 90 - Nombre: Will 2 (X:59, Y:30) ---
+  Página: 2
+    TEXTO: "¡\PN ha hecho equipo con Pacasa!\me[Item get]\wtnp[40]"
+
+--- Evento ID: 90 - Nombre: Will 2 (X:59, Y:30) ---
+  Página: 2
+    TEXTO: "Pues nada."
+
 --- Evento ID: 43 - Nombre: EV043 (X:17, Y:38) ---
   Página: 1
     TEXTO: "¡Ayer rompí mi récord! Me moví 3 conchitas de  distancia en solo 5 horas. ¡Estoy agotado!"
@@ -12045,38 +12061,6 @@ MAPA ID: 163 - Nombre: Seaside
 --- Evento ID: 75 - Nombre: EV075 (X:16, Y:18) ---
   Página: 1
     TEXTO: "Has activado el interruptor."
-
---- Evento ID: 18 - Nombre: Emma (X:50, Y:58) ---
-  Página: 1
-    TEXTO: "Ey, ¿Cómo estás?"
-
---- Evento ID: 18 - Nombre: Emma (X:50, Y:58) ---
-  Página: 1
-    TEXTO: "Yo bien, pero he perdido mi pelota de volley, ¿me  ayudas a encontrarla?"
-
---- Evento ID: 18 - Nombre: Emma (X:50, Y:58) ---
-  Página: 1
-    TEXTO: "¡Gracias! La última vez que la vi estaba en la ruta 11 y  cuando me quise dar cuenta ya no la tenía, quizás la  haya perdido allí."
-
---- Evento ID: 18 - Nombre: Emma (X:50, Y:58) ---
-  Página: 1
-    TEXTO: "Que te den."
-
---- Evento ID: 18 - Nombre: Emma (X:50, Y:58) ---
-  Página: 2
-    TEXTO: "Placeholder."
-
---- Evento ID: 18 - Nombre: Emma (X:50, Y:58) ---
-  Página: 3
-    TEXTO: "Mi bro es bueno al juego, toma esto."
-
---- Evento ID: 18 - Nombre: Emma (X:50, Y:58) ---
-  Página: 3
-    TEXTO: "Placeholder."
-
---- Evento ID: 18 - Nombre: Emma (X:50, Y:58) ---
-  Página: 4
-    TEXTO: "El Sekiro es mi juego favorito."
 ==================================================
 MAPA ID: 164 - Nombre: Gimnasio Ferby
 ==================================================
@@ -12475,10 +12459,6 @@ MAPA ID: 169 - Nombre: Faro
 MAPA ID: 170 - Nombre: Plaza Delisubio
 ==================================================
 
---- Evento ID: 27 - Nombre: EV027 (X:34, Y:20) ---
-  Página: 1
-    TEXTO: "Son un montón de latas vacías."
-
 --- Evento ID: 5 - Nombre: EV005 (X:37, Y:35) ---
   Página: 1
     TEXTO: "Es una lata de tomate frito."
@@ -12486,6 +12466,18 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
 --- Evento ID: 5 - Nombre: EV005 (X:37, Y:35) ---
   Página: 2
     TEXTO: "Es una lata de tomate frito. ¡Eh! ¡Esta es la lata que necesitamos! Vayamos a entregársela a Diegolazo."
+
+--- Evento ID: 27 - Nombre: EV027 (X:34, Y:20) ---
+  Página: 1
+    TEXTO: "Son un montón de latas vacías."
+
+--- Evento ID: 11 - Nombre: EV011 (X:45, Y:28) ---
+  Página: 1
+    TEXTO: "Es una lata de mejillones en escabeche."
+
+--- Evento ID: 22 - Nombre: EV022 (X:34, Y:36) ---
+  Página: 1
+    TEXTO: "Son un montón de latas vacías."
 
 --- Evento ID: 44 - Nombre: EV044 (X:58, Y:25) ---
   Página: 1
@@ -12495,17 +12487,9 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 2
     TEXTO: "Gracias por solucionar el problema del volcán, ahora  tenemos a trabajadores preparados arreglando el  estropicio"
 
---- Evento ID: 22 - Nombre: EV022 (X:34, Y:36) ---
+--- Evento ID: 6 - Nombre: EV006 (X:34, Y:29) ---
   Página: 1
-    TEXTO: "Son un montón de latas vacías."
-
---- Evento ID: 11 - Nombre: EV011 (X:45, Y:28) ---
-  Página: 1
-    TEXTO: "Es una lata de mejillones en escabeche."
-
---- Evento ID: 28 - Nombre: EV028 (X:34, Y:16) ---
-  Página: 1
-    TEXTO: "Son un montón de latas vacías."
+    TEXTO: "Es una lata de sardinas."
 
 --- Evento ID: 17 - Nombre: EV017 (X:54, Y:16) ---
   Página: 1
@@ -12523,17 +12507,9 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 2
     TEXTO: "Es un nabo blanco."
 
---- Evento ID: 6 - Nombre: EV006 (X:34, Y:29) ---
-  Página: 1
-    TEXTO: "Es una lata de sardinas."
-
---- Evento ID: 23 - Nombre: EV023 (X:36, Y:31) ---
+--- Evento ID: 28 - Nombre: EV028 (X:34, Y:16) ---
   Página: 1
     TEXTO: "Son un montón de latas vacías."
-
---- Evento ID: 12 - Nombre: EV012 (X:53, Y:22) ---
-  Página: 1
-    TEXTO: "Es una lata de maíz dulce."
 
 --- Evento ID: 45 - Nombre: Diegolazo (X:46, Y:31) ---
   Página: 1
@@ -12575,13 +12551,17 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 6
     TEXTO: "Después de cocinar me pondré a entrenar, ¡llegaré a ser cinturón negro!."
 
---- Evento ID: 40 - Nombre: Binoculars (X:33, Y:18) ---
+--- Evento ID: 12 - Nombre: EV012 (X:53, Y:22) ---
   Página: 1
-    TEXTO: "Parece que se pueden usar estos prismáticos para  ver el volcán..."
+    TEXTO: "Es una lata de maíz dulce."
 
---- Evento ID: 40 - Nombre: Binoculars (X:33, Y:18) ---
+--- Evento ID: 23 - Nombre: EV023 (X:36, Y:31) ---
   Página: 1
-    TEXTO: "Se ve algo borroso, parece que el vapor de la...  ¿lava? ha empañado los cristales. De todas formas se distinge un volcán grande, se  puede apreciar un entramado de escaleras y el  cráter..."
+    TEXTO: "Son un montón de latas vacías."
+
+--- Evento ID: 7 - Nombre: EV007 (X:40, Y:31) ---
+  Página: 1
+    TEXTO: "Es una lata de melocotones en almíbar."
 
 --- Evento ID: 18 - Nombre: EV018 (X:52, Y:16) ---
   Página: 1
@@ -12603,13 +12583,21 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 3
     TEXTO: "Es un nabo dorado. ¡Este es el nabo dorado que necesitamos! Vayamos a entregárselo a Diegolazo."
 
---- Evento ID: 7 - Nombre: EV007 (X:40, Y:31) ---
+--- Evento ID: 40 - Nombre: Binoculars (X:33, Y:18) ---
   Página: 1
-    TEXTO: "Es una lata de melocotones en almíbar."
+    TEXTO: "Parece que se pueden usar estos prismáticos para  ver el volcán..."
 
---- Evento ID: 24 - Nombre: EV024 (X:20, Y:19) ---
+--- Evento ID: 40 - Nombre: Binoculars (X:33, Y:18) ---
   Página: 1
-    TEXTO: "Son un montón de latas vacías."
+    TEXTO: "Se ve algo borroso, parece que el vapor de la...  ¿lava? ha empañado los cristales. De todas formas se distinge un volcán grande, se  puede apreciar un entramado de escaleras y el  cráter..."
+
+--- Evento ID: 46 - Nombre: EV046 (X:31, Y:16) ---
+  Página: 1
+    TEXTO: "Es un frijol."
+
+--- Evento ID: 46 - Nombre: EV046 (X:31, Y:16) ---
+  Página: 2
+    TEXTO: "Es un frijol. ¡Eh! Este frijol nos sirve para el guiso de Diegolazo! Vayamos a entregárselo."
 
 --- Evento ID: 13 - Nombre: EV013 (X:50, Y:16) ---
   Página: 1
@@ -12627,63 +12615,59 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 2
     TEXTO: "Es un nabo blanco."
 
---- Evento ID: 46 - Nombre: EV046 (X:31, Y:16) ---
+--- Evento ID: 24 - Nombre: EV024 (X:20, Y:19) ---
   Página: 1
-    TEXTO: "Es un frijol."
-
---- Evento ID: 46 - Nombre: EV046 (X:31, Y:16) ---
-  Página: 2
-    TEXTO: "Es un frijol. ¡Eh! Este frijol nos sirve para el guiso de Diegolazo! Vayamos a entregárselo."
-
---- Evento ID: 19 - Nombre: EV019 (X:47, Y:20) ---
-  Página: 1
-    TEXTO: "Es una lata de lentejas. Ugh... qué asco."
+    TEXTO: "Son un montón de latas vacías."
 
 --- Evento ID: 8 - Nombre: EV008 (X:37, Y:24) ---
   Página: 1
     TEXTO: "Es una lata de leche condensada."
 
+--- Evento ID: 19 - Nombre: EV019 (X:47, Y:20) ---
+  Página: 1
+    TEXTO: "Es una lata de lentejas. Ugh... qué asco."
+
 --- Evento ID: 25 - Nombre: EV025 (X:40, Y:27) ---
   Página: 1
     TEXTO: "Son un montón de latas vacías."
 
---- Evento ID: 31 - Nombre: CONSE (X:26, Y:24) ---
+--- Evento ID: 42 - Nombre: EV042 (X:58, Y:26) ---
   Página: 1
-    TEXTO: "Buenas tardes joven entrenador. El líder no se encuentra disponible en este momento,  al parecer hay un problema con el volcán de la zona  y ha ido a investigar. Vuelve más tarde si deseas desafiarlo."
+    TEXTO: "Hay un problema con el volcán y hemos cortado el  acceso a la ruta"
 
---- Evento ID: 20 - Nombre: EV020 (X:38, Y:36) ---
-  Página: 1
-    TEXTO: "Es una lata de fabada."
+--- Evento ID: 42 - Nombre: EV042 (X:58, Y:26) ---
+  Página: 2
+    TEXTO: "Gracias por solucionar el problema del volcán, ahora  tenemos a trabajadores preparados arreglando el  estropicio"
 
 --- Evento ID: 9 - Nombre: EV009 (X:55, Y:28) ---
   Página: 1
     TEXTO: "Es una lata de chili con carne."
 
---- Evento ID: 42 - Nombre: EV042 (X:58, Y:27) ---
+--- Evento ID: 20 - Nombre: EV020 (X:38, Y:36) ---
   Página: 1
-    TEXTO: "Hay un problema con el volcán y hemos cortado el  acceso a la ruta"
+    TEXTO: "Es una lata de fabada."
 
---- Evento ID: 42 - Nombre: EV042 (X:58, Y:27) ---
-  Página: 2
-    TEXTO: "Gracias por solucionar el problema del volcán, ahora  tenemos a trabajadores preparados arreglando el  estropicio"
-
---- Evento ID: 26 - Nombre: EV026 (X:36, Y:36) ---
+--- Evento ID: 31 - Nombre: CONSE (X:26, Y:24) ---
   Página: 1
-    TEXTO: "Son un montón de latas vacías."
+    TEXTO: "Buenas tardes joven entrenador. El líder no se encuentra disponible en este momento,  al parecer hay un problema con el volcán de la zona  y ha ido a investigar. Vuelve más tarde si deseas desafiarlo."
 
 --- Evento ID: 4 - Nombre: EV004 (X:26, Y:26) ---
   Página: 1
     TEXTO: "Es una lata de piña en almíbar."
 
---- Evento ID: 43 - Nombre: EV043 (X:58, Y:26) ---
+--- Evento ID: 26 - Nombre: EV026 (X:36, Y:36) ---
+  Página: 1
+    TEXTO: "Son un montón de latas vacías."
+
+--- Evento ID: 43 - Nombre: EV043 (X:58, Y:27) ---
   Página: 1
     TEXTO: "Hay un problema con el volcán y hemos cortado el  acceso a la ruta"
 
---- Evento ID: 43 - Nombre: EV043 (X:58, Y:26) ---
+--- Evento ID: 43 - Nombre: EV043 (X:58, Y:27) ---
   Página: 2
     TEXTO: "Gracias por solucionar el problema del volcán, ahora  tenemos a trabajadores preparados arreglando el  estropicio"
 
---- Evento ID: 21 - Nombre: EV021 (X:24, Y:36) ---
+--- Evento ID: 32 - Nombre: EV032 (X:40, Y:36) ---
   Página: 1
     TEXTO: "Son un montón de latas vacías."
 
@@ -12691,7 +12675,7 @@ MAPA ID: 170 - Nombre: Plaza Delisubio
   Página: 1
     TEXTO: "Es una lata de pimientos asados."
 
---- Evento ID: 32 - Nombre: EV032 (X:40, Y:36) ---
+--- Evento ID: 21 - Nombre: EV021 (X:24, Y:36) ---
   Página: 1
     TEXTO: "Son un montón de latas vacías."
 ==================================================
@@ -13031,17 +13015,9 @@ MAPA ID: 174 - Nombre: Gimnasio Marc
   Página: 3
     TEXTO: "Cuando acabe el servicio es el momento de la... ESNIFADAAAAAA"
 
---- Evento ID: 12 - Nombre: EV012 (X:10, Y:7) ---
+--- Evento ID: 17 - Nombre: EV017 (X:5, Y:7) ---
   Página: 1
-    TEXTO: "Solo puedo llevar un plato a la vez"
-
---- Evento ID: 12 - Nombre: EV012 (X:10, Y:7) ---
-  Página: 1
-    TEXTO: "Es un plato de X, ¿quieres cogerlo?"
-
---- Evento ID: 12 - Nombre: EV012 (X:10, Y:7) ---
-  Página: 2
-    TEXTO: "¿Quieres dejar el plato?"
+    TEXTO: "Es una botella de Ratafia."
 
 --- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
   Página: 1
@@ -13054,6 +13030,18 @@ MAPA ID: 174 - Nombre: Gimnasio Marc
 --- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
   Página: 2
     TEXTO: "¡Ay, se me olvidaba! El tipo Fuego es débil al tipo  Agua, Roca y Tierra. Pero seguro que un entrenador avezado como tú ya  conocerá eso (a estos jóvenes de hoy en día hay  que recordarles la tabla de tipos...)"
+
+--- Evento ID: 12 - Nombre: EV012 (X:10, Y:7) ---
+  Página: 1
+    TEXTO: "Solo puedo llevar un plato a la vez"
+
+--- Evento ID: 12 - Nombre: EV012 (X:10, Y:7) ---
+  Página: 1
+    TEXTO: "Es un plato de X, ¿quieres cogerlo?"
+
+--- Evento ID: 12 - Nombre: EV012 (X:10, Y:7) ---
+  Página: 2
+    TEXTO: "¿Quieres dejar el plato?"
 
 --- Evento ID: 18 - Nombre: Trainer (X:43, Y:16) ---
   Página: 1
@@ -13087,6 +13075,10 @@ MAPA ID: 174 - Nombre: Gimnasio Marc
   Página: 2
     TEXTO: "¿Quieres dejar el plato?"
 
+--- Evento ID: 19 - Nombre: EV019 (X:45, Y:8) ---
+  Página: 1
+    TEXTO: "Es una pata de Lechonk ibérico."
+
 --- Evento ID: 14 - Nombre: EV014 (X:17, Y:7) ---
   Página: 1
     TEXTO: "Solo puedo llevar un plato a la vez"
@@ -13098,6 +13090,10 @@ MAPA ID: 174 - Nombre: Gimnasio Marc
 --- Evento ID: 14 - Nombre: EV014 (X:17, Y:7) ---
   Página: 2
     TEXTO: "¿Quieres dejar el plato?"
+
+--- Evento ID: 20 - Nombre: EV020 (X:46, Y:8) ---
+  Página: 1
+    TEXTO: "Es una pata de Lechonk ibérico."
 
 --- Evento ID: 9 - Nombre: Trainer (X:37, Y:11) ---
   Página: 1
@@ -13391,13 +13387,45 @@ MAPA ID: 178 - Nombre: Ruta 15
   Página: 1
     TEXTO: "Has recogido una esquirla de energiluna"
 
+--- Evento ID: 269 - Nombre: Trainer(5) (X:72, Y:67) ---
+  Página: 1
+    TEXTO: "¡El conejo siempre gana la carrera, y tú eres la  tortuga!"
+
+--- Evento ID: 269 - Nombre: Trainer(5) (X:72, Y:67) ---
+  Página: 2
+    TEXTO: "Vale, vale, tú ganas... pero recuerda, ¡el Team  Broodal nunca deja de superarse!"
+
 --- Evento ID: 35 - Nombre: EV035 (X:29, Y:63) ---
   Página: 1
     TEXTO: "Has recogido una esquirla de energiluna"
 
+--- Evento ID: 270 - Nombre: Trainer(5) (X:37, Y:70) ---
+  Página: 1
+    TEXTO: "¡Prepárate para ser mordisqueado hasta la derrota!"
+
+--- Evento ID: 270 - Nombre: Trainer(5) (X:37, Y:70) ---
+  Página: 2
+    TEXTO: "No te confíes, mis compañeros te harán morder el  polvo… ¡y la zanahoria!"
+
 --- Evento ID: 36 - Nombre: EV036 (X:51, Y:68) ---
   Página: 1
     TEXTO: "Has recogido una esquirla de energiluna"
+
+--- Evento ID: 271 - Nombre: Trainer(5) (X:37, Y:60) ---
+  Página: 1
+    TEXTO: "¡Los villanos saltamos más alto que los héroes!"
+
+--- Evento ID: 271 - Nombre: Trainer(5) (X:37, Y:60) ---
+  Página: 2
+    TEXTO: "¿Crees que esto ha terminado? ¡Sólo es el primer  brinco del plan maestro!"
+
+--- Evento ID: 272 - Nombre: Trainer(5) (X:31, Y:60) ---
+  Página: 1
+    TEXTO: "¡Nada se escapa de nuestras orejas espía!"
+
+--- Evento ID: 272 - Nombre: Trainer(5) (X:31, Y:60) ---
+  Página: 2
+    TEXTO: "Me has vencido, pero todavía tengo estilo con este  disfraz."
 
 --- Evento ID: 240 - Nombre: Entrar casa (X:34, Y:46) ---
   Página: 1
@@ -13418,21 +13446,17 @@ MAPA ID: 178 - Nombre: Ruta 15
 MAPA ID: 179 - Nombre: Bowsers
 ==================================================
 
---- Evento ID: 28 - Nombre: EV028 (X:14, Y:113) ---
+--- Evento ID: 92 - Nombre: EV092 (X:45, Y:88) ---
   Página: 1
-    TEXTO: "DOJO DE DARKWON"
+    TEXTO: "Debería de enfrentarme a Hariet y a Topper primero"
 
---- Evento ID: 104 - Nombre: EV104 (X:28, Y:17) ---
+--- Evento ID: 93 - Nombre: EV093 (X:44, Y:88) ---
   Página: 1
-    TEXTO: "Texto. Evento. Combate."
+    TEXTO: "Debería de enfrentarme a Hariet y a Topper primero"
 
---- Evento ID: 104 - Nombre: EV104 (X:28, Y:17) ---
-  Página: 2
-    TEXTO: "Aun no he terminado."
-
---- Evento ID: 104 - Nombre: EV104 (X:28, Y:17) ---
-  Página: 2
-    TEXTO: "Oh no me has derrotado adios."
+--- Evento ID: 94 - Nombre: EV094 (X:43, Y:88) ---
+  Página: 1
+    TEXTO: "Debería de enfrentarme a Hariet y a Topper primero"
 
 --- Evento ID: 95 - Nombre: EV095 (X:46, Y:88) ---
   Página: 1
@@ -13442,21 +13466,97 @@ MAPA ID: 179 - Nombre: Bowsers
   Página: 1
     TEXTO: "Debería de enfrentarme a Hariet y a Topper primero"
 
---- Evento ID: 87 - Nombre: EV087 (X:45, Y:103) ---
+--- Evento ID: 118 - Nombre: EV118, size(7,1) (X:42, Y:104) ---
   Página: 1
     TEXTO: "¡Ahí están los conejos de nuevo! Parece que se bajan  del barco."
 
---- Evento ID: 87 - Nombre: EV087 (X:45, Y:103) ---
+--- Evento ID: 118 - Nombre: EV118, size(7,1) (X:42, Y:104) ---
   Página: 1
     TEXTO: "Te destrozaré renacuajo"
 
---- Evento ID: 87 - Nombre: EV087 (X:45, Y:103) ---
+--- Evento ID: 118 - Nombre: EV118, size(7,1) (X:42, Y:104) ---
   Página: 1
     TEXTO: "Te destrozaré renacuajo"
 
---- Evento ID: 87 - Nombre: EV087 (X:45, Y:103) ---
+--- Evento ID: 118 - Nombre: EV118, size(7,1) (X:42, Y:104) ---
   Página: 1
     TEXTO: "Vayamos a por ellos pero de uno en uno, ¿a por  quién vamos primero?"
+
+--- Evento ID: 119 - Nombre: Trainer(5) (X:99, Y:61) ---
+  Página: 1
+    TEXTO: "¡No importa quién seas, nadie se interpone en el plan  del Equipo Conejo!"
+
+--- Evento ID: 119 - Nombre: Trainer(5) (X:99, Y:61) ---
+  Página: 2
+    TEXTO: "Disfruta de esta victoria, pero el Equipo Conejo  siempre se reorganiza."
+
+--- Evento ID: 120 - Nombre: Trainer(5) (X:106, Y:60) ---
+  Página: 1
+    TEXTO: "¿Te sorprende el disfraz? Ja… subestimar nuestra  apariencia será tu error."
+
+--- Evento ID: 120 - Nombre: Trainer(5) (X:106, Y:60) ---
+  Página: 2
+    TEXTO: "Un tropiezo no detendrá nuestra ambición. El poder  que buscamos aún nos espera."
+
+--- Evento ID: 28 - Nombre: EV028 (X:14, Y:113) ---
+  Página: 1
+    TEXTO: "DOJO DE DARKWON"
+
+--- Evento ID: 121 - Nombre: Trainer(5) (X:98, Y:52) ---
+  Página: 1
+    TEXTO: "¡Con nuestras patas tomaremos lo que nos  pertenece!"
+
+--- Evento ID: 121 - Nombre: Trainer(5) (X:98, Y:52) ---
+  Página: 2
+    TEXTO: "No te confundas… hoy pierdo yo, pero pronto todo el  mundo escuchará nuestro nombre."
+
+--- Evento ID: 122 - Nombre: Trainer(5) (X:105, Y:53) ---
+  Página: 1
+    TEXTO: "Somos más que orejas largas… ¡somos el fin de tu  aventura!"
+
+--- Evento ID: 122 - Nombre: Trainer(5) (X:105, Y:53) ---
+  Página: 2
+    TEXTO: "¿Te crees héroe? Solo has detenido a un simple  recluta. Los verdaderos líderes siguen ahí fuera."
+
+--- Evento ID: 104 - Nombre: Bowser (X:27, Y:29) ---
+  Página: 1
+    TEXTO: "Preparate para morder el polvo"
+
+--- Evento ID: 104 - Nombre: Bowser (X:27, Y:29) ---
+  Página: 2
+    TEXTO: "Aun no he terminado."
+
+--- Evento ID: 104 - Nombre: Bowser (X:27, Y:29) ---
+  Página: 2
+    TEXTO: "Oh no me has derrotado adios."
+
+--- Evento ID: 104 - Nombre: Bowser (X:27, Y:29) ---
+  Página: 3
+    TEXTO: "¡Oh! gracias por salvarme \pn. "
+
+--- Evento ID: 123 - Nombre: Trainer(5) (X:100, Y:70) ---
+  Página: 1
+    TEXTO: "Este mundo necesita un nuevo orden, y nosotros  saltaremos hasta lo más alto para imponerlo."
+
+--- Evento ID: 123 - Nombre: Trainer(5) (X:100, Y:70) ---
+  Página: 2
+    TEXTO: "No puede ser… ¿nuestro salto hacia la victoria se ha  quedado corto?"
+
+--- Evento ID: 87 - Nombre: Trainer(5) (X:80, Y:87) ---
+  Página: 1
+    TEXTO: "¡Voy a dejarte más machacado que una zanahoria  rallada!"
+
+--- Evento ID: 87 - Nombre: Trainer(5) (X:80, Y:87) ---
+  Página: 2
+    TEXTO: "¡Conejos vencidos... pero no derrotados!"
+
+--- Evento ID: 124 - Nombre: EV124 (X:32, Y:47) ---
+  Página: 1
+    TEXTO: "Has logrado vencer a mis secuaces, pero no cantes  victoria, eso solo era el aperitivo Tienes ante ti a uno de los dominantes más fuertes,  tiene tanto poder como los cuatro conejos de  pacotilla que has derrotado juntos. Venga, ¡acaba con él!"
+
+--- Evento ID: 124 - Nombre: EV124 (X:32, Y:47) ---
+  Página: 1
+    TEXTO: "¿Estás bien \pn ? Llevamos un tiempo persiguiendo a  Bowser pero, ¿qué es lo que ha pasado aquí? ¿Se  ha fusionado con la princesa? Tienes que derrotarlo para liberar a la princesa.  Nosotros nos encargamos del dominante. Rápido \pn  antes de que se escape de nuevo."
 
 --- Evento ID: 88 - Nombre: Hariet (X:35, Y:84) ---
   Página: 1
@@ -13485,18 +13585,6 @@ MAPA ID: 179 - Nombre: Bowsers
 --- Evento ID: 91 - Nombre: EV091 (X:51, Y:92) ---
   Página: 1
     TEXTO: "¿Seguro que no enfrentaré a Hariet primero?"
-
---- Evento ID: 92 - Nombre: EV092 (X:45, Y:88) ---
-  Página: 1
-    TEXTO: "Debería de enfrentarme a Hariet y a Topper primero"
-
---- Evento ID: 93 - Nombre: EV093 (X:44, Y:88) ---
-  Página: 1
-    TEXTO: "Debería de enfrentarme a Hariet y a Topper primero"
-
---- Evento ID: 94 - Nombre: EV094 (X:43, Y:88) ---
-  Página: 1
-    TEXTO: "Debería de enfrentarme a Hariet y a Topper primero"
 ==================================================
 MAPA ID: 180 - Nombre: Centro Pokémon
 ==================================================
@@ -13504,10 +13592,6 @@ MAPA ID: 180 - Nombre: Centro Pokémon
 --- Evento ID: 5 - Nombre: Mapa (X:3, Y:13) ---
   Página: 1
     TEXTO: "Región de Odisea."
-
---- Evento ID: 6 - Nombre: NPC 1 (X:3, Y:19) ---
-  Página: 1
-    TEXTO: "Placeholder."
 
 --- Evento ID: 1 - Nombre: Enfermera (X:8, Y:15) ---
   Página: 1
@@ -13544,14 +13628,6 @@ MAPA ID: 180 - Nombre: Centro Pokémon
 --- Evento ID: 1 - Nombre: Enfermera (X:8, Y:15) ---
   Página: 2
     TEXTO: "¡Sigue esforzándote!"
-
---- Evento ID: 7 - Nombre: NPC 1 (X:16, Y:16) ---
-  Página: 1
-    TEXTO: "Placeholder."
-
---- Evento ID: 8 - Nombre: NPC 1 (X:6, Y:7) ---
-  Página: 1
-    TEXTO: "Placeholder."
 
 --- Evento ID: 9 - Nombre: EV009 (X:12, Y:13) ---
   Página: 1
@@ -13657,18 +13733,489 @@ MAPA ID: 182 - Nombre: Casa baile seaside
 ==================================================
 MAPA ID: 183 - Nombre: Moon
 ==================================================
---- Mapa 185 no encontrado. Saltando. ---
---- Mapa 186 no encontrado. Saltando. ---
---- Mapa 187 no encontrado. Saltando. ---
---- Mapa 188 no encontrado. Saltando. ---
---- Mapa 189 no encontrado. Saltando. ---
---- Mapa 190 no encontrado. Saltando. ---
---- Mapa 191 no encontrado. Saltando. ---
---- Mapa 192 no encontrado. Saltando. ---
---- Mapa 193 no encontrado. Saltando. ---
---- Mapa 194 no encontrado. Saltando. ---
---- Mapa 195 no encontrado. Saltando. ---
---- Mapa 196 no encontrado. Saltando. ---
+
+--- Evento ID: 27 - Nombre: EV027 (X:30, Y:31) ---
+  Página: 1
+    TEXTO: "¿Qué te pensabas, que podías hacer el moon clip,  crack?"
+
+--- Evento ID: 1 - Nombre: EventLunaris (X:21, Y:20) ---
+  Página: 1
+    TEXTO: "\PN, siento que delante nos vamos a enfrentar a un  reto complicado. ¿Estás listo?"
+
+--- Evento ID: 1 - Nombre: EventLunaris (X:21, Y:20) ---
+  Página: 1
+    TEXTO: "\sh¡¿PERO QUÉ ES ESTOOO?!"
+
+--- Evento ID: 1 - Nombre: EventLunaris (X:21, Y:20) ---
+  Página: 1
+    TEXTO: "Es Lunaris... ¿Pero qué hace aquí? Supongo que es lógico siendo que estamos en la  luna, pero parece que quiere algo de nosotros \PN."
+
+--- Evento ID: 1 - Nombre: EventLunaris (X:21, Y:20) ---
+  Página: 1
+    TEXTO: "..."
+
+--- Evento ID: 1 - Nombre: EventLunaris (X:21, Y:20) ---
+  Página: 1
+    TEXTO: "Dice que reconoce nuestro valor, y quiere... ¡Formar parte de nuestro equipo! Pero antes quiere que libremos un combate justo  para demostrar que somos dignos de su poder. ¡Vamos allá \PN!"
+
+--- Evento ID: 1 - Nombre: EventLunaris (X:21, Y:20) ---
+  Página: 2
+    TEXTO: "¡Luchemos contra Lunaris!"
+
+--- Evento ID: 18 - Nombre: Entrar casa (X:21, Y:7) ---
+  Página: 2
+    TEXTO: "¡Luchemos contra Lunaris!"
+
+--- Evento ID: 35 - Nombre: EV035 (X:29, Y:0) ---
+  Página: 1
+    TEXTO: "Hola, soy el toad salvalockes Mira que te han dicho que si estabas listo... imagino  que le diste a que si y ahora no has curado a los  pokémon verdad? Puedo curar a tu equipo, pero te voy a cobrar para  que a la próxima leas bien los diálogos chaval... ¿Quieres que cure a tu equipo por 5000$?"
+
+--- Evento ID: 35 - Nombre: EV035 (X:29, Y:0) ---
+  Página: 1
+    TEXTO: "No tienes chikilin."
+
+--- Evento ID: 13 - Nombre: EV013 (X:15, Y:64) ---
+  Página: 1
+    TEXTO: "La voz de Storydan resuena en tu cabeza..."
+
+--- Evento ID: 31 - Nombre: EV031 (X:22, Y:20) ---
+  Página: 2
+    TEXTO: "¡Luchemos contra Lunaris!"
+
+--- Evento ID: 32 - Nombre: EV032 (X:20, Y:20) ---
+  Página: 2
+    TEXTO: "¡Luchemos contra Lunaris!"
+==================================================
+MAPA ID: 184 - Nombre: Moon Cave
+==================================================
+
+--- Evento ID: 129 - Nombre: Trainer(5) (X:47, Y:43) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 129 - Nombre: Trainer(5) (X:47, Y:43) ---
+  Página: 2
+    TEXTO: "Placeholder."
+
+--- Evento ID: 130 - Nombre: Trainer(5) (X:16, Y:51) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 130 - Nombre: Trainer(5) (X:16, Y:51) ---
+  Página: 2
+    TEXTO: "Placeholder."
+
+--- Evento ID: 131 - Nombre: Trainer(5) (X:11, Y:38) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 131 - Nombre: Trainer(5) (X:11, Y:38) ---
+  Página: 2
+    TEXTO: "Placeholder."
+
+--- Evento ID: 132 - Nombre: Trainer(5) (X:58, Y:1) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 132 - Nombre: Trainer(5) (X:58, Y:1) ---
+  Página: 2
+    TEXTO: "Placeholder."
+
+--- Evento ID: 133 - Nombre: Trainer(5) (X:83, Y:5) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 133 - Nombre: Trainer(5) (X:83, Y:5) ---
+  Página: 2
+    TEXTO: "Placeholder."
+
+--- Evento ID: 134 - Nombre: Trainer(5) (X:75, Y:2) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 134 - Nombre: Trainer(5) (X:75, Y:2) ---
+  Página: 2
+    TEXTO: "Placeholder."
+
+--- Evento ID: 135 - Nombre: Trainer(5) (X:91, Y:2) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 135 - Nombre: Trainer(5) (X:91, Y:2) ---
+  Página: 2
+    TEXTO: "Placeholder."
+
+--- Evento ID: 125 - Nombre: EV125 (X:17, Y:8) ---
+  Página: 1
+    TEXTO: "Combate"
+
+--- Evento ID: 125 - Nombre: EV125 (X:17, Y:8) ---
+  Página: 1
+    TEXTO: "Eres muy bueno adiós."
+
+--- Evento ID: 125 - Nombre: EV125 (X:17, Y:8) ---
+  Página: 2
+    TEXTO: "Eres muy bueno adiós."
+
+--- Evento ID: 126 - Nombre: Trainer(5) (X:92, Y:46) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 126 - Nombre: Trainer(5) (X:92, Y:46) ---
+  Página: 2
+    TEXTO: "Placeholder."
+
+--- Evento ID: 127 - Nombre: Trainer(5) (X:87, Y:34) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 127 - Nombre: Trainer(5) (X:87, Y:34) ---
+  Página: 2
+    TEXTO: "Placeholder."
+
+--- Evento ID: 128 - Nombre: Trainer(5) (X:41, Y:52) ---
+  Página: 1
+    TEXTO: "Placeholder."
+
+--- Evento ID: 128 - Nombre: Trainer(5) (X:41, Y:52) ---
+  Página: 2
+    TEXTO: "Placeholder."
+==================================================
+MAPA ID: 185 - Nombre: Tienda toad
+==================================================
+
+--- Evento ID: 1 - Nombre: EV001 (X:9, Y:4) ---
+  Página: 1
+    TEXTO: "¡Muy buenas camarada! Hemos instalado esta pequeña base del Equipo Toad  para que los viajeros como nosotros puedan curar a  su equipo en esta remota isla. ¿Quieres que cure a tus Pokémon?"
+
+--- Evento ID: 1 - Nombre: EV001 (X:9, Y:4) ---
+  Página: 1
+    TEXTO: "¡Listo, gracias por la espera!"
+
+--- Evento ID: 1 - Nombre: EV001 (X:9, Y:4) ---
+  Página: 1
+    TEXTO: "¡Vuelve cuando quieras!"
+
+--- Evento ID: 3 - Nombre: EV003 (X:13, Y:7) ---
+  Página: 1
+    TEXTO: "No tenemos PC... ¡Pero tengo un portátil por si quieres  mirar tus cajas de Pokémon! ¿Quieres usar el PC?"
+
+--- Evento ID: 4 - Nombre: EV004 (X:4, Y:9) ---
+  Página: 1
+    TEXTO: "Estar en la luna a tomar por culo de la sociedad no  va a hacer que deje el grind."
+==================================================
+MAPA ID: 186 - Nombre: Mushroom 2
+==================================================
+
+--- Evento ID: 3 - Nombre: Toad jardín (X:11, Y:13) ---
+  Página: 1
+    TEXTO: "Había un conejo saltando por estos jardines que nos comía las flores de estos tiestos."
+
+--- Evento ID: 3 - Nombre: Toad jardín (X:11, Y:13) ---
+  Página: 1
+    TEXTO: "Nos lo comimos a él al ajillo por listo jejejeje."
+
+--- Evento ID: 4 - Nombre: EV004 (X:31, Y:12) ---
+  Página: 1
+    TEXTO: "¡Hemos reiniciado la cuenta! ¡La princesa lleva sin  ser secuestrada 1 día!"
+
+--- Evento ID: 52 - Nombre: Sight(3) (X:38, Y:16) ---
+  Página: 1
+    TEXTO: "La princesa te espera en el castillo \pn, Deberías ir allí antes de nada."
+
+--- Evento ID: 52 - Nombre: Sight(3) (X:38, Y:16) ---
+  Página: 1
+    TEXTO: "La princesa te espera en el castillo \pn, Deberías ir allí antes de nada."
+
+--- Evento ID: 52 - Nombre: Sight(3) (X:38, Y:16) ---
+  Página: 2
+    TEXTO: "Por aquí se va a la Luna, solo los entrenadores con  las 8 medallas tienen permitido el paso."
+
+--- Evento ID: 5 - Nombre: Toad Morado (X:33, Y:34) ---
+  Página: 1
+    TEXTO: "¿Qué pasa si me tomo una seta de esas?"
+
+--- Evento ID: 54 - Nombre: EV054 (X:23, Y:39) ---
+  Página: 1
+    TEXTO: "¡Lo logramos \PN, hemos vencido a Bowser! ¡Vayamos al castillo! la princesa debe de estar  esperándonos."
+==================================================
+MAPA ID: 187 - Nombre: Casa del jugador 2
+==================================================
+
+--- Evento ID: 11 - Nombre: EV011 (X:0, Y:4) ---
+  Página: 1
+    TEXTO: "La papelera está vacía."
+
+--- Evento ID: 7 - Nombre: Tele (X:23, Y:2) ---
+  Página: 1
+    TEXTO: "Están entrevistando a un loco que dice que ha  atravesado un tejado con un coco. (hay que ver lo mal que está la gente)"
+
+--- Evento ID: 8 - Nombre: Nevera (X:0, Y:2) ---
+  Página: 1
+    TEXTO: "La nevera está vacía... Le dije a Luigi que fuese a comprar, pero seguro que se le olvidó..."
+
+--- Evento ID: 3 - Nombre: EV003 (X:34, Y:7) ---
+  Página: 1
+    TEXTO: "La papelera está vacía."
+==================================================
+MAPA ID: 188 - Nombre: Casas toad interior 2
+==================================================
+
+--- Evento ID: 5 - Nombre: Tele (X:5, Y:2) ---
+  Página: 1
+    TEXTO: "Están entrevistando a un loco que dice que ha  atravesado un tejado con un coco. (hay que ver lo mal que está la gente)"
+
+--- Evento ID: 1 - Nombre: Toad1 casa mushroom (X:2, Y:5) ---
+  Página: 1
+    TEXTO: "\sh¡¡¡I'M GOING TO SWING FROM THE CHANDELIER!!! \sh¡¡¡FROM THE CHANDELIEEEEER!!!"
+
+--- Evento ID: 8 - Nombre: Tele (X:27, Y:2) ---
+  Página: 1
+    TEXTO: "Están entrevistando a un loco que dice que ha  atravesado un tejado con un coco. (hay que ver lo mal que está la gente)"
+
+--- Evento ID: 9 - Nombre: EV009 (X:0, Y:8) ---
+  Página: 1
+    TEXTO: "La papelera está vacía."
+
+--- Evento ID: 4 - Nombre: Toad azul casa (X:25, Y:4) ---
+  Página: 1
+    TEXTO: "El atontao de mi vecino no me deja dormir por las  noches. No para de gritar como una ardilla agonizando."
+
+--- Evento ID: 10 - Nombre: Papelera vacía (X:33, Y:8) ---
+  Página: 1
+    TEXTO: "La papelera está vacía."
+==================================================
+MAPA ID: 189 - Nombre: Interior castillo 2
+==================================================
+
+--- Evento ID: 5 - Nombre: Cuadro evento (X:7, Y:3) ---
+  Página: 1
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+
+--- Evento ID: 11 - Nombre: EV011 (X:9, Y:12) ---
+  Página: 1
+    TEXTO: "¡Profesor! Hemos conseguido también las 8 medallas  de gimnasio que pediste"
+
+--- Evento ID: 11 - Nombre: EV011 (X:9, Y:12) ---
+  Página: 1
+    TEXTO: "En ese caso estáis preparados para completar la liga  pokémon, el acceso a ella se encuentra no muy lejos  de aquí, le diré al toad vigilante que os deje pasar. \PN, tengo que avisarte de que la liga no se parece a ningún combate que hayáis hecho hasta ahora, es un desafío de muy alto nivel debéis ir muy preparados si  queréis tener alguna oportunidad contra la gente del alto mando. La princesa me ha contado que os ayudaron con un extraño dominante creado por Bowser, os aseguro que son muy fuertes, pero algo me dice que seréis  capaces de vencerlos."
+
+--- Evento ID: 11 - Nombre: EV011 (X:9, Y:12) ---
+  Página: 1
+    TEXTO: "¡Gracias profesor!"
+
+--- Evento ID: 11 - Nombre: EV011 (X:9, Y:12) ---
+  Página: 1
+    TEXTO: "Vamos \PN, tenemos que hacernos campeones pokémon para completar nuestro viaje, este será nuestro gran final."
+
+--- Evento ID: 6 - Nombre: Cuadro evento (X:15, Y:3) ---
+  Página: 1
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+
+--- Evento ID: 1 - Nombre: Toadsworth (X:9, Y:11) ---
+  Página: 1
+    TEXTO: "¡Pero mira a quién tenemos aquí! ¡El mismísimo \PN! Sobra decir que te agradezco eternamente haber  salvado a la princesa de las garras de aquel  monstruo una vez más."
+
+--- Evento ID: 1 - Nombre: Toadsworth (X:9, Y:11) ---
+  Página: 1
+    TEXTO: "¡Eres el mejor! <3"
+
+--- Evento ID: 1 - Nombre: Toadsworth (X:9, Y:11) ---
+  Página: 1
+    TEXTO: "Como muestra de agradecimiento quiero darte esto."
+
+--- Evento ID: 1 - Nombre: Toadsworth (X:9, Y:11) ---
+  Página: 1
+    TEXTO: "Está en fase experimental pero debería de funcionar,  está diseñada para capturar a cualquier pokémon a  la primera, garantía toad."
+
+--- Evento ID: 1 - Nombre: Toadsworth (X:9, Y:11) ---
+  Página: 3
+    TEXTO: "Mi sincera enhorabuena por haber completado los gimnasios y haber salvado a la princesa."
+
+--- Evento ID: 7 - Nombre: Cuadro evento (X:16, Y:3) ---
+  Página: 1
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+
+--- Evento ID: 2 - Nombre: Cuadro evento (X:2, Y:3) ---
+  Página: 1
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+
+--- Evento ID: 19 - Nombre: EV019 (X:4, Y:5) ---
+  Página: 1
+    TEXTO: "Esto de ayudar al profesor en el "laboratorio" en el que se ha convertido nuestro querido castillo, hace que me salgan hongos de lo que me sudan los pies, por muy  irónico que sea. Prefería ir de visita a Tíjola la verdad..."
+
+--- Evento ID: 3 - Nombre: Cuadro evento (X:1, Y:3) ---
+  Página: 1
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+
+--- Evento ID: 4 - Nombre: Cuadro evento (X:6, Y:3) ---
+  Página: 1
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+
+--- Evento ID: 21 - Nombre: Toad amarillo (X:17, Y:12) ---
+  Página: 1
+    TEXTO: "Mi compañero se ha vuelto loco y no para de  mencionar su pueblo. ¿A quién le importa Tíjola? Ni  que fuera yo DiegoX"
+
+--- Evento ID: 21 - Nombre: Toad amarillo (X:17, Y:12) ---
+  Página: 2
+    TEXTO: "Gracias a ti ahora voy a ser príncipe del reino champiñón Toma esto, es lo menos que puedo ofrecerte por esa tremenda asistencia"
+
+--- Evento ID: 21 - Nombre: Toad amarillo (X:17, Y:12) ---
+  Página: 2
+    TEXTO: "\CN¡Tu equipo está lleno!\nPor favor, haz algo de hueco y vuelve de nuevo."
+
+--- Evento ID: 21 - Nombre: Toad amarillo (X:17, Y:12) ---
+  Página: 2
+    TEXTO: "No es lo mismo que una mujer pero bueno... a algunos les sirve."
+
+--- Evento ID: 21 - Nombre: Toad amarillo (X:17, Y:12) ---
+  Página: 3
+    TEXTO: "Gracias a ti ahora voy a ser príncipe del reino champiñón"
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 1
+    TEXTO: "¡Hola \PN, me alegro de verte! Nintendo nunca me ha dejado hacer esto pero aquí podemos tomarnos ciertas libertades..."
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 1
+    TEXTO: "Me acompañas a por el cargador? me lo he dejado en la habitación jejeje <3"
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 1
+    TEXTO: "¿A ver ese champiñón \PN? <3"
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 1
+    TEXTO: "..."
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 1
+    TEXTO: "Y así fue como a \PN le soplaron el cartucho..."
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 1
+    TEXTO: "\sh¡YO SI PUEDO PRINCESA!"
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 1
+    TEXTO: "Está bien, tu sabrás lo que haces \PN..."
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 1
+    TEXTO: "Vamos toad, aquí no se nos valora lo suficiente..."
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 1
+    TEXTO: "Y así fue como \PN se quedó virgen por idiota... Entiendo que las indirectas son difícles pero amigo... espabila"
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 2
+    TEXTO: "Hola mi amor <3 lo pasaste bien anoche?"
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 2
+    TEXTO: "Cuando quieras me revisas la tubería jijiji."
+
+--- Evento ID: 10 - Nombre: Peach (X:11, Y:10) ---
+  Página: 3
+    TEXTO: "No quiero saber nada de ti \PN, ahora es Toad el que me arregla mi húmeda tubería."
+==================================================
+MAPA ID: 190 - Nombre: Ruta 16
+==================================================
+==================================================
+MAPA ID: 191 - Nombre: Liga Pokémon
+==================================================
+
+--- Evento ID: 1 - Nombre: Enfermera (X:10, Y:18) ---
+  Página: 1
+    TEXTO: "Hola, te doy la bienvenida al Centro Pokémon. Nosotros curamos la salud de tus Pokémon. ¿Quieres que curemos a tu equipo?"
+
+--- Evento ID: 1 - Nombre: Enfermera (X:10, Y:18) ---
+  Página: 1
+    TEXTO: "Bien, déjame a tus Pokémon un momento."
+
+--- Evento ID: 1 - Nombre: Enfermera (X:10, Y:18) ---
+  Página: 1
+    TEXTO: "Parece que tus Pokémon están infectados por el Pokérus. Poco se sabe sobre el Pokérus, más allá de que son formas de vida microscópicas que se unen a los Pokémon. Se dice que, mientras estén infectados, los Pokémon crecen de forma extraordinariamente rápida."
+
+--- Evento ID: 1 - Nombre: Enfermera (X:10, Y:18) ---
+  Página: 1
+    TEXTO: "Gracias por tu espera. Hemos restaurado la salud de tus Pokémon."
+
+--- Evento ID: 1 - Nombre: Enfermera (X:10, Y:18) ---
+  Página: 1
+    TEXTO: "¡Vuelve pronto!"
+
+--- Evento ID: 1 - Nombre: Enfermera (X:10, Y:18) ---
+  Página: 1
+    TEXTO: "¡Vuelve pronto!"
+
+--- Evento ID: 1 - Nombre: Enfermera (X:10, Y:18) ---
+  Página: 2
+    TEXTO: "Primero deberías restaurar la salud de tus Pokémon."
+
+--- Evento ID: 1 - Nombre: Enfermera (X:10, Y:18) ---
+  Página: 2
+    TEXTO: "Tus Pokémon se han curado y vuelven a estar en plena forma."
+
+--- Evento ID: 1 - Nombre: Enfermera (X:10, Y:18) ---
+  Página: 2
+    TEXTO: "¡Sigue esforzándote!"
+
+--- Evento ID: 8 - Nombre: Warp CP-Cap (X:16, Y:11) ---
+  Página: 1
+    TEXTO: "¡Aviso! Una vez entres, no podrás volver atrás hasta que  derrotes a todos los miembros de la Liga Pokémon o  caigas derrotado en combate. ¿Seguro que quieres continuar?"
+==================================================
+MAPA ID: 192 - Nombre: Entresala Liga Pokémon
+==================================================
+
+--- Evento ID: 3 - Nombre: EV003 (X:6, Y:29) ---
+  Página: 1
+    TEXTO: "La puerta se ha cerrado"
+==================================================
+MAPA ID: 193 - Nombre: Alto Mando Yimmo
+==================================================
+
+--- Evento ID: 1 - Nombre: EV001 (X:14, Y:10) ---
+  Página: 1
+    TEXTO: "Combate."
+
+--- Evento ID: 1 - Nombre: EV001 (X:14, Y:10) ---
+  Página: 2
+    TEXTO: "Eres muy bueno."
+==================================================
+MAPA ID: 194 - Nombre: Alto Mando Cross
+==================================================
+
+--- Evento ID: 2 - Nombre: EV002 (X:13, Y:7) ---
+  Página: 1
+    TEXTO: "Combate."
+
+--- Evento ID: 2 - Nombre: EV002 (X:13, Y:7) ---
+  Página: 2
+    TEXTO: "Eres muy bueno."
+==================================================
+MAPA ID: 195 - Nombre: Alto Mando Ivanavi
+==================================================
+
+--- Evento ID: 1 - Nombre: EV001 (X:13, Y:9) ---
+  Página: 1
+    TEXTO: "Combate."
+
+--- Evento ID: 1 - Nombre: EV001 (X:13, Y:9) ---
+  Página: 2
+    TEXTO: "Eres muy bueno."
+==================================================
+MAPA ID: 196 - Nombre: Alto Mando Karma
+==================================================
+
+--- Evento ID: 2 - Nombre: EV002 (X:14, Y:12) ---
+  Página: 1
+    TEXTO: "Combate."
+
+--- Evento ID: 2 - Nombre: EV002 (X:14, Y:12) ---
+  Página: 2
+    TEXTO: "Eres muy bueno."
 --- Mapa 197 no encontrado. Saltando. ---
 --- Mapa 198 no encontrado. Saltando. ---
 --- Mapa 199 no encontrado. Saltando. ---
