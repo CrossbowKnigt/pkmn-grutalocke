@@ -564,7 +564,6 @@ WildBattleBGM = Knucklotec_Battle.ogg
 #-------------------------------
 [101]   # Pirámide 4
 Name = Pirámide invertida
-Outdoor = true
 MapPosition = 0,9,6
 SnapEdges = true
 BattleBack = FondoDesierto
