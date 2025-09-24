@@ -119,16 +119,24 @@ Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
 #-------------------------------
 [LUIGI,Luigi]
-LoseText = GGs hermano.
+LoseText = ...
 Pokemon = DRIFLOON,5
+    Moves = SCARYFACE,LICK,GUST
+    Ability = UNBURDEN
 #-------------------------------
-[BOWSER1,Bowsette]
-LoseText = ¡Aaaagggghhhh!¿¡Cómo es posible!?
-Pokemon = TURTONATOR,55
+[BOWSETTE,Bowsette]
+LoseText = ...
+Pokemon = TURTONATOR,56
+    Ability = SHELLARMOR
 Pokemon = CARRACOSTA,55
-Pokemon = TORTERRA,55
-Pokemon = AVALUGG,56
-Pokemon = LUNARIS,57
+    Ability = STURDY
+Pokemon = TORTERRA,57
+    Ability = OVERGROW
+Pokemon = AVALUGG,58
+    Ability = OWNTEMPO
+Pokemon = LUNARIS,60
+    Ability = SHADOWSHIELD
+    Item = SITRUSBERRY
 #-------------------------------
 [JOVEN,Pedrito]
 LoseText = Naah my man, ¿Esto qué es?
@@ -139,9 +147,11 @@ LoseText = ¡Pues si que se te nota con ganas!
 Pokemon = PURRLOIN,4
 #-------------------------------
 [TOPPER,Topper]
-LoseText = Hmpf... Eres más fuerte de lo que pensaba.
+LoseText = ...
 Pokemon = NIDORANmA,7
+    Ability = POISONPOINT
 Pokemon = MARILL,9
+    Ability = HUGEPOWER
 #-------------------------------
 [MADAME,Madame Broodal]
 LoseText = ¿¡Qué les has hecho a mis pobres Pokémon!?
@@ -149,9 +159,12 @@ Pokemon = NIDORANfE,10
 Pokemon = VOLTORB,12
 #-------------------------------
 [HARIET,Hariet]
-LoseText = Te lo he puesto demasiado fácil.
+LoseText = ...
 Pokemon = NIDORINA,20
+    Ability = POISONPOINT
 Pokemon = BUNEARY,22
+    Ability = RUNAWAY
+    Item = SITRUSBERRY
 #-------------------------------
 [JOVEN,Patatus]
 LoseText = Ostras, ¡Tus pokes si que molan!
@@ -169,9 +182,11 @@ Pokemon = RATTATA,7
 Pokemon = MANKEY,9
 #-------------------------------
 [MADAME,Broodal]
-LoseText = ¿¡Qué les has hecho a mis pobres Pokémon!?
+LoseText = ...
 Pokemon = NIDORANfE,10
+    Ability = POISONPOINT
 Pokemon = VOLTORB,12
+    Ability = STATIC
 #-------------------------------
 [MONTANERO,Kyuso]
 LoseText = GG.
@@ -190,16 +205,31 @@ LoseText = Pues empiezo bien mi carrera...
 Pokemon = ZUBAT,6
 #-------------------------------
 [RAFARQUERO,Rafarquero]
-Items = FULLRESTORE, MEGARING
-LoseText = Enhorabuena por tu victoria, no esperaba menos de ti.
+Items = FULLRESTORE,MEGARING,FULLRESTORE
+LoseText = ...
 Pokemon = SKARMORY,64
+    Moves = STEELWING,IRONDEFENSE,BODYPRESS,BRAVEBIRD
+    Ability = STURDY
+    Item = ROCKYHELMET
 Pokemon = WHIMSICOTT,65
-	Name = Candyfloss
+    Name = Candyfloss
+    Moves = ENERGYBALL,MOONBLAST,TAILWIND,TAUNT
+    Ability = PRANKSTER
+    Item = FOCUSSASH
 Pokemon = METAGROSS,67
+    Moves = METEORMASH,ZENHEADBUTT,ICEPUNCH,AGILITY
+    Ability = CLEARBODY
+    Item = WEAKNESSPOLICY
 Pokemon = AEGISLASH,68
+    Moves = KINGSSHIELD,SHADOWBALL,FLASHCANNON,SHADOWSNEAK
+    Item = LIFEORB
 Pokemon = TYRANITAR,66
+    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE,DRAGONCLAW
+    Ability = SANDSTREAM
+    Item = ASSAULTVEST
 Pokemon = GARDEVOIR,69
-	Item = GARDEVOIRITE
+    Moves = HYPERVOICE,PSYSHOCK,FOCUSBLAST,CALMMIND
+    Item = GARDEVOIRITE
 #-------------------------------
 [MOCHILERA,Marina]
 LoseText = GG.
@@ -224,10 +254,13 @@ Pokemon = ROLYCOLY,12
 #-------------------------------
 [KLIM8,Klim8]
 Items = POTION
-LoseText = Esto ha sido más rápido que una... ¡CARRERA DE BUSEEEEES!!
+LoseText = ...
 Pokemon = ROGGENROLA,12
+    Ability = STURDY
 Pokemon = LARVITAR,13
+    Ability = GUTS
 Pokemon = TYRUNT,14
+    Moves = TACKLE,TAILWHIP,ANCIENTPOWER,CHARM
 #-------------------------------
 [MONTANERO,Gemelo 2]
 LoseText = Bien jugado, ahora te diré la verdad.
@@ -283,8 +316,11 @@ Pokemon = BAGON,17
 [LUIGI,Luigi,1]
 LoseText = ...
 Pokemon = CUBONE,14
+    Ability = ROCKHEAD
 Pokemon = GREAVARD,14
+    Ability = PICKUP
 Pokemon = DRIFLOON,16
+    Ability = UNBURDEN
 #-------------------------------
 [RECLUTA,Broodal,2]
 LoseText = ...
@@ -324,8 +360,12 @@ Pokemon = SANDYGAST,22
 Items = SUPERPOTION
 LoseText = ...
 Pokemon = GOLETT,22
+    Ability = IRONFIST
 Pokemon = QUAGSIRE,23
+    Ability = WATERABSORB
 Pokemon = SANDSLASH,24
+    Ability = SANDVEIL
+    Item = SITRUSBERRY
 #-------------------------------
 [MOCHILERO,Juande]
 LoseText = ...
@@ -345,35 +385,50 @@ Pokemon = LUVDISC,23
 Pokemon = FINNEON,23
 #-------------------------------
 [FERBY,Ferby]
-Items = HYPERPOTION
+Items = FULLRESTORE
 LoseText = ...
 Pokemon = STARMIE,46
+    Ability = NATURALCURE
 Pokemon = WISHIWASHI,47
 Pokemon = PALAFIN,48
 Pokemon = LAPRAS,49
+    Ability = SHELLARMOR
+    Item = SITRUSBERRY
 #-------------------------------
 [DARKWON,Darkwon]
-Items = MEGARING
-LoseText = ¡Ay! Creo que me he hecho sangre.
+Items = MEGARING,FULLRESTORE
+LoseText = ...
 Pokemon = GLISCOR,52
+    Ability = HYPERCUTTER
 Pokemon = DRAPION,53
+    Ability = BATTLEARMOR
 Pokemon = KOMMOO,54
+    Ability = BULLETPROOF
 Pokemon = METAGROSS_1,55
-	Item = METAGROSSITE
+    Ability = CLEARBODY
+    Item = METAGROSSITE
 #-------------------------------
 [MARC,Marc]
-Items = HYPERPOTION
-LoseText = ¡Fuap! Lavadora nueva.
-Pokemon = ARMAROUGE,49
-Pokemon = MAGCARGO,48
-Pokemon = INFERNAPE,50
-Pokemon = TORKOAL,49
+Items = FULLRESTORE
+LoseText = ...
+Pokemon = ARMAROUGE,52
+    Ability = FLASHFIRE
+Pokemon = MAGCARGO,53
+    Ability = FLAMEBODY
+Pokemon = INFERNAPE,54
+    Ability = BLAZE
+Pokemon = TORKOAL,51
+    Ability = DROUGHT
 #-------------------------------
 [RANGO,Rango]
 LoseText = ...
 Pokemon = NIDORINO,24
-Pokemon = GOLBAT,24
+    Ability = POISONPOINT
+Pokemon = GOLBAT,25
+    Ability = INNERFOCUS
 Pokemon = RABOOT,26
+    Ability = BLAZE
+    Item = SITRUSBERRY
 #-------------------------------
 [ALUMNO,Bien]
 LoseText = GG, ahora te daré una respuesta.
@@ -389,61 +444,102 @@ Pokemon = PHANPY,21
 Pokemon = DIGLETT,21
 #-------------------------------
 [IVANAVI,Ivanavi]
-Items = FULLRESTORE, MEGARING
-LoseText = A este demonio no lo vi venir...
-Pokemon = FERALIGATR,60
-Pokemon = SKELEDIRGE,61
+Items = FULLRESTORE,MEGARING
+LoseText = ...
+Pokemon = TOGEKISS,60
+    Moves = AIRSLASH,AURASPHERE,DAZZLINGGLEAM,WISH
+    Ability = SERENEGRACE
+Pokemon = FERALIGATR,61
+    Moves = LOWKICK,SCREECH,AQUATAIL,THRASH
+    Ability = TORRENT
 Pokemon = AMPHAROS,62
 Pokemon = GALLADE,64
-	Item = GALLADITE
-Pokemon = TOGEKISS,63
+    Moves = SACREDSWORD,PSYCHOCUT,LEAFBLADE,AERIALACE
+    Ability = SHARPNESS
+    Item = GALLADITE
+Pokemon = SKELEDIRGE,63
+    Moves = HYPERVOICE,WILLOWISP,HEX,FIREBLAST
+    Ability = BLAZE
 #-------------------------------
 [KARMA,Karma]
-Items = FULLRESTORE, MEGARING
-LoseText = Esto con Greninja-Ash no pasaba.
+Items = FULLRESTORE,MEGARING
+LoseText = ...
 Pokemon = LUXRAY,60
+    Moves = VOLTSWITCH,DISCHARGE,CRUNCH,THUNDERWAVE
+    Ability = INTIMIDATE
 Pokemon = SCEPTILE,61
+    Moves = LEAFBLADE,GIGADRAIN,LEAFSTORM,DRAGONPULSE
+    Ability = OVERGROW
 Pokemon = GRENINJA,62
+    Form = 1
+    Moves = WATERSHURIKEN,NIGHTSLASH,EXTRASENSORY,HYDROPUMP
 Pokemon = CROBAT_1,63
-	Form = 1
+    Form = 1
+    Moves = SHADOWBALL,WILLOWISP,HURRICANE,CONFUSERAY
+    Ability = INNERFOCUS
 Pokemon = CHARIZARD,64
-	Item = CHARIZARDITEX
+    Moves = DRAGONCLAW,FLAREBLITZ,AIRSLASH,FLAMETHROWER
+    Item = CHARIZARDITEX
 #-------------------------------
 [CROSS,Crossbow]
-Items = FULLRESTORE, MEGARING
-LoseText = ¡¿Pero este tío?!
+Items = FULLRESTORE,MEGARING
+LoseText = ...
 Pokemon = PELIPPER,60
+    Moves = MIST,ROOST,HURRICANE,HYDROPUMP
+    Ability = DRIZZLE
 Pokemon = CORVIKNIGHT,61
+    Moves = STEELWING,DRILLPECK,SWAGGER,BRAVEBIRD
+    Ability = UNNERVE
 Pokemon = INFERNAPE,62
+    Moves = CLOSECOMBAT,RAGINGFURY,ACROBATICS,FLAMETHROWER
+    Ability = BLAZE
 Pokemon = ZOROARK,63
+    Moves = IMPRISON,NIGHTDAZE,NASTYPLOT,FOULPLAY
 Pokemon = LUCARIO,64
-	Item = LUCARIONITE	
+    Moves = CLOSECOMBAT,METEORMASH,DRAGONPULSE,EXTREMESPEED
+    Ability = INNERFOCUS
+    Item = LUCARIONITE
 #-------------------------------
 [YIMMO,Yimmo]
-Items = FULLRESTORE, MEGARING
-LoseText = GG.
+Items = FULLRESTORE,MEGARING
+LoseText = ...
 Pokemon = GREATTUSK,60
+    Moves = STOMPINGTANTRUM,KNOCKOFF,EARTHQUAKE,GIGAIMPACT
 Pokemon = PRIMARINA,61
+    Moves = SPARKLINGARIA,HYPERVOICE,MOONBLAST,HYDROPUMP
 Pokemon = DRAGAPULT,62
+    Moves = DRAGONDARTS,DRAGONDANCE,TAKEDOWN,PHANTOMFORCE
 Pokemon = KARTANA,63
+    Moves = LEAFBLADE,SACREDSWORD,SMARTSTRIKE,SYNTHESIS
 Pokemon = LOPUNNY,64
-	Item = LOPUNNITE
+    Moves = HIGHJUMPKICK,BOUNCE,ICEPUNCH,RETURN
+    Ability = CUTECHARM
+    Item = LOPUNNITE
 #-------------------------------
 [DAN,Dan]
 Items = SUPERPOTION
-LoseText = Hasta aquí el combate de hoy.
+LoseText = ...
 Pokemon = JIGGLYPUFF,25
+    Ability = CUTECHARM
 Pokemon = TOGETIC,26
+    Ability = SERENEGRACE
 Pokemon = AZUMARILL,27
+    Ability = THICKFAT
+    Item = SITRUSBERRY
     Shiny = true
 #-------------------------------
 [DAN,Dan,1]
 Items = SUPERPOTION
-LoseText = Hasta aquí el combate de hoy.
+LoseText = ...
 Pokemon = SYLVEON,25
+    Ability = CUTECHARM
 Pokemon = JIGGLYPUFF,25
+    Ability = CUTECHARM
 Pokemon = TOGETIC,26
+    Ability = SERENEGRACE
 Pokemon = AZUMARILL,27
+    Ability = HUGEPOWER
+    Item = SITRUSBERRY
     Shiny = true
 #-------------------------------
 [MOCHILERO,Ezequiel]
@@ -491,8 +587,12 @@ Pokemon = FOONGUS,29
 [SPEWART,Spewart]
 LoseText = ...
 Pokemon = NIDORINO,30
+    Ability = POISONPOINT
 Pokemon = GRIMER,31
+    Ability = STENCH
 Pokemon = DIGGERSBY,32
+    Ability = CHEEKPOUCH
+    Item = SITRUSBERRY
 #-------------------------------
 [RANGERS,Freelatas & Carlitos]
 LoseText = GG.
@@ -530,11 +630,17 @@ Pokemon = GOGOAT,32
 #-------------------------------
 [DIEGO_Y_MYSTERY,Diego y Mystery]
 Items = HYPERPOTION
-LoseText = GG.
+LoseText = ...
 Pokemon = FERROSEED,33
+    Ability = IRONBARBS
 Pokemon = YANMEGA,33
+    Ability = SPEEDBOOST
 Pokemon = LEAFEON,35
+    Moves = RAZORLEAF,LEECHSEED,SYNTHESIS,SUNNYDAY
+    Ability = LEAFGUARD
 Pokemon = ARBOLIVA,35
+    Ability = SEEDSOWER
+    Item = SITRUSBERRY
 #-------------------------------
 [MOCHILERO,Machochin]
 LoseText = ...
@@ -557,17 +663,23 @@ LoseText = ...
 Pokemon = APPLETUN,33
 #-------------------------------
 [LUIGI,Luigi,2]
-LoseText = ggs hermano.
+LoseText = ...
 Pokemon = MAROWAK_1,28
     Form = 1
+    Ability = CURSEDBODY
 Pokemon = GREAVARD,28
+    Ability = PICKUP
 Pokemon = DRIFBLIM,29
+    Ability = AFTERMATH
 #-------------------------------
 [BOWSER,Bowser]
-LoseText = ¡Aaaagggghhhh!¿¡Cómo es posible!?
+LoseText = ...
 Pokemon = TIRTOUGA,35
+    Ability = STURDY
 Pokemon = TURTONATOR,35
+    Ability = SHELLARMOR
 Pokemon = TORTERRA,35
+    Ability = OVERGROW
 #-------------------------------
 [RECLUTAS,Broodal & Broodal]
 LoseText = Poco me pagan.
@@ -623,7 +735,7 @@ Pokemon = CHERRIM,35
 Pokemon = PERSIAN,35
 #-------------------------------
 [PAULINE,Pauline]
-Items = MEGARING
+Items = MEGARING,HYPERPOTION
 LoseText = ...
 Pokemon = RILLABOOM,37
 Pokemon = SKELEDIRGE,37
@@ -633,10 +745,15 @@ Pokemon = ALTARIA_1,38
 #-------------------------------
 [RODILLO,Rodillo]
 Items = HYPERPOTION
-LoseText = Muy buen combate.
+LoseText = ...
 Pokemon = ROTOM_2,38
+    Form = 2
+    Ability = LEVITATE
 Pokemon = JOLTEON,39
+    Ability = VOLTABSORB
 Pokemon = KILOWATTREL,40
+    Ability = VOLTABSORB
+    Item = SITRUSBERRY
 #-------------------------------
 [E_GUAY,KillerDragon]
 LoseText = Bien jugado.
@@ -697,26 +814,36 @@ LoseText = GG.
 Pokemon = MIENSHAO,40
 #-------------------------------
 [PANDIN,Pandin]
-Items = MEGARING
-LoseText = Mi bombi.
+Items = MEGARING,HYPERPOTION
+LoseText = ...
 Pokemon = PANGORO,39
+    Ability = MOLDBREAKER
 Pokemon = MANECTRIC_1,40
     Item = MANECTITE
 Pokemon = GLALIE,42
+    Ability = ICEBODY
 #-------------------------------
 [LUIGI,Luigi,3]
-LoseText = ggs hermano.
+LoseText = ...
 Pokemon = MAROWAK_1,39
     Form = 1
+    Ability = CURSEDBODY
+    Item = THICKCLUB
 Pokemon = HOUNDSTONE,40
+    Ability = SANDRUSH
 Pokemon = MIMIKYU,40
 Pokemon = DRIFBLIM,42
+    Ability = AFTERMATH
 #-------------------------------
 [RANGO,Rango,2]
 LoseText = ...
 Pokemon = NIDOKING,41
+    Ability = POISONPOINT
 Pokemon = CROBAT,42
+    Ability = INNERFOCUS
 Pokemon = CINDERACE,43
+    Ability = BLAZE
+    Item = SITRUSBERRY
 #-------------------------------
 [E_GUAY,Landaris]
 LoseText = Bien jugado.
@@ -737,10 +864,14 @@ Pokemon = FROSLASS,42
 Items = HYPERPOTION
 LoseText = ...
 Pokemon = BEARTIC,42
+    Ability = SLUSHRUSH
 Pokemon = EISCUE,43
 Pokemon = WALREIN,44
+    Ability = ICEBODY
 Pokemon = SANDSLASH,45
     Form = 1
+    Ability = SLUSHRUSH
+    Item = SITRUSBERRY
 #-------------------------------
 [RECLUTA,Broodal,14]
 LoseText = Poco me pagan.
@@ -856,8 +987,12 @@ Pokemon = ARBOK,48
 [SPEWART,Spewart,1]
 LoseText = ...
 Pokemon = NIDOKING,47
+    Ability = POISONPOINT
 Pokemon = MUK,48
+    Ability = STENCH
 Pokemon = DIGGERSBY,50
+    Ability = CHEEKPOUCH
+    Item = SITRUSBERRY
 #-------------------------------
 [ALUMNO,Aitor Tilla]
 LoseText = Bien jugado.
@@ -920,16 +1055,24 @@ Pokemon = MABOSSTIFF,54
 Pokemon = HOUNDOOM,55
 #-------------------------------
 [HARIET,Hariet,1]
-LoseText = Te lo he puesto demasiado fácil.
+LoseText = ...
 Pokemon = NIDOQUEEN,54
+    Ability = POISONPOINT
 Pokemon = MORPEKO,55
+    Ability = HUNGERSWITCH
 Pokemon = LOPUNNY,56
+    Ability = CUTECHARM
+    Item = SITRUSBERRY
 #-------------------------------
 [TOPPER,Topper,1]
-LoseText = Hmpf... Eres más fuerte de lo que pensaba.
+LoseText = ...
 Pokemon = NIDOKING,54
+    Ability = POISONPOINT
 Pokemon = PAWMOT,55
+    Ability = VOLTABSORB
 Pokemon = AZUMARILL,56
+    Ability = HUGEPOWER
+    Item = SITRUSBERRY
 #-------------------------------
 [RECLUTA,Broodal,26]
 LoseText = Poco me pagan.
@@ -957,21 +1100,28 @@ Pokemon = GENGAR,54
 Pokemon = UMBREON,55
 #-------------------------------
 [MADAME,Broodal,1]
-LoseText = ¡¿Cómo es posible que haya perdido otra vez?!
+LoseText = ...
 Pokemon = NIDOQUEEN,57
+    Ability = POISONPOINT
 Pokemon = SNORLAX,58
+    Ability = THICKFAT
 Pokemon = ELECTRODE,59
+    Ability = STATIC
 #-------------------------------
 [LUIGI,Luigi,4]
 Items = MEGARING
-LoseText = ggs hermano.
+LoseText = ...
 Pokemon = MAROWAK_1,58
     Form = 1
+    Ability = CURSEDBODY
 Pokemon = HOUNDSTONE,59
+    Ability = SANDRUSH
 Pokemon = MIMIKYU,60
 Pokemon = DRIFBLIM,61
+    Ability = AFTERMATH
 Pokemon = GENGAR,62
-	Item = GENGARITE
+    Ability = CURSEDBODY
+    Item = GENGARITE
 #-------------------------------
 [E_GUAYf,Alma Marcela Gozo]
 LoseText = Bien jugado.
@@ -1030,4 +1180,3 @@ LoseText = Bien jugado.
 Pokemon = MEGANIUM,56
 Pokemon = EMBOAR,57
 Pokemon = FERALIGATR,58
-#-------------------------------
