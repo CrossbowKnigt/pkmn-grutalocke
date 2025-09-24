@@ -190,14 +190,16 @@ LoseText = Pues empiezo bien mi carrera...
 Pokemon = ZUBAT,6
 #-------------------------------
 [RAFARQUERO,Rafarquero]
+Items = FULLRESTORE, MEGARING
 LoseText = Enhorabuena por tu victoria, no esperaba menos de ti.
-Pokemon = WHIMSICOTT,62
-    Name = Candyfloss
-Pokemon = NINETALES,62
-Pokemon = URSHIFU,64
-Pokemon = ZERAORA,63
-Pokemon = TYRANITAR,65
-Pokemon = METAGROSS,65
+Pokemon = SKARMORY,64
+Pokemon = WHIMSICOTT,65
+	Name = Candyfloss
+Pokemon = METAGROSS,67
+Pokemon = AEGISLASH,68
+Pokemon = TYRANITAR,66
+Pokemon = GARDEVOIR,69
+	Item = GARDEVOIRITE
 #-------------------------------
 [MOCHILERA,Marina]
 LoseText = GG.
@@ -961,6 +963,7 @@ Pokemon = SNORLAX,58
 Pokemon = ELECTRODE,59
 #-------------------------------
 [LUIGI,Luigi,4]
+Items = MEGARING
 LoseText = ggs hermano.
 Pokemon = MAROWAK_1,58
     Form = 1

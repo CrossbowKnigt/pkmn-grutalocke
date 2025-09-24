@@ -970,7 +970,7 @@ MapPosition = 0,17,2
 SnapEdges = true
 BattleBack = FondoColina
 #-------------------------------
-[190]   # Ruta 16
+[190]   # Jardín Trasero
 Name = Ruta 16
 Outdoor = true
 ShowArea = true
@@ -985,5 +985,18 @@ BattleBack = elite6
 Name = Liga Pokémon
 BattleBack = elite1
 #-------------------------------
+[195]   # Alto Mando Ivanavi
+Name = Liga Pokémon
+BattleBack = elite2
+#-------------------------------
+[196]   # Alto Mando Karma
+Name = Liga Pokémon
+BattleBack = FondoRainbow
+#-------------------------------
 [197]   # Casas Seaside
+Name = Casas Seaside
 SnapEdges = true
+#-------------------------------
+[198]   # Campeón Rafa
+Name = Liga Pokémon
+BattleBack = champion1
