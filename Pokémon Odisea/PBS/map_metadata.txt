@@ -1000,3 +1000,6 @@ SnapEdges = true
 [198]   # Campeón Rafa
 Name = Liga Pokémon
 BattleBack = champion1
+#-------------------------------
+[199]   # Casas Luncheon
+SnapEdges = true
