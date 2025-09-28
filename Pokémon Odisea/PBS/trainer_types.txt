@@ -404,7 +404,7 @@ VictoryBGM = Battle victory leader
 Name = Campeón
 Gender = Male
 BaseMoney = 100
-BattleBGM = RedBattleTheme.ogg
+BattleBGM = xion-final-battle-theme-remix.ogg
 VictoryBGM = Battle victory leader
 #-------------------------------
 [LUIGI]
