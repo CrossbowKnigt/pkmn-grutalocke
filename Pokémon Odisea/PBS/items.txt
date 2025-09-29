@@ -7095,3 +7095,12 @@ BattleUse = OnPokemon
 Flags = Fling_30
 Description = Bebida amarga pero dulce que restaura 70 PS de un Pokémon.
 #-------------------------------
+[TICKET_PARAISO]
+Name = Ticket Paraíso
+NamePlural =
+Pocket = 8
+Price = 0
+SellPrice = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Ticket entregado a las personas más importantes de la región. Te permite el acceso a la Islas Paraíso mediante el barco de la Ruta 9.
