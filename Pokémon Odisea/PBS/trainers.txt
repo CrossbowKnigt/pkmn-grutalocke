@@ -717,7 +717,7 @@ Pokemon = UNFEZANT,33
 Pokemon = CRABRAWLER,33
 Pokemon = SLOWBRO,33
 #-------------------------------
-[NADADORA,Victoria]
+[NADADORA,Aura]
 LoseText = ...
 Pokemon = CORSOLA,34
 Pokemon = LUMINEON,34
@@ -728,7 +728,7 @@ Pokemon = GOLDUCK,34
 Pokemon = MANTINE,34
 Pokemon = BARRASKEWDA,34
 #-------------------------------
-[CHICA_PARASOL,Noelia]
+[CHICA_PARASOL,Victoria]
 LoseText = ...
 Pokemon = ROSERADE,35
 Pokemon = CHERRIM,35
