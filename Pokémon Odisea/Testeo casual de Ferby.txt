@@ -5,11 +5,7 @@ Testeo casual de Ferby
 # MUSHROOM
 
 * Quitar el exportador de textos de la casa del jugador
-* Mover los interiores de las casas de los toads un poco mas centradas en el mapa para que no se vean los 2 tonos de negro en los bordes
-* Poner un turn up después de que el profesor te de la pokédex
 * No tiene lose text Luigi
-* No tiene textbox bowser después de perder contra él
-
 
 
 # CAP
