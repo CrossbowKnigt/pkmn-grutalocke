@@ -1,0 +1,43 @@
+Testeo casual de Ferby
+
+
+
+# MUSHROOM
+
+* Quitar el exportador de textos de la casa del jugador
+* Mover los interiores de las casas de los toads un poco mas centradas en el mapa para que no se vean los 2 tonos de negro en los bordes
+* Poner un turn up después de que el profesor te de la pokédex
+* No tiene lose text Luigi
+* No tiene textbox bowser después de perder contra él
+
+
+
+# CAP
+
+* En el mapa no pone mushroom, pone castillo de peach
+* Poner always on top al sombrero de cap de la casa de la izquierda
+* Puedes usar corte en el árbol de la ruta sin tener corte
+* Topper no tiene lose text
+* Poner en mayúsculas el apellido a María Unpajote del paso de ruta
+
+# CASCADE
+
+* Quitar el "pulsa A" del cartel de la ruta 2
+* Bajar la música de la casa de proacventure
+* Tildes texto de madame
+* Poner en player touch al weon que te da la odyssey (madre mía ivanavi que está en action button y es opcional la odyssey xdd)
+
+# SAND
+
+* Hacer que turtwig evolucione al 18
+* El brillo de la ruta te deja ciego, igual mirar si se podría bajar un poco, si no da igual, no es tan horrible (si no se hace la suda)
+* La marina mecheros pega unas ostias que cuidao, para ser una ranger random está muy fuerte, tiene charcadet y gibble, igual bajarle un nivel o 2 (es la ultima ranger de la ruta 3)
+* No tiene lose text Luigi
+* El minijuego de "Who is that pókemon" si no aciertas NO PUEDES DEJAR DE JUGAR xdd
+* La ruleta y tragaperras no van si no tienes fichas, no hay mensaje adicional
+* Juegariel no tiene lose text
+* Bento no tiene lose text
+* NADIE tiene lose text
+* los repelentes no funcionan
+* hay algun notas que ha puesto el evento copiado y pegado de harriet en la izquierda y en la derecha (en la derecha tendría que tener otro movimiento)
+* El evento de harriet se repite en bucle, no se puede jugar, fin del testing.
