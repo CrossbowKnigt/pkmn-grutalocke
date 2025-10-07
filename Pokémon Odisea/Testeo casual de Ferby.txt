@@ -11,17 +11,11 @@ Testeo casual de Ferby
 # CAP
 
 * En el mapa no pone mushroom, pone castillo de peach
-* Poner always on top al sombrero de cap de la casa de la izquierda
-* Puedes usar corte en el árbol de la ruta sin tener corte
 * Topper no tiene lose text
-* Poner en mayúsculas el apellido a María Unpajote del paso de ruta
 
 # CASCADE
 
-* Quitar el "pulsa A" del cartel de la ruta 2
-* Bajar la música de la casa de proacventure
-* Tildes texto de madame
-* Poner en player touch al weon que te da la odyssey (madre mía ivanavi que está en action button y es opcional la odyssey xdd)
+
 
 # SAND
 
