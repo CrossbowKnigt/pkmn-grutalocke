@@ -10230,7 +10230,7 @@ Shape = Quadruped
 Category = Hojita
 Pokedex = La concha de su espalda es de tierra y se endurece cuando bebe agua. Vive cerca de los lagos. Si tiene sed, las hojas de la cabeza se marchitan.
 Generation = 4
-Evolutions = GROTLE,Level,18
+Evolutions = GROTLE,Level,16
 #-------------------------------
 [GROTLE]
 Name = Grotle
