@@ -121,7 +121,7 @@ Pokemon = BLASTOISE,63
 [LUIGI,Luigi]
 LoseText = Mamma mía hermano, ¡Qué fuerte eres!
 Pokemon = DRIFLOON,5
-    Moves = SCARYFACE,LICK,GUST
+    Moves = SCARYFACE,LICK,POUND
     Ability = UNBURDEN
 #-------------------------------
 [BOWSETTE,Bowsette]

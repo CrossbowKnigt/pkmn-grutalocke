@@ -1,10 +1,10 @@
 Testeo casual de Ferby
-
+**SIGUE MAL LOS TIPOS DE LOS POKÉMON EN COMBATE**
 
 
 # MUSHROOM
-
-* Quitar el exportador de textos de la casa del jugador
+*Alguien tiene que darte el mapa.
+* Quitar el exportador de textos de la casa del jugador.
 
 
 # CAP

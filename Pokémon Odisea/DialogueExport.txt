@@ -1,5 +1,5 @@
 --- EXPORTACIÓN DE DIÁLOGOS RPG MAKER XP ---
-Fecha: 2025-10-04 17:40:21 +0200
+Fecha: 2025-10-10 19:26:07 +0200
 
 ==================================================
 MAPA ID: 1 - Nombre: Intro
@@ -2444,6 +2444,10 @@ MAPA ID: 30 - Nombre: Pabellón Parque Natural
 MAPA ID: 31 - Nombre: Ruta 3
 ==================================================
 
+--- Evento ID: 16 - Nombre: Quitar compañero size(1,4) (X:1, Y:17) ---
+  Página: 1
+    TEXTO: "Esperaré aquí entonces."
+
 --- Evento ID: 5 - Nombre: Trainer(2) (X:7, Y:14) ---
   Página: 1
     TEXTO: "¿Te he visto yo o me has visto tú a mí?"
@@ -2468,22 +2472,6 @@ MAPA ID: 31 - Nombre: Ruta 3
   Página: 3
     TEXTO: "¿Deberíamos intercambiar números, para poder pelear de nuevo?"
 
---- Evento ID: 16 - Nombre: Quitar compañero size(1,4) (X:1, Y:17) ---
-  Página: 1
-    TEXTO: "Esperaré aquí entonces."
-
---- Evento ID: 11 - Nombre: Entrenador Doble Fem (X:14, Y:13) ---
-  Página: 1
-    TEXTO: "Necesitas tener al menos dos Pokémon o un entrenador compañero si quieres pelear contra nosotros."
-
---- Evento ID: 11 - Nombre: Entrenador Doble Fem (X:14, Y:13) ---
-  Página: 1
-    TEXTO: "Ah, parece que tenemos un rival. ¿Estás listo, Bob?"
-
---- Evento ID: 11 - Nombre: Entrenador Doble Fem (X:14, Y:13) ---
-  Página: 2
-    TEXTO: "¡Has sido muy fuerte!"
-
 --- Evento ID: 44 - Nombre: Aura oeste encuentro (X:3, Y:15) ---
   Página: 2
     TEXTO: "¿Quieres hacer equipo conmigo de nuevo?"
@@ -2496,29 +2484,17 @@ MAPA ID: 31 - Nombre: Ruta 3
   Página: 2
     TEXTO: "Pues nada."
 
---- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
+--- Evento ID: 11 - Nombre: Entrenador Doble Fem (X:14, Y:13) ---
   Página: 1
-    TEXTO: "¡Pelea conmigo ahora!"
+    TEXTO: "Necesitas tener al menos dos Pokémon o un entrenador compañero si quieres pelear contra nosotros."
 
---- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
+--- Evento ID: 11 - Nombre: Entrenador Doble Fem (X:14, Y:13) ---
   Página: 1
-    TEXTO: "¿Puedo añadirte a mis contactos?"
+    TEXTO: "Ah, parece que tenemos un rival. ¿Estás listo, Bob?"
 
---- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
+--- Evento ID: 11 - Nombre: Entrenador Doble Fem (X:14, Y:13) ---
   Página: 2
-    TEXTO: "¡Pelea conmigo ahora!"
-
---- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
-  Página: 3
-    TEXTO: "Digo lo mismo tras cada combate. ¿Que por qué? ¿Y por qué no?"
-
---- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
-  Página: 3
-    TEXTO: "Digo lo mismo tras cada combate. ¿Que por qué? ¿Y por qué no?"
-
---- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
-  Página: 3
-    TEXTO: "¿Puedo añadirte a mis contactos?"
+    TEXTO: "¡Has sido muy fuerte!"
 
 --- Evento ID: 28 - Nombre: Kecleon Invisible (X:45, Y:44) ---
   Página: 1
@@ -2535,6 +2511,30 @@ MAPA ID: 31 - Nombre: Ruta 3
 --- Evento ID: 28 - Nombre: Kecleon Invisible (X:45, Y:44) ---
   Página: 1
     TEXTO: "¡El Pokémon invisible se ha vuelto completamente visible! ¡El Pokémon sorprendido te ha atacado!"
+
+--- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
+  Página: 1
+    TEXTO: "¡Pelea conmigo ahora!"
+
+--- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
+  Página: 1
+    TEXTO: "¿Puedo añadirte a mis contactos?"
+
+--- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
+  Página: 2
+    TEXTO: "¡Pelea conmigo ahora!"
+
+--- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
+  Página: 3
+    TEXTO: "Digo lo mismo tras cada combate. ¿Que por qué? ¿Y por qué no?"
+
+--- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
+  Página: 3
+    TEXTO: "Digo lo mismo tras cada combate. ¿Que por qué? ¿Y por qué no?"
+
+--- Evento ID: 6 - Nombre: Trainer(2) (X:7, Y:17) ---
+  Página: 3
+    TEXTO: "¿Puedo añadirte a mis contactos?"
 
 --- Evento ID: 12 - Nombre: Entrenador Doble Masc (X:15, Y:13) ---
   Página: 1
@@ -2584,6 +2584,14 @@ MAPA ID: 31 - Nombre: Ruta 3
   Página: 2
     TEXTO: "No sé por qué mi Magikarp no ha sido capaz de derrotarte."
 
+--- Evento ID: 4 - Nombre: Trainer(2) (X:5, Y:14) ---
+  Página: 1
+    TEXTO: "¡Hola! ¡Me gustan los pantalones cortos!"
+
+--- Evento ID: 4 - Nombre: Trainer(2) (X:5, Y:14) ---
+  Página: 2
+    TEXTO: "¡No puedes hacer un evento de entrenador más simple que yo!"
+
 --- Evento ID: 15 - Nombre: Controlador del rival size(2,1) (X:22, Y:13) ---
   Página: 1
     TEXTO: "¡Hola, \PN! ¡Soy tu Rival! ¿Quieres darme un nombre, o dejar el que viene por defecto en el archivo trainers.txt?"
@@ -2600,13 +2608,9 @@ MAPA ID: 31 - Nombre: Ruta 3
   Página: 1
     TEXTO: "Me doy el piro, vampiro. ¡Nos vemos!"
 
---- Evento ID: 4 - Nombre: Trainer(2) (X:5, Y:14) ---
+--- Evento ID: 32 - Nombre: Cracked ice sign (X:44, Y:10) ---
   Página: 1
-    TEXTO: "¡Hola! ¡Me gustan los pantalones cortos!"
-
---- Evento ID: 4 - Nombre: Trainer(2) (X:5, Y:14) ---
-  Página: 2
-    TEXTO: "¡No puedes hacer un evento de entrenador más simple que yo!"
+    TEXTO: "Entrada a la mazmorra de Bosque Aleatorio."
 
 --- Evento ID: 10 - Nombre: Trainer(2) (X:13, Y:17) ---
   Página: 1
@@ -2615,10 +2619,6 @@ MAPA ID: 31 - Nombre: Ruta 3
 --- Evento ID: 10 - Nombre: Trainer(2) (X:13, Y:17) ---
   Página: 2
     TEXTO: "¡Asegúrate de que los rivales en combates dobles tienen al menos 2 Pokémon!"
-
---- Evento ID: 32 - Nombre: Cracked ice sign (X:44, Y:10) ---
-  Página: 1
-    TEXTO: "Entrada a la mazmorra de Bosque Aleatorio."
 ==================================================
 MAPA ID: 33 - Nombre: Mazmorra Bosque
 ==================================================
@@ -3068,27 +3068,27 @@ MAPA ID: 47 - Nombre: Ruta 7
 MAPA ID: 48 - Nombre: Casas toad interior
 ==================================================
 
---- Evento ID: 5 - Nombre: Tele (X:5, Y:2) ---
+--- Evento ID: 5 - Nombre: Tele (X:7, Y:4) ---
   Página: 1
     TEXTO: "Están entrevistando a un loco que dice que ha  atravesado un tejado con un coco. (hay que ver lo mal que está la gente)"
 
---- Evento ID: 1 - Nombre: Toad1 casa mushroom (X:2, Y:5) ---
+--- Evento ID: 1 - Nombre: Toad1 casa mushroom (X:4, Y:7) ---
   Página: 1
     TEXTO: "\sh¡¡¡I'M GOING TO SWING FROM THE CHANDELIER!!! \sh¡¡¡FROM THE CHANDELIEEEEER!!!"
 
---- Evento ID: 8 - Nombre: Tele (X:27, Y:2) ---
+--- Evento ID: 8 - Nombre: Tele (X:29, Y:4) ---
   Página: 1
     TEXTO: "Están entrevistando a un loco que dice que ha  atravesado un tejado con un coco. (hay que ver lo mal que está la gente)"
 
---- Evento ID: 9 - Nombre: EV009 (X:0, Y:8) ---
+--- Evento ID: 9 - Nombre: EV009 (X:2, Y:10) ---
   Página: 1
     TEXTO: "La papelera está vacía."
 
---- Evento ID: 4 - Nombre: Toad azul casa (X:25, Y:4) ---
+--- Evento ID: 4 - Nombre: Toad azul casa (X:27, Y:6) ---
   Página: 1
     TEXTO: "El atontao de mi vecino no me deja dormir por las  noches. No para de gritar como una ardilla agonizando."
 
---- Evento ID: 10 - Nombre: Papelera vacía (X:33, Y:8) ---
+--- Evento ID: 10 - Nombre: Papelera vacía (X:35, Y:10) ---
   Página: 1
     TEXTO: "La papelera está vacía."
 ==================================================
@@ -4820,6 +4820,10 @@ MAPA ID: 77 - Nombre: Ruta 1 Cap-faro
   Página: 1
     TEXTO: "Al Norte: Torre Sombrero"
 
+--- Evento ID: 6 - Nombre: ArbolCorte (X:3, Y:7) ---
+  Página: 1
+    TEXTO: "No tienes nada para cortar este árbol."
+
 --- Evento ID: 12 - Nombre: Trainer(3) (X:8, Y:28) ---
   Página: 1
     TEXTO: "¡Ey! Estoy buscando a Panda, ¿lo has visto? ¿No? Bueno, pues combate conmigo."
@@ -4843,11 +4847,15 @@ MAPA ID: 77 - Nombre: Ruta 1 Cap-faro
 MAPA ID: 78 - Nombre: Interior castillo
 ==================================================
 
+--- Evento ID: 5 - Nombre: Cuadro evento (X:7, Y:3) ---
+  Página: 1
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+
 --- Evento ID: 16 - Nombre: Ball Agua (X:11, Y:4) ---
   Página: 1
     TEXTO: "La Poké Ball contiene un Pokémon capturado por el Profesor."
 
---- Evento ID: 5 - Nombre: Cuadro evento (X:7, Y:3) ---
+--- Evento ID: 6 - Nombre: Cuadro evento (X:15, Y:3) ---
   Página: 1
     TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
 
@@ -4867,9 +4875,9 @@ MAPA ID: 78 - Nombre: Interior castillo
   Página: 1
     TEXTO: "H-hh-hermano... Ve tú a mirar..."
 
---- Evento ID: 6 - Nombre: Cuadro evento (X:15, Y:3) ---
+--- Evento ID: 12 - Nombre: Ball Planta (X:9, Y:4) ---
   Página: 1
-    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+    TEXTO: "La Poké Ball contiene un Pokémon capturado por el Profesor."
 
 --- Evento ID: 1 - Nombre: Toadsworth (X:8, Y:4) ---
   Página: 2
@@ -4891,9 +4899,9 @@ MAPA ID: 78 - Nombre: Interior castillo
   Página: 2
     TEXTO: "Cuídalo bien, tal vez te trae recuerdos de aventuras  pasadas."
 
---- Evento ID: 12 - Nombre: Ball Planta (X:9, Y:4) ---
+--- Evento ID: 7 - Nombre: Cuadro evento (X:16, Y:3) ---
   Página: 1
-    TEXTO: "La Poké Ball contiene un Pokémon capturado por el Profesor."
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
 
 --- Evento ID: 18 - Nombre: EV018 (X:8, Y:10) ---
   Página: 1
@@ -4903,7 +4911,7 @@ MAPA ID: 78 - Nombre: Interior castillo
   Página: 1
     TEXTO: "Rápido \pn, la princesa Peach está en peligro!"
 
---- Evento ID: 7 - Nombre: Cuadro evento (X:16, Y:3) ---
+--- Evento ID: 2 - Nombre: Cuadro evento (X:2, Y:3) ---
   Página: 1
     TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
 
@@ -4935,17 +4943,9 @@ MAPA ID: 78 - Nombre: Interior castillo
   Página: 3
     TEXTO: "Bueno, vamos allá \PN."
 
---- Evento ID: 2 - Nombre: Cuadro evento (X:2, Y:3) ---
-  Página: 1
-    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
-
 --- Evento ID: 19 - Nombre: EV019 (X:4, Y:5) ---
   Página: 1
     TEXTO: "Esto de ayudar al profesor en el "laboratorio" en el que se ha convertido nuestro querido castillo, hace que me salgan hongos de lo que me sudan los pies, por muy  irónico que sea. Prefería ir de visita a Tíjola la verdad..."
-
---- Evento ID: 3 - Nombre: Cuadro evento (X:1, Y:3) ---
-  Página: 1
-    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
 
 --- Evento ID: 14 - Nombre: EV014 (X:9, Y:8) ---
   Página: 2
@@ -4975,21 +4975,21 @@ MAPA ID: 78 - Nombre: Interior castillo
   Página: 3
     TEXTO: "Bueno, vamos allá \PN."
 
+--- Evento ID: 3 - Nombre: Cuadro evento (X:1, Y:3) ---
+  Página: 1
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+
 --- Evento ID: 20 - Nombre: EV020 (X:11, Y:11) ---
   Página: 1
     TEXTO: "Sal a ver qué pasa hermano... Y-Yo me quedo pr-protegiendo al profesor aquí dentro, en zona s-segura..."
-
---- Evento ID: 15 - Nombre: Ball Fuego (X:10, Y:4) ---
-  Página: 1
-    TEXTO: "La Poké Ball contiene un Pokémon capturado por el Profesor."
 
 --- Evento ID: 4 - Nombre: Cuadro evento (X:6, Y:3) ---
   Página: 1
     TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
 
---- Evento ID: 21 - Nombre: EV021 (X:17, Y:12) ---
+--- Evento ID: 15 - Nombre: Ball Fuego (X:10, Y:4) ---
   Página: 1
-    TEXTO: "Mi compañero se ha vuelto loco y no para de  mencionar su pueblo. ¿A quién le importa Tíjola? Ni  que fuera yo DiegoX"
+    TEXTO: "La Poké Ball contiene un Pokémon capturado por el Profesor."
 
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 1
@@ -5005,7 +5005,7 @@ MAPA ID: 78 - Nombre: Interior castillo
 
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 2
-    TEXTO: "Bienvenido \PN, hacía mucho que no nos veíamos. El  Reino Champiñón está pasando por un periodo de  paz inusualmente tranquilo, creo que es momento  perfecto para encomendaros la tarea de explorar la  región de Odisea. Esta región posee una fuente de  energía que no existe en ninguna otra: la energía  lunar. Actualmente es muy escasa, pero hace poco se  registraron unas fluctuaciones extraordinarias que al  parecer están afectando a los Pokémon. Por ello, me \ngustaría que invesitgárais cada rincón de Odisea  dispositivo llamado Pokédex. Tomad, una para cada  uno."
+    TEXTO: "Bienvenido \PN, hacía mucho que no nos veíamos. El \nReino Champiñón está pasando por un periodo de  paz inusualmente tranquilo, creo que es momento \nperfecto para encomendaros la tarea de explorar la  región de Odisea. Esta región posee una fuente de  energía que no existe en ninguna otra: la energía  lunar. Actualmente es muy escasa, pero hace poco se  registraron unas fluctuaciones extraordinarias que al  parecer están afectando a los Pokémon. Por ello, me \ngustaría que invesitgárais cada rincón de Odisea  dispositivo llamado Pokédex. Tomad, una para cada  uno."
 
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 2
@@ -5022,6 +5022,10 @@ MAPA ID: 78 - Nombre: Interior castillo
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 2
     TEXTO: "Elige bien hermanito."
+
+--- Evento ID: 21 - Nombre: EV021 (X:17, Y:12) ---
+  Página: 1
+    TEXTO: "Mi compañero se ha vuelto loco y no para de  mencionar su pueblo. ¿A quién le importa Tíjola? Ni  que fuera yo DiegoX"
 ==================================================
 MAPA ID: 79 - Nombre: Centro Pokémon
 ==================================================
@@ -5498,7 +5502,7 @@ MAPA ID: 85 - Nombre:  Ruta 2
 
 --- Evento ID: 10 - Nombre: EV010 (X:22, Y:12) ---
   Página: 1
-    TEXTO: "PISTA PARA ENTRENADORES ¡Acércate al borde y pulsa A para llegar a la islita de la izquierda de un salto! Salta con ganas y verás como alcanzas nuevas zonas."
+    TEXTO: "PISTA PARA ENTRENADORES ¡Acércate al borde y pulsa ACCIÓN para llegar a la islita de la izquierda de un salto! Salta con ganas y verás como alcanzas nuevas zonas."
 ==================================================
 MAPA ID: 86 - Nombre: Cascade
 ==================================================
@@ -5597,7 +5601,7 @@ MAPA ID: 86 - Nombre: Cascade
 
 --- Evento ID: 13 - Nombre: Madame (X:19, Y:9) ---
   Página: 1
-    TEXTO: "¡Eh tú, maldito bigotudo! ¿¡Has sido tú quien ha derrotado a mi hijito del alma?! \sh¡ASI QUE FUISTE TU! ¡Hiciste que mi pequeñín perdiese el tiempo contigo y lo humillaste!"
+    TEXTO: "¡Eh tú, maldito bigotudo! ¿¡Has sido tú quien ha derrotado a mi hijito del alma?! \sh¡ASÍ QUE FUISTE TU! ¡Hiciste que mi pequeñín perdiese el tiempo contigo y lo humillaste!"
 
 --- Evento ID: 13 - Nombre: Madame (X:19, Y:9) ---
   Página: 1
@@ -5613,7 +5617,7 @@ MAPA ID: 86 - Nombre: Cascade
 
 --- Evento ID: 13 - Nombre: Madame (X:19, Y:9) ---
   Página: 1
-    TEXTO: "\sh ¡¡NI UNA VEZ MÁS!!"
+    TEXTO: "\sh¡¡NI UNA VEZ MÁS!!"
 
 --- Evento ID: 13 - Nombre: Madame (X:19, Y:9) ---
   Página: 2
@@ -5663,10 +5667,6 @@ MAPA ID: 86 - Nombre: Cascade
   Página: 1
     TEXTO: "Hace tiempo había aquí un T-Rex enorme, dicen que  puso un huevo y lo encontró nuestro líder, ahora es  su Pokémon más fuerte. "
 
---- Evento ID: 63 - Nombre: CONSE (X:31, Y:45) ---
-  Página: 1
-    TEXTO: "Buenas tardes joven entrenador. El líder Klim se encuentra indispuesto en estos  momentos y no está en sus plenas facultades de  combatir (vaya resacón lleva el cabronazo). Vuelve más tarde si deseas desafiarlo."
-
 --- Evento ID: 6 - Nombre: Proac (X:57, Y:21) ---
   Página: 1
     TEXTO: "Yooooo, \PN, ¿que tal estás? Aquí estoy, practicando DSS, si lo consigo a la 2ª me  ahorro 1 segundo en la run, de "yill"."
@@ -5698,6 +5698,10 @@ MAPA ID: 86 - Nombre: Cascade
 --- Evento ID: 6 - Nombre: Proac (X:57, Y:21) ---
   Página: 4
     TEXTO: "Poooouudap. Después de practicar DSS durante 420  horas y hacer más de 10000 intentos me saldrá  consistente (seguro que en runs fallo)."
+
+--- Evento ID: 63 - Nombre: CONSE (X:31, Y:45) ---
+  Página: 1
+    TEXTO: "Buenas tardes joven entrenador. El líder Klim se encuentra indispuesto en estos  momentos y no está en sus plenas facultades de  combatir (vaya resacón lleva el cabronazo). Vuelve más tarde si deseas desafiarlo."
 
 --- Evento ID: 7 - Nombre: EV007 (X:68, Y:40) ---
   Página: 1
@@ -6804,18 +6808,6 @@ MAPA ID: 101 - Nombre: Pirámide 4
   Página: 1
     TEXTO: "¡Otra energiluna! ¡Y esta es de color verde! Pensaba que solo había amarillas...  ¿Qué habrá querido decir esa tal Enriqueta con "nuestro propósito"? Espero que pronto podamos resolver este misterio."
 
---- Evento ID: 3 - Nombre: Harriet trigger (X:15, Y:13) ---
-  Página: 1
-    TEXTO: "Hmm... así que tú eres \PN. Me esperaba a alguien  con mejores pintas, honestamente. Veo que has estado causando problemas  últimamente, ¿no es cierto? Y has sido tú quien ha vencido al bobo  de Topper y a mamá, ¿eh? ¡Pues no te irás de rositas! ¡Tendré que darte tu merecido!"
-
---- Evento ID: 3 - Nombre: Harriet trigger (X:15, Y:13) ---
-  Página: 1
-    TEXTO: "Grrr... que sepas que me has ganado de casualidad,  aunque de poco te ha servido. Muy pronto mis hermanos y yo conseguiremos la  energía necesaria para conseguir nuestro propósito, jejeje. Hasta la vista \PN, la próxima vez no te bastará con  tener suerte para ganarme."
-
---- Evento ID: 3 - Nombre: Harriet trigger (X:15, Y:13) ---
-  Página: 1
-    TEXTO: "La coneja ha soltado esto."
-
 --- Evento ID: 9 - Nombre: EV009 (X:0, Y:21) ---
   Página: 2
     TEXTO: "Ya se han vuelto a ir...¿Qué es lo que pretenden hacer?. ¿Y para qué quieren la energía de las lunas? Sea lo que sea no me gusta ni un pelo. Hay que  pararles los pies, \PN. Ya nos encontraremos otra vez con ellos. Salgamos de aquí y exploremos más en otra zona."
@@ -7044,6 +7036,26 @@ MAPA ID: 103 - Nombre: Slots sand
 
 --- Evento ID: 2 - Nombre: EV002 (X:9, Y:14) ---
   Página: 1
+    TEXTO: "Y luego tenemos la novedad, el gachapon, para este  no se utilizan las fichas normales sino las monedas  que puedes comprar en nuestra tienda. Ya no te aburro más, y ahora sí. \sh ¡¡¡LET'S GO GAMBLING!!!"
+
+--- Evento ID: 2 - Nombre: EV002 (X:9, Y:14) ---
+  Página: 2
+    TEXTO: "¡Bienvenido a los slots de Tostarena!"
+
+--- Evento ID: 2 - Nombre: EV002 (X:9, Y:14) ---
+  Página: 2
+    TEXTO: "Antes de que te pongas a gamblear épicamente voy  a explicarte un poco las normas de este lugar. Hay 3 tipos de juegos, los que cuestan fichas, los  que cuestan monedas y los que son gratis. Las recreativas que ves arriba a la izquierda son  gratis de jugar, símplemente relájate y juega cuanto  quieras. En cuanto a las que cuestan fichas tienes las cartas,  los slots y la ruleta."
+
+--- Evento ID: 2 - Nombre: EV002 (X:9, Y:14) ---
+  Página: 2
+    TEXTO: "Vaya, veo que todavía no tienes un monedero para  las fichas, toma, a las 100 primeras invita la casa."
+
+--- Evento ID: 2 - Nombre: EV002 (X:9, Y:14) ---
+  Página: 2
+    TEXTO: "No tienes hueco para él. Vuelve cuando tengas más espacio."
+
+--- Evento ID: 2 - Nombre: EV002 (X:9, Y:14) ---
+  Página: 2
     TEXTO: "Y luego tenemos la novedad, el gachapon, para este  no se utilizan las fichas normales sino las monedas  que puedes comprar en nuestra tienda. Ya no te aburro más, y ahora sí. \sh ¡¡¡LET'S GO GAMBLING!!!"
 
 --- Evento ID: 8 - Nombre: EV008 (X:6, Y:5) ---
@@ -7473,93 +7485,97 @@ MAPA ID: 107 - Nombre: Centro Pokémon
 MAPA ID: 108 - Nombre: Universidad
 ==================================================
 
---- Evento ID: 60 - Nombre: EV060 (X:22, Y:13) ---
+--- Evento ID: 5 - Nombre: EV005 (X:4, Y:3) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (II) Un día de pronto el server cambió de nombre y se inauguró una nueva era: había nacido la Gruta del Runner. Un lugar del ciberespacio en el que tanto runners  como enjoyers tendrían cabida para disfrutar del noble arte de pasarse los juegos mu’ rápido."
-
---- Evento ID: 49 - Nombre: EV049 (X:3, Y:13) ---
-  Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (II) En los Jardines de Vapor hay una strat avanzada que permite traspasar un muro ayudándote de una nuez, por ello su nombre es el Nutclip. Clipear en el muro  requiere de un patrón de movimientos al ritmo de “pim, pi-pá”. Aunque una vez interiorizado hay que tener cuidado con el movement out of bounds."
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
 --- Evento ID: 16 - Nombre: EV016 (X:18, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 5 - Nombre: EV005 (X:4, Y:3) ---
+--- Evento ID: 49 - Nombre: EV049 (X:3, Y:13) ---
   Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (II) En los Jardines de Vapor hay una strat avanzada que permite traspasar un muro ayudándote de una nuez, por ello su nombre es el Nutclip. Clipear en el muro  requiere de un patrón de movimientos al ritmo de “pim, pi-pá”. Aunque una vez interiorizado hay que tener cuidado con el movement out of bounds."
 
---- Evento ID: 66 - Nombre: EV066 (X:28, Y:13) ---
+--- Evento ID: 60 - Nombre: EV060 (X:22, Y:13) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (V) Recientemente, se proclamó 2025 como “el año del content” y, entre muchos otros proyectos, se creó el primer podcast de speedrun en español llamado Frame a  Frame.  ¡Anda! Hay un pósit con una flecha que indica: PISTA para EXAMEN."
-
---- Evento ID: 55 - Nombre: EV055 (X:9, Y:13) ---
-  Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (V) La ruta en el Reino de Bowser desde hace mucho tiempo el mundo se divide en dos vertientes para los runners: el Camino de Hariet First y el Camino de  Topper First. A pesar de sus disputas, ambos caminos son igual de óptimos y no dejan de ser una elección del runner."
-
---- Evento ID: 33 - Nombre: NPC 1 (X:10, Y:8) ---
-  Página: 1
-    TEXTO: "Déjame, estoy estudiando."
-
---- Evento ID: 22 - Nombre: EV022 (X:25, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 11 - Nombre: EV011 (X:11, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+    TEXTO: "HISTORIA de la GRUTA (II) Un día de pronto el server cambió de nombre y se inauguró una nueva era: había nacido la Gruta del Runner. Un lugar del ciberespacio en el que tanto runners  como enjoyers tendrían cabida para disfrutar del noble arte de pasarse los juegos mu’ rápido."
 
 --- Evento ID: 44 - Nombre: EV044 (X:20, Y:7) ---
   Página: 1
     TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. FUNDAMENTOS DE SPEEDRUN: All Moons Para completar una run de All Moons de SMO es necesario recoger las 880 lunas únicas de la aventura."
 
---- Evento ID: 61 - Nombre: EV061 (X:23, Y:13) ---
-  Página: 1
-    TEXTO: "HISTORIA de la GRUTA (III) Tiempo después, en los territorios de la Gruta, surgió una iniciativa llamada Experience Speedruns, ExSp para abreviar, que focalizaría en el objetivo inicial de la  Gruta: extender la experiencia del speedrun hasta cotas jamás vistas por medio de torneos y otros eventos de gran magnitud."
-
---- Evento ID: 17 - Nombre: EV017 (X:19, Y:3) ---
+--- Evento ID: 11 - Nombre: EV011 (X:11, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 6 - Nombre: EV006 (X:5, Y:3) ---
+--- Evento ID: 22 - Nombre: EV022 (X:25, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 33 - Nombre: NPC 1 (X:10, Y:8) ---
+  Página: 1
+    TEXTO: "Déjame, estoy estudiando."
+
+--- Evento ID: 55 - Nombre: EV055 (X:9, Y:13) ---
+  Página: 1
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (V) La ruta en el Reino de Bowser desde hace mucho tiempo el mundo se divide en dos vertientes para los runners: el Camino de Hariet First y el Camino de  Topper First. A pesar de sus disputas, ambos caminos son igual de óptimos y no dejan de ser una elección del runner."
+
+--- Evento ID: 66 - Nombre: EV066 (X:28, Y:13) ---
+  Página: 1
+    TEXTO: "HISTORIA de la GRUTA (V) Recientemente, se proclamó 2025 como “el año del content” y, entre muchos otros proyectos, se creó el primer podcast de speedrun en español llamado Frame a  Frame.  ¡Anda! Hay un pósit con una flecha que indica: PISTA para EXAMEN."
 
 --- Evento ID: 50 - Nombre: EV050 (X:4, Y:13) ---
   Página: 1
     TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (II) En los Jardines de Vapor hay una strat avanzada que permite traspasar un muro ayudándote de una nuez, por ello su nombre es el Nutclip. Clipear en el muro  requiere de un patrón de movimientos al ritmo de “pim, pi-pá”. Aunque una vez interiorizado hay que tener cuidado con el movement out of bounds."
 
---- Evento ID: 45 - Nombre: EV045 (X:3, Y:16) ---
-  Página: 1
-    TEXTO: "Biología de Vaporeon El libro no se puede abrir, las páginas están como pegadas... (Definitivamente esto NO es una pista del examen...)"
-
---- Evento ID: 34 - Nombre: NPC 1 (X:22, Y:7) ---
-  Página: 1
-    TEXTO: "El legendario Lunaris del que tanto habla el líder es único, antes se creía que era una leyenda pero existe de verdad, ¡es un descubrimiento increíble!"
-
---- Evento ID: 23 - Nombre: EV023 (X:26, Y:3) ---
+--- Evento ID: 6 - Nombre: EV006 (X:5, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 12 - Nombre: EV012 (X:12, Y:3) ---
+--- Evento ID: 17 - Nombre: EV017 (X:19, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 1 - Nombre: EV001 (X:0, Y:3) ---
+--- Evento ID: 61 - Nombre: EV061 (X:23, Y:13) ---
   Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones."
+    TEXTO: "HISTORIA de la GRUTA (III) Tiempo después, en los territorios de la Gruta, surgió una iniciativa llamada Experience Speedruns, ExSp para abreviar, que focalizaría en el objetivo inicial de la  Gruta: extender la experiencia del speedrun hasta cotas jamás vistas por medio de torneos y otros eventos de gran magnitud."
 
 --- Evento ID: 56 - Nombre: EV056 (X:10, Y:13) ---
   Página: 1
     TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (V) La ruta en el Reino de Bowser desde hace mucho tiempo el mundo se divide en dos vertientes para los runners: el Camino de Hariet First y el Camino de  Topper First. A pesar de sus disputas, ambos caminos son igual de óptimos y no dejan de ser una elección del runner."
 
---- Evento ID: 62 - Nombre: EV062 (X:24, Y:13) ---
+--- Evento ID: 1 - Nombre: EV001 (X:0, Y:3) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (III) Tiempo después, en los territorios de la Gruta, surgió una iniciativa llamada Experience Speedruns, ExSp para abreviar, que focalizaría en el objetivo inicial de la  Gruta: extender la experiencia del speedrun hasta cotas jamás vistas por medio de torneos y otros eventos de gran magnitud."
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones."
 
---- Evento ID: 51 - Nombre: EV051 (X:5, Y:13) ---
+--- Evento ID: 12 - Nombre: EV012 (X:12, Y:3) ---
   Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (III) En el Lago Kutur hay una strat avanzada que también implica traspasar paredes llamada Lake Clip. Una versión con más flow del mismo se denomina TUMADRE y  por algún motivo que todavía se desconoce se relaciona con el Pokémon Wailmer. ¿Quizá antaño se utilizaban Wailmer para rebotar y subir a sitios inaccesibles? ¡Anda! Aquí hay un pósit que señala este último párrafo: "PISTA para EXAMEN""
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 23 - Nombre: EV023 (X:26, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 34 - Nombre: NPC 1 (X:22, Y:7) ---
+  Página: 1
+    TEXTO: "El legendario Lunaris del que tanto habla el líder es único, antes se creía que era una leyenda pero existe de verdad, ¡es un descubrimiento increíble!"
+
+--- Evento ID: 45 - Nombre: EV045 (X:3, Y:16) ---
+  Página: 1
+    TEXTO: "Biología de Vaporeon El libro no se puede abrir, las páginas están como pegadas... (Definitivamente esto NO es una pista del examen...)"
+
+--- Evento ID: 40 - Nombre: EV040 (X:6, Y:3) ---
+  Página: 1
+    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. Togepi es un Pokémon tipo hada nativo de la región de Johto. Tiene el número 175 en la Pokédex Nacional. Se considera un símbolo de buena suerte y, según se dice, su cascarón está lleno de alegría. En el pósit hay otra anotación: "Es el Pokémon favorito del líder de este gym y el emblema de su canal"."
+
+--- Evento ID: 7 - Nombre: EV007 (X:7, Y:3) ---
+  Página: 1
+    TEXTO: "Citas célebres del equipo de desarrollo: "Me gusta esa flor" - Dan, 19/11/2024\n "¿Tenemos un piano? " - Frun, 16/01/2025\n  "Esto se arreglaba con repelentes." - Karma, 25/01/2025 "Si consigo recuperar este mapa soy un genio" - Cross, 31/01/2025\n "No sé ni cómo se pone a doble píxel hulio" - Ivanavi, 03/02/2025\n "Tíjola" - Ferby, (siempre lo dice).\n "Vale chicos, he soñado con..." - Ivanavi antes de meter algo épico, varias fechas. "Dan revisando lo de Iván,  Iván revisando lo de Dan,  y aquí no salimos de Sand" - Karma, poema hecho sin querer, 28/09/2025\n"Reunión urgente hoy" (no era urgente) - Karma, 10/09/2025\n "Hoy le he metido 8 horas como si nada" - Ferby, cualquier día motivadísimo Mención honorable a todos los:\n "BOOOOF"\n "Mi bombo"\n "xdd"\n "ME CORROOOOO"\n "HERMANO"\n y "ME CAGOEN TODOOOO" soltados durante el desarrollo  de este fangame, así como a esos Pokémon shiny que salieron salvajes durante el testeo que los desarrolladores no tendrán la suerte de conseguir en sus  lockes.\n  o7 en el chat por ellos, tilines."
+
+--- Evento ID: 18 - Nombre: EV018 (X:20, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
 --- Evento ID: 29 - Nombre: EV029 (X:15, Y:4) ---
   Página: 1
@@ -7585,31 +7601,15 @@ MAPA ID: 108 - Nombre: Universidad
   Página: 2
     TEXTO: "Uy pero mira qué tarde es... me tengo que ir al  gimnasio ya de ya, nos vemos allí si vienes a  desafiarme más tarde."
 
---- Evento ID: 18 - Nombre: EV018 (X:20, Y:3) ---
+--- Evento ID: 51 - Nombre: EV051 (X:5, Y:13) ---
   Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (III) En el Lago Kutur hay una strat avanzada que también implica traspasar paredes llamada Lake Clip. Una versión con más flow del mismo se denomina TUMADRE y  por algún motivo que todavía se desconoce se relaciona con el Pokémon Wailmer. ¿Quizá antaño se utilizaban Wailmer para rebotar y subir a sitios inaccesibles? ¡Anda! Aquí hay un pósit que señala este último párrafo: "PISTA para EXAMEN""
 
---- Evento ID: 7 - Nombre: EV007 (X:7, Y:3) ---
+--- Evento ID: 62 - Nombre: EV062 (X:24, Y:13) ---
   Página: 1
-    TEXTO: "Citas célebres: "Me gusta esa flor" - Dan, 19/11/2024\n "¿Metemos a Mega-Gengar shiny con vestido de novia?" - Darkwon, 13/12/2024\n "¿Tenemos un piano?" - Frun, 16/01/2025\n  "Esto se arreglaba con repelentes." - Karma, 25/01/2025\n "Si consigo recuperar este mapa soy un genio" - Cross, 31/01/2025\n "No sé ni cómo se pone a doble píxel hulio" - Iván, 03/02/2025\n "Tíjola" - Ferby, (siempre lo dice)."
+    TEXTO: "HISTORIA de la GRUTA (III) Tiempo después, en los territorios de la Gruta, surgió una iniciativa llamada Experience Speedruns, ExSp para abreviar, que focalizaría en el objetivo inicial de la  Gruta: extender la experiencia del speedrun hasta cotas jamás vistas por medio de torneos y otros eventos de gran magnitud."
 
---- Evento ID: 40 - Nombre: EV040 (X:6, Y:3) ---
-  Página: 1
-    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. Togepi es un Pokémon tipo hada nativo de la región de Johto. Tiene el número 175 en la Pokédex Nacional. Se considera un símbolo de buena suerte y, según se dice, su cascarón está lleno de alegría. En el pósit hay otra anotación: "Es el Pokémon favorito del líder de este gym y el emblema de su canal"."
-
---- Evento ID: 57 - Nombre: EV057 (X:19, Y:13) ---
-  Página: 1
-    TEXTO: "HISTORIA de la GRUTA (I) Hace mucho mucho tiempo, cuando todo esto era campo, se creó un server llamado Rafarmy. Desde allí, su fundador Rafarqueiro da Souza do Janeiro quiso  expandir el conocimiento y el gusto por el noble arte de los speedruns."
-
---- Evento ID: 46 - Nombre: EV046 (X:26, Y:16) ---
-  Página: 1
-    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTAS para EXAMEN. HISTORIA del VIDEOJUEGO Miyamoto creó el arcade Donkey Kong en 1981.  Tan solo 4 años después, en 1985, dirigió SMB1. El avance tecnológico llegaría en 1996, de la mano de SM64. Y, por fin, en 2017, sale a la venta SMO."
-
---- Evento ID: 35 - Nombre: NPC 1 (X:24, Y:16) ---
-  Página: 1
-    TEXTO: "Vengo aquí todos los días a estudiar, pero la verdad es que acabo viendo el móvil y al final no me cunde. Ahora estoy viendo un programa del Grand Prix, soy una gran fan de la Miltank Luisa Fernanda, tengo todo su merchandising. (Algo me dice que esto... ¿podría ser una PISTA para el EXAMEN?)"
-
---- Evento ID: 24 - Nombre: EV024 (X:27, Y:3) ---
+--- Evento ID: 2 - Nombre: EV002 (X:1, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
@@ -7617,43 +7617,51 @@ MAPA ID: 108 - Nombre: Universidad
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 2 - Nombre: EV002 (X:1, Y:3) ---
+--- Evento ID: 24 - Nombre: EV024 (X:27, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 63 - Nombre: EV063 (X:25, Y:13) ---
+--- Evento ID: 35 - Nombre: NPC 1 (X:24, Y:16) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (IV) Aunque la Gruta nació como un lugar virtual en medio del ciberespacio, en 2023 se realizó el primer evento presencial de ExSp. La experiencia fue tan gratificante  que un año después tuvo lugar la primera Grutatón presencial."
+    TEXTO: "Vengo aquí todos los días a estudiar, pero la verdad es que acabo viendo el móvil y al final no me cunde. Ahora estoy viendo un programa del Grand Prix, soy una gran fan de la Miltank Luisa Fernanda, tengo todo su merchandising. (Algo me dice que esto... ¿podría ser una PISTA para el EXAMEN?)"
 
---- Evento ID: 52 - Nombre: EV052 (X:6, Y:13) ---
+--- Evento ID: 46 - Nombre: EV046 (X:26, Y:16) ---
   Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (III) En el Lago Kutur hay una strat avanzada que también implica traspasar paredes llamada Lake Clip. Una versión con más flow del mismo se denomina TUMADRE y  por algún motivo que todavía se desconoce se relaciona con el Pokémon Wailmer. ¿Quizá antaño se utilizaban Wailmer para rebotar y subir a sitios inaccesibles? ¡Anda! Aquí hay un pósit que señala este último párrafo: "PISTA para EXAMEN""
+    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTAS para EXAMEN. HISTORIA del VIDEOJUEGO Miyamoto creó el arcade Donkey Kong en 1981.  Tan solo 4 años después, en 1985, dirigió SMB1. El avance tecnológico llegaría en 1996, de la mano de SM64. Y, por fin, en 2017, sale a la venta SMO."
 
---- Evento ID: 30 - Nombre: EV030 (X:0, Y:14) ---
+--- Evento ID: 57 - Nombre: EV057 (X:19, Y:13) ---
   Página: 1
-    TEXTO: "Alguien ha tirado una revista aquí. En la portada sale Juanjo Bona, el ganador de Jotalent 1 y Naiara, la ganadera de OT2023 dando el pregón de las Fiestas de  Nueva Donk desde el balcón del ayuntamiento junto a la alcaldesa Pauline. En la portada hay pegado un pósit que pone: ¿PISTA para EXAMEN?"
-
---- Evento ID: 19 - Nombre: EV019 (X:21, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 8 - Nombre: EV008 (X:8, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+    TEXTO: "HISTORIA de la GRUTA (I) Hace mucho mucho tiempo, cuando todo esto era campo, se creó un server llamado Rafarmy. Desde allí, su fundador Rafarqueiro da Souza do Janeiro quiso  expandir el conocimiento y el gusto por el noble arte de los speedruns."
 
 --- Evento ID: 41 - Nombre: EV041 (X:14, Y:3) ---
   Página: 1
     TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. Hall de la Fama ExSp (SMO edition) ExSp 1: Rafarquero\nExSp 2: Rodillo ExSp Live: Panda ExSp 4: Rodillo"
 
---- Evento ID: 58 - Nombre: EV058 (X:20, Y:13) ---
+--- Evento ID: 8 - Nombre: EV008 (X:8, Y:3) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (I) Hace mucho mucho tiempo, cuando todo esto era campo, se creó un server llamado Rafarmy. Desde allí, su fundador Rafarqueiro da Souza do Janeiro quiso  expandir el conocimiento y el gusto por el noble arte de los speedruns."
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 47 - Nombre: EV047 (X:2, Y:13) ---
+--- Evento ID: 19 - Nombre: EV019 (X:21, Y:3) ---
   Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (I) Un strat básica que se puede practicar en el Salto del Fósil es el Dino Skip. Su versión avanzada, el Dino Skip Skip o DSS para abreviar, es una técnica avanzada  mucho más compleja."
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 25 - Nombre: EV025 (X:28, Y:3) ---
+--- Evento ID: 30 - Nombre: EV030 (X:0, Y:14) ---
+  Página: 1
+    TEXTO: "Alguien ha tirado una revista aquí. En la portada sale Juanjo Bona, el ganador de Jotalent 1 y Naiara, la ganadera de OT2023 dando el pregón de las Fiestas de  Nueva Donk desde el balcón del ayuntamiento junto a la alcaldesa Pauline. En la portada hay pegado un pósit que pone: ¿PISTA para EXAMEN?"
+
+--- Evento ID: 52 - Nombre: EV052 (X:6, Y:13) ---
+  Página: 1
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (III) En el Lago Kutur hay una strat avanzada que también implica traspasar paredes llamada Lake Clip. Una versión con más flow del mismo se denomina TUMADRE y  por algún motivo que todavía se desconoce se relaciona con el Pokémon Wailmer. ¿Quizá antaño se utilizaban Wailmer para rebotar y subir a sitios inaccesibles? ¡Anda! Aquí hay un pósit que señala este último párrafo: "PISTA para EXAMEN""
+
+--- Evento ID: 63 - Nombre: EV063 (X:25, Y:13) ---
+  Página: 1
+    TEXTO: "HISTORIA de la GRUTA (IV) Aunque la Gruta nació como un lugar virtual en medio del ciberespacio, en 2023 se realizó el primer evento presencial de ExSp. La experiencia fue tan gratificante  que un año después tuvo lugar la primera Grutatón presencial."
+
+--- Evento ID: 36 - Nombre: EV036 (X:15, Y:3) ---
+  Página: 1
+    TEXTO: "La última página está muy desgastada y es ilegible..."
+
+--- Evento ID: 3 - Nombre: EV003 (X:2, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
@@ -7661,47 +7669,43 @@ MAPA ID: 108 - Nombre: Universidad
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 3 - Nombre: EV003 (X:2, Y:3) ---
+--- Evento ID: 25 - Nombre: EV025 (X:28, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 36 - Nombre: EV036 (X:15, Y:3) ---
+--- Evento ID: 47 - Nombre: EV047 (X:2, Y:13) ---
   Página: 1
-    TEXTO: "La última página está muy desgastada y es ilegible..."
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (I) Un strat básica que se puede practicar en el Salto del Fósil es el Dino Skip. Su versión avanzada, el Dino Skip Skip o DSS para abreviar, es una técnica avanzada  mucho más compleja."
 
---- Evento ID: 64 - Nombre: EV064 (X:26, Y:13) ---
+--- Evento ID: 58 - Nombre: EV058 (X:20, Y:13) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (IV) Aunque la Gruta nació como un lugar virtual en medio del ciberespacio, en 2023 se realizó el primer evento presencial de ExSp. La experiencia fue tan gratificante  que un año después tuvo lugar la primera Grutatón presencial."
-
---- Evento ID: 53 - Nombre: EV053 (X:7, Y:13) ---
-  Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (IV) En los exteriores de la Ciudad de Friolandia hay una strat legendaria que se denomina Snow Dram. Aunque lleve la palabra Dram en su nombre, no es un verdadero  Dram, pero sigue siendo un truco icónico solo al alcance de unos pocos."
-
---- Evento ID: 20 - Nombre: EV020 (X:22, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 9 - Nombre: EV009 (X:9, Y:3) ---
-  Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 31 - Nombre: EV031 (X:29, Y:14) ---
-  Página: 1
-    TEXTO: "Alguien ha tirado una revista aquí. Le hacen una entrevista a Rodillo, líder de Gimnasio de Ciudad Nueva Donk. Es de la época que consiguió el primer subhora  hispano. En la portada hay pegado un pósit que pone: ¿PISTA para EXAMEN?"
+    TEXTO: "HISTORIA de la GRUTA (I) Hace mucho mucho tiempo, cuando todo esto era campo, se creó un server llamado Rafarmy. Desde allí, su fundador Rafarqueiro da Souza do Janeiro quiso  expandir el conocimiento y el gusto por el noble arte de los speedruns."
 
 --- Evento ID: 42 - Nombre: EV042 (X:23, Y:3) ---
   Página: 1
     TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. Jigglypuff es un Pokémon tipo normal / hada nativo de la región de Kanto. Tiene el número 39 en la Pokédex Nacional. Recientemente se descubrió en la región de Paldea una forma paradoja de este Pokémon cuyo nombre es Colagrito."
 
---- Evento ID: 59 - Nombre: EV059 (X:21, Y:13) ---
+--- Evento ID: 31 - Nombre: EV031 (X:29, Y:14) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (II) Un día de pronto el server cambió de nombre y se inauguró una nueva era: había nacido la Gruta del Runner. Un lugar del ciberespacio en el que tanto runners  como enjoyers tendrían cabida para disfrutar del noble arte de pasarse los juegos mu’ rápido."
+    TEXTO: "Alguien ha tirado una revista aquí. Le hacen una entrevista a Rodillo, líder de Gimnasio de Ciudad Nueva Donk. Es de la época que consiguió el primer subhora  hispano. En la portada hay pegado un pósit que pone: ¿PISTA para EXAMEN?"
 
---- Evento ID: 48 - Nombre: EV048 (X:1, Y:13) ---
+--- Evento ID: 9 - Nombre: EV009 (X:9, Y:3) ---
   Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (I) Un strat básica que se puede practicar en el Salto del Fósil es el Dino Skip. Su versión avanzada, el Dino Skip Skip o DSS para abreviar, es una técnica avanzada  mucho más compleja."
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 26 - Nombre: EV026 (X:29, Y:3) ---
+--- Evento ID: 20 - Nombre: EV020 (X:22, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 53 - Nombre: EV053 (X:7, Y:13) ---
+  Página: 1
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (IV) En los exteriores de la Ciudad de Friolandia hay una strat legendaria que se denomina Snow Dram. Aunque lleve la palabra Dram en su nombre, no es un verdadero  Dram, pero sigue siendo un truco icónico solo al alcance de unos pocos."
+
+--- Evento ID: 64 - Nombre: EV064 (X:26, Y:13) ---
+  Página: 1
+    TEXTO: "HISTORIA de la GRUTA (IV) Aunque la Gruta nació como un lugar virtual en medio del ciberespacio, en 2023 se realizó el primer evento presencial de ExSp. La experiencia fue tan gratificante  que un año después tuvo lugar la primera Grutatón presencial."
+
+--- Evento ID: 4 - Nombre: EV004 (X:3, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
@@ -7709,17 +7713,29 @@ MAPA ID: 108 - Nombre: Universidad
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 4 - Nombre: EV004 (X:3, Y:3) ---
+--- Evento ID: 26 - Nombre: EV026 (X:29, Y:3) ---
   Página: 1
     TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
---- Evento ID: 65 - Nombre: EV065 (X:27, Y:13) ---
+--- Evento ID: 48 - Nombre: EV048 (X:1, Y:13) ---
   Página: 1
-    TEXTO: "HISTORIA de la GRUTA (V) Recientemente, se proclamó 2025 como “el año del content” y, entre muchos otros proyectos, se creó el primer podcast de speedrun en español llamado Frame a  Frame.  ¡Anda! Hay un pósit con una flecha que indica: PISTA para EXAMEN."
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (I) Un strat básica que se puede practicar en el Salto del Fósil es el Dino Skip. Su versión avanzada, el Dino Skip Skip o DSS para abreviar, es una técnica avanzada  mucho más compleja."
 
---- Evento ID: 54 - Nombre: EV054 (X:8, Y:13) ---
+--- Evento ID: 59 - Nombre: EV059 (X:21, Y:13) ---
   Página: 1
-    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (IV) En los exteriores de la Ciudad de Friolandia hay una strat legendaria que se denomina Snow Dram. Aunque lleve la palabra Dram en su nombre, no es un verdadero  Dram, pero sigue siendo un truco icónico solo al alcance de unos pocos."
+    TEXTO: "HISTORIA de la GRUTA (II) Un día de pronto el server cambió de nombre y se inauguró una nueva era: había nacido la Gruta del Runner. Un lugar del ciberespacio en el que tanto runners  como enjoyers tendrían cabida para disfrutar del noble arte de pasarse los juegos mu’ rápido."
+
+--- Evento ID: 43 - Nombre: EV043 (X:9, Y:7) ---
+  Página: 1
+    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. FUNDAMENTOS DE SPEEDRUN: El any% Para completar una run de any% de SMO es necesario recoger al menos 124 lunas."
+
+--- Evento ID: 10 - Nombre: EV010 (X:10, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+
+--- Evento ID: 21 - Nombre: EV021 (X:24, Y:3) ---
+  Página: 1
+    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
 
 --- Evento ID: 32 - Nombre: NPC 1 (X:2, Y:16) ---
   Página: 1
@@ -7729,17 +7745,13 @@ MAPA ID: 108 - Nombre: Universidad
   Página: 2
     TEXTO: "Este libro tiene más curiosidades sobre Vaporeon,  pero mejor no quieras saberlo..."
 
---- Evento ID: 21 - Nombre: EV021 (X:24, Y:3) ---
+--- Evento ID: 54 - Nombre: EV054 (X:8, Y:13) ---
   Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
+    TEXTO: "TEORÍA y PRÁCTICA del SPEEDRUN (IV) En los exteriores de la Ciudad de Friolandia hay una strat legendaria que se denomina Snow Dram. Aunque lleve la palabra Dram en su nombre, no es un verdadero  Dram, pero sigue siendo un truco icónico solo al alcance de unos pocos."
 
---- Evento ID: 10 - Nombre: EV010 (X:10, Y:3) ---
+--- Evento ID: 65 - Nombre: EV065 (X:27, Y:13) ---
   Página: 1
-    TEXTO: "Está repleto de datos sobre Pokémon de todas las  regiones"
-
---- Evento ID: 43 - Nombre: EV043 (X:9, Y:7) ---
-  Página: 1
-    TEXTO: "¡Anda! Hay un pósit marcando una página que dice:  PISTA para EXAMEN. FUNDAMENTOS DE SPEEDRUN: El any% Para completar una run de any% de SMO es necesario recoger al menos 124 lunas."
+    TEXTO: "HISTORIA de la GRUTA (V) Recientemente, se proclamó 2025 como “el año del content” y, entre muchos otros proyectos, se creó el primer podcast de speedrun en español llamado Frame a  Frame.  ¡Anda! Hay un pósit con una flecha que indica: PISTA para EXAMEN."
 ==================================================
 MAPA ID: 109 - Nombre: Gym Dan
 ==================================================
