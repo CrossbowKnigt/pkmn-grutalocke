@@ -1,5 +1,5 @@
 --- EXPORTACIÓN DE DIÁLOGOS RPG MAKER XP ---
-Fecha: 2025-10-10 19:26:07 +0200
+Fecha: 2025-10-11 12:48:36 +0200
 
 ==================================================
 MAPA ID: 1 - Nombre: Intro
@@ -11,11 +11,11 @@ MAPA ID: 1 - Nombre: Intro
 
 --- Evento ID: 1 - Nombre: Intro (X:0, Y:0) ---
   Página: 1
-    TEXTO: "<ac>\c[0]\l[5]Este Juego ha sido creado por miembros de La Gruta del Runner como homenaje a la comunidad y a nuestro juego por  excelencia, Super Mario Odyssey."
+    TEXTO: "<ac>\c[0]\l[5]Este juego ha sido creado por miembros de La Gruta del Runner como homenaje a la comunidad y a nuestro juego por  excelencia, Super Mario Odyssey."
 
 --- Evento ID: 1 - Nombre: Intro (X:0, Y:0) ---
   Página: 1
-    TEXTO: "<ac>\c[0]\l[6]Esperamos que lo disfrutéis!\n"
+    TEXTO: "<ac>\c[0]\l[6]¡Esperamos que lo disfrutéis!\n"
 
 --- Evento ID: 1 - Nombre: Intro (X:0, Y:0) ---
   Página: 1
@@ -23,7 +23,7 @@ MAPA ID: 1 - Nombre: Intro
 
 --- Evento ID: 1 - Nombre: Intro (X:0, Y:0) ---
   Página: 1
-    TEXTO: "Te preguntarás qué narices es un Pokémon y como acabaron aquí... Todo es por culpa del graciosillo de Kamek, su afán por lanzar conjuros y una grieta  dimensional que bueno... Ha fusionado nuestro mundo tal y como lo conocías con muchos otros, y ahora convivimos en paz y armonía con estas criaturas. No solo hay Pokémons no, también han acabado aquí otro tipo de criaturas, se hacen llamar "speedrunners" y dicen que vienen de nosequé "Gruta" o algo así...  Hablan de strats, resets, timesave y mira... me ponen loco con sus movidas, seguro que te encuentras a más de uno en tu aventura."
+    TEXTO: "Te preguntarás qué narices es un Pokémon y como acabaron aquí... Todo es por culpa del graciosillo de Kamek, su afán por lanzar conjuros y una grieta  dimensional que bueno... Ha fusionado nuestro mundo tal y como lo conocías con muchos otros, y ahora convivimos en paz y armonía con estas criaturas. No solo hay Pokémon no, también han acabado aquí  otro tipo de criaturas, se hacen llamar  "speedrunners" y dicen que vienen de nosequé  "Gruta" o algo así...  Hablan de strats, resets, timesave y mira... me ponen  loco con sus movidas, seguro que te encuentras a  más de uno en tu aventura."
 
 --- Evento ID: 1 - Nombre: Intro (X:0, Y:0) ---
   Página: 1
@@ -31,7 +31,7 @@ MAPA ID: 1 - Nombre: Intro
 
 --- Evento ID: 1 - Nombre: Intro (X:0, Y:0) ---
   Página: 1
-    TEXTO: "Esta región está llena de misterios y cosas por descubrir, así que es tu momento de ponerte manos a la obra  y salvar de nuevo el reino Champiñón."
+    TEXTO: "Esta región está llena de misterios y cosas por descubrir, así que es tu momento de ponerte manos a la obra  y salvar de nuevo el Reino Champiñón."
 
 --- Evento ID: 1 - Nombre: Intro (X:0, Y:0) ---
   Página: 1
@@ -51,7 +51,7 @@ MAPA ID: 1 - Nombre: Intro
 
 --- Evento ID: 1 - Nombre: Intro (X:0, Y:0) ---
   Página: 1
-    TEXTO: "¡Perfecto! Pues ya está todo listo. El destino del reino Champiñón  depende de ti."
+    TEXTO: "¡Perfecto! Pues ya está todo listo. El destino del Reino Champiñón  depende de ti."
 ==================================================
 MAPA ID: 2 - Nombre: Pueblo Inicio
 ==================================================
@@ -4847,15 +4847,11 @@ MAPA ID: 77 - Nombre: Ruta 1 Cap-faro
 MAPA ID: 78 - Nombre: Interior castillo
 ==================================================
 
---- Evento ID: 5 - Nombre: Cuadro evento (X:7, Y:3) ---
-  Página: 1
-    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
-
 --- Evento ID: 16 - Nombre: Ball Agua (X:11, Y:4) ---
   Página: 1
     TEXTO: "La Poké Ball contiene un Pokémon capturado por el Profesor."
 
---- Evento ID: 6 - Nombre: Cuadro evento (X:15, Y:3) ---
+--- Evento ID: 5 - Nombre: Cuadro evento (X:7, Y:3) ---
   Página: 1
     TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
 
@@ -4875,9 +4871,9 @@ MAPA ID: 78 - Nombre: Interior castillo
   Página: 1
     TEXTO: "H-hh-hermano... Ve tú a mirar..."
 
---- Evento ID: 12 - Nombre: Ball Planta (X:9, Y:4) ---
+--- Evento ID: 6 - Nombre: Cuadro evento (X:15, Y:3) ---
   Página: 1
-    TEXTO: "La Poké Ball contiene un Pokémon capturado por el Profesor."
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
 
 --- Evento ID: 1 - Nombre: Toadsworth (X:8, Y:4) ---
   Página: 2
@@ -4899,9 +4895,9 @@ MAPA ID: 78 - Nombre: Interior castillo
   Página: 2
     TEXTO: "Cuídalo bien, tal vez te trae recuerdos de aventuras  pasadas."
 
---- Evento ID: 7 - Nombre: Cuadro evento (X:16, Y:3) ---
+--- Evento ID: 12 - Nombre: Ball Planta (X:9, Y:4) ---
   Página: 1
-    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+    TEXTO: "La Poké Ball contiene un Pokémon capturado por el Profesor."
 
 --- Evento ID: 18 - Nombre: EV018 (X:8, Y:10) ---
   Página: 1
@@ -4911,7 +4907,7 @@ MAPA ID: 78 - Nombre: Interior castillo
   Página: 1
     TEXTO: "Rápido \pn, la princesa Peach está en peligro!"
 
---- Evento ID: 2 - Nombre: Cuadro evento (X:2, Y:3) ---
+--- Evento ID: 7 - Nombre: Cuadro evento (X:16, Y:3) ---
   Página: 1
     TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
 
@@ -4943,9 +4939,17 @@ MAPA ID: 78 - Nombre: Interior castillo
   Página: 3
     TEXTO: "Bueno, vamos allá \PN."
 
+--- Evento ID: 2 - Nombre: Cuadro evento (X:2, Y:3) ---
+  Página: 1
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
+
 --- Evento ID: 19 - Nombre: EV019 (X:4, Y:5) ---
   Página: 1
     TEXTO: "Esto de ayudar al profesor en el "laboratorio" en el que se ha convertido nuestro querido castillo, hace que me salgan hongos de lo que me sudan los pies, por muy  irónico que sea. Prefería ir de visita a Tíjola la verdad..."
+
+--- Evento ID: 3 - Nombre: Cuadro evento (X:1, Y:3) ---
+  Página: 1
+    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
 
 --- Evento ID: 14 - Nombre: EV014 (X:9, Y:8) ---
   Página: 2
@@ -4975,21 +4979,21 @@ MAPA ID: 78 - Nombre: Interior castillo
   Página: 3
     TEXTO: "Bueno, vamos allá \PN."
 
---- Evento ID: 3 - Nombre: Cuadro evento (X:1, Y:3) ---
-  Página: 1
-    TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
-
 --- Evento ID: 20 - Nombre: EV020 (X:11, Y:11) ---
   Página: 1
     TEXTO: "Sal a ver qué pasa hermano... Y-Yo me quedo pr-protegiendo al profesor aquí dentro, en zona s-segura..."
+
+--- Evento ID: 15 - Nombre: Ball Fuego (X:10, Y:4) ---
+  Página: 1
+    TEXTO: "La Poké Ball contiene un Pokémon capturado por el Profesor."
 
 --- Evento ID: 4 - Nombre: Cuadro evento (X:6, Y:3) ---
   Página: 1
     TEXTO: "Hmmm...\nEste cuadro me resulta familiar..."
 
---- Evento ID: 15 - Nombre: Ball Fuego (X:10, Y:4) ---
+--- Evento ID: 21 - Nombre: EV021 (X:17, Y:12) ---
   Página: 1
-    TEXTO: "La Poké Ball contiene un Pokémon capturado por el Profesor."
+    TEXTO: "Mi compañero se ha vuelto loco y no para de  mencionar su pueblo. ¿A quién le importa Tíjola? Ni  que fuera yo DiegoX"
 
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 1
@@ -5001,11 +5005,11 @@ MAPA ID: 78 - Nombre: Interior castillo
 
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 2
-    TEXTO: "¡Profesor! ya está aquí \PN ."
+    TEXTO: "¡Profesor! Ya está aquí \PN."
 
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 2
-    TEXTO: "Bienvenido \PN, hacía mucho que no nos veíamos. El \nReino Champiñón está pasando por un periodo de  paz inusualmente tranquilo, creo que es momento \nperfecto para encomendaros la tarea de explorar la  región de Odisea. Esta región posee una fuente de  energía que no existe en ninguna otra: la energía  lunar. Actualmente es muy escasa, pero hace poco se  registraron unas fluctuaciones extraordinarias que al  parecer están afectando a los Pokémon. Por ello, me \ngustaría que invesitgárais cada rincón de Odisea  dispositivo llamado Pokédex. Tomad, una para cada  uno."
+    TEXTO: "Bienvenido \PN, hacía mucho que no nos veíamos. El Reino Champiñón está pasando por un periodo de  paz inusualmente tranquilo, creo que es el momento perfecto para encomendaros la tarea de explorar la  región de Odisea. Esta región posee una fuente de  energía que no existe en ninguna otra: la energía  lunar. Actualmente es muy escasa, pero hace poco se  registraron unas fluctuaciones extraordinarias que al  parecer están afectando a los Pokémon. Por ello, me gustaría que investigárais cada rincón de Odisea. Aquí tengo un dispositivo llamado Pokédex. Tomad, una para cada  uno."
 
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 2
@@ -5013,7 +5017,7 @@ MAPA ID: 78 - Nombre: Interior castillo
 
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 2
-    TEXTO: "Esta misión puede ser peligrosa, por lo que os recomiendo que os entrenéis para haceros más fuertes. La mejor opción es que hagáis la ruta de los gimnasios. En  algunas ciudades de esta región se encuentran gimnasios Pokémon en las que los líderes suponen una prueba a pasar para los entrenadores. Derrotar líderes no  solo os permitirá mejorar, sino que aquellos entrenadores que logren vencer a los 8 líderes de gimnasio podrá batirse en duelo contra El Campeón en la Liga  Pokémon. Os adelanto que no va a ser una tarea fácil, pero seguro que a lo largo de ese camino encontráis muchos Pokémon interesantes para registrar en vuestras  Pokédex que quizá nos ayuden a desentrañar el misterio de la energía lunar."
+    TEXTO: "Esta misión puede ser peligrosa, por lo que os recomiendo que os entrenéis para haceros más fuertes. La mejor opción es que hagáis la ruta de los gimnasios. En  algunos lugares de esta región se encuentran gimnasios Pokémon en los que los líderes suponen una prueba a pasar para los entrenadores. Derrotar líderes no  solo os permitirá mejorar, sino que aquellos entrenadores que logren vencer a los 8 líderes de gimnasio podrá batirse en duelo contra El Campeón en la Liga  Pokémon. Os adelanto que no va a ser una tarea fácil, pero seguro que a lo largo de ese camino encontráis muchos Pokémon interesantes para registrar en vuestras  Pokédex que quizá nos ayuden a desentrañar el misterio de la energía lunar."
 
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 2
@@ -5022,10 +5026,6 @@ MAPA ID: 78 - Nombre: Interior castillo
 --- Evento ID: 10 - Nombre: Peach (X:13, Y:10) ---
   Página: 2
     TEXTO: "Elige bien hermanito."
-
---- Evento ID: 21 - Nombre: EV021 (X:17, Y:12) ---
-  Página: 1
-    TEXTO: "Mi compañero se ha vuelto loco y no para de  mencionar su pueblo. ¿A quién le importa Tíjola? Ni  que fuera yo DiegoX"
 ==================================================
 MAPA ID: 79 - Nombre: Centro Pokémon
 ==================================================
@@ -5151,7 +5151,7 @@ MAPA ID: 80 - Nombre: Cap Kingdom
 
 --- Evento ID: 16 - Nombre: EV016 (X:31, Y:5) ---
   Página: 1
-    TEXTO: "\sh¡¡NOOO ALEJATEEEE!!"
+    TEXTO: "\sh¡¡NOOO, ALÉJATEEEE!!"
 
 --- Evento ID: 16 - Nombre: EV016 (X:31, Y:5) ---
   Página: 1
@@ -5163,7 +5163,7 @@ MAPA ID: 80 - Nombre: Cap Kingdom
 
 --- Evento ID: 16 - Nombre: EV016 (X:31, Y:5) ---
   Página: 1
-    TEXTO: "Asi que tú también tuviste un encontronazo con  Bowser en el Reino Champiñón, y encima secuestró  a tu princesa..."
+    TEXTO: "AsÍ que tú también tuviste un encontronazo con  Bowser en el Reino Champiñón, y encima secuestró  a tu princesa..."
 
 --- Evento ID: 16 - Nombre: EV016 (X:31, Y:5) ---
   Página: 1
@@ -5213,17 +5213,21 @@ MAPA ID: 80 - Nombre: Cap Kingdom
   Página: 1
     TEXTO: "Casa de Juanca."
 
---- Evento ID: 7 - Nombre: Cartel (X:9, Y:3) ---
-  Página: 1
-    TEXTO: "Al Norte: Ruta 1 hacia Torre Sombrero\n Al Oeste:  Ruta 2 hacia Salto del Fósil"
-
 --- Evento ID: 18 - Nombre: Villachisterense 1 (X:13, Y:25) ---
   Página: 1
     TEXTO: "Si ves un champiñón rojo por el suelo, no tengas miedo y recógelo, son objetos que pueden servirte de mucho en tu viaje. ¡Incluso puedes aprender movimientos  nuevos si te encuentras con un champi verde!"
 
+--- Evento ID: 7 - Nombre: Cartel (X:9, Y:3) ---
+  Página: 1
+    TEXTO: "Al Norte: Ruta 1 hacia Torre Sombrero\n Al Oeste:  Ruta 2 hacia Salto del Fósil"
+
 --- Evento ID: 2 - Nombre: Villachisterense capturas (X:11, Y:8) ---
   Página: 1
     TEXTO: "¿Has visto ya todos los Pokémon que salen por aquí?"
+
+--- Evento ID: 8 - Nombre: Pesaon't (X:5, Y:11) ---
+  Página: 2
+    TEXTO: "Ahora que esos maleantes se han largado, ya podemos movernos con libertad entre Villa Chistera y  las rutas adyacentes, ¡Y todo gracias a tí!"
 
 --- Evento ID: 19 - Nombre: EV019 (X:6, Y:3) ---
   Página: 1
@@ -5240,10 +5244,6 @@ MAPA ID: 80 - Nombre: Cap Kingdom
 --- Evento ID: 19 - Nombre: EV019 (X:6, Y:3) ---
   Página: 1
     TEXTO: "¡Esto si que es un avance tecnológico! ¡Mucha suerte con tus capturas!"
-
---- Evento ID: 8 - Nombre: Pesaon't (X:5, Y:11) ---
-  Página: 2
-    TEXTO: "Ahora que esos maleantes se han largado, ya podemos movernos con libertad entre Villa Chistera y  las rutas adyacentes, ¡Y todo gracias a tí!"
 
 --- Evento ID: 20 - Nombre: EV020 (X:7, Y:3) ---
   Página: 1
@@ -5263,7 +5263,7 @@ MAPA ID: 80 - Nombre: Cap Kingdom
 
 --- Evento ID: 15 - Nombre: EV015 (X:31, Y:6) ---
   Página: 1
-    TEXTO: "\sh¡¡NOOO ALEJATEEEE!!"
+    TEXTO: "\sh¡¡NOOO, ALÉJATEEEE!!"
 
 --- Evento ID: 15 - Nombre: EV015 (X:31, Y:6) ---
   Página: 1
@@ -5275,7 +5275,7 @@ MAPA ID: 80 - Nombre: Cap Kingdom
 
 --- Evento ID: 15 - Nombre: EV015 (X:31, Y:6) ---
   Página: 1
-    TEXTO: "Asi que tú también tuviste un encontronazo con  Bowser en el Reino Champiñón, y encima secuestró  a tu princesa..."
+    TEXTO: "AsÍ que tú también tuviste un encontronazo con  Bowser en el Reino Champiñón, y encima secuestró  a tu princesa..."
 
 --- Evento ID: 15 - Nombre: EV015 (X:31, Y:6) ---
   Página: 1
