@@ -17,9 +17,16 @@ Testeo casual de Ferby
 # SAND
 
 * NADIE tiene lose text
-* El phanpy de ikivv tiene rodar y mete unas ostias terribles, no está mal porque vienes de capturar en la caverna del hielo, pero cuidado
 
 
 # LAKE
 
 * El agua de la ruta es de otro tono al de los bordes
+* Rango dice "Mario" en vez de \PN
+* Storydan no te da el huevo? creo que por tener el equipo lleno
+
+#WOODED
+
+* Las colisiones de la ruta están mal puestas, literal no puedes subir
+* Diálogo de crossbow sin hacer
+* Que el tyrantrum corra un poco más que es muy esquivable
