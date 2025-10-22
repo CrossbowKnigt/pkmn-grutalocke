@@ -3,7 +3,6 @@ Testeo casual de Ferby
 
 
 # MUSHROOM
-*Alguien tiene que darte el mapa.
 * Quitar el exportador de textos de la casa del jugador.
 
 
