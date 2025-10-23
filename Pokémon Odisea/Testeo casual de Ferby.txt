@@ -23,7 +23,6 @@ Testeo casual de Ferby
 
 * El agua de la ruta es de otro tono al de los bordes
 * Rango dice "Mario" en vez de \PN
-* Storydan no te da el huevo? creo que por tener el equipo lleno
 
 #WOODED
 
