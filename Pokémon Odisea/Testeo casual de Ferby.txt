@@ -27,6 +27,6 @@ Testeo casual de Ferby
 
 #WOODED
 
-* Las colisiones de la ruta están mal puestas, literal no puedes subir
+
 * Diálogo de crossbow sin hacer
 * Que el tyrantrum corra un poco más que es muy esquivable
