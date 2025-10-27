@@ -237,7 +237,7 @@ Pokemon = NACLI,13
 #-------------------------------
 [E_GUAY,Trillizo 3]
 LoseText = Bien jugado, ahora te daré una pista.
-Pokemon = ROCKRUFF,14
+Pokemon = ROCKRUFF,13
 #-------------------------------
 [MONTANERO,Gemelo 1]
 LoseText = Bien jugado, ahora te diré la verdad.
@@ -246,11 +246,11 @@ Pokemon = ONIX,13
 #-------------------------------
 [E_GUAY,Trillizo 2]
 LoseText = Bien jugado, ahora te daré una pista.
-Pokemon = ARON,14
+Pokemon = ARON,13
 #-------------------------------
 [E_GUAY,Trillizo 1]
 LoseText = Bien jugado, ahora te daré una pista.
-Pokemon = ROLYCOLY,14
+Pokemon = ROLYCOLY,13
 #-------------------------------
 [KLIM8,Klim8]
 Items = POTION

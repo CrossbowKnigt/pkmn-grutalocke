@@ -12,7 +12,7 @@ Testeo casual de Ferby
 
 # CASCADE
 
-
+*El tío que hace de barrera para no pasar antes a Sand SIGUE MAL
 
 # SAND
 
@@ -24,8 +24,21 @@ Testeo casual de Ferby
 * El agua de la ruta es de otro tono al de los bordes
 * Rango dice "Mario" en vez de \PN
 
-#WOODED
+# WOODED
 
 
 * Diálogo de crossbow sin hacer
-* Que el tyrantrum corra un poco más que es muy esquivable
+* Que el tyrantrum corra un poco más que es muy esquivable (lo he puesto a max
+velocidad, no lo he probado, ya me diréis, soy Karma)
+
+
+# METRO
+
+* Encuentro con Karma sin hacer
+
+
+
+# LUNCHEON
+
+*Encuentro con Ivanavi sin hacer
+
