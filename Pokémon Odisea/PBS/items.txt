@@ -573,7 +573,7 @@ Description = Moneda de oro de más de tres mil años de antigüedad. Muy valora
 Name = Ánfora Antigua
 NamePlural = Ánforas
 Pocket = 1
-Price = 0
+Price = 20000
 Flags = Fling_30
 Description = Jarrón de más de tres mil años de antigüedad. Muy valorado por los coleccionistas.
 #-------------------------------

@@ -1,6 +1,6 @@
 Testeo casual de Ferby
 **SIGUE MAL LOS TIPOS DE LOS POKÉMON EN COMBATE**
-
+* Cambiar el 2º tendero de los CP para que te venda otros items.
 
 # MUSHROOM
 * Quitar el exportador de textos de la casa del jugador.
@@ -23,7 +23,8 @@ Testeo casual de Ferby
 
 * El agua de la ruta es de otro tono al de los bordes
 * Rango dice "Mario" en vez de \PN
-
+* El escalón que hay yendo para Rango no se entiende bien, quizás sean mejor unas escaleras
+* Nivel del líder un poco bajo, (he subido a su Azumarill un nivel más)
 # WOODED
 
 
