@@ -25,11 +25,8 @@ Testeo casual de Ferby
 * Nivel del líder un poco bajo, (he subido a su Azumarill un nivel más)
 
 # WOODED
-* Diálogo de crossbow sin hacer
 * Puedes salir con Will de la zona, no sé qué tan problemático puede ser eso
 * ENTRENADORES DE LAS TUBERÍAS NO FUNCIONAN
-
-
 
 # METRO
 * Encuentro con Karma sin hacer
