@@ -13,7 +13,6 @@ Testeo casual de Ferby
 
 
 # CASCADE
-*El tío que hace de barrera para no pasar antes a Sand SIGUE MAL
 
 # SAND
 * NADIE tiene lose text
