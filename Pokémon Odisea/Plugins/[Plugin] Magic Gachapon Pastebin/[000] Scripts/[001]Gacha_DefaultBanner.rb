@@ -46,24 +46,24 @@ def defaultBannerConfig2
               "rewards" => ["Graphics/Pokemon/Front/CHIKORITA_1","Graphics/Pokemon/Front/CYNDAQUIL_2","Graphics/Pokemon/Front/TOTODILE_1"],
               "stars" => [5, 5, 5],
               "url" => nil,
-              "descr" =>  "<ac><b>¡Increíble Banner!</b></ac>\n¡Las formas del grutalocke 2 vuelven en esta edición! \n*Tier 1*\nPoción, Antídoto, Antiparalizador, Antiquemar, Antihielo, Despertar, Poké Ball, Baya Aranja, Baya Meloc, Baya Zreza, Baya Atania, Baya Safre, Baya Perasi, Baya Caquic, Zumo de Baya, Repelente, Miniseta, Polvo Estelar, Éter, Elixir, Baya Zanama\n\n*Tier 2*\nBola de Humo, Súperball, Cura Total, Agua Fresca, Refresco, Súperpoción, Baya Ziuela, Baya Higog, Baya Wiki, Baya Ango, Baya Guaya, Baya Pabaya, Súperrepelente, Seta grande, Perla, Hueso Raro, Globo Helio, Éter Máximo, Élixir Máximo, Baya Grana, Baya Algama, Baya Íspero, Baya Meluce, Baya Uvav, Baya Tamate, Pokémuñeco \n\n*Tier 5*\nPOKÉMON DE PARALELL JOHTO\n\nNo nos hacemos responsables de los problemas que puedan surgir a partir de este juego del demonio. Úsese con responsabilidad."
+              "descr" =>  "<ac><b>¡Increíble Banner!</b></ac>\n¡Las formas del grutalocke 2 vuelven en esta edición! \n*Tier 1*\nPoción, Antídoto, Antiparalizador, Antiquemar, Antihielo, Despertar, Poké Ball, Baya Aranja, Baya Meloc, Baya Zreza, Baya Atania, Baya Safre, Baya Perasi, Baya Caquic, Zumo de Baya, Repelente, Miniseta, Polvo Estelar, Éter, Elixir, Baya Zanama\n\n*Tier 2*\nBola de Humo, Súperball, Cura Total, Agua Fresca, Refresco, Súperpoción, Baya Ziuela, Baya Higog, Baya Wiki, Baya Ango, Baya Guaya, Baya Pabaya, Súperrepelente, Seta grande, Perla, Hueso Raro, Globo Helio, Éter Máximo, Élixir Máximo, Baya Grana, Baya Algama, Baya Íspero, Baya Meluce, Baya Uvav, Baya Tamate, Pokémuñeco \n\n*Tier 3*\nPOKÉMON DE PARALELL JOHTO\n\nNo nos hacemos responsables de los problemas que puedan surgir a partir de este juego del demonio. Úsese con responsabilidad."
               }
       }
   return config
 end
 
 def defaultBanner2
-  prob = rand(123)
+  prob = rand(100)
   case prob
-  when (0...46) #Tier 1 con un 35%
+  when (0...55) #Tier 1 con un 55%
     rewards = [:POTION, :ANTIDOTE, :PARLYZHEAL, :BURNHEAL, :ICEHEAL, :AWAKENING, :POKEBALL, :ORANBERRY, :PECHABERRY, :CHERIBERRY, :CHESTOBERRY, :RAWSTBERRY, :ASPEARBERRY, :PERSIMBERRY, :BERRYJUICE, :REPEL, :TINYMUSHROOM, :STARDUST, :ETHER, :ELIXIR, :LEPPABERRY]
     result = rewards[rand(rewards.length)]
     itemReward(result,1)
-  when (47...81) #Tier 2 con un 40%
+  when (56...94) #Tier 2 con un 40%
     rewards = [:SMOKEBALL, :GREATBALL, :FULLHEAL, :FRESHWATER, :SODAPOP, :SUPERPOTION, :LUMBERRY, :FIGYBERRY, :WIKIBERRY, :MAGOBERRY, :AGUAVBERRY, :IAPAPABERRY, :SUPERREPEL, :BIGMUSHROOM, :PEARL, :RAREBONE, :AIRBALLOON, :MAXETHER, :MAXELIXIR, :POMEGBERRY, :KELPSYBERRY, :QUALOTBERRY, :HONDEWBERRY, :GREPABERRY, :TAMATOBERRY, :POKEDOLL]
     result = rewards[rand(rewards.length)]
     itemReward(result,2)
-  when (82...123) #pokemon de polla
+  when (95...100) #pokemon de polla 5%
     pokes = [:ABRA_2, :ALAKAZAM_2, :ARCANINE_2, :BAYLEEF_1, :CHIKORITA_1, :CROBAT_1, :CROCONAW_1, :CYNDAQUIL_2, :DODRIO_1, :DODUO_1, :FERALIGATR_1, :GASTLY_2, :GENGAR_2, :GOLBAT_1, :GROWLITHE_2, :HAUNTER_2, :HOOTHOOT_1, :HORSEA_1, :HOUNDOOM_2, :HOUNDOUR_2, :KADABRA_2, :KINGDRA_1, :MACHAMP_1, :MACHOKE_1, :MACHOP_1, :MAGCARGO_1, :MEGANIUM_1, :NOCTOWL_1, :PIDGEOTTO_2, :PIDGEOT_2, :PIDGEY_2, :PONYTA_2, :PORYGON2_1, :PORYGONZ_1, :PORYGON_1, :QUILAVA_2, :RAPIDASH_2, :SEADRA_1, :SLUGMA_1, :TOTODILE_1, :TYPHLOSION_2, :ZUBAT_1]
     result = pokes[rand(pokes.length)]
     pokeReward(Pokemon.new(result,20,$player),5)
