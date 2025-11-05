@@ -16463,7 +16463,7 @@ Evolutions = HYDREIGON,Level,50
 #-------------------------------
 [HYDREIGON]
 Name = Hydreigon
-Types = DARK,DRAGON
+Types = FIRE,DRAGON
 BaseStats = 92,105,90,98,125,90
 GenderRatio = Female50Percent
 GrowthRate = Slow
