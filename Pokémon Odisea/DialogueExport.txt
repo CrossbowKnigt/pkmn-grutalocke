@@ -1,5 +1,5 @@
 --- EXPORTACIÓN DE DIÁLOGOS RPG MAKER XP ---
-Fecha: 2025-11-02 02:38:27 +0100
+Fecha: 2025-11-09 10:36:18 +0100
 
 ==================================================
 MAPA ID: 1 - Nombre: Intro
@@ -6707,7 +6707,11 @@ MAPA ID: 100 - Nombre: Knucklotek
 
 --- Evento ID: 12 - Nombre: Pacasa (X:11, Y:15) ---
   Página: 1
-    TEXTO: "¿Con que \PN, eh? Yo soy Pacasa, líder de gimnasio de Soltitlán. ¿Me ayudas con una cosilla?"
+    TEXTO: "¿Con que \PN, eh?"
+
+--- Evento ID: 12 - Nombre: Pacasa (X:11, Y:15) ---
+  Página: 1
+    TEXTO: "Yo soy Pacasa, líder de gimnasio de Soltitlán. ¿Me ayudas con una cosilla?"
 
 --- Evento ID: 12 - Nombre: Pacasa (X:11, Y:15) ---
   Página: 1
@@ -6819,10 +6823,6 @@ MAPA ID: 101 - Nombre: Pirámide 4
 MAPA ID: 102 - Nombre: Gym Pacasa
 ==================================================
 
---- Evento ID: 33 - Nombre: Accesibilidad (X:19, Y:13) ---
-  Página: 1
-    TEXTO: "ROJO"
-
 --- Evento ID: 11 - Nombre: Puzles de piezas (X:4, Y:11) ---
   Página: 1
     TEXTO: "¡Eh! ¡Aquí hay un puzzle! Resuelve el siguiente puzle y la puerta se abrirá."
@@ -6839,6 +6839,10 @@ MAPA ID: 102 - Nombre: Gym Pacasa
   Página: 2
     TEXTO: "Ya has resuelto el acertijo..."
 
+--- Evento ID: 33 - Nombre: Accesibilidad (X:19, Y:13) ---
+  Página: 1
+    TEXTO: "ROJO"
+
 --- Evento ID: 17 - Nombre: Trainer(4) (X:18, Y:27) ---
   Página: 1
     TEXTO: "¡He descubierto algo súper interesante para la run de  Barbie! ¿Quieres verlo?"
@@ -6847,33 +6851,25 @@ MAPA ID: 102 - Nombre: Gym Pacasa
   Página: 2
     TEXTO: "Pues ahora no te lo digo, por listillo."
 
---- Evento ID: 34 - Nombre: Accesibilidad (X:20, Y:13) ---
-  Página: 1
-    TEXTO: "AZUL"
-
 --- Evento ID: 1 - Nombre: puerta montañeros (X:20, Y:22) ---
   Página: 2
     TEXTO: "La puerta se ha abierto."
 
+--- Evento ID: 34 - Nombre: Accesibilidad (X:20, Y:13) ---
+  Página: 1
+    TEXTO: "AZUL"
+
 --- Evento ID: 7 - Nombre: puerta montañeros (X:14, Y:15) ---
+  Página: 2
+    TEXTO: "La puerta se ha abierto."
+
+--- Evento ID: 13 - Nombre: puerta montañeros (X:8, Y:12) ---
   Página: 2
     TEXTO: "La puerta se ha abierto."
 
 --- Evento ID: 35 - Nombre: Accesibilidad (X:21, Y:13) ---
   Página: 1
     TEXTO: "AMARILLO"
-
---- Evento ID: 13 - Nombre: puerta montañeros (X:8, Y:12) ---
-  Página: 2
-    TEXTO: "La puerta se ha abierto."
-
---- Evento ID: 19 - Nombre: Trainer(4) (X:21, Y:19) ---
-  Página: 1
-    TEXTO: "¡Hola! ¿Te ha parecido muy difícil el primer puzzle? A  ver si puedes resolver el siguiente, ¡pero antes te  desafío!"
-
---- Evento ID: 19 - Nombre: Trainer(4) (X:21, Y:19) ---
-  Página: 2
-    TEXTO: "Lo mío no son los combates, sino los puzzles."
 
 --- Evento ID: 30 - Nombre: CONSE (X:21, Y:36) ---
   Página: 1
@@ -6887,13 +6883,25 @@ MAPA ID: 102 - Nombre: Gym Pacasa
   Página: 2
     TEXTO: "¡Ay, se me olvidaba! El tipo Tierra es débil a los tipos  Hielo, Agua y Planta. Pero seguro que un entrenador avezado como tú ya  conocerá eso (a estos jóvenes de hoy en día hay  que recordarles la tabla de tipos...)"
 
+--- Evento ID: 19 - Nombre: Trainer(4) (X:21, Y:19) ---
+  Página: 1
+    TEXTO: "¡Hola! ¿Te ha parecido muy difícil el primer puzzle? A  ver si puedes resolver el siguiente, ¡pero antes te  desafío!"
+
+--- Evento ID: 19 - Nombre: Trainer(4) (X:21, Y:19) ---
+  Página: 2
+    TEXTO: "Lo mío no son los combates, sino los puzzles."
+
 --- Evento ID: 36 - Nombre: Accesibilidad (X:22, Y:13) ---
   Página: 1
     TEXTO: "BLANCO"
 
---- Evento ID: 31 - Nombre: Accesibilidad (X:17, Y:13) ---
+--- Evento ID: 20 - Nombre: Trainer(4) (X:13, Y:17) ---
   Página: 1
-    TEXTO: "NEGRO"
+    TEXTO: "Este puzzle es imposible, déjame combatir contigo y  si te gano me ayudas a resolverlo."
+
+--- Evento ID: 20 - Nombre: Trainer(4) (X:13, Y:17) ---
+  Página: 2
+    TEXTO: "No es justo, ¿y a mí ahora quien me ayuda?"
 
 --- Evento ID: 9 - Nombre: EV009 (X:16, Y:11) ---
   Página: 1
@@ -6907,33 +6915,9 @@ MAPA ID: 102 - Nombre: Gym Pacasa
   Página: 2
     TEXTO: "Ya has resuelto el acertijo..."
 
---- Evento ID: 20 - Nombre: Trainer(4) (X:13, Y:17) ---
+--- Evento ID: 31 - Nombre: Accesibilidad (X:17, Y:13) ---
   Página: 1
-    TEXTO: "Este puzzle es imposible, déjame combatir contigo y  si te gano me ayudas a resolverlo."
-
---- Evento ID: 20 - Nombre: Trainer(4) (X:13, Y:17) ---
-  Página: 2
-    TEXTO: "No es justo, ¿y a mí ahora quien me ayuda?"
-
---- Evento ID: 32 - Nombre: Accesibilidad (X:18, Y:13) ---
-  Página: 1
-    TEXTO: "VERDE"
-
---- Evento ID: 10 - Nombre: Puzles de piezas (X:23, Y:21) ---
-  Página: 1
-    TEXTO: "¡Eh! ¡Aquí hay un puzzle! Resuelve el siguiente puzle y la puerta se abrirá:"
-
---- Evento ID: 10 - Nombre: Puzles de piezas (X:23, Y:21) ---
-  Página: 1
-    TEXTO: "¡Puzle resuelto!"
-
---- Evento ID: 10 - Nombre: Puzles de piezas (X:23, Y:21) ---
-  Página: 1
-    TEXTO: "Te has rendido..."
-
---- Evento ID: 10 - Nombre: Puzles de piezas (X:23, Y:21) ---
-  Página: 2
-    TEXTO: "Ya has resuelto el acertijo..."
+    TEXTO: "NEGRO"
 
 --- Evento ID: 21 - Nombre: Pacasa (X:7, Y:5) ---
   Página: 1
@@ -6954,6 +6938,26 @@ MAPA ID: 102 - Nombre: Gym Pacasa
 --- Evento ID: 21 - Nombre: Pacasa (X:7, Y:5) ---
   Página: 3
     TEXTO: "(Ya podrían haberme puesto a Porygon en el equipo,  pero no, soy líder tipo Tierra, my man)."
+
+--- Evento ID: 10 - Nombre: Puzles de piezas (X:23, Y:21) ---
+  Página: 1
+    TEXTO: "¡Eh! ¡Aquí hay un puzzle! Resuelve el siguiente puzle y la puerta se abrirá:"
+
+--- Evento ID: 10 - Nombre: Puzles de piezas (X:23, Y:21) ---
+  Página: 1
+    TEXTO: "¡Puzle resuelto!"
+
+--- Evento ID: 10 - Nombre: Puzles de piezas (X:23, Y:21) ---
+  Página: 1
+    TEXTO: "Te has rendido..."
+
+--- Evento ID: 10 - Nombre: Puzles de piezas (X:23, Y:21) ---
+  Página: 2
+    TEXTO: "Ya has resuelto el acertijo..."
+
+--- Evento ID: 32 - Nombre: Accesibilidad (X:18, Y:13) ---
+  Página: 1
+    TEXTO: "VERDE"
 ==================================================
 MAPA ID: 103 - Nombre: Slots sand
 ==================================================
@@ -12294,11 +12298,11 @@ MAPA ID: 161 - Nombre: Ruta 11
 
 --- Evento ID: 11 - Nombre: Trainer(7) (X:60, Y:17) ---
   Página: 1
-    TEXTO: "Placeholder."
+    TEXTO: "¿¡¿¡Preparado para el... MIKU MIKU BEEEEEEEAAAAAAM!?!?"
 
 --- Evento ID: 11 - Nombre: Trainer(7) (X:60, Y:17) ---
   Página: 2
-    TEXTO: "Placeholder."
+    TEXTO: "Si se entera mi amigo Godzilla de lo que me has hecho, te enterabas..."
 
 --- Evento ID: 6 - Nombre: Trainer(4) (X:5, Y:12) ---
   Página: 1
@@ -12336,26 +12340,6 @@ MAPA ID: 161 - Nombre: Ruta 11
   Página: 2
     TEXTO: "¡Guau! Fuiste como una ola gigante. ¡Me encantó!"
 
---- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
-  Página: 1
-    TEXTO: "Hola soy emma, aqui tiene que ir mi diálogo correspondiente, si haces 30 toques te doy una recompensa, quieres jugar?"
-
---- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
-  Página: 1
-    TEXTO: "¡Genial! voy a ir tirando pelotas, tienes que devolverlas una por una aunque te aviso, no va a ser sencillo, cada 3 pelotas las iré lanzando cada vez más deprisa."
-
---- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
-  Página: 2
-    TEXTO: "BOOOF COCINAS LOCO te voy a dar un item (que lo elija karma)"
-
---- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
-  Página: 3
-    TEXTO: "quieres jugar otra vez? (ya no hay más recompensas)"
-
---- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
-  Página: 3
-    TEXTO: "¡Genial! voy a ir tirando pelotas, tienes que devolverlas una por una aunque te aviso, no va a ser sencillo, cada 3 pelotas las iré lanzando cada vez más deprisa."
-
 --- Evento ID: 4 - Nombre: Trainer(4) (X:16, Y:16) ---
   Página: 1
     TEXTO: "¡Papá dice que solo los mejores entrenadores van a  la playa privada! Supongo que por eso estoy aquí."
@@ -12363,6 +12347,46 @@ MAPA ID: 161 - Nombre: Ruta 11
 --- Evento ID: 4 - Nombre: Trainer(4) (X:16, Y:16) ---
   Página: 2
     TEXTO: "Vaya… tal vez el dinero no lo compra todo. Pero casi."
+
+--- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
+  Página: 1
+    TEXTO: "¡Hola buenas! Soy Emma, ¡Un placer! La verdad es que encontré esta rutita bien chill, con sus tumbonas, su playita y su comida tropical, y dije: "BOOF, de chiiiill me quedo aquí.""
+
+--- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
+  Página: 1
+    TEXTO: "Estaba echando el rato dando unos toques a la pelota de voley, pero hacerlo en solitario es un tanto muermo... ¿Qué te parece si jugamos un rato juntos? Si  eres capaz de dar 30 toques seguidos, te regalaré una cosa bien guaparda."
+
+--- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
+  Página: 1
+    TEXTO: "¡Genial! voy a ir tirando pelotas, tienes que devolverlas una por una aunque te aviso, no va a ser sencillo, cada 3 pelotas las iré lanzando cada vez más deprisa."
+
+--- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
+  Página: 1
+    TEXTO: "Naaah, ¡Vaya muermooo buuuuuu!"
+
+--- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
+  Página: 2
+    TEXTO: "¡BOOOF ERES LA COCIIINA! ¡Te has ganado esta pedazo recompensa!"
+
+--- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
+  Página: 2
+    TEXTO: "¡Has obtenido una <b>Mejora del Pokévial</b>! ¡Los usos del <b>Pokévial</b> han aumentado en 1!"
+
+--- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
+  Página: 2
+    TEXTO: "¡Pásate por aquí siempre que quieras venir a dar unos toques al balón para pasar el rato!"
+
+--- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
+  Página: 3
+    TEXTO: "¿Quieres volver a jugar? No me quedan recompensas, pero siempre puedes ir a por tu nuevo PB, como hacemos los true speedrunners jejeje."
+
+--- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
+  Página: 3
+    TEXTO: "¡Genial! voy a ir tirando pelotas, tienes que devolverlas una por una aunque te aviso, no va a ser sencillo, cada 3 pelotas las iré lanzando cada vez más deprisa."
+
+--- Evento ID: 26 - Nombre: EV026 (X:30, Y:18) ---
+  Página: 3
+    TEXTO: "Naaah, ¡Vaya muermooo buuuuuu!"
 ==================================================
 MAPA ID: 162 - Nombre: Paso de ruta 11
 ==================================================
@@ -12454,17 +12478,21 @@ MAPA ID: 163 - Nombre: Seaside
   Página: 1
     TEXTO: "¡Ayer rompí mi récord! Me moví 3 conchitas de  distancia en solo 5 horas. ¡Estoy agotado!"
 
---- Evento ID: 25 - Nombre: Entrar casa (X:24, Y:34) ---
+--- Evento ID: 82 - Nombre: EV082 (X:48, Y:41) ---
   Página: 1
-    TEXTO: "Se necesitan las llaves del gimnasio para entrar."
+    TEXTO: "¡Pulpiérre ha ido hacia arriba!"
 
 --- Evento ID: 44 - Nombre: EV044 (X:40, Y:70) ---
   Página: 1
     TEXTO: "Quien corre por la orilla... resbala. Pero quien se  arrastra… llega."
 
---- Evento ID: 82 - Nombre: EV082 (X:48, Y:41) ---
+--- Evento ID: 25 - Nombre: Entrar casa (X:24, Y:34) ---
   Página: 1
-    TEXTO: "¡Pulpiérre ha ido hacia arriba!"
+    TEXTO: "Se necesitan las llaves del gimnasio para entrar."
+
+--- Evento ID: 92 - Nombre: EV092 (X:25, Y:36) ---
+  Página: 1
+    TEXTO: "Tal vez con el equipo de buceo que ha dado el  dominante puedas ir a investigar..."
 
 --- Evento ID: 45 - Nombre: EV045 (X:49, Y:70) ---
   Página: 1
@@ -13435,18 +13463,6 @@ MAPA ID: 174 - Nombre: Gimnasio Marc
   Página: 1
     TEXTO: "Es una botella de Ratafia."
 
---- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
-  Página: 1
-    TEXTO: "¡Saludos, joven promesa! (¿Nos conocemos? Ya no  me acuerdo...) Soy Paco Legiado y este es el gimnasio de la ciudad de los Fogones que cuenta con el líder Marc, especializado en el tipo Fuego. Este gimnasio es un restaurante y el líder está muy ocupado cocinando, pero tal vez acceda a combatir contigo si trabajas de camarero. Tendrás que tomar nota de las comandas de cada mesa, de una en una y llevárselas al cocinero. Cuando se la entregues, el preparará la comida y tendrás que llevarla a la mesa correspondiente. Pero cuidado, algunos comensales pueden estar descontentos (o contentos de más) con su comida/bebida y querrán retarte. Para que no te líes con las mesas, te diré el nº de cada una de ellas: mesa 1: arriba izquierda, mesa 2: arriba derecha, mesa 3: abajo izquierda, mesa 4: abajo izquierda. Empieza tomando nota por la mesa 1 y ve en orden. Aquí tienes un obsequio para que te resulte más  fácil."
-
---- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
-  Página: 1
-    TEXTO: "¡Ánimo y a por la medalla! (ay, mi espalda, necesito la  jubilación ya)."
-
---- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
-  Página: 2
-    TEXTO: "¡Ay, se me olvidaba! El tipo Fuego es débil al tipo  Agua, Roca y Tierra. Pero seguro que un entrenador avezado como tú ya  conocerá eso (a estos jóvenes de hoy en día hay  que recordarles la tabla de tipos...)"
-
 --- Evento ID: 12 - Nombre: EV012 (X:10, Y:7) ---
   Página: 1
     TEXTO: "Solo puedo llevar un plato a la vez"
@@ -13458,6 +13474,18 @@ MAPA ID: 174 - Nombre: Gimnasio Marc
 --- Evento ID: 12 - Nombre: EV012 (X:10, Y:7) ---
   Página: 2
     TEXTO: "¿Quieres dejar el plato?"
+
+--- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
+  Página: 1
+    TEXTO: "¡Saludos, joven promesa! (¿Nos conocemos? Ya no  me acuerdo...) Soy Paco Legiado y este es el gimnasio de la ciudad de los Fogones que cuenta con el líder Marc, especializado en el tipo Fuego. Este gimnasio es un restaurante y el líder está muy ocupado cocinando, pero tal vez acceda a combatir contigo si trabajas de camarero. Tendrás que tomar nota de las comandas de cada mesa, de una en una y llevárselas al cocinero. Cuando se la entregues, el preparará la comida y tendrás que llevarla a la mesa correspondiente. Pero cuidado, algunos comensales pueden estar descontentos (o contentos de más) con su comida/bebida y querrán retarte. Para que no te líes con las mesas, te diré el nº de cada una de ellas: mesa 1: arriba izquierda, mesa 2: arriba derecha, mesa 3: abajo izquierda, mesa 4: abajo izquierda. Empieza tomando nota por la mesa 1 y ve en orden. Aquí tienes un obsequio para que te resulte más  fácil."
+
+--- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
+  Página: 1
+    TEXTO: "¡Ánimo y a por la medalla! (ay, mi espalda, necesito la  jubilación ya)."
+
+--- Evento ID: 1 - Nombre: CONSE (X:40, Y:17) ---
+  Página: 2
+    TEXTO: "¡Ay, se me olvidaba! El tipo Fuego es débil al tipo  Agua, Roca y Tierra. Pero seguro que un entrenador avezado como tú ya  conocerá eso (a estos jóvenes de hoy en día hay  que recordarles la tabla de tipos...)"
 
 --- Evento ID: 18 - Nombre: Trainer (X:43, Y:16) ---
   Página: 1
@@ -13507,10 +13535,6 @@ MAPA ID: 174 - Nombre: Gimnasio Marc
   Página: 2
     TEXTO: "¿Quieres dejar el plato?"
 
---- Evento ID: 20 - Nombre: EV020 (X:46, Y:8) ---
-  Página: 1
-    TEXTO: "Es una pata de Lechonk ibérico."
-
 --- Evento ID: 9 - Nombre: Trainer (X:37, Y:11) ---
   Página: 1
     TEXTO: "Me gustaría probar la sopa de nabo."
@@ -13530,6 +13554,10 @@ MAPA ID: 174 - Nombre: Gimnasio Marc
 --- Evento ID: 9 - Nombre: Trainer (X:37, Y:11) ---
   Página: 3
     TEXTO: "Gracias por el servicio"
+
+--- Evento ID: 20 - Nombre: EV020 (X:46, Y:8) ---
+  Página: 1
+    TEXTO: "Es una pata de Lechonk ibérico."
 
 --- Evento ID: 15 - Nombre: Trainer (X:35, Y:16) ---
   Página: 1
@@ -14830,7 +14858,15 @@ MAPA ID: 201 - Nombre: Isla Paraíso
 
 --- Evento ID: 1 - Nombre: EV001 (X:17, Y:9) ---
   Página: 1
-    TEXTO: "Casona de Atenea Residencia vacacional Gruter."
+    TEXTO: "Casona de Atenea Residencia vacacional Gruter. PROXIMAMENTE"
+
+--- Evento ID: 2 - Nombre: EV002 (X:14, Y:8) ---
+  Página: 1
+    TEXTO: "Casona de Atenea Residencia vacacional Gruter. PROXIMAMENTE"
+
+--- Evento ID: 3 - Nombre: EV003 (X:15, Y:8) ---
+  Página: 1
+    TEXTO: "Casona de Atenea Residencia vacacional Gruter. PROXIMAMENTE"
 ==================================================
 MAPA ID: 202 - Nombre: Casa Atenea
 ==================================================
