@@ -206,30 +206,36 @@ Pokemon = ZUBAT,6
 #-------------------------------
 [RAFARQUERO,Rafarquero]
 Items = FULLRESTORE,MEGARING,FULLRESTORE
-LoseText = ...
+LoseText = ¡Tenemos aquí un nuevo campeón!
 Pokemon = SKARMORY,64
     Moves = STEELWING,IRONDEFENSE,BODYPRESS,BRAVEBIRD
     Ability = STURDY
     Item = ROCKYHELMET
+    Shiny = true
 Pokemon = WHIMSICOTT,65
     Name = Candyfloss
     Moves = ENERGYBALL,MOONBLAST,TAILWIND,TAUNT
     Ability = PRANKSTER
     Item = FOCUSSASH
+    Shiny = true
 Pokemon = METAGROSS,67
     Moves = METEORMASH,ZENHEADBUTT,ICEPUNCH,AGILITY
     Ability = CLEARBODY
     Item = WEAKNESSPOLICY
+    Shiny = true
 Pokemon = AEGISLASH,68
     Moves = KINGSSHIELD,SHADOWBALL,FLASHCANNON,SHADOWSNEAK
     Item = LIFEORB
+    Shiny = true
 Pokemon = TYRANITAR,66
     Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE,DRAGONCLAW
     Ability = SANDSTREAM
     Item = ASSAULTVEST
+    Shiny = true
 Pokemon = GARDEVOIR,69
     Moves = HYPERVOICE,PSYSHOCK,FOCUSBLAST,CALMMIND
     Item = GARDEVOIRITE
+    Shiny = true
 #-------------------------------
 [MOCHILERA,Marina]
 LoseText = GG.
@@ -385,13 +391,14 @@ Pokemon = LUVDISC,23
 Pokemon = FINNEON,23
 #-------------------------------
 [FERBY,Ferby]
-Items = FULLRESTORE
+Items = MEGARING,FULLRESTORE
 LoseText = ...
 Pokemon = STARMIE,46
     Ability = NATURALCURE
-Pokemon = WISHIWASHI,47
+Pokemon = BLASTOISE,49
+    Item = BLASTOISINITE
 Pokemon = PALAFIN,48
-Pokemon = LAPRAS,49
+Pokemon = LAPRAS,47
     Ability = SHELLARMOR
     Item = SITRUSBERRY
 #-------------------------------
@@ -409,13 +416,14 @@ Pokemon = METAGROSS_1,55
     Item = METAGROSSITE
 #-------------------------------
 [MARC,Marc]
-Items = FULLRESTORE
+Items = MEGARING,FULLRESTORE
 LoseText = ...
 Pokemon = ARMAROUGE,52
     Ability = FLASHFIRE
-Pokemon = MAGCARGO,53
-    Ability = FLAMEBODY
-Pokemon = INFERNAPE,54
+Pokemon = CAMERUPT,54
+    Moves = LAVAPLUME,ROCKSLIDE,EARTHQUAKE,CURSE
+    Item = CAMERUPTITE
+Pokemon = INFERNAPE,53
     Ability = BLAZE
 Pokemon = TORKOAL,51
     Ability = DROUGHT
@@ -446,74 +454,71 @@ Pokemon = DIGLETT,21
 [IVANAVI,Ivanavi]
 Items = FULLRESTORE,MEGARING
 LoseText = ...
-Pokemon = TOGEKISS,60
-    Moves = AIRSLASH,AURASPHERE,DAZZLINGGLEAM,WISH
+Pokemon = TOGEKISS,63
+    Moves = AIRSLASH,AURASPHERE,MOONBLAST,WISH
     Ability = SERENEGRACE
-Pokemon = FERALIGATR,61
-    Moves = LOWKICK,SCREECH,AQUATAIL,THRASH
+Pokemon = FERALIGATR,64
+    Moves = ICEFANG,CRUNCH,AQUATAIL,OUTRAGE
     Ability = TORRENT
-Pokemon = AMPHAROS,62
-Pokemon = GALLADE,64
+Pokemon = AMPHAROS,65
+Pokemon = GALLADE,66
     Moves = SACREDSWORD,PSYCHOCUT,LEAFBLADE,AERIALACE
-    Ability = SHARPNESS
     Item = GALLADITE
-Pokemon = SKELEDIRGE,63
-    Moves = HYPERVOICE,WILLOWISP,HEX,FIREBLAST
+Pokemon = SKELEDIRGE,67
+    Moves = HYPERVOICE,WILLOWISP,HEX,TORCHSONG
     Ability = BLAZE
 #-------------------------------
 [KARMA,Karma]
 Items = FULLRESTORE,MEGARING
 LoseText = ...
-Pokemon = LUXRAY,60
-    Moves = VOLTSWITCH,DISCHARGE,CRUNCH,THUNDERWAVE
+Pokemon = LUXRAY,63
+    Moves = VOLTSWITCH,WILDCHARGE,CRUNCH,THUNDERWAVE
     Ability = INTIMIDATE
-Pokemon = SCEPTILE,61
-    Moves = LEAFBLADE,GIGADRAIN,LEAFSTORM,DRAGONPULSE
+Pokemon = SCEPTILE,64
+    Moves = LEAFBLADE,GIGADRAIN,XSCISSOR,DRAGONPULSE
     Ability = OVERGROW
-Pokemon = GRENINJA,62
+Pokemon = GRENINJA,65
     Form = 1
     Moves = WATERSHURIKEN,NIGHTSLASH,EXTRASENSORY,HYDROPUMP
-Pokemon = CROBAT_1,63
+Pokemon = CROBAT_1,66
     Form = 1
     Moves = SHADOWBALL,WILLOWISP,HURRICANE,CONFUSERAY
     Ability = INNERFOCUS
-Pokemon = CHARIZARD,64
+Pokemon = CHARIZARD,67
     Moves = DRAGONCLAW,FLAREBLITZ,AIRSLASH,FLAMETHROWER
     Item = CHARIZARDITEX
 #-------------------------------
 [CROSS,Crossbow]
 Items = FULLRESTORE,MEGARING
 LoseText = ...
-Pokemon = PELIPPER,60
-    Moves = MIST,ROOST,HURRICANE,HYDROPUMP
+Pokemon = PELIPPER,63
+    Moves = SCALD,ROOST,HURRICANE,HYDROPUMP
     Ability = DRIZZLE
-Pokemon = CORVIKNIGHT,61
+Pokemon = CORVIKNIGHT,64
     Moves = STEELWING,DRILLPECK,SWAGGER,BRAVEBIRD
     Ability = UNNERVE
-Pokemon = INFERNAPE,62
+Pokemon = INFERNAPE,65
     Moves = CLOSECOMBAT,RAGINGFURY,ACROBATICS,FLAMETHROWER
     Ability = BLAZE
-Pokemon = ZOROARK,63
-    Moves = IMPRISON,NIGHTDAZE,NASTYPLOT,FOULPLAY
-Pokemon = LUCARIO,64
+Pokemon = ZOROARK,66
+    Moves = UTURN,NIGHTDAZE,NASTYPLOT,FOULPLAY
+Pokemon = LUCARIO,67
     Moves = CLOSECOMBAT,METEORMASH,DRAGONPULSE,EXTREMESPEED
-    Ability = INNERFOCUS
     Item = LUCARIONITE
 #-------------------------------
 [YIMMO,Yimmo]
 Items = FULLRESTORE,MEGARING
 LoseText = ...
-Pokemon = GREATTUSK,60
-    Moves = STOMPINGTANTRUM,KNOCKOFF,EARTHQUAKE,GIGAIMPACT
-Pokemon = PRIMARINA,61
+Pokemon = GREATTUSK,63
+    Moves = BRICKBREAK,KNOCKOFF,EARTHQUAKE,GIGAIMPACT
+Pokemon = PRIMARINA,64
     Moves = SPARKLINGARIA,HYPERVOICE,MOONBLAST,HYDROPUMP
-Pokemon = DRAGAPULT,62
-    Moves = DRAGONDARTS,DRAGONDANCE,TAKEDOWN,PHANTOMFORCE
-Pokemon = KARTANA,63
-    Moves = LEAFBLADE,SACREDSWORD,SMARTSTRIKE,SYNTHESIS
-Pokemon = LOPUNNY,64
-    Moves = HIGHJUMPKICK,BOUNCE,ICEPUNCH,RETURN
-    Ability = CUTECHARM
+Pokemon = DRAGAPULT,65
+    Moves = DRAGONDARTS,UTURN,TAKEDOWN,PHANTOMFORCE
+Pokemon = KARTANA,66
+    Moves = LEAFBLADE,SACREDSWORD,SMARTSTRIKE,NIGHTSLASH
+Pokemon = LOPUNNY,67
+    Moves = HIGHJUMPKICK,BOUNCE,ICEPUNCH,HEADBUTT
     Item = LOPUNNITE
 #-------------------------------
 [DAN,Dan]
@@ -744,16 +749,16 @@ Pokemon = ALTARIA_1,38
     Item = ALTARIANITE
 #-------------------------------
 [RODILLO,Rodillo]
-Items = HYPERPOTION
-LoseText = ...
+Items = MEGARING,HYPERPOTION
+LoseText = Naaah, skill issue my man, GG.
 Pokemon = ROTOM_2,38
     Form = 2
     Ability = LEVITATE
-Pokemon = JOLTEON,39
-    Ability = VOLTABSORB
-Pokemon = KILOWATTREL,40
+Pokemon = KILOWATTREL,39
     Ability = VOLTABSORB
     Item = SITRUSBERRY
+Pokemon = AMPHAROS,40
+    Item = AMPHAROSITE
 #-------------------------------
 [E_GUAY,KillerDragon]
 LoseText = Bien jugado.
@@ -861,14 +866,14 @@ Pokemon = FROSMOTH,42
 Pokemon = FROSLASS,42
 #-------------------------------
 [FRUN,Frun]
-Items = HYPERPOTION
+Items = MEGARING,HYPERPOTION
 LoseText = ...
 Pokemon = BEARTIC,42
     Ability = SLUSHRUSH
 Pokemon = EISCUE,43
-Pokemon = WALREIN,44
-    Ability = ICEBODY
-Pokemon = SANDSLASH,45
+Pokemon = ABOMASNOW,45
+    Item = ABOMASITE
+Pokemon = SANDSLASH,44
     Form = 1
     Ability = SLUSHRUSH
     Item = SITRUSBERRY
@@ -1110,7 +1115,7 @@ Pokemon = ELECTRODE,59
 #-------------------------------
 [LUIGI,Luigi,4]
 Items = MEGARING
-LoseText = ...
+LoseText = GGs hermano.
 Pokemon = MAROWAK_1,58
     Form = 1
     Ability = CURSEDBODY
@@ -1122,6 +1127,7 @@ Pokemon = DRIFBLIM,61
 Pokemon = GENGAR,62
     Ability = CURSEDBODY
     Item = GENGARITE
+    Shiny = true
 #-------------------------------
 [E_GUAYf,Alma Marcela Gozo]
 LoseText = Bien jugado.

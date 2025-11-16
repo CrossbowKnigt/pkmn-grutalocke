@@ -716,7 +716,7 @@ MapPosition = 0,10,15
 SnapEdges = true
 BattleBack = FondoNube
 #-------------------------------
-[128]   # Planta de arriba
+[128]   # Cafetería
 Name = Cafetería
 ShowArea = true
 #-------------------------------
@@ -865,7 +865,7 @@ SnapEdges = true
 BattleBack = FondoPantano
 #-------------------------------
 [165]   # Seaside underwater
-Name = Playa Pulpiérre
+Name = Fondo Pulpièrre
 MapPosition = 0,24,15
 SnapEdges = true
 BattleBack = FondoMarino
@@ -1002,4 +1002,5 @@ Name = Liga Pokémon
 BattleBack = champion1
 #-------------------------------
 [199]   # Casas Luncheon
+Name = Casas Luncheon
 SnapEdges = true
