@@ -76,7 +76,7 @@ module ModularTitle
   MOSTRAR_GRITO = true
 
 
-  SPECIES = :NECROZMA
+  SPECIES = :LUNARIS
   # Aplica una forma a la especie de Pokémon
   SPECIES_FORM = 0
   # Aplica la forma femenina
