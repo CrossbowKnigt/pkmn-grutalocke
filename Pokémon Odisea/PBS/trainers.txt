@@ -947,19 +947,19 @@ LoseText = Bien jugado.
 Pokemon = SLOWKING,46
 Pokemon = SLOWBRO,46
 #-------------------------------
-[E_GUAYf,Lux]
+[RANGER_F,Lux]
 LoseText = Bien jugado.
 Pokemon = VAPOREON,45
 Pokemon = GASTRODON,45
 Pokemon = POLITOED,45
 #-------------------------------
-[E_GUAYf,Gwen]
+[RANGER_F,Gwen]
 LoseText = Bien jugado.
 Pokemon = KINGLER,45
 Pokemon = BASCULEGION,45
 Pokemon = LUVDISC,45
 #-------------------------------
-[E_GUAY,Ezreal]
+[RANGER,Ezreal]
 LoseText = Bien jugado.
 Pokemon = DONDOZO,46
 Pokemon = TATSUGIRI,46
