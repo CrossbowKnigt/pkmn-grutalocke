@@ -509,7 +509,7 @@ BattleBGM = King D Mind phase 2 - Super Kirby Clash Music [ ezmp3.cc ].ogg
 Name = Líder
 Gender = Male
 BaseMoney = 100
-BattleBGM = Summertime-groove.ogg
+BattleBGM = Theme Of Bayonetta 3 - Al Fine - Release.ogg
 #-------------------------------
 [MARC]
 Name = Líder
