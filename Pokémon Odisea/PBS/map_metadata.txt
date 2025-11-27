@@ -1005,3 +1005,6 @@ BattleBack = champion1
 [199]   # Casas Luncheon
 Name = Casas Luncheon
 SnapEdges = true
+#-------------------------------
+[204]   # Moon Cave 2
+Dungeon = true
