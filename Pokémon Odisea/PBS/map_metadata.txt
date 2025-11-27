@@ -441,6 +441,7 @@ ShowArea = true
 MapPosition = 0,13,3
 SnapEdges = true
 BattleBack = FondoCap
+Environment = None
 #-------------------------------
 [081]   # Casa de Juanca
 Name = Casa de Juanca0s
@@ -515,7 +516,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,9,7
 SnapEdges = true
-BattleBack = FondoDesierto
+BattleBack = FondoSand
 MapSize = 3,111111111
 #-------------------------------
 [094]   # Centro Pokémon
@@ -530,7 +531,7 @@ Bicycle = true
 Weather = Sandstorm,100
 MapPosition = 0,10,6
 SnapEdges = true
-BattleBack = FondoDesierto
+BattleBack = FondoSand
 #-------------------------------
 [096]   # Cueva yelo
 Name = Templo helado
@@ -777,7 +778,7 @@ BattleBack = FondoCiudadNoche
 #-------------------------------
 [149]   # Gym Rodillo
 Name = Gym Rodillo
-BattleBack = FondoInteriorB
+BattleBack = FondoRodillo
 #-------------------------------
 [151]   # Ruta 10
 Name = Ruta 10
