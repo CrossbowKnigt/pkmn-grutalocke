@@ -167,17 +167,17 @@ Pokemon = BUNEARY,22
     Item = SITRUSBERRY
 #-------------------------------
 [JOVEN,Patatus]
-LoseText = Ostras, ¡Tus pokes si que molan!
+LoseText = Ostras, ¡Tus Pokes sí que molan!
 Pokemon = HOOTHOOT,3
 Pokemon = GREAVARD,5
 #-------------------------------
 [CHICA,Aryll]
-LoseText = GG.
+LoseText = Me bopeaste pero bien.
 Pokemon = BLIPBUG,6
 Pokemon = SMOLIV,8
 #-------------------------------
 [JOVEN,Ironstark]
-LoseText = GG.
+LoseText = Ese trickjump no me lo sabía.
 Pokemon = RATTATA,7
 Pokemon = MANKEY,9
 #-------------------------------
@@ -189,11 +189,11 @@ Pokemon = VOLTORB,12
     Ability = STATIC
 #-------------------------------
 [MONTANERO,Kyuso]
-LoseText = GG.
+LoseText = Joder, estás más fuerte que el vinagre.
 Pokemon = GEODUDE,8
 #-------------------------------
 [MOCHILERO,Misugi]
-LoseText = GG.
+LoseText = Creo que ya me he ubicado.
 Pokemon = STARLY,8
 #-------------------------------
 [RECLUTA,Broodal]
@@ -206,7 +206,7 @@ Pokemon = ZUBAT,6
 #-------------------------------
 [RAFARQUERO,Rafarquero]
 Items = FULLRESTORE,MEGARING,FULLRESTORE
-LoseText = ¡Tenemos aquí un nuevo campeón!
+LoseText = Has demostrado una destreza formidable en combate, mi más sincera enhorabuena. ¡Tenemos aquí un nuevo Campeón!
 Pokemon = SKARMORY,64
     Moves = STEELWING,IRONDEFENSE,BODYPRESS,BRAVEBIRD
     Ability = STURDY
@@ -274,7 +274,7 @@ Pokemon = ROLYCOLY,13
 Pokemon = GEODUDE,14
 #-------------------------------
 [MOCHILERO,Garrek]
-LoseText = GG.
+LoseText = Esto en Murcia no me pasa.
 Pokemon = TRAPINCH,13
 Pokemon = CACNEA,13
 #-------------------------------
@@ -284,12 +284,12 @@ Pokemon = BALTOY,13
 Pokemon = RIOLU,14
 #-------------------------------
 [RANGER_F,Marina]
-LoseText = GG.
+LoseText = Esto ha sido demasiado sofocante.
 Pokemon = CHARCADET,14
 Pokemon = GIBLE,15
 #-------------------------------
 [MOCHILERO,M de Magnífica]
-LoseText = GG.
+LoseText = Muy bien, te diré lo que sé.
 Pokemon = NACLI,11
 #-------------------------------
 [JOVEN,Proac]
@@ -302,25 +302,25 @@ Pokemon = LITLEO,15
 Pokemon = SANDILE,16
 #-------------------------------
 [RANGER,JuegAriel]
-LoseText = GG.
-Pokemon = MUNCHLAX,15
-Pokemon = SLAKOTH,16
+LoseText = Me falta jugar a tu juego.
+Pokemon = LITLEO,15
+Pokemon = SANDILE,16
 #-------------------------------
 [RANGER,Aruson]
-LoseText = GG.
+LoseText = Con esa fuerza ninguna tormenta podrá contigo.
 Pokemon = LARVESTA,16
 Pokemon = BRAMBLIN,16
 #-------------------------------
 [RANGER,BlackYoshi]
-LoseText = GG.
+LoseText = Muy fuerte, pero no estás a la altura de Tyron YEP.
 Pokemon = SALANDIT,17
 #-------------------------------
 [RANGER,Bento]
-LoseText = GG.
+LoseText = ¡No puede ser!¡NO PUEDE SER!¡¡¡AAAAHHHH!!!.
 Pokemon = BAGON,17
 #-------------------------------
 [LUIGI,Luigi,1]
-LoseText = GGs hermano.
+LoseText = ¡Vaya! Parece que has entrenado muy bien a tus Pokémon.
 Pokemon = CUBONE,14
     Ability = ROCKHEAD
 Pokemon = GREAVARD,14
@@ -335,17 +335,17 @@ Pokemon = ZIGZAGOON,18
     Form = 1
 #-------------------------------
 [RECLUTA,Broodal,3]
-LoseText = Ya no voy a conseguir un ascenso...
+LoseText = No acepto este resultado. ¡Me niego!
 Pokemon = ZUBAT,19
 Pokemon = PATRAT,19
 #-------------------------------
 [RECLUTA,Broodal,4]
-LoseText = Ya no voy a conseguir un ascenso...
+LoseText = ¿Cuándo será mi momento de gloria?
 Pokemon = WOOBAT,19
 Pokemon = YUNGOOS,19
 #-------------------------------
 [RECLUTA,Broodal,6]
-LoseText = Ya no voy a conseguir un ascenso...
+LoseText = ¡Detente, o la jefa me matará!
 Pokemon = RATICATE,20
 #-------------------------------
 [RECLUTA,Broodal,5]
@@ -358,7 +358,7 @@ Pokemon = RHYHORN,21
 Pokemon = GLIGAR,21
 #-------------------------------
 [MOCHILERA,Alba]
-LoseText = GG.
+LoseText = Esto no me ha solucionado nada.
 Pokemon = TOEDSCOOL,22
 Pokemon = SANDYGAST,22
 #-------------------------------
@@ -374,17 +374,17 @@ Pokemon = SANDSLASH,24
     Item = SITRUSBERRY
 #-------------------------------
 [MOCHILERO,Juande]
-LoseText = GG.
+LoseText = Con haberme dicho que no bastaba...
 Pokemon = BIBAREL,23
 Pokemon = SHELLOS,23
 #-------------------------------
 [MOCHILERO,Carley]
-LoseText = GG.
+LoseText = Ah no, no eres tú.
 Pokemon = INKAY,23
 Pokemon = DEWPIDER,23
 #-------------------------------
 [PESCADOR,Kera]
-LoseText = GG.
+LoseText = Vaya play más buena, GG.
 Pokemon = MAGIKARP,23
 Pokemon = FEEBAS,23
 Pokemon = LUVDISC,23
@@ -449,13 +449,13 @@ LoseText = GG, ahora te daré una respuesta.
 Pokemon = FLOETTE,25
 #-------------------------------
 [ALUMNA,Ikiiv]
-LoseText = GG.
+LoseText = Eres más del 64, ¿verdad?.
 Pokemon = PHANPY,21
 Pokemon = DIGLETT,21
 #-------------------------------
 [IVANAVI,Ivanavi]
 Items = FULLRESTORE,MEGARING
-LoseText = Sabía que tenías el potencial de ganarme.
+LoseText = Sabía que tenías el potencial para ganarme.
 Pokemon = TOGEKISS,63
     Moves = AIRSLASH,AURASPHERE,MOONBLAST,WISH
     Ability = SERENEGRACE
@@ -550,22 +550,22 @@ Pokemon = AZUMARILL,28
     Shiny = true
 #-------------------------------
 [MOCHILERO,Ezequiel]
-LoseText = GG.
+LoseText = Me arrebataste mi racha de victorias, GG.
 Pokemon = SWADLOON,26
 Pokemon = MEOWSTIC,26
 #-------------------------------
 [JOVEN,Eloy]
-LoseText = GG.
+LoseText = Mejor me vuelvo a la cueva...
 Pokemon = YANMA,26
 Pokemon = IMPIDIMP,26
 Pokemon = CORVISQUIRE,26
 #-------------------------------
 [PESCADOR,César]
-LoseText = GG.
+LoseText = No he conseguido pescar esta victoria.
 Pokemon = FLOATZEL,27
 #-------------------------------
 [RANGER,JohnRossums]
-LoseText = GG.
+LoseText = El bosque no me advirtió de esto.
 Pokemon = GRAFAIAI,27
 Pokemon = GROVYLE,27
 #-------------------------------
@@ -575,18 +575,18 @@ Pokemon = PAWNIARD,28
 Pokemon = GREEDENT,28
 #-------------------------------
 [RECLUTA,Broodal,8]
-LoseText = Otro mes que no cobro...
+LoseText = Se supone que no puedes hacer esto...
 Pokemon = GOLBAT,28
 Pokemon = FURRET,28
 #-------------------------------
 [RECLUTA,Broodal,9]
-LoseText = Otro mes que no cobro...
+LoseText = ¿Pero cómo te atreves?
 Pokemon = LINOONE,29
     Form = 1
 Pokemon = ARIADOS,29
 #-------------------------------
 [RECLUTA,Broodal,10]
-LoseText = Otro mes que no cobro...
+LoseText = Creo que ha llegado Elmo... El momento de retirarme
 Pokemon = SWOOBAT,29
 Pokemon = VENONAT,29
 Pokemon = FOONGUS,29
@@ -602,12 +602,12 @@ Pokemon = DIGGERSBY,32
     Item = SITRUSBERRY
 #-------------------------------
 [RANGERS,Freelatas & Carlitos]
-LoseText = GG.
+LoseText = La Ñ no será vencida tan fácilmente.
 Pokemon = WHIRLIPEDE,29
 Pokemon = MAGNETON,30
 #-------------------------------
 [RANGERS,Rian & Deve]
-LoseText = GG.
+LoseText = Menudos wallkicks te marcas.
 Pokemon = WEEPINBELL,30
 Pokemon = PIDGEOTTO,30
 #-------------------------------
@@ -617,22 +617,22 @@ Pokemon = UMBREON,32
 Pokemon = ESPEON,32
 #-------------------------------
 [MOCHILERA,Evain]
-LoseText = GG.
+LoseText = No hay bayas para revivir Pokémon, ¿verdad?
 Pokemon = ROSELIA,31
 Pokemon = SHIINOTIC,31
 #-------------------------------
 [MOCHILERO,Somedas]
-LoseText = GG.
+LoseText = Guau, me has dejado de piedra.
 Pokemon = TOGEDEMARU,31
 Pokemon = PAWNIARD,31
 #-------------------------------
 [MOCHILERO,Jota]
-LoseText = GG.
+LoseText = Esto ha sido más rápido que una run de Nipple%.
 Pokemon = FERROSEED,32
 Pokemon = GROTLE,31
 #-------------------------------
 [MOCHILERO,Mochi]
-LoseText = GG.
+LoseText = Esto no nos ayuda a salir de aquí.
 Pokemon = GOGOAT,32
 #-------------------------------
 [DIEGO_Y_MYSTERY,Diego y Mystery]
@@ -650,27 +650,27 @@ Pokemon = ARBOLIVA,35
     Item = SITRUSBERRY
 #-------------------------------
 [MOCHILERO,Machochin]
-LoseText = GG.
+LoseText = Cuidado con equivocarte de tubería otra vez.
 Pokemon = TANGELA,33
 #-------------------------------
 [MOCHILERO,Román]
-LoseText = GG.
+LoseText = Esto de las tuberías es un lío.
 Pokemon = MAGNETON,33
 #-------------------------------
 [MOCHILERO,Paco]
-LoseText = GG.
+LoseText = Estoy to' perdío.
 Pokemon = BRELOOM,33
 #-------------------------------
 [MOCHILERO,Quantum]
-LoseText = GG.
+LoseText = Necesito un descanso.
 Pokemon = GLOOM,33
 #-------------------------------
 [MOCHILERO,Snepy]
-LoseText = GG.
+LoseText = Esta victoria te acerca un poco más a la salida.
 Pokemon = APPLETUN,33
 #-------------------------------
 [LUIGI,Luigi,2]
-LoseText = GGs heermano.
+LoseText = ¡Sí que te lo has tomado en serio lo de Entrenador Pokémon!
 Pokemon = MAROWAK_1,28
     Form = 1
     Ability = CURSEDBODY
@@ -689,61 +689,61 @@ Pokemon = TORTERRA,35
     Ability = OVERGROW
 #-------------------------------
 [RECLUTAS,Broodal & Broodal]
-LoseText = Poco me pagan.
+LoseText = Poco nos pagan.
 Pokemon = GUMSHOOS,30
 Pokemon = FORRETRESS,30
 #-------------------------------
 [RECLUTAS,Broodal]
-LoseText = Poco me pagan.
+LoseText = ¡Arg!¡Estuve a punto de ganarte!.
 Pokemon = GULPIN,24
 Pokemon = KOFFING,24
 #-------------------------------
 [RECLUTA,Broodal,11]
-LoseText = Poco me pagan.
+LoseText = ¿No te cansas de fastidiarnos?
 Pokemon = MAREANIE,24
 Pokemon = FURRET,24
 #-------------------------------
 [RECLUTA,Broodal,12]
-LoseText = Poco me pagan.
+LoseText = ¿Cómo has conseguido darle la vuelta?
 Pokemon = GULPIN,24
 Pokemon = DUSTOX,24
 #-------------------------------
 [RECLUTA,Broodal,13]
-LoseText = Poco me pagan.
+LoseText = Eres muy pesado, que lo sepas.
 Pokemon = KOFFING,24
 Pokemon = BEEDRILL,24
 #-------------------------------
 [NADADOR,Nicolás]
-LoseText = GG.
+LoseText = Tu técnica me ha fascinado.
 Pokemon = TENTACRUEL,33
 Pokemon = PELIPPER,33
 #-------------------------------
 [RANGER,Ricardo]
-LoseText = GG.
+LoseText = Me has ganado, pero debo seguir patrullando.
 Pokemon = UNFEZANT,33
 Pokemon = CRABRAWLER,33
 Pokemon = SLOWBRO,33
 #-------------------------------
 [NADADORA,Aura]
-LoseText = GG.
+LoseText = Al menos sigo a flote...
 Pokemon = CORSOLA,34
 Pokemon = LUMINEON,34
 #-------------------------------
 [NADADOR,Ferro]
-LoseText = GG.
+LoseText = A lomos de Yoshi cualquiera gana...
 Pokemon = GOLDUCK,34
 Pokemon = MANTINE,34
 Pokemon = BARRASKEWDA,34
 #-------------------------------
 [CHICA_PARASOL,Victoria]
-LoseText = GG.
+LoseText = Voy a llamar a mi guardaespaldas por lo que has hecho.
 Pokemon = ROSERADE,35
 Pokemon = CHERRIM,35
 Pokemon = PERSIAN,35
 #-------------------------------
 [PAULINE,Pauline]
 Items = MEGARING,HYPERPOTION
-LoseText = ¡Qué gran espectáculo!
+LoseText = ¡Qué destreza!¡Qué nivel!¡Qué gran espectáculo!
 Pokemon = RILLABOOM,37
 Pokemon = SKELEDIRGE,37
 Pokemon = PRIMARINA,37
@@ -763,61 +763,61 @@ Pokemon = AMPHAROS,40
     Item = AMPHAROSITE
 #-------------------------------
 [E_GUAY,KillerDragon]
-LoseText = Bien jugado.
+LoseText = Me has dejado paralizado, bien jugado.
 Pokemon = ELECTABUZZ,37
 Pokemon = ZEBSTRIKA,37
 #-------------------------------
 [E_GUAY,iTor]
-LoseText = Bien jugado.
+LoseText = Puede que tengas una oportunidad contra el líder.
 Pokemon = PINCURCHIN,37
 Pokemon = BOLTUND,37
 #-------------------------------
 [E_GUAY,MTSergi]
-LoseText = Bien jugado.
+LoseText = Parece que no estamos en la misma vibra.
 Pokemon = MAGNETON,37
 Pokemon = HELIOLISK,37
 #-------------------------------
 [E_GUAY,Darcus]
-LoseText = Bien jugado.
+LoseText = Tío, tendrías que haberte dejado ganar.
 Pokemon = PAWMOT,37
 Pokemon = LANTURN,37
 #-------------------------------
 [E_GUAY,Pabolg]
-LoseText = Bien jugado.
+LoseText = Has superado a mi equipo con creces, GG.
 Pokemon = VIKAVOLT,37
 Pokemon = ORICORIO,37
 #-------------------------------
 [E_GUAY,Javi]
-LoseText = Bien jugado.
+LoseText = Esto se veía venir.
 Pokemon = EELEKTROSS,37
 Pokemon = TOGEDEMARU,37
 #-------------------------------
 [MONTANERO,Lucatrónico]
-LoseText = GG.
+LoseText = Te dije entrar en calor, no asarme.
 Pokemon = AVALUGG_1,38
     Form = 1
 #-------------------------------
 [MOCHILERO,Piercemundy]
-LoseText = GG.
+LoseText = Necesito recuperarme de esta derrota... y del mareo.
 Pokemon = GOLDUCK,38
 Pokemon = FURFROU,38
 #-------------------------------
 [KARATEKA,Lex]
-LoseText = GG.
+LoseText = Mis Pokémon y yo nos haremos más fuertes para ganarte la próxima vez.
 Pokemon = HITMONLEE,38
 Pokemon = HITMONCHAN,38
 Pokemon = HITMONTOP,38
 #-------------------------------
 [KARATEKA,Vichino]
-LoseText = GG.
+LoseText = Sí que nos has dado duro...
 Pokemon = MACHAMP,39
 #-------------------------------
 [KARATEKA,Ryu]
-LoseText = GG.
+LoseText = Sí que nos has dado duro...
 Pokemon = CONKELDURR,39
 #-------------------------------
 [KARATEKA_F,Merylol]
-LoseText = GG.
+LoseText = ¡Como arde tu fuego interior!
 Pokemon = MIENSHAO,40
 #-------------------------------
 [PANDIN,Pandin]
@@ -831,7 +831,7 @@ Pokemon = GLALIE,42
     Ability = ICEBODY
 #-------------------------------
 [LUIGI,Luigi,3]
-LoseText = GGs hermano.
+LoseText = ¡Ay, no tendría que haber hecho eso!¡Es que no tuve cuidado!
 Pokemon = MAROWAK_1,39
     Form = 1
     Ability = CURSEDBODY
@@ -854,23 +854,23 @@ Pokemon = CINDERACE,43
     Item = SITRUSBERRY
 #-------------------------------
 [E_GUAY,Landaris]
-LoseText = Bien jugado.
+LoseText = Has demostrado mucha elegancia en el combate, bien jugado.
 Pokemon = MAMOSWINE,42
 Pokemon = CETITAN,42
 #-------------------------------
 [E_GUAY,Fredomel]
-LoseText = Bien jugado.
+LoseText = El hielo también es muy frágil...
 Pokemon = VANILLISH,42
 Pokemon = MRRIME,42
 #-------------------------------
 [E_GUAYf,Camila]
-LoseText = Bien jugado.
+LoseText = No he conseguido congelarte, GG.
 Pokemon = FROSMOTH,42
 Pokemon = FROSLASS,42
 #-------------------------------
 [FRUN,Frun]
 Items = MEGARING,HYPERPOTION
-LoseText = Me has dejado como un cuadro.
+LoseText = Me has dejado como un cuadro hecho por un Inkling.
 Pokemon = BEARTIC,42
     Ability = SLUSHRUSH
 Pokemon = EISCUE,43
@@ -883,19 +883,19 @@ Pokemon = SANDSLASH,44
     Item = SITRUSBERRY
 #-------------------------------
 [RECLUTA,Broodal,14]
-LoseText = Poco me pagan.
+LoseText = Esto me pasa por escuchar al conejo malo.
 Pokemon = WEEZING,40
 Pokemon = PERSIAN,40
 #-------------------------------
 [RECLUTA,Broodal,15]
-LoseText = Poco me pagan.
+LoseText = ¡Ay!¡Se me han congelado las orejas!
 Pokemon = MUK,40
     Form = 1
 Pokemon = PERSIAN,40
     Form = 1
 #-------------------------------
 [RECLUTA,Broodal,16]
-LoseText = Poco me pagan.
+LoseText = ¡No conseguirás nada con tu victoria!
 Pokemon = GARBODOR,41
 Pokemon = PERRSERKER,41
 #-------------------------------
@@ -905,23 +905,23 @@ Pokemon = LIEPARD,43
 Pokemon = PURUGLY,43
 #-------------------------------
 [NADADORA,Pola]
-LoseText = GG.
+LoseText = Quizás solo debí nadar...
 Pokemon = CURSOLA,44
 Pokemon = MILOTIC,44
 #-------------------------------
 [NADADOR,Marco]
-LoseText = GG.
+LoseText = Tienes la fuerza de un torbellino, GG.
 Pokemon = GRAPPLOCT,44
 Pokemon = GYARADOS,44
 #-------------------------------
 [NINO_BIEN,José Miguel]
-LoseText = Bien jugado.
+LoseText = No le digas a mi hermana que he perdido, tengo que mantener mi status.
 Pokemon = PERSIAN,44
     Form = 1
 Pokemon = GHOLDENGO,44
 #-------------------------------
 [NINA_BIEN,Carolina]
-LoseText = Bien jugado.
+LoseText = No le digas a mi hermano que he perdido, tengo que mantener mi status.
 Pokemon = ALCREMIE,44
 Pokemon = BLISSEY,44
 #-------------------------------
@@ -932,64 +932,64 @@ Pokemon = BEWEAR,45
 Pokemon = MISMAGIUS,45
 #-------------------------------
 [E_GUAYf,Miku]
-LoseText = Bien jugado.
+LoseText = Me has bajado los humos con el puerro.
 Pokemon = ALOMOMOLA,45
 Pokemon = CINCCINO,45
 Pokemon = SYLVEON,45
 #-------------------------------
 [MOCHILERO,Gio]
-LoseText = Bien jugado.
+LoseText = Me has dejado apagado.
 Pokemon = BOMBIRDIER,46
 #-------------------------------
 [ALUMNA,Mar]
-LoseText = Bien jugado.
+LoseText = Parece... que has ganado, bien jugado.
 Pokemon = EMOLGA,45
 Pokemon = AMPHAROS,45
 #-------------------------------
 [ALUMNO,Hollow]
-LoseText = Bien jugado.
+LoseText = ¡Ya me has hecho perder la cuenta!
 Pokemon = PELIPPER,45
 Pokemon = CRAWDAUNT,45
 #-------------------------------
 [RANGER,Volibear]
-LoseText = Bien jugado.
+LoseText = No debí haberme adelantado tanto...
 Pokemon = SLOWKING,46
 Pokemon = SLOWBRO,46
 #-------------------------------
 [RANGER_F,Lux]
-LoseText = Bien jugado.
+LoseText = ¿Cómo has esquivado todos mis ataques?
 Pokemon = VAPOREON,45
 Pokemon = GASTRODON,45
 Pokemon = POLITOED,45
 #-------------------------------
 [RANGER_F,Gwen]
-LoseText = Bien jugado.
+LoseText = Me has partido en 2.
 Pokemon = KINGLER,45
 Pokemon = BASCULEGION,45
 Pokemon = LUVDISC,45
 #-------------------------------
 [RANGER,Ezreal]
-LoseText = Bien jugado.
+LoseText = Tenía que haber tirado la ulti antes...
 Pokemon = DONDOZO,46
 Pokemon = TATSUGIRI,46
 #-------------------------------
 [RECLUTA,Broodal,17]
-LoseText = Poco me pagan.
+LoseText = Ojalá esto no hubiera pasado...
 Pokemon = BISHARP,47
 Pokemon = GRIMMSNARL,47
 #-------------------------------
 [RECLUTA,Broodal,18]
-LoseText = Poco me pagan.
+LoseText = ¡Ay!¡Me he partido el diente!
 Pokemon = SALAZZLE,47
 Pokemon = CACTURNE,47
 #-------------------------------
 [RECLUTA,Broodal,19]
-LoseText = Poco me pagan.
+LoseText = Maldito mocoso bigotudo...
 Pokemon = ZANGOOSE,48
 Pokemon = WEAVILE,48
 #-------------------------------
 [RECLUTA,Broodal,20]
-LoseText = Poco me pagan.
+LoseText = Maldito mocoso bigotudo...
 Pokemon = SEVIPER,48
 Pokemon = ARBOK,48
 #-------------------------------
@@ -1005,62 +1005,62 @@ Pokemon = DIGGERSBY,50
     Item = SITRUSBERRY
 #-------------------------------
 [ALUMNO,Aitor Tilla]
-LoseText = Bien jugado.
+LoseText = Me has dejado blanco como los nabos.
 Pokemon = CENTISKORCH,49
 Pokemon = CAMERUPT,49
 #-------------------------------
 [CHICA,Susi Roll]
-LoseText = Bien jugado.
+LoseText = Ahora tengo sed de venganza.
 Pokemon = DELPHOX,49
 Pokemon = EMBOAR,49
 #-------------------------------
 [RANGER,Pepe Roni]
-LoseText = Bien jugado.
+LoseText = Estoy más espeso que mi chocolate.
 Pokemon = FLAREON,49
 Pokemon = CHANDELURE,49
 #-------------------------------
 [E_GUAYf,Carla Melo]
-LoseText = Bien jugado.
+LoseText = Creo que me están dando gases...
 Pokemon = SCOVILLAIN,49
 Pokemon = MAGMORTAR,49
 #-------------------------------
 [RANGER,Lagpu]
-LoseText = Bien jugado.
+LoseText = No debí haber dicho eso.
 Pokemon = TALONFLAME,51
 Pokemon = LYCANROC,51
 #-------------------------------
 [RANGER,Lonk]
-LoseText = Bien jugado.
+LoseText = Ehhhmmm... Vaya, me has tumbado.
 Pokemon = THROH,51
 Pokemon = ZEBSTRIKA,51
 #-------------------------------
 [RANGER,Riusevic]
-LoseText = Bien jugado.
+LoseText = GG, ahora te cuento el chiste.
 Pokemon = ARMALDO,51
 Pokemon = SWANNA,51
 #-------------------------------
 [RECLUTA,Broodal,21]
-LoseText = Poco me pagan.
+LoseText = Pues ha pasado como en el cuento...
 Pokemon = CROBAT,52
 Pokemon = VENOMOTH,53
 #-------------------------------
 [RECLUTA,Broodal,22]
-LoseText = Poco me pagan.
+LoseText = ¡Ay!¡Eso ha dolido!.
 Pokemon = OBSTAGOON,52
 Pokemon = KINGAMBIT,53
 #-------------------------------
 [RECLUTA,Broodal,23]
-LoseText = Poco me pagan.
+LoseText = Esto no les va a gustar a los señoritos Broodals...
 Pokemon = SCOLIPEDE,52
 Pokemon = SWALOT,53
 #-------------------------------
 [RECLUTA,Broodal,24]
-LoseText = Poco me pagan.
+LoseText = Esto no les va a gustar a los señoritos Broodals...
 Pokemon = SABLEYE,52
 Pokemon = TOXTRICITY,53
 #-------------------------------
 [RECLUTA,Broodal,25]
-LoseText = Poco me pagan.
+LoseText = ¡Dije que te iba a machacar yo, no tú a mí!
 Pokemon = MABOSSTIFF,54
 Pokemon = HOUNDOOM,55
 #-------------------------------
@@ -1092,22 +1092,22 @@ Pokemon = TOXAPEX,54
 Pokemon = SKUNTANK,55
 #-------------------------------
 [RECLUTA,Broodal,27]
-LoseText = Poco me pagan.
+LoseText = ¡No podrás derrotarnos a todos!
 Pokemon = VILEPLUME,54
 Pokemon = VICTREEBEL,55
 #-------------------------------
 [RECLUTA,Broodal,28]
-LoseText = Poco me pagan.
+LoseText = Pierdes el tiempo, nosotros ya hemos cumplido.
 Pokemon = HYPNO,54
 Pokemon = STOUTLAND,55
 #-------------------------------
 [RECLUTA,Broodal,29]
-LoseText = Poco me pagan.
+LoseText = Esta aventura ha acabado para mí solo...
 Pokemon = EELEKTROSS,54
 Pokemon = REUNICLUS,55
 #-------------------------------
 [RECLUTA,Broodal,30]
-LoseText = Poco me pagan.
+LoseText = ¡Au!¡Me he caído saltando por tu culpa!
 Pokemon = GENGAR,54
 Pokemon = UMBREON,55
 #-------------------------------
@@ -1122,7 +1122,7 @@ Pokemon = ELECTRODE,59
 #-------------------------------
 [LUIGI,Luigi,4]
 Items = MEGARING
-LoseText = GGs hermano.
+LoseText = Siempre acabas alzándote sobre mí, a pesar de mis esfuerzos, GGs hermano.
 Pokemon = MAROWAK_1,58
     Form = 1
     Ability = CURSEDBODY
@@ -1137,59 +1137,59 @@ Pokemon = GENGAR,62
     Shiny = true
 #-------------------------------
 [E_GUAYf,Alma Marcela Gozo]
-LoseText = Bien jugado.
+LoseText = No me hagas caso, se me ha derretido el cerebro.
 Pokemon = SYLVEON,56
 Pokemon = EXCADRILL,57
 #-------------------------------
 [E_GUAY,Xdri33s]
-LoseText = Bien jugado.
+LoseText = Ni con poderes de los zonnan he podido ganarte...
 Pokemon = YANMEGA,56
 Pokemon = EXPLOUD,57
 #-------------------------------
 [JOVEN,Viejales]
-LoseText = Bien jugado.
+LoseText = ¿Crees que esto acaba así? No me conoces bien...
 Pokemon = KROOKODILE,56
 Pokemon = HERACROSS,57
 Pokemon = SKARMORY,58
 #-------------------------------
 [MOCHILERO,Bermejiyo]
-LoseText = Bien jugado.
+LoseText = Espera, esto no es Lake.
 Pokemon = ALTARIA,56
 Pokemon = FLAREON,57
 Pokemon = BAXCALIBUR,58
 #-------------------------------
 [RANGER,MarquiniVolador]
-LoseText = Bien jugado.
+LoseText = Esta derrota no entraba en mis planes.
 Pokemon = GARDEVOIR,56
 Pokemon = GLIMMORA,57
 Pokemon = PYROAR,58
 #-------------------------------
 [MONTANERO,TitoPinha]
-LoseText = Bien jugado.
+LoseText = ¡Oh no!¡Perdí el reto! ¿Y ahora qué?
 Pokemon = AVALUGG,56
 Pokemon = CLOYSTER,57
 Pokemon = STEELIX,58
 #-------------------------------
 [ALUMNO,userodyssey]
-LoseText = Bien jugado.
+LoseText = Acabo de bonkear por tu culpa, estarás contento.
 Pokemon = NOIVERN,56
 Pokemon = SCEPTILE,57
 Pokemon = AERODACTYL,58
 #-------------------------------
 [CHICA,Debora Melo]
-LoseText = Bien jugado.
+LoseText = Ups, perdí.
 Pokemon = GOODRA,56
 Pokemon = FLORGES,57
 Pokemon = UMBREON,58
 #-------------------------------
 [ALUMNO,Afte]
-LoseText = Bien jugado.
+LoseText = Esta escena no la vi venir.
 Pokemon = BLISSEY,56
 Pokemon = WAILORD,57
 Pokemon = DRIFBLIM,58
 #-------------------------------
 [MOCHILERA,Elva Gina]
-LoseText = Bien jugado.
+LoseText = Me he llevado la de "la que te cuento".
 Pokemon = MEGANIUM,56
 Pokemon = EMBOAR,57
 Pokemon = FERALIGATR,58
