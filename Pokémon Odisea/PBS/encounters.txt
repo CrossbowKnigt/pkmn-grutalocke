@@ -156,9 +156,9 @@ Cave,3
 #-------------------------------
 [097] # Pirámide invertida 1
 Cave,3
+    20,ARON,15,17
     20,BRONZOR,15,17
     20,DIGLETT_1,15,17
-    20,ARON,15,17
     10,DARUMAKA,16,17
     10,DRILBUR,16,17
     10,YAMASK,16,17
@@ -168,9 +168,9 @@ Cave,3
 #-------------------------------
 [098] # Pirámide invertida 2
 Cave,3
+    20,ARON,15,17
     20,BRONZOR,15,17
     20,DIGLETT_1,15,17
-    20,ARON,15,17
     10,DARUMAKA,16,17
     10,DRILBUR,16,17
     10,YAMASK,16,17
@@ -180,9 +180,9 @@ Cave,3
 #-------------------------------
 [099] # Pirámide invertida 3
 Cave,3
+    20,ARON,15,17
     20,BRONZOR,15,17
     20,DIGLETT_1,15,17
-    20,ARON,15,17
     10,DARUMAKA,16,17
     10,DRILBUR,16,17
     10,YAMASK,16,17
@@ -225,8 +225,8 @@ SuperRod
     20,LUVDISC,20
     20,MAGIKARP,20
     10,FINNEON,20
-    10,WAILMER,20
     10,KRABBY,20
+    10,WAILMER,20
     5,CLAUNCHER,20
     5,DRATINI,20
 Water,2
@@ -355,9 +355,9 @@ SuperRod
     20,MAGIKARP,25
     20,MAREANIE,25
     20,TENTACOOL,25
+    10,FINNEON,25
     10,FRILLISH,25
     10,HORSEA,25
-    10,FINNEON,25
     5,ALOMOMOLA,25
     5,WISHIWASHI,25
 Water,2
@@ -571,8 +571,8 @@ Land,10
     20,MILCERY,44,46
     20,SCOVILLAIN,44,46
     10,DARMANITAN,45,46
-    10,SALAZZLE,45,46
     10,GARGANACL,45,46
+    10,SALAZZLE,45,46
     5,ARMAROUGE,46
     5,CERULEDGE,46
 #-------------------------------
@@ -611,11 +611,55 @@ Land,10
 #-------------------------------
 [184] # Moon Cave
 Cave,3
-    20,MACHAMP,53,55
     20,HYDREIGON,53,55
+    20,MACHAMP,53,55
     20,PROBOPASS,53,55
-    10,KINGAMBIT,54,55
     10,GOLEM,54,55
     10,GRIMMSNARL,54,55
+    10,KINGAMBIT,54,55
+    5,GARCHOMP,55
+    5,VOLCARONA,55
+#-------------------------------
+[204] # Dungeon1
+Cave,3
+    20,HYDREIGON,53,55
+    20,MACHAMP,53,55
+    20,PROBOPASS,53,55
+    10,GOLEM,54,55
+    10,GRIMMSNARL,54,55
+    10,KINGAMBIT,54,55
+    5,GARCHOMP,55
+    5,VOLCARONA,55
+#-------------------------------
+[205] # Dungeon2
+Cave,3
+    20,HYDREIGON,53,55
+    20,MACHAMP,53,55
+    20,PROBOPASS,53,55
+    10,GOLEM,54,55
+    10,GRIMMSNARL,54,55
+    10,KINGAMBIT,54,55
+    5,GARCHOMP,55
+    5,VOLCARONA,55
+#-------------------------------
+[206] # Dungeon3
+Cave,3
+    20,HYDREIGON,53,55
+    20,MACHAMP,53,55
+    20,PROBOPASS,53,55
+    10,GOLEM,54,55
+    10,GRIMMSNARL,54,55
+    10,KINGAMBIT,54,55
+    5,GARCHOMP,55
+    5,VOLCARONA,55
+#-------------------------------
+[207] # Dungeon4
+Cave,3
+    20,HYDREIGON,53,55
+    20,MACHAMP,53,55
+    20,PROBOPASS,53,55
+    10,GOLEM,54,55
+    10,GRIMMSNARL,54,55
+    10,KINGAMBIT,54,55
     5,GARCHOMP,55
     5,VOLCARONA,55
