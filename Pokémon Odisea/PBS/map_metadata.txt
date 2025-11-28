@@ -1006,5 +1006,18 @@ BattleBack = champion1
 Name = Casas Luncheon
 SnapEdges = true
 #-------------------------------
-[204]   # Moon Cave 2
+[204]   # Dungeon1
+Name = MAP204
+Dungeon = true
+#-------------------------------
+[205]   # Dungeon2
+SnapEdges = true
+Dungeon = true
+#-------------------------------
+[206]   # Dungeon3
+SnapEdges = true
+Dungeon = true
+#-------------------------------
+[207]   # Dungeon4
+SnapEdges = true
 Dungeon = true
