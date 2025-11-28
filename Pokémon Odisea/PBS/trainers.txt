@@ -1188,7 +1188,7 @@ Pokemon = BLISSEY,56
 Pokemon = WAILORD,57
 Pokemon = DRIFBLIM,58
 #-------------------------------
-[MOCHILERA,Elva Gina]
+[MOCHILERO,AkumaGath]
 LoseText = Me he llevado la de "la que te cuento".
 Pokemon = MEGANIUM,56
 Pokemon = EMBOAR,57
