@@ -601,6 +601,7 @@ Name = Plaza Kutur
 ShowArea = true
 MapPosition = 0,9,12
 SnapEdges = true
+BattleBack = FondoMarino
 #-------------------------------
 [107]   # Centro Pokémon
 Name = Centro Pokémon
@@ -960,7 +961,7 @@ Name = Calle Victoria
 ShowArea = true
 MapPosition = 0,16,8
 SnapEdges = true
-BattleBack = FondoMoonCave
+BattleBack = FondoBowser
 #-------------------------------
 [186]   # Mushroom 2
 Name = Reino Champiñón
