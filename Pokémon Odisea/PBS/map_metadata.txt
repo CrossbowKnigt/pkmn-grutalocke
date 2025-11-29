@@ -930,7 +930,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,24,6
 SnapEdges = true
-BattleBack = FondoBowser
+BattleBack = FondoRuta15
 #-------------------------------
 [179]   # Bowsers
 Name = Reino de Bowser
