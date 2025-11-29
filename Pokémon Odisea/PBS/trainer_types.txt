@@ -657,3 +657,8 @@ BaseMoney = 100
 Name = Ciclista
 Gender = Male
 BaseMoney = 32
+#-------------------------------
+[PEACH]
+Name = Princesa
+Gender = Female
+BaseMoney = 100

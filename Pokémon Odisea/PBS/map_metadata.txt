@@ -971,6 +971,11 @@ MapPosition = 0,17,2
 SnapEdges = true
 BattleBack = FondoColina
 #-------------------------------
+[189]   # Interior castillo 2
+Name = Castillo Peach
+SnapEdges = true
+BattleBack = FondoLaboratorio
+#-------------------------------
 [190]   # Jardín Trasero
 Name = Ruta 16
 Outdoor = true

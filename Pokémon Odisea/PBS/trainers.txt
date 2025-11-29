@@ -1193,3 +1193,25 @@ LoseText = Me he llevado la de "la que te cuento".
 Pokemon = MEGANIUM,56
 Pokemon = EMBOAR,57
 Pokemon = FERALIGATR,58
+#-------------------------------
+[PEACH,Peach]
+Items = FULLRESTORE,MEGARING
+LoseText = No esperaba menos de ti.
+Pokemon = SYLVEON,63
+    Moves = HYPERVOICE,MOONBLAST,WISH,QUICKATTACK
+    Ability = PIXILATE
+Pokemon = MILOTIC,64
+    Moves = HYDROPUMP,ICEBEAM,SCALD,RECOVER
+    Ability = COMPETITIVE
+Pokemon = TSAREENA,65
+    Moves = TROPKICK,HIGHJUMPKICK,TRIPLEAXEL,POWERWHIP
+Pokemon = AUDINO,66
+    Moves = HYPERVOICE,WISH,REFLECT,LIGHTSCREEN
+    Ability = REGENERATOR
+Pokemon = RAPIDASH,67
+    Form = 1
+    Moves = PSYCHOCUT,PLAYROUGH,MEGAHORN,HIGHHORSEPOWER
+    Ability = PASTELVEIL
+Pokemon = DIANCIE,68
+    Moves = POWERGEM,MOONBLAST,DIAMONDSTORM,EARTHPOWER
+    Item = DIANCITE
