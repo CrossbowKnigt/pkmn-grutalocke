@@ -825,7 +825,7 @@ BattleBack = FondoCuevaHelada
 Name = Ruta 10
 Bicycle = true
 SnapEdges = true
-BattleBack = FondoCuevaHelada
+BattleBack = suika
 #-------------------------------
 [159]   # Cueva Rango
 Name = Cueva Friolandia
