@@ -9,7 +9,7 @@ class Battle::Scene::PokemonDataBox < Sprite
       @databoxBitmap = AnimatedBitmap.new(bgFilename)
       
       if onPlayerSide
-        @show_hp_numbers = true
+        @show_hp_numbers = false
         @show_exp_bar    = true
         @spriteX = Graphics.width - 244
         @spriteY = Graphics.height - 192
@@ -17,7 +17,7 @@ class Battle::Scene::PokemonDataBox < Sprite
       else
         @spriteX = (Graphics.width - @databoxBitmap.width) / 2
         @spriteY = 14
-        @spriteBaseX = (@databoxBitmap.width - 180) / 2
+        @spriteBaseX = 30
       end
       
       @hpBarWidth = 132
@@ -93,7 +93,11 @@ class Battle::Scene::PokemonDataBox < Sprite
     @contents = Bitmap.new(@databoxBitmap.width, @databoxBitmap.height)
     self.bitmap  = @contents
     self.visible = false
-    self.z       = 150 + ((@battler.index / 2) * 5)
+    if @battler.index.odd?
+      self.z = 0
+    else
+      self.z = 150 + ((@battler.index / 2) * 5)
+    end
     pbSetSystemFont(self.bitmap)
   end
   
@@ -422,157 +426,4 @@ end
     update_positions
     pbUpdateSpriteHash(@sprites)
   end
-end
-
-if PluginManager.installed?("Type Icons in Battle")
-class Battle::Scene::PokemonDataBox < Sprite
-   def initializeOtherGraphics(viewport)
-    # Create other bitmaps
-    @numbersBitmap = AnimatedBitmap.new("Graphics/UI/Battle/icon_numbers")
-    
-    # Determine which HP bar overlay to use based on the switch state
-    if @battler.index.odd? && $game_switches[65]   # Check if switch 65 is ON for odd-indexed battlers (enemies)
-      @hpBarBitmap = AnimatedBitmap.new("Graphics/UI/Battle/overlay_hp_special")
-    else
-      @hpBarBitmap = AnimatedBitmap.new("Graphics/UI/Battle/overlay_hp")
-    end
-    
-    @expBarBitmap  = AnimatedBitmap.new("Graphics/UI/Battle/overlay_exp")
-    
-    # Create sprite to draw HP numbers on
-    @hpNumbers = BitmapSprite.new(124, 16, viewport)
-    # pbSetSmallFont(@hpNumbers.bitmap)
-    @sprites["hpNumbers"] = @hpNumbers
-    
-    # Create sprite wrapper that displays HP bar
-    @hpBar = Sprite.new(viewport)
-    @hpBar.bitmap = @hpBarBitmap.bitmap
-    @hpBar.src_rect.height = @hpBarBitmap.height / 3
-    @sprites["hpBar"] = @hpBar
-    
-    # Create sprite wrapper that displays Exp bar
-    @expBar = Sprite.new(viewport)
-    @expBar.bitmap = @expBarBitmap.bitmap
-    @sprites["expBar"] = @expBar
-
-    @types_x = (@battler.opposes?(0)) ? 210 : 0 # 1era variable oponente 2da variable jugador
-    @types_bitmap = AnimatedBitmap.new("Graphics/UI/Battle/types_ico")
-    @types_sprite = Sprite.new(viewport)
-    height_per_icon = @types_bitmap.height / GameData::Type.count
-    separacion_extra = 2 # Ajusta este valor según necesites
-  
-    # Calcula el alto total necesario para el bitmap de @types_sprite
-    # Esto asume que @battler puede tener hasta 2 tipos, ajusta según sea necesario
-    total_height = @battler.types.size * height_per_icon + (@battler.types.size - 1) * separacion_extra
-  
-    # Ajusta la posición inicial en Y para @types_sprite si es necesario
-    @types_y = -total_height + 68
-  
-    # Crea el bitmap de @types_sprite con el ancho y alto adecuados
-    @types_sprite.bitmap = Bitmap.new(@databoxBitmap.width - @types_x, total_height)
-    @types_sprite.x = @types_x
-    @types_sprite.y = @types_y
-  
-    @sprites["types_sprite"] = @types_sprite
-    
-    # Create sprite wrapper that displays everything except the above
-    @contents = Bitmap.new(@databoxBitmap.width, @databoxBitmap.height)
-    self.bitmap  = @contents
-    self.visible = false
-    self.z       = 150 + ((@battler.index / 2) * 5)
-    pbSetSystemFont(self.bitmap)
-  end
-
-  def dispose
-  pbDisposeSpriteHash(@sprites)
-  @databoxBitmap.dispose
-  @numbersBitmap.dispose
-  @hpBarBitmap.dispose
-  @expBarBitmap.dispose
-  @types_bitmap.dispose
-  @contents.dispose
-  super
- end 
- def x=(value)
-  super
-  if @battler.index.odd? && $game_switches[65]  # Solo para enemigos y cuando el interruptor está activo
-    @hpBar.x = value + (@databoxBitmap.width - @hpBarBitmap.width) / 2
-  else
-    @hpBar.x = value + @spriteBaseX + 102
-  end
-  @expBar.x    = value + @spriteBaseX + 6
-  @hpNumbers.x = value + @spriteBaseX + 80
-  extra = (@battler.opposes?(0)) ? 10 : 0
-  @types_sprite.x = value + @types_x + 10 + extra
- end
-  
-  def y=(value)
-    super
-    @hpBar.y     = value + 40
-    @expBar.y    = value + 74
-    @hpNumbers.y = value + 52
-    if @battler.opposes?(0)
-        extra = -5
-        if @battler&.types.length == 1
-          extra = -30
-        end
-    else
-        extra = -5
-        if @battler&.types.length == 1
-          extra = -30
-        end
-      end
-      @types_sprite.y = value + @types_y + extra
-     end
-  
-  def z=(value)
-    super
-    @hpBar.z     = value + 1
-    @expBar.z    = value + 1
-    @hpNumbers.z = value + 2
-    @types_sprite.z = value + 1
-  end
-  def refresh
-    self.bitmap.clear
-    return if !@battler.pokemon
-    draw_background
-    draw_name
-    draw_level
-    draw_gender
-    draw_status
-    draw_shiny_icon
-    draw_special_form_icon
-    draw_owned_icon
-    refresh_hp
-    refresh_exp
-    draw_type_icons
-  end
-  def draw_type_icons
-    # Dibuja los tipos del Pokémon
-    @types_sprite.bitmap.clear
-    
-    # Calcula el ancho y la altura de cada type
-    width  = @types_bitmap.width
-    height = @types_bitmap.height / GameData::Type.count
-    separacion_extra = 2 # Aumenta este valor para más separación entre íconos
-
-    if @battler.opposes?(0) && $game_switches[65]
-      # Si el interruptor 65 está activo y es un oponente, alineamos horizontalmente
-      @battler.types.each_with_index do |type, i|
-        type_number = GameData::Type.get(type).icon_position
-        type_rect = Rect.new(0, type_number * height, width, height)
-        x_position = i * (width + separacion_extra) + 223
-        @types_sprite.bitmap.blt(x_position, 0, @types_bitmap.bitmap, type_rect)
-      end
-    else
-      # Alineación vertical estándar
-      @battler.types.each_with_index do |type, i|
-        type_number = GameData::Type.get(type).icon_position
-        type_rect = Rect.new(0, type_number * height, width, height)
-        y_position = i * (height + separacion_extra)
-        @types_sprite.bitmap.blt(0, y_position, @types_bitmap.bitmap, type_rect)
-    end
-  end
-end
-end
 end
