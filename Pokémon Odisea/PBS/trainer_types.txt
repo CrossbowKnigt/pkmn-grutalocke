@@ -383,7 +383,7 @@ VictoryBGM = Battle victory leader
 Name = Alto Mando
 Gender = Male
 BaseMoney = 100
-BattleBGM = Ivanavi_theme.ogg
+BattleBGM = Ivanavi_theme2.ogg
 VictoryBGM = Battle victory leader
 #-------------------------------
 [KARMA]
@@ -417,13 +417,13 @@ BattleBGM = Come on!
 Name = Rey Koopa
 Gender = Male
 BaseMoney = 100
-BattleBGM = bowser-battle-theme
+BattleBGM = Bowsette_final_boss.ogg
 #-------------------------------
 [BOWSETTE]
 Name = Rey Koopa
 Gender = Male
 BaseMoney = 100
-BattleBGM = Bowsette_final_boss
+BattleBGM = RedMoon.ogg
 #-------------------------------
 [ALUMNA]
 Name = Alumna
@@ -635,6 +635,7 @@ BaseMoney = 32
 Name = Grinder épico
 Gender = Male
 BaseMoney = 64
+BattleBGM = suikagame_kazoo.ogg
 #-------------------------------
 [FRUN]
 Name = Líder
