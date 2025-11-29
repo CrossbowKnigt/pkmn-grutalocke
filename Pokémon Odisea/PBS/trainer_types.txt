@@ -663,3 +663,4 @@ BaseMoney = 32
 Name = Princesa
 Gender = Female
 BaseMoney = 100
+BattleBGM = princesa_peach.ogg
