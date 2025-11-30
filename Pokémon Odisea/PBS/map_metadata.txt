@@ -1006,7 +1006,7 @@ SnapEdges = true
 #-------------------------------
 [198]   # Campeón Rafa
 Name = Liga Pokémon
-BattleBack = champion1
+BattleBack = FondoRafa
 #-------------------------------
 [199]   # Casas Luncheon
 Name = Casas Luncheon
