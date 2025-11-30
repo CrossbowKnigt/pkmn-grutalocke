@@ -657,9 +657,9 @@ Pokemon = TANGELA,33
 LoseText = Esto de las tuberías es un lío.
 Pokemon = MAGNETON,33
 #-------------------------------
-[MOCHILERO,Paco]
+[MOCHILERO,Alnilan]
 LoseText = Estoy to' perdío.
-Pokemon = BRELOOM,33
+Pokemon = TREVENANT,33
 #-------------------------------
 [MOCHILERO,Quantum]
 LoseText = Necesito un descanso.

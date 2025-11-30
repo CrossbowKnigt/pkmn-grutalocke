@@ -549,7 +549,7 @@ Description = Un hueso de gran valor arqueológico que puede alcanzar un alto pr
 Name = Real de cobre
 NamePlural = Reales de cobre
 Pocket = 1
-Price = 1000
+Price = 2000
 Flags = Fling_30
 Description = Moneda de cobre de más de tres mil años de antigüedad. Muy valorada por los coleccionistas.
 #-------------------------------
@@ -581,7 +581,7 @@ Description = Jarrón de más de tres mil años de antigüedad. Muy valorado por
 Name = Brazal antiguo
 NamePlural = Brazales antiguos
 Pocket = 1
-Price = 0
+Price = 50000
 Flags = Fling_30
 Description = Brazalete de más de tres mil años de antigüedad. Muy valorado por los coleccionistas.
 #-------------------------------
@@ -589,7 +589,7 @@ Description = Brazalete de más de tres mil años de antigüedad. Muy valorado p
 Name = Efigie Antigua
 NamePlural = Efigies Antiguas
 Pocket = 1
-Price = 0
+Price = 100000
 Flags = Fling_30
 Description = Efigie de piedra de más de tres mil años de antigüedad. Muy valorado por los coleccionistas.
 #-------------------------------
@@ -597,7 +597,7 @@ Description = Efigie de piedra de más de tres mil años de antigüedad. Muy val
 Name = Corona Antigua
 NamePlural = Coronas Antiguas
 Pocket = 1
-Price = 0
+Price = 200000
 Flags = Fling_30
 Description = Corona de más de tres mil años de antigüedad. Muy valorada por los coleccionistas.
 #-------------------------------
