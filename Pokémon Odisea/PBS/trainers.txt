@@ -759,7 +759,7 @@ Pokemon = ROTOM_2,38
 Pokemon = KILOWATTREL,39
     Ability = VOLTABSORB
     Item = SITRUSBERRY
-Pokemon = AMPHAROS,40
+Pokemon = AMPHAROS,41
     Item = AMPHAROSITE
 #-------------------------------
 [E_GUAY,KillerDragon]
