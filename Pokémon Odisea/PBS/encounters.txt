@@ -589,14 +589,14 @@ Land,10
 #-------------------------------
 [175] # Ruta 14
 Land,10
-    20,CONKELDURR,47,49
-    20,DACHSBUN,47,49
-    20,TALONFLAME,47,49
-    10,ALCREMIE,48,49
-    10,GIGALITH,48,49
-    10,MAGCARGO,48,49
-    5,ARCANINE_1,49
-    5,INCINEROAR,49
+    #20,CONKELDURR,47,49
+    #20,DACHSBUN,47,49
+    #20,TALONFLAME,47,49
+    100,ALCREMIE,48,49
+    #10,GIGALITH,48,49
+    #10,MAGCARGO,48,49
+    #5,ARCANINE_1,49
+    #5,INCINEROAR,49
 #-------------------------------
 [178] # Ruta 15
 Land,10

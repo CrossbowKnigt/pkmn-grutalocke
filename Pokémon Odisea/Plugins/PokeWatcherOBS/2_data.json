@@ -1,0 +1,9 @@
+{
+  "name": "Kadabra",
+  "level": 20",
+  "species": "KADABRA",
+  "form": "0",
+  "hp": "47",
+  "frontRoute": "../../Graphics/Pokemon/Front/KADABRA_0.png"
+  "iconRoute": "../../Graphics/Pokemon/Icons/KADABRA_0.png"
+}

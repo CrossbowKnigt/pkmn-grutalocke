@@ -1,0 +1,9 @@
+{
+  "name": "Pidgeotto",
+  "level": 20",
+  "species": "PIDGEOTTO",
+  "form": "0",
+  "hp": "55",
+  "frontRoute": "../../Graphics/Pokemon/Front/PIDGEOTTO_0.png"
+  "iconRoute": "../../Graphics/Pokemon/Icons/PIDGEOTTO_0.png"
+}

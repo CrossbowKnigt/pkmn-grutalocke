@@ -1,0 +1,9 @@
+{
+  "name": "Diglett",
+  "level": 20",
+  "species": "DIGLETT",
+  "form": "0",
+  "hp": "34",
+  "frontRoute": "../../Graphics/Pokemon/Front/DIGLETT_0.png"
+  "iconRoute": "../../Graphics/Pokemon/Icons/DIGLETT_0.png"
+}

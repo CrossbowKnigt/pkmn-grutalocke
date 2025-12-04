@@ -1,0 +1,9 @@
+{
+  "name": "Gyarados",
+  "level": 20",
+  "species": "GYARADOS",
+  "form": "0",
+  "hp": "72",
+  "frontRoute": "../../Graphics/Pokemon/Front/GYARADOS_0.png"
+  "iconRoute": "../../Graphics/Pokemon/Icons/GYARADOS_0.png"
+}

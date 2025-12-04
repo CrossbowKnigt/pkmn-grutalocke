@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokémon Image Loader</title>
+    <style>
+        /* CSS para que la imagen se ajuste al tamaño de la fuente de OBS */
+        body { margin: 0; background: transparent; }
+        #pokemon-image { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: contain; /* Asegura que la imagen se vea completa */
+        }
+    </style>
+</head>
+<body>
+    <img id="pokemon-image0" src="">
+    <img id="pokemon-image1" src="">
+    <img id="pokemon-image2" src="">
+    <img id="pokemon-image3" src="">
+    <img id="pokemon-image4" src="">
+    <img id="pokemon-image5" src="">
+	
+	<script>
+        const IMAGE_FILE = '0_data.json';
+        const IMAGE_ELEMENT = document.getElementById('pokemon-image0');
+
+        function loadPokemonData() {
+            // TRUCO: Añadimos un parámetro de tiempo para evitar el cache del navegador
+            const url = IMAGE_FILE + '?time=' + new Date().getTime();
+
+            // Usamos fetch para cargar el contenido del archivo JSON
+            fetch(url)
+                .then(response => response.json()) 
+                .then(data => {
+                    if (data && data.frontPath) {
+                        // Ponemos la ruta DE NUEVO con el truco del tiempo para que se cargue
+                        IMAGE_ELEMENT.src = data.imagePath + '?time=' + new Date().getTime();
+                    } else {
+                        // Ocultar la imagen si no hay Pokémon
+                        IMAGE_ELEMENT.src = ''; 
+                    }
+                })
+                .catch(error => {
+                    console.warn('Error al cargar JSON, esperando actualización del juego:', error);
+                });
+        }
+        
+        // Carga y establece el temporizador de recarga
+        loadPokemonData();
+        // Recargar el archivo JSON cada 2.5 segundos
+        setInterval(loadPokemonData, 2500); 
+    </script>
+
+    <!--<script src="tuna.js"></script> 
+    <script>
+        // Esta función se ejecuta cada vez que el archivo pkmn_1_path.txt cambia
+        Tuna.init(function(state) {
+            // "state.text" contiene el texto leído de pkmn_1_path.txt (ej: Graphics/Battlers/001.png)
+            const imagePath = state.text.trim(); 
+            
+            // Asignar esa ruta a la imagen
+            document.getElementById('pokemon-image0').src = imagePath;
+        });
+    </script>
+	<!--<script>
+		fetch(".txt")
+		.then(r=>r.text())
+		.then(text => {
+			lines = text.split("\n")
+		}
+	</script>-->
+</body>
+</html>

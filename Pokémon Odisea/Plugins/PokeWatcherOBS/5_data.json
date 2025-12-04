@@ -1,0 +1,9 @@
+{
+  "name": "Chansey",
+  "level": 20",
+  "species": "CHANSEY",
+  "form": "0",
+  "hp": "131",
+  "frontRoute": "../../Graphics/Pokemon/Front/CHANSEY_0.png"
+  "iconRoute": "../../Graphics/Pokemon/Icons/CHANSEY_0.png"
+}
