@@ -127,6 +127,7 @@ Pokemon = DRIFLOON,5
 [BOWSETTE,Bowsette]
 LoseText = ¡NOOOOOOOOOOOOOOOOOOOOOO!
 Pokemon = TURTONATOR,56
+	Moves = DRAGONPULSE,SHELLTRAP,SHELLSMASH,OVERHEAT
     Ability = SHELLARMOR
 Pokemon = CARRACOSTA,55
     Ability = STURDY
@@ -413,6 +414,7 @@ Pokemon = DRAPION,53
 Pokemon = KOMMOO,54
     Ability = BULLETPROOF
 Pokemon = METAGROSS_1,55
+	Moves = TAKEDOWN,PSYCHIC,SCARYFACE,BULLETPUNCH
     Ability = CLEARBODY
     Item = METAGROSSITE
 #-------------------------------
@@ -914,8 +916,8 @@ LoseText = Tienes la fuerza de un torbellino, GG.
 Pokemon = GRAPPLOCT,44
 Pokemon = GYARADOS,44
 #-------------------------------
-[NINO_BIEN,José Miguel]
-LoseText = No le digas a mi hermana que he perdido, tengo que mantener mi status.
+[NINO_BIEN,Luzbel]
+LoseText = No vea' el tio como pega.
 Pokemon = PERSIAN,44
     Form = 1
 Pokemon = GHOLDENGO,44
