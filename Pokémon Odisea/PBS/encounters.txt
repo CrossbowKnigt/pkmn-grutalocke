@@ -605,9 +605,31 @@ Land,10
     20,NATU,50,52
     10,PINCURCHIN,51,52
     10,DRUDDIGON,51,52
-    10,TURTONATOR,51,52
+    10,HONCHKROW,51,52
     5,CHARIZARD,52
     5,VOLCARONA,52
+#-------------------------------
+[179] # Bowsers
+Land,10
+    20,MIGHTYENA,50,52
+    20,ABSOL,50,52
+    20,NATU,50,52
+    10,PINCURCHIN,51,52
+    10,SKUNTANK,51,52
+    10,TURTONATOR,51,52
+    5,SKELEDIRGE,52
+    5,CHANDELURE,52
+#-------------------------------
+[190] # Jardín Trasero
+Land,10
+    20,DUBWOOL,50,52
+    20,DIGGERSBY,50,52
+    20,SHROOMISH,50,52
+    10,LUXRAY,51,52
+    10,ALTARIA,51,52
+    10,PAWMOT,51,52
+    5,FERALIGATR,52
+    5,MEGANIUM,52
 #-------------------------------
 [184] # Moon Cave
 Cave,3
