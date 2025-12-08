@@ -28,7 +28,7 @@ def defaultBanner
     result = rewards[rand(rewards.length)]
     itemReward(result,3)
   when (107...111) #Tier 4 con un 7%
-    rewards = [:BALMMUSHROOM, :PEARLSTRING, :ROCKYHELMET, :ASSAULTVEST, :LUCKYEGG, :AMULETCOIN, :SOOTHEBELL, :SHELLBELL, :FLAMEORB, :TOXICORB, :MAXREVIVE, :FOCUSSHASH, :PPMAX, :ABILITYCAPSULE, :EVIOLITE]
+    rewards = [:BALMMUSHROOM, :PEARLSTRING, :ROCKYHELMET, :ASSAULTVEST, :LUCKYEGG, :AMULETCOIN, :SOOTHEBELL, :SHELLBELL, :FLAMEORB, :TOXICORB, :MAXREVIVE, :FOCUSSASH, :PPMAX, :ABILITYCAPSULE, :EVIOLITE]
     result = rewards[rand(rewards.length)]
     itemReward(result,4)
   when (112...113) #Tier 5 con un 3%
